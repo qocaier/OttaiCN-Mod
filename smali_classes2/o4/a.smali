@@ -1,0 +1,13 @@
+.class public Lo4/a;
+.super Lo4/b;
+.source "com.google.android.gms:play-services-base@@18.3.0"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lo4/b;-><init>()V
+
+    return-void
+.end method
