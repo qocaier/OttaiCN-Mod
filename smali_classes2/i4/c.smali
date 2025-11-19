@@ -1,113 +1,70 @@
-.class public Li4/c;
+.class public final Li4/c;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-basement@@18.3.0"
+.source "SourceFile"
 
-
-# static fields
-.field private static final b:Li4/c;
-
-
-# instance fields
-.field private a:Li4/b;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+# interfaces
+.implements Li4/i;
+.implements Li4/j;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Li4/c;
-
-    invoke-direct {v0}, Li4/c;-><init>()V
-
-    sput-object v0, Li4/c;->b:Li4/c;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
-    .locals 1
+    .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Li4/c;->a:Li4/b;
-
     return-void
-.end method
-
-.method public static a(Landroid/content/Context;)Li4/b;
-    .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    sget-object v0, Li4/c;->b:Li4/c;
-
-    invoke-virtual {v0, p0}, Li4/c;->b(Landroid/content/Context;)Li4/b;
-
-    move-result-object p0
-
-    return-object p0
 .end method
 
 
 # virtual methods
-.method public final declared-synchronized b(Landroid/content/Context;)Li4/b;
-    .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
 
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
+    check-cast p1, Ljava/util/Date;
 
-    monitor-enter p0
+    invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
-    :try_start_0
-    iget-object v0, p0, Li4/c;->a:Li4/b;
+    move-result-wide v0
 
-    if-nez v0, :cond_1
-
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    :cond_0
-    new-instance v0, Li4/b;
-
-    invoke-direct {v0, p1}, Li4/b;-><init>(Landroid/content/Context;)V
-
-    iput-object v0, p0, Li4/c;->a:Li4/b;
-
-    :cond_1
-    iget-object p1, p0, Li4/c;->a:Li4/b;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit p0
-
     return-object p1
+.end method
 
-    :catchall_0
-    move-exception p1
+.method public final a(Ljava/lang/Class;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)Z"
+        }
+    .end annotation
 
-    monitor-exit p0
+    const-class v0, Ljava/util/Date;
 
-    throw p1
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final b(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    .locals 2
+
+    new-instance p2, Ljava/util/Date;
+
+    check-cast p1, Ljava/lang/Long;
+
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    invoke-direct {p2, v0, v1}, Ljava/util/Date;-><init>(J)V
+
+    return-object p2
 .end method

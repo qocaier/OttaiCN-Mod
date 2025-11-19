@@ -1,60 +1,42 @@
 .class public final synthetic Lc1/a;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
-
-# interfaces
-.implements Landroid/animation/ValueAnimator$AnimatorUpdateListener;
-
-
-# instance fields
-.field public final synthetic a:Landroid/view/WindowManager$LayoutParams;
-
-.field public final synthetic b:I
-
-.field public final synthetic c:I
-
-.field public final synthetic d:I
-
-.field public final synthetic e:Lcom/example/flu_over_ball/a;
+.source "SourceFile"
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/view/WindowManager$LayoutParams;IIILcom/example/flu_over_ball/a;)V
-    .locals 0
+.method public static a(Landroidx/media3/common/util/BitmapLoader;Landroidx/media3/common/MediaMetadata;)Lxb/u0;
+    .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    iget-object v0, p1, Landroidx/media3/common/MediaMetadata;->artworkData:[B
 
-    iput-object p1, p0, Lc1/a;->a:Landroid/view/WindowManager$LayoutParams;
+    if-eqz v0, :cond_0
 
-    iput p2, p0, Lc1/a;->b:I
+    .line 2
+    invoke-interface {p0, v0}, Landroidx/media3/common/util/BitmapLoader;->decodeBitmap([B)Lxb/u0;
 
-    iput p3, p0, Lc1/a;->c:I
+    move-result-object p0
 
-    iput p4, p0, Lc1/a;->d:I
+    goto :goto_0
 
-    iput-object p5, p0, Lc1/a;->e:Lcom/example/flu_over_ball/a;
+    .line 3
+    :cond_0
+    iget-object p1, p1, Landroidx/media3/common/MediaMetadata;->artworkUri:Landroid/net/Uri;
 
-    return-void
-.end method
+    if-eqz p1, :cond_1
 
+    .line 4
+    invoke-interface {p0, p1}, Landroidx/media3/common/util/BitmapLoader;->loadBitmap(Landroid/net/Uri;)Lxb/u0;
 
-# virtual methods
-.method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
-    .locals 6
+    move-result-object p0
 
-    iget-object v0, p0, Lc1/a;->a:Landroid/view/WindowManager$LayoutParams;
+    goto :goto_0
 
-    iget v1, p0, Lc1/a;->b:I
+    :cond_1
+    const/4 p0, 0x0
 
-    iget v2, p0, Lc1/a;->c:I
-
-    iget v3, p0, Lc1/a;->d:I
-
-    iget-object v4, p0, Lc1/a;->e:Lcom/example/flu_over_ball/a;
-
-    move-object v5, p1
-
-    invoke-static/range {v0 .. v5}, Lcom/example/flu_over_ball/a;->a(Landroid/view/WindowManager$LayoutParams;IIILcom/example/flu_over_ball/a;Landroid/animation/ValueAnimator;)V
-
-    return-void
+    :goto_0
+    return-object p0
 .end method

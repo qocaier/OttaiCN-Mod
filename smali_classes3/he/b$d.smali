@@ -1,0 +1,101 @@
+.class public Lhe/b$d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lje/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lhe/b;->q(Lce/g;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lce/g;
+
+.field public final synthetic b:Lhe/b;
+
+
+# direct methods
+.method public constructor <init>(Lhe/b;Lce/g;)V
+    .locals 0
+
+    iput-object p1, p0, Lhe/b$d;->b:Lhe/b;
+
+    iput-object p2, p0, Lhe/b$d;->a:Lce/g;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Z)Lle/k;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z)",
+            "Lle/k<",
+            "Lje/d;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lhe/b$d;->a:Lce/g;
+
+    invoke-interface {v0, p1}, Lce/g;->a(Z)Lle/k;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public b()Lle/k;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lle/k<",
+            "Lje/d;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lhe/b$d;->a:Lce/g;
+
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1}, Lce/g;->a(Z)Lle/k;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public c(Lje/c;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public d(Lje/c;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public getUid()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
+.end method

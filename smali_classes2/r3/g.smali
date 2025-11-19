@@ -1,227 +1,194 @@
-.class public Lr3/g;
+.class public final Lr3/g;
 .super Ljava/lang/Object;
-.source "ConditionVariable.java"
+.source "SourceFile"
+
+# interfaces
+.implements Lr3/e;
+.implements Lq3/e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lr3/e<",
+        "TT;>;",
+        "Lq3/e<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:Lr3/g;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lr3/g<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # instance fields
-.field private final a:Lr3/d;
-
-.field private b:Z
+.field public final a:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 1
+.method public static constructor <clinit>()V
+    .locals 2
 
-    .line 1
-    sget-object v0, Lr3/d;->a:Lr3/d;
+    new-instance v0, Lr3/g;
 
-    invoke-direct {p0, v0}, Lr3/g;-><init>(Lr3/d;)V
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lr3/g;-><init>(Ljava/lang/Object;)V
+
+    sput-object v0, Lr3/g;->b:Lr3/g;
 
     return-void
 .end method
 
-.method public constructor <init>(Lr3/d;)V
+.method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "instance"
+        }
+    .end annotation
 
-    .line 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
-    iput-object p1, p0, Lr3/g;->a:Lr3/d;
+    .line 2
+    iput-object p1, p0, Lr3/g;->a:Ljava/lang/Object;
 
     return-void
+.end method
+
+.method public static a(Ljava/lang/Object;)Lr3/e;
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "instance"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;)",
+            "Lr3/e<",
+            "TT;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lr3/g;
+
+    const-string v1, "instance cannot be null"
+
+    invoke-static {p0, v1}, Lr3/l;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lr3/g;-><init>(Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public static b(Ljava/lang/Object;)Lr3/e;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "instance"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;)",
+            "Lr3/e<",
+            "TT;>;"
+        }
+    .end annotation
+
+    if-nez p0, :cond_0
+
+    .line 1
+    invoke-static {}, Lr3/g;->c()Lr3/g;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    new-instance v0, Lr3/g;
+
+    invoke-direct {v0, p0}, Lr3/g;-><init>(Ljava/lang/Object;)V
+
+    move-object p0, v0
+
+    :goto_0
+    return-object p0
+.end method
+
+.method public static c()Lr3/g;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">()",
+            "Lr3/g<",
+            "TT;>;"
+        }
+    .end annotation
+
+    sget-object v0, Lr3/g;->b:Lr3/g;
+
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public declared-synchronized a()V
+.method public get()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Ljava/lang/InterruptedException;
+            "()TT;"
         }
     .end annotation
 
-    monitor-enter p0
+    iget-object v0, p0, Lr3/g;->a:Ljava/lang/Object;
 
-    .line 1
-    :goto_0
-    :try_start_0
-    iget-boolean v0, p0, Lr3/g;->b:Z
-
-    if-nez v0, :cond_0
-
-    .line 2
-    invoke-virtual {p0}, Ljava/lang/Object;->wait()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_0
-
-    .line 3
-    :cond_0
-    monitor-exit p0
-
-    return-void
-
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
-.end method
-
-.method public declared-synchronized b()V
-    .locals 2
-
-    monitor-enter p0
-
-    const/4 v0, 0x0
-
-    .line 1
-    :goto_0
-    :try_start_0
-    iget-boolean v1, p0, Lr3/g;->b:Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    if-nez v1, :cond_0
-
-    .line 2
-    :try_start_1
-    invoke-virtual {p0}, Ljava/lang/Object;->wait()V
-    :try_end_1
-    .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    goto :goto_0
-
-    :catch_0
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    if-eqz v0, :cond_1
-
-    .line 3
-    :try_start_2
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 4
-    :cond_1
-    monitor-exit p0
-
-    return-void
-
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
-.end method
-
-.method public declared-synchronized c()Z
-    .locals 2
-
-    monitor-enter p0
-
-    .line 1
-    :try_start_0
-    iget-boolean v0, p0, Lr3/g;->b:Z
-
-    const/4 v1, 0x0
-
-    .line 2
-    iput-boolean v1, p0, Lr3/g;->b:Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 3
-    monitor-exit p0
-
-    return v0
-
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
-.end method
-
-.method public declared-synchronized d()Z
-    .locals 1
-
-    monitor-enter p0
-
-    :try_start_0
-    iget-boolean v0, p0, Lr3/g;->b:Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit p0
-
-    return v0
-
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
-.end method
-
-.method public declared-synchronized e()Z
-    .locals 1
-
-    monitor-enter p0
-
-    .line 1
-    :try_start_0
-    iget-boolean v0, p0, Lr3/g;->b:Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x0
-
-    .line 2
-    monitor-exit p0
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x1
-
-    .line 3
-    :try_start_1
-    iput-boolean v0, p0, Lr3/g;->b:Z
-
-    .line 4
-    invoke-virtual {p0}, Ljava/lang/Object;->notifyAll()V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 5
-    monitor-exit p0
-
-    return v0
-
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
+    return-object v0
 .end method

@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/OnBackPressedDispatcher$Api34Impl;
 .super Ljava/lang/Object;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -20,10 +20,13 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api34Impl;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher$Api34Impl;
@@ -45,53 +48,72 @@
 
 
 # virtual methods
-.method public final createOnBackAnimationCallback(Lla/l;Lla/l;Lla/a;Lla/a;)Landroid/window/OnBackInvokedCallback;
+.method public final createOnBackAnimationCallback(Lco/l;Lco/l;Lco/a;Lco/a;)Landroid/window/OnBackInvokedCallback;
     .locals 1
+    .param p1    # Lco/l;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Lco/l;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p3    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p4    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/l<",
+            "Lco/l<",
             "-",
             "Landroidx/activity/BackEventCompat;",
-            "Lkotlin/s;",
+            "Len/y1;",
             ">;",
-            "Lla/l<",
+            "Lco/l<",
             "-",
             "Landroidx/activity/BackEventCompat;",
-            "Lkotlin/s;",
+            "Len/y1;",
             ">;",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)",
             "Landroid/window/OnBackInvokedCallback;"
         }
     .end annotation
 
+    .annotation build Lzr/k;
+    .end annotation
+
     const-string v0, "onBackStarted"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onBackProgressed"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onBackInvoked"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onBackCancelled"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;
 
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Lla/l;Lla/l;Lla/a;Lla/a;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Lco/l;Lco/l;Lco/a;Lco/a;)V
 
     return-object v0
 .end method

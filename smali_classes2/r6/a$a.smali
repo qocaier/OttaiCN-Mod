@@ -1,31 +1,31 @@
-.class Lr6/a$a;
+.class public Lr6/a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/graphics/ImageDecoder$OnPartialImageListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lr6/a;->c(Landroid/content/Context;)V
+    value = Lr6/a;->onHeaderDecoded(Landroid/graphics/ImageDecoder;Landroid/graphics/ImageDecoder$ImageInfo;Landroid/graphics/ImageDecoder$Source;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x1
     name = null
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Landroid/content/Context;
+.field public final synthetic a:Lr6/a;
 
 
 # direct methods
-.method constructor <init>(Landroid/content/Context;)V
+.method public constructor <init>(Lr6/a;)V
     .locals 0
 
-    iput-object p1, p0, Lr6/a$a;->a:Landroid/content/Context;
+    iput-object p1, p0, Lr6/a$a;->a:Lr6/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -34,30 +34,14 @@
 
 
 # virtual methods
-.method public run()V
-    .locals 4
+.method public onPartialImage(Landroid/graphics/ImageDecoder$DecodeException;)Z
+    .locals 0
+    .param p1    # Landroid/graphics/ImageDecoder$DecodeException;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    iget-object v0, p0, Lr6/a$a;->a:Landroid/content/Context;
+    const/4 p1, 0x0
 
-    invoke-static {v0}, Lr6/a;->a(Landroid/content/Context;)Lf7/c;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lr6/a$a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lt6/b;->b(Landroid/content/Context;)Lt6/b;
-
-    move-result-object v1
-
-    invoke-virtual {v0}, Lf7/c;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v2, "POST"
-
-    const/4 v3, 0x0
-
-    invoke-virtual {v1, v2, v3, v0}, Lt6/b;->g(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Lt6/c;
-
-    return-void
+    return p1
 .end method

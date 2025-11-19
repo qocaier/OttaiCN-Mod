@@ -1,15 +1,23 @@
-.class public abstract Ld8/a;
+.class public Ld8/a;
 .super Ljava/lang/Object;
-.source "BleBaseCallback.java"
+.source "SourceFile"
 
 
-# instance fields
-.field private a:Ljava/lang/String;
+# static fields
+.field public static a:J = 0x0L
 
-.field private b:Landroid/os/Handler;
+.field public static b:J = 0x1f4L
+
+.field public static c:I = -0x1
 
 
 # direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 0
 
@@ -18,36 +26,72 @@
     return-void
 .end method
 
+.method public static a()Z
+    .locals 3
 
-# virtual methods
-.method public a()Landroid/os/Handler;
-    .locals 1
+    sget-wide v0, Ld8/a;->b:J
 
-    iget-object v0, p0, Ld8/a;->b:Landroid/os/Handler;
+    const/4 v2, -0x1
 
-    return-object v0
+    invoke-static {v2, v0, v1}, Ld8/a;->c(IJ)Z
+
+    move-result v0
+
+    return v0
 .end method
 
-.method public b()Ljava/lang/String;
-    .locals 1
+.method public static b(I)Z
+    .locals 2
 
-    iget-object v0, p0, Ld8/a;->a:Ljava/lang/String;
+    sget-wide v0, Ld8/a;->b:J
 
-    return-object v0
+    invoke-static {p0, v0, v1}, Ld8/a;->c(IJ)Z
+
+    move-result p0
+
+    return p0
 .end method
 
-.method public c(Landroid/os/Handler;)V
-    .locals 0
+.method public static c(IJ)Z
+    .locals 9
 
-    iput-object p1, p0, Ld8/a;->b:Landroid/os/Handler;
+    .line 1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    return-void
-.end method
+    move-result-wide v0
 
-.method public d(Ljava/lang/String;)V
-    .locals 0
+    .line 2
+    sget-wide v2, Ld8/a;->a:J
 
-    iput-object p1, p0, Ld8/a;->a:Ljava/lang/String;
+    sub-long v4, v0, v2
 
-    return-void
+    .line 3
+    sget v6, Ld8/a;->c:I
+
+    if-ne v6, p0, :cond_0
+
+    const-wide/16 v6, 0x0
+
+    cmp-long v8, v2, v6
+
+    if-lez v8, :cond_0
+
+    cmp-long v2, v4, p1
+
+    if-gez v2, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    .line 4
+    :cond_0
+    sput-wide v0, Ld8/a;->a:J
+
+    .line 5
+    sput p0, Ld8/a;->c:I
+
+    const/4 p0, 0x0
+
+    return p0
 .end method

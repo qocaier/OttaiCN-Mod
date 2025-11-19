@@ -1,41 +1,67 @@
 .class public final Lb4/a;
-.super Lk4/a;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static a:Lb4/a;
 
 
 # direct methods
-.method constructor <init>(Landroid/os/IBinder;)V
+.method public static constructor <clinit>()V
     .locals 1
 
-    const-string v0, "com.google.android.gms.common.internal.service.IClientTelemetryService"
+    new-instance v0, Lb4/a;
 
-    invoke-direct {p0, p1, v0}, Lk4/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+    invoke-direct {v0}, Lb4/a;-><init>()V
+
+    sput-object v0, Lb4/a;->a:Lb4/a;
 
     return-void
 .end method
 
+.method public constructor <init>()V
+    .locals 0
 
-# virtual methods
-.method public final a0(Lcom/google/android/gms/common/internal/TelemetryData;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Lb4/a;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
 
-    .line 1
-    invoke-virtual {p0}, Lk4/a;->u()Landroid/os/Parcel;
+    sget-object v0, Lb4/a;->a:Lb4/a;
+
+    return-object v0
+.end method
+
+.method public static b(Landroid/content/Context;)Ljava/lang/String;
+    .locals 2
+
+    :try_start_0
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    .line 2
-    invoke-static {v0, p1}, Lk4/c;->c(Landroid/os/Parcel;Landroid/os/Parcelable;)V
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    const/4 p1, 0x1
+    move-result-object p0
 
-    .line 3
-    invoke-virtual {p0, p1, v0}, Lk4/a;->Z(ILandroid/os/Parcel;)V
+    const/16 v1, 0x10
 
-    return-void
+    invoke-virtual {v0, p0, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+
+    move-result-object p0
+
+    iget-object p0, p0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    const-string p0, "0.0.0"
+
+    return-object p0
 .end method

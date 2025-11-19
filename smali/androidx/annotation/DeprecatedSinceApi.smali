@@ -1,6 +1,6 @@
 .class public interface abstract annotation Landroidx/annotation/DeprecatedSinceApi;
 .super Ljava/lang/Object;
-.source "DeprecatedSinceApi.jvm.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Ljava/lang/annotation/Annotation;
@@ -11,6 +11,24 @@
     value = .subannotation Landroidx/annotation/DeprecatedSinceApi;
         message = ""
     .end subannotation
+.end annotation
+
+.annotation runtime Lfn/a;
+.end annotation
+
+.annotation runtime Lfn/c;
+    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
+.end annotation
+
+.annotation runtime Lfn/d;
+    allowedTargets = {
+        .enum Lkotlin/annotation/AnnotationTarget;->FUNCTION:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_GETTER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_SETTER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->CLASS:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->CONSTRUCTOR:Lkotlin/annotation/AnnotationTarget;
+    }
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Documented;

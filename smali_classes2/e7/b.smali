@@ -1,244 +1,222 @@
-.class public Le7/b;
-.super Le7/c;
+.class public final Le7/b;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
+# static fields
+.field public static final a:Ljava/lang/String; = "AppVersionSignature"
+
+.field public static final b:Ljava/util/concurrent/ConcurrentMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/ConcurrentMap<",
+            "Ljava/lang/String;",
+            "Lh6/b;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lc7/a;)V
-    .locals 0
-
-    invoke-direct {p0, p1, p2}, Le7/c;-><init>(Landroid/content/Context;Lc7/a;)V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method protected bridge synthetic C(Landroid/content/Intent;)Ljava/lang/Object;
-    .locals 0
-
-    invoke-virtual {p0, p1}, Le7/b;->U(Landroid/content/Intent;)Lcom/meizu/cloud/pushsdk/handler/MessageV3;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method protected J(Lcom/meizu/cloud/pushsdk/handler/MessageV3;La8/c;)V
+.method public static constructor <clinit>()V
     .locals 1
 
-    if-eqz p2, :cond_0
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    invoke-interface {p2, p1}, La8/c;->a(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    invoke-virtual {p0}, Le7/a;->n()Lc7/a;
+    sput-object v0, Le7/b;->b:Ljava/util/concurrent/ConcurrentMap;
 
-    move-result-object p2
+    return-void
+.end method
 
-    invoke-virtual {p0}, Le7/a;->s()Landroid/content/Context;
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+    .locals 3
+    .param p0    # Landroid/content/Context;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    .line 1
+    :try_start_0
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    invoke-static {p1}, Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;->fromMessageV3(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v1
 
-    invoke-interface {p2, v0, p1}, Lc7/b;->b(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;)V
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+
+    move-result-object p0
+    :try_end_0
+    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception v0
+
+    .line 2
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Cannot resolve info for"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "AppVersionSignature"
+
+    invoke-static {v1, p0, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public static b(Landroid/content/pm/PackageInfo;)Ljava/lang/String;
+    .locals 0
+    .param p0    # Landroid/content/pm/PackageInfo;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    if-eqz p0, :cond_0
+
+    .line 1
+    iget p0, p0, Landroid/content/pm/PackageInfo;->versionCode:I
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    :goto_0
+    return-object p0
+.end method
+
+.method public static c(Landroid/content/Context;)Lh6/b;
+    .locals 3
+    .param p0    # Landroid/content/Context;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 2
+    sget-object v1, Le7/b;->b:Ljava/util/concurrent/ConcurrentMap;
+
+    invoke-interface {v1, v0}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lh6/b;
+
+    if-nez v2, :cond_1
+
+    .line 3
+    invoke-static {p0}, Le7/b;->d(Landroid/content/Context;)Lh6/b;
+
+    move-result-object v2
+
+    .line 4
+    invoke-interface {v1, v0, v2}, Ljava/util/concurrent/ConcurrentMap;->putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lh6/b;
+
+    if-nez p0, :cond_0
+
+    goto :goto_0
 
     :cond_0
-    return-void
-.end method
-
-.method protected P(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 8
-
-    invoke-virtual {p0}, Le7/a;->s()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getUploadDataPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getDeviceId()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getTaskId()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getSeqId()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getPushTimestamp()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getDelayedReportMillis()J
-
-    move-result-wide v6
-
-    invoke-static/range {v0 .. v7}, Lv7/d;->x(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
-
-    return-void
-.end method
-
-.method protected Q(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 8
-
-    invoke-virtual {p0}, Le7/a;->s()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getUploadDataPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getDeviceId()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getTaskId()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getSeqId()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getPushTimestamp()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getDelayedReportMillis()J
-
-    move-result-wide v6
-
-    invoke-static/range {v0 .. v7}, Lv7/d;->t(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
-
-    return-void
-.end method
-
-.method protected U(Landroid/content/Intent;)Lcom/meizu/cloud/pushsdk/handler/MessageV3;
-    .locals 3
-
-    const-string v0, "pushMessage"
-
-    invoke-virtual {p1, v0}, Landroid/content/Intent;->getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/meizu/cloud/pushsdk/notification/MPushMessage;
-
-    invoke-virtual {p0, p1}, Le7/a;->D(Landroid/content/Intent;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p0, p1}, Le7/a;->w(Landroid/content/Intent;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/MPushMessage;->getTaskId()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, p1, v2, v0}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->parse(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/meizu/cloud/pushsdk/notification/MPushMessage;)Lcom/meizu/cloud/pushsdk/handler/MessageV3;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public a()I
-    .locals 1
-
-    const/4 v0, 0x2
-
-    return v0
-.end method
-
-.method public a(Landroid/content/Intent;)Z
-    .locals 3
-
-    const-string v0, "AbstractMessageHandler"
-
-    const-string v1, "start MessageV2Handler match"
-
-    invoke-static {v0, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {p0, p1}, Le7/a;->D(Landroid/content/Intent;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, v1, v0}, Le7/a;->i(ILjava/lang/String;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v2, "com.meizu.flyme.push.intent.MESSAGE"
-
-    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {p0, p1}, Le7/a;->A(Landroid/content/Intent;)Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "notification_show"
-
-    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    const/4 v1, 0x1
+    move-object v2, p0
 
     :cond_1
-    return v1
+    :goto_0
+    return-object v2
 .end method
 
-.method protected bridge synthetic h(Ljava/lang/Object;La8/c;)V
-    .locals 0
+.method public static d(Landroid/content/Context;)Lh6/b;
+    .locals 1
+    .param p0    # Landroid/content/Context;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    check-cast p1, Lcom/meizu/cloud/pushsdk/handler/MessageV3;
+    .line 1
+    invoke-static {p0}, Le7/b;->a(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
 
-    invoke-virtual {p0, p1, p2}, Le7/b;->J(Lcom/meizu/cloud/pushsdk/handler/MessageV3;La8/c;)V
+    move-result-object p0
 
-    return-void
+    .line 2
+    invoke-static {p0}, Le7/b;->b(Landroid/content/pm/PackageInfo;)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 3
+    new-instance v0, Le7/e;
+
+    invoke-direct {v0, p0}, Le7/e;-><init>(Ljava/lang/Object;)V
+
+    return-object v0
 .end method
 
-.method protected bridge synthetic u(Ljava/lang/Object;)V
-    .locals 0
+.method public static e()V
+    .locals 1
+    .annotation build Landroidx/annotation/VisibleForTesting;
+    .end annotation
 
-    check-cast p1, Lcom/meizu/cloud/pushsdk/handler/MessageV3;
+    sget-object v0, Le7/b;->b:Ljava/util/concurrent/ConcurrentMap;
 
-    invoke-virtual {p0, p1}, Le7/b;->P(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-
-    return-void
-.end method
-
-.method protected bridge synthetic x(Ljava/lang/Object;)V
-    .locals 0
-
-    check-cast p1, Lcom/meizu/cloud/pushsdk/handler/MessageV3;
-
-    invoke-virtual {p0, p1}, Le7/b;->Q(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
+    invoke-interface {v0}, Ljava/util/concurrent/ConcurrentMap;->clear()V
 
     return-void
 .end method

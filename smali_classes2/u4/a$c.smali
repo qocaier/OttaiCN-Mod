@@ -1,6 +1,6 @@
-.class Lu4/a$c;
-.super Lu4/a$b;
-.source "ReflectionHelper.java"
+.class public final Lu4/a$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # annotations
@@ -9,110 +9,48 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0xa
+    accessFlags = 0x19
     name = "c"
 .end annotation
 
 
+# static fields
+.field public static final a:Ljava/lang/String; = "alipay_cashier_ap_seq_v"
+
+
 # direct methods
-.method private constructor <init>()V
-    .locals 1
+.method public constructor <init>()V
+    .locals 0
 
-    const/4 v0, 0x0
-
-    .line 1
-    invoke-direct {p0, v0}, Lu4/a$b;-><init>(Lu4/a$a;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lu4/a$a;)V
-    .locals 0
+.method public static declared-synchronized a(Landroid/content/Context;)J
+    .locals 3
 
-    .line 2
-    invoke-direct {p0}, Lu4/a$c;-><init>()V
+    const-class v0, Lu4/a$c;
 
-    return-void
-.end method
+    monitor-enter v0
 
+    :try_start_0
+    const-string v1, "alipay_cashier_ap_seq_v"
 
-# virtual methods
-.method public a(Ljava/lang/Class;Ljava/lang/reflect/Field;)Ljava/lang/reflect/Method;
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "*>;",
-            "Ljava/lang/reflect/Field;",
-            ")",
-            "Ljava/lang/reflect/Method;"
-        }
-    .end annotation
+    invoke-static {p0, v1}, Lu4/a$d;->a(Landroid/content/Context;Ljava/lang/String;)J
 
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
+    move-result-wide v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const-string p2, "Records are not supported on this JVM, this method should not be called"
+    monitor-exit v0
 
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+    return-wide v1
 
-    throw p1
-.end method
+    :catchall_0
+    move-exception p0
 
-.method b(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljava/lang/Class<",
-            "TT;>;)",
-            "Ljava/lang/reflect/Constructor<",
-            "TT;>;"
-        }
-    .end annotation
+    monitor-exit v0
 
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
-
-    const-string v0, "Records are not supported on this JVM, this method should not be called"
-
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-.end method
-
-.method c(Ljava/lang/Class;)[Ljava/lang/String;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "*>;)[",
-            "Ljava/lang/String;"
-        }
-    .end annotation
-
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
-
-    const-string v0, "Records are not supported on this JVM, this method should not be called"
-
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-
-    throw p1
-.end method
-
-.method d(Ljava/lang/Class;)Z
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Class<",
-            "*>;)Z"
-        }
-    .end annotation
-
-    const/4 p1, 0x0
-
-    return p1
+    throw p0
 .end method

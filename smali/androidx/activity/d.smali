@@ -1,40 +1,54 @@
 .class public final synthetic Landroidx/activity/d;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
+.source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/LifecycleEventObserver;
+.implements Landroid/view/View$OnLayoutChangeListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/activity/OnBackPressedDispatcher;
-
-.field public final synthetic b:Landroidx/activity/ComponentActivity;
+.field public final synthetic a:Lkotlinx/coroutines/channels/j;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/ComponentActivity;)V
+.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/activity/d;->a:Landroidx/activity/OnBackPressedDispatcher;
-
-    iput-object p2, p0, Landroidx/activity/d;->b:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/d;->a:Lkotlinx/coroutines/channels/j;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-    .locals 2
+.method public final onLayoutChange(Landroid/view/View;IIIIIIII)V
+    .locals 11
 
-    iget-object v0, p0, Landroidx/activity/d;->a:Landroidx/activity/OnBackPressedDispatcher;
+    move-object v0, p0
 
-    iget-object v1, p0, Landroidx/activity/d;->b:Landroidx/activity/ComponentActivity;
+    iget-object v1, v0, Landroidx/activity/d;->a:Lkotlinx/coroutines/channels/j;
 
-    invoke-static {v0, v1, p1, p2}, Landroidx/activity/ComponentActivity;->e(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/ComponentActivity;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    move-object v2, p1
+
+    move v3, p2
+
+    move v4, p3
+
+    move v5, p4
+
+    move/from16 v6, p5
+
+    move/from16 v7, p6
+
+    move/from16 v8, p7
+
+    move/from16 v9, p8
+
+    move/from16 v10, p9
+
+    invoke-static/range {v1 .. v10}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->d(Lkotlinx/coroutines/channels/j;Landroid/view/View;IIIIIIII)V
 
     return-void
 .end method

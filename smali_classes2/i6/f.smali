@@ -1,79 +1,102 @@
 .class public Li6/f;
-.super Ljava/lang/Object;
+.super Li6/b;
 .source "SourceFile"
 
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Li6/b<",
+        "Landroid/content/res/AssetFileDescriptor;",
+        ">;"
+    }
+.end annotation
+
+
 # direct methods
-.method private static a(Ljava/lang/String;)Ljava/lang/String;
-    .locals 2
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "SecurityComp10200303: "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static b(Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
     .locals 0
+
+    invoke-direct {p0, p1, p2}, Li6/b;-><init>(Landroid/content/res/AssetManager;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+# virtual methods
+.method public a()Ljava/lang/Class;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/Class<",
+            "Landroid/content/res/AssetFileDescriptor;",
+            ">;"
+        }
+    .end annotation
+
+    const-class v0, Landroid/content/res/AssetFileDescriptor;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic c(Ljava/lang/Object;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {p0}, Li6/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    check-cast p1, Landroid/content/res/AssetFileDescriptor;
 
-    move-result-object p0
-
-    invoke-static {p0, p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-virtual {p0, p1}, Li6/f;->g(Landroid/content/res/AssetFileDescriptor;)V
 
     return-void
 .end method
 
-.method public static d(Ljava/lang/String;Ljava/lang/String;)V
+.method public bridge synthetic f(Landroid/content/res/AssetManager;Ljava/lang/String;)Ljava/lang/Object;
     .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {p0}, Li6/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1, p2}, Li6/f;->h(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
 
-    move-result-object p0
+    move-result-object p1
 
-    invoke-static {p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    return-object p1
+.end method
+
+.method public g(Landroid/content/res/AssetFileDescriptor;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    invoke-virtual {p1}, Landroid/content/res/AssetFileDescriptor;->close()V
 
     return-void
 .end method
 
-.method public static e(Ljava/lang/String;Ljava/lang/String;)V
+.method public h(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
     .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {p0}, Li6/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, p2}, Landroid/content/res/AssetManager;->openFd(Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
 
-    move-result-object p0
+    move-result-object p1
 
-    invoke-static {p0, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    return-void
-.end method
-
-.method public static f(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 0
-
-    invoke-static {p0}, Li6/f;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    return-void
+    return-object p1
 .end method

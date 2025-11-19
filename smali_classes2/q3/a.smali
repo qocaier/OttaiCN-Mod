@@ -1,26 +1,21 @@
-.class public final Lq3/a;
+.class public interface abstract annotation Lq3/a;
 .super Ljava/lang/Object;
-.source "Allocation.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final a:[B
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-.field public final b:I
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-
-# direct methods
-.method public constructor <init>([BI)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    iput-object p1, p0, Lq3/a;->a:[B
-
-    .line 3
-    iput p2, p0, Lq3/a;->b:I
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

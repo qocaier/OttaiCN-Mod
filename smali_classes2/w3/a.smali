@@ -1,12 +1,37 @@
-.class public final Lw3/a;
+.class public Lw3/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-basement@@18.3.0"
+.source "SourceFile"
 
-# interfaces
-.implements Landroid/os/Parcelable$Creator;
+
+# static fields
+.field public static final a:Ljava/lang/String; = "com.eg.android.AlipayGphone"
+
+.field public static final b:Ljava/lang/String; = "com.eg.android.AlipayGphone.CashierSDKRegister"
+
+.field public static final c:Ljava/lang/String; = "appId"
+
+.field public static d:Landroid/content/ServiceConnection; = null
+
+.field public static e:Z = false
+
+.field public static f:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Landroid/content/Context;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 0
 
@@ -15,95 +40,145 @@
     return-void
 .end method
 
+.method public static a(Landroid/content/Context;Ljava/lang/String;)V
+    .locals 5
 
-# virtual methods
-.method public final bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-    .locals 8
+    if-nez p0, :cond_0
+
+    return-void
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->H(Landroid/os/Parcel;)I
+    :cond_0
+    invoke-static {}, Lk5/b;->d()Lk5/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Lk5/b;->b(Landroid/content/Context;)V
+
+    .line 2
+    invoke-static {}, Ly4/a;->w()Ly4/a;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Ly4/a;->o(Lk5/a;)Z
 
     move-result v0
 
-    const-wide/16 v1, -0x1
+    const/4 v1, 0x1
 
-    const/4 v3, 0x0
-
-    const/4 v4, 0x0
-
-    .line 2
-    :goto_0
-    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
-
-    move-result v5
-
-    if-ge v5, v0, :cond_3
+    xor-int/2addr v0, v1
 
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->z(Landroid/os/Parcel;)I
+    new-instance v2, Ljava/lang/StringBuilder;
 
-    move-result v5
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->u(I)I
+    const-string v3, "AlipayApi registerApp appId: "
 
-    move-result v6
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v7, 0x1
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    if-eq v6, v7, :cond_2
+    const-string v3, " isSupportRegisterApp:"
 
-    const/4 v7, 0x2
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    if-eq v6, v7, :cond_1
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    const/4 v7, 0x3
+    const-string v3, " registerAppServiceConnectSuccess:"
 
-    if-eq v6, v7, :cond_0
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    sget-boolean v3, Lw3/a;->e:Z
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "mspl"
+
+    invoke-static {v3, v2}, Lm5/e;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    if-nez v0, :cond_1
+
+    return-void
 
     .line 4
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->G(Landroid/os/Parcel;I)V
+    :cond_1
+    sget-boolean v0, Lw3/a;->e:Z
 
-    goto :goto_0
+    if-eqz v0, :cond_2
+
+    return-void
 
     .line 5
-    :cond_0
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->C(Landroid/os/Parcel;I)J
+    :cond_2
+    new-instance v0, Landroid/content/Intent;
 
-    move-result-wide v1
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    goto :goto_0
+    const-string v2, "com.eg.android.AlipayGphone"
 
     .line 6
-    :cond_1
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->B(Landroid/os/Parcel;I)I
+    invoke-virtual {v0, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    move-result v3
-
-    goto :goto_0
+    const-string v2, "com.eg.android.AlipayGphone.CashierSDKRegister"
 
     .line 7
-    :cond_2
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->o(Landroid/os/Parcel;I)Ljava/lang/String;
-
-    move-result-object v4
-
-    goto :goto_0
+    invoke-virtual {v0, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 8
-    :cond_3
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(Landroid/os/Parcel;I)V
+    new-instance v2, Landroid/os/Bundle;
 
-    new-instance p1, Lcom/google/android/gms/common/Feature;
+    invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
-    invoke-direct {p1, v4, v3, v1, v2}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;IJ)V
+    const-string v4, "appId"
 
-    return-object p1
-.end method
+    .line 9
+    invoke-virtual {v2, v4, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-.method public final synthetic newArray(I)[Ljava/lang/Object;
-    .locals 0
+    .line 10
+    invoke-virtual {v0, v2}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
-    new-array p1, p1, [Lcom/google/android/gms/common/Feature;
+    .line 11
+    new-instance p1, Lw3/a$a;
 
-    return-object p1
+    invoke-direct {p1}, Lw3/a$a;-><init>()V
+
+    sput-object p1, Lw3/a;->d:Landroid/content/ServiceConnection;
+
+    .line 12
+    invoke-virtual {p0, v0, p1, v1}, Landroid/content/Context;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
+
+    move-result p1
+
+    .line 13
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "AlipayApi registerApp bindServiceResult:"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {v3, p1}, Lm5/e;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 14
+    new-instance p1, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {p1, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    sput-object p1, Lw3/a;->f:Ljava/lang/ref/WeakReference;
+
+    return-void
 .end method

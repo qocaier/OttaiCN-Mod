@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/ComponentActivity$4;
 .super Ljava/lang/Object;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroidx/lifecycle/LifecycleEventObserver;
@@ -18,11 +18,11 @@
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/ComponentActivity$4;->this$0:Landroidx/activity/ComponentActivity;
@@ -36,14 +36,22 @@
 # virtual methods
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
+    .param p1    # Landroidx/lifecycle/LifecycleOwner;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
-    const-string v0, "source"
+    const-string/jumbo v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "event"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object p1, p0, Landroidx/activity/ComponentActivity$4;->this$0:Landroidx/activity/ComponentActivity;

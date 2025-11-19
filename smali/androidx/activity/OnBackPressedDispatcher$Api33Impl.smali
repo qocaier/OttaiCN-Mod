@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
 .super Ljava/lang/Object;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -20,10 +20,13 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
@@ -43,66 +46,81 @@
     return-void
 .end method
 
-.method public static synthetic a(Lla/a;)V
+.method public static synthetic a(Lco/a;)V
     .locals 0
 
-    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback$lambda$0(Lla/a;)V
+    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback$lambda$0(Lco/a;)V
 
     return-void
 .end method
 
-.method private static final createOnBackInvokedCallback$lambda$0(Lla/a;)V
+.method private static final createOnBackInvokedCallback$lambda$0(Lco/a;)V
     .locals 1
 
     const-string v0, "$onBackInvoked"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {p0}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p0}, Lco/a;->invoke()Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final createOnBackInvokedCallback(Lla/a;)Landroid/window/OnBackInvokedCallback;
+.method public final createOnBackInvokedCallback(Lco/a;)Landroid/window/OnBackInvokedCallback;
     .locals 1
+    .param p1    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)",
             "Landroid/window/OnBackInvokedCallback;"
         }
     .end annotation
 
+    .annotation build Lzr/k;
+    .end annotation
+
     const-string v0, "onBackInvoked"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Landroidx/activity/n;
+    new-instance v0, Ld/k;
 
-    invoke-direct {v0, p1}, Landroidx/activity/n;-><init>(Lla/a;)V
+    invoke-direct {v0, p1}, Ld/k;-><init>(Lco/a;)V
 
     return-object v0
 .end method
 
 .method public final registerOnBackInvokedCallback(Ljava/lang/Object;ILjava/lang/Object;)V
     .locals 1
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/Object;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "dispatcher"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     check-cast p1, Landroid/window/OnBackInvokedDispatcher;
@@ -118,16 +136,24 @@
 
 .method public final unregisterOnBackInvokedCallback(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Object;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "dispatcher"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     check-cast p1, Landroid/window/OnBackInvokedDispatcher;

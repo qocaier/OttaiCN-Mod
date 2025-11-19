@@ -1,202 +1,157 @@
 .class public final Lk6/a;
 .super Ljava/lang/Object;
-.source "FluwxExtensions.kt"
+.source "SourceFile"
+
+# interfaces
+.implements Lh6/b;
+
+
+# instance fields
+.field public final c:Lh6/b;
+
+.field public final d:Lh6/b;
 
 
 # direct methods
-.method public static final a(Landroid/content/Intent;)V
-    .locals 2
+.method public constructor <init>(Lh6/b;Lh6/b;)V
+    .locals 0
 
-    const-string v0, "<this>"
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    .line 2
+    iput-object p1, p0, Lk6/a;->c:Lh6/b;
 
-    const-string v0, "fluwx_payload_from_fluwx"
-
-    const/4 v1, 0x1
-
-    invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    .line 3
+    iput-object p2, p0, Lk6/a;->d:Lh6/b;
 
     return-void
 .end method
 
-.method public static final b(Landroid/content/Context;)Landroid/content/Intent;
-    .locals 4
 
-    const-string v0, "<this>"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+# virtual methods
+.method public b(Ljava/security/MessageDigest;)V
+    .locals 1
+    .param p1    # Ljava/security/MessageDigest;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
     .line 1
-    sget-object v0, Lj6/a;->a:Lj6/a;
+    iget-object v0, p0, Lk6/a;->c:Lh6/b;
 
-    invoke-virtual {v0}, Lj6/a;->b()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lkotlin/text/k;->s(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
+    invoke-interface {v0, p1}, Lh6/b;->b(Ljava/security/MessageDigest;)V
 
     .line 2
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    iget-object v0, p0, Lk6/a;->d:Lh6/b;
 
-    move-result-object v0
+    invoke-interface {v0, p1}, Lh6/b;->b(Ljava/security/MessageDigest;)V
 
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v0, p0}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    move-result-object p0
-
-    goto :goto_0
-
-    .line 3
-    :cond_0
-    new-instance v1, Landroid/content/Intent;
-
-    invoke-direct {v1}, Landroid/content/Intent;-><init>()V
-
-    .line 4
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0}, Lj6/a;->b()Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v2, "."
-
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v1, p0, v0}, Landroid/content/Intent;->setClassName(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent;
-
-    move-object p0, v1
-
-    :goto_0
-    return-object p0
+    return-void
 .end method
 
-.method public static final c(Landroid/content/Intent;)Landroid/content/Intent;
-    .locals 2
+.method public c()Lh6/b;
+    .locals 1
 
-    const-string v0, "<this>"
+    iget-object v0, p0, Lk6/a;->c:Lh6/b;
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    return-object v0
+.end method
 
-    const-string v0, "FLAG_PAYLOAD_FROM_WECHAT"
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 1
+    instance-of v0, p1, Lk6/a;
 
     const/4 v1, 0x0
 
-    .line 1
-    invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    if-eqz v0, :cond_0
+
+    .line 2
+    check-cast p1, Lk6/a;
+
+    .line 3
+    iget-object v0, p0, Lk6/a;->c:Lh6/b;
+
+    iget-object v2, p1, Lk6/a;->c:Lh6/b;
+
+    invoke-interface {v0, v2}, Lh6/b;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    const-string v0, "KEY_FLUWX_EXTRA"
+    iget-object v0, p0, Lk6/a;->d:Lh6/b;
 
-    .line 2
-    invoke-virtual {p0, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    iget-object p1, p1, Lk6/a;->d:Lh6/b;
 
-    move-result-object p0
+    invoke-interface {v0, p1}, Lh6/b;->equals(Ljava/lang/Object;)Z
 
-    check-cast p0, Landroid/content/Intent;
+    move-result p1
 
-    goto :goto_0
+    if-eqz p1, :cond_0
+
+    const/4 v1, 0x1
 
     :cond_0
-    const/4 p0, 0x0
-
-    :goto_0
-    return-object p0
+    return v1
 .end method
 
-.method public static final d(Landroid/app/Activity;Landroid/content/Intent;)V
+.method public hashCode()I
     .locals 2
 
-    const-string v0, "<this>"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "extra"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 1
-    invoke-static {p0}, Lk6/a;->b(Landroid/content/Context;)Landroid/content/Intent;
+    iget-object v0, p0, Lk6/a;->c:Lh6/b;
+
+    invoke-interface {v0}, Lh6/b;->hashCode()I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 2
+    iget-object v1, p0, Lk6/a;->d:Lh6/b;
+
+    invoke-interface {v1}, Lh6/b;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "DataCacheKey{sourceKey="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lk6/a;->c:Lh6/b;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", signature="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lk6/a;->d:Lh6/b;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x7d
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    if-eqz v0, :cond_0
-
-    .line 2
-    invoke-static {v0}, Lk6/a;->a(Landroid/content/Intent;)V
-
-    const/high16 v1, 0x4000000
-
-    .line 3
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    const-string v1, "KEY_FLUWX_EXTRA"
-
-    .line 4
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
-
-    const/4 p1, 0x1
-
-    const-string v1, "FLAG_PAYLOAD_FROM_WECHAT"
-
-    .line 5
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-
-    .line 6
-    :try_start_0
-    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
-    :try_end_0
-    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    .line 7
-    :catch_0
-    new-instance p0, Ljava/lang/StringBuilder;
-
-    invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p1, "Can not start activity for Intent: "
-
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string p1, "fluwx"
-
-    invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_0
-    :goto_0
-    return-void
+    return-object v0
 .end method

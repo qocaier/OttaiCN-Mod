@@ -1,6 +1,6 @@
 .class final Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;
 .super Ljava/lang/Object;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
@@ -14,19 +14,22 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x12
+    accessFlags = 0x11
     name = "ReportFullyDrawnExecutorImpl"
 .end annotation
 
 
 # instance fields
 .field private currentRunnable:Ljava/lang/Runnable;
+    .annotation build Lzr/l;
+    .end annotation
+.end field
 
 .field private final endWatchTimeMillis:J
 
 .field private onDrawScheduled:Z
 
-.field final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
@@ -70,9 +73,9 @@
 .method private static final execute$lambda$0(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
@@ -80,7 +83,7 @@
     if-eqz v0, :cond_0
 
     .line 2
-    invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -133,10 +136,14 @@
 
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string v0, "runnable"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
@@ -154,7 +161,7 @@
 
     const-string/jumbo v0, "window.decorView"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     iget-boolean v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->onDrawScheduled:Z
@@ -170,7 +177,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -189,9 +196,9 @@
 
     .line 7
     :cond_1
-    new-instance v0, Landroidx/activity/g;
+    new-instance v0, Landroidx/activity/a;
 
-    invoke-direct {v0, p0}, Landroidx/activity/g;-><init>(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;)V
+    invoke-direct {v0, p0}, Landroidx/activity/a;-><init>(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
 
@@ -201,6 +208,8 @@
 
 .method public final getCurrentRunnable()Ljava/lang/Runnable;
     .locals 1
+    .annotation build Lzr/l;
+    .end annotation
 
     iget-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
 
@@ -329,6 +338,10 @@
 
 .method public final setCurrentRunnable(Ljava/lang/Runnable;)V
     .locals 0
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
 
     iput-object p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
 
@@ -345,10 +358,14 @@
 
 .method public viewCreated(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-boolean v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->onDrawScheduled:Z

@@ -1,97 +1,25 @@
-.class public interface abstract Lm4/b;
+.class public final Lm4/b;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-location@@21.2.0"
-
-# interfaces
-.implements Lcom/google/android/gms/common/api/e;
+.source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/common/api/e<",
-        "Lcom/google/android/gms/common/api/a$d$c;",
-        ">;"
-    }
-.end annotation
+# static fields
+.field public static final a:Z = false
+
+.field public static final b:Ljava/lang/String; = "com.alipay.android.apidgen"
+
+.field public static final c:Ljava/lang/String; = "release"
+
+.field public static final d:Ljava/lang/String; = "generatorOnly"
+
+.field public static final e:Ljava/lang/String; = "3c95239-clean"
 
 
-# virtual methods
-.method public abstract c(Lcom/google/android/gms/location/LocationRequest;Lm4/d;Landroid/os/Looper;)Lp4/e;
-    .param p1    # Lcom/google/android/gms/location/LocationRequest;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lm4/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p3    # Landroid/os/Looper;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+# direct methods
+.method public constructor <init>()V
+    .locals 0
 
-    .annotation build Landroidx/annotation/RequiresPermission;
-        anyOf = {
-            "android.permission.ACCESS_COARSE_LOCATION",
-            "android.permission.ACCESS_FINE_LOCATION"
-        }
-    .end annotation
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/location/LocationRequest;",
-            "Lm4/d;",
-            "Landroid/os/Looper;",
-            ")",
-            "Lp4/e<",
-            "Ljava/lang/Void;",
-            ">;"
-        }
-    .end annotation
-.end method
-
-.method public abstract d()Lp4/e;
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Landroidx/annotation/RequiresPermission;
-        anyOf = {
-            "android.permission.ACCESS_COARSE_LOCATION",
-            "android.permission.ACCESS_FINE_LOCATION"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lp4/e<",
-            "Landroid/location/Location;",
-            ">;"
-        }
-    .end annotation
-.end method
-
-.method public abstract e(Lm4/d;)Lp4/e;
-    .param p1    # Lm4/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lm4/d;",
-            ")",
-            "Lp4/e<",
-            "Ljava/lang/Void;",
-            ">;"
-        }
-    .end annotation
+    return-void
 .end method

@@ -1,112 +1,186 @@
 .class public final Lb6/a;
-.super Ljava/lang/Object;
+.super Lb6/f;
+.source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
+.annotation system Ldalvik/annotation/Signature;
     value = {
-        Lb6/a$a;
+        "<TranscodeType:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lb6/f<",
+        "Lb6/a<",
+        "TTranscodeType;>;TTranscodeType;>;"
     }
 .end annotation
 
 
-# static fields
-.field private static final b:Lb6/a;
-
-.field private static final c:I
-
-.field private static final d:I
-
-.field private static final e:I
-
-
-# instance fields
-.field private final a:Ljava/util/concurrent/Executor;
-
-
 # direct methods
-.method static constructor <clinit>()V
-    .locals 2
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lb6/f;-><init>()V
+
+    return-void
+.end method
+
+.method public static i(I)Lb6/a;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TranscodeType:",
+            "Ljava/lang/Object;",
+            ">(I)",
+            "Lb6/a<",
+            "TTranscodeType;>;"
+        }
+    .end annotation
 
     new-instance v0, Lb6/a;
 
     invoke-direct {v0}, Lb6/a;-><init>()V
 
-    sput-object v0, Lb6/a;->b:Lb6/a;
+    invoke-virtual {v0, p0}, Lb6/f;->e(I)Lb6/f;
 
-    invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+    move-result-object p0
+
+    check-cast p0, Lb6/a;
+
+    return-object p0
+.end method
+
+.method public static j(Ld7/g;)Lb6/a;
+    .locals 1
+    .param p0    # Ld7/g;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TranscodeType:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ld7/g<",
+            "-TTranscodeType;>;)",
+            "Lb6/a<",
+            "TTranscodeType;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lb6/a;
+
+    invoke-direct {v0}, Lb6/a;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb6/f;->f(Ld7/g;)Lb6/f;
+
+    move-result-object p0
+
+    check-cast p0, Lb6/a;
+
+    return-object p0
+.end method
+
+.method public static k(Ld7/j$a;)Lb6/a;
+    .locals 1
+    .param p0    # Ld7/j$a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TranscodeType:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ld7/j$a;",
+            ")",
+            "Lb6/a<",
+            "TTranscodeType;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lb6/a;
+
+    invoke-direct {v0}, Lb6/a;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb6/f;->h(Ld7/j$a;)Lb6/f;
+
+    move-result-object p0
+
+    check-cast p0, Lb6/a;
+
+    return-object p0
+.end method
+
+.method public static l()Lb6/a;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<TranscodeType:",
+            "Ljava/lang/Object;",
+            ">()",
+            "Lb6/a<",
+            "TTranscodeType;>;"
+        }
+    .end annotation
+
+    new-instance v0, Lb6/a;
+
+    invoke-direct {v0}, Lb6/a;-><init>()V
+
+    invoke-virtual {v0}, Lb6/f;->b()Lb6/f;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Runtime;->availableProcessors()I
+    check-cast v0, Lb6/a;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    instance-of v0, p1, Lb6/a;
+
+    if-eqz v0, :cond_0
+
+    invoke-super {p0, p1}, Lb6/f;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    invoke-super {p0}, Lb6/f;->hashCode()I
 
     move-result v0
 
-    sput v0, Lb6/a;->c:I
-
-    add-int/lit8 v1, v0, 0x1
-
-    sput v1, Lb6/a;->d:I
-
-    mul-int/lit8 v0, v0, 0x2
-
-    add-int/lit8 v0, v0, 0x1
-
-    sput v0, Lb6/a;->e:I
-
-    return-void
-.end method
-
-.method public constructor <init>()V
-    .locals 2
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Lb6/a$a;
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, v1}, Lb6/a$a;-><init>(B)V
-
-    iput-object v0, p0, Lb6/a;->a:Ljava/util/concurrent/Executor;
-
-    return-void
-.end method
-
-.method public static a()Ljava/util/concurrent/ExecutorService;
-    .locals 8
-
-    new-instance v7, Ljava/util/concurrent/ThreadPoolExecutor;
-
-    sget v1, Lb6/a;->d:I
-
-    sget v2, Lb6/a;->e:I
-
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
-
-    new-instance v6, Ljava/util/concurrent/LinkedBlockingQueue;
-
-    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
-
-    const-wide/16 v3, 0x1
-
-    move-object v0, v7
-
-    invoke-direct/range {v0 .. v6}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;)V
-
-    const/4 v0, 0x1
-
-    invoke-virtual {v7, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
-
-    return-object v7
-.end method
-
-.method public static b()Ljava/util/concurrent/Executor;
-    .locals 1
-
-    sget-object v0, Lb6/a;->b:Lb6/a;
-
-    iget-object v0, v0, Lb6/a;->a:Ljava/util/concurrent/Executor;
-
-    return-object v0
+    return v0
 .end method

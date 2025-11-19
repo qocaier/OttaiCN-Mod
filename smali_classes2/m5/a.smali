@@ -1,607 +1,447 @@
 .class public Lm5/a;
 .super Ljava/lang/Object;
-.source "QRCodeReader.java"
-
-# interfaces
-.implements Lcom/google/zxing/g;
+.source "SourceFile"
 
 
 # static fields
-.field private static final b:[Lcom/google/zxing/i;
+.field public static final a:Ljava/lang/String; = "ap_req"
 
+.field public static final b:Ljava/lang/String; = "ap_args"
 
-# instance fields
-.field private final a:Lcom/google/zxing/qrcode/decoder/d;
+.field public static final c:Ljava/lang/String; = "ap_resp"
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Lcom/google/zxing/i;
-
-    sput-object v0, Lm5/a;->b:[Lcom/google/zxing/i;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
-    .locals 1
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    new-instance v0, Lcom/google/zxing/qrcode/decoder/d;
-
-    invoke-direct {v0}, Lcom/google/zxing/qrcode/decoder/d;-><init>()V
-
-    iput-object v0, p0, Lm5/a;->a:Lcom/google/zxing/qrcode/decoder/d;
-
-    return-void
-.end method
-
-.method private static d(Lb5/b;)Lb5/b;
-    .locals 11
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/zxing/NotFoundException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lb5/b;->j()[I
-
-    move-result-object v0
-
-    .line 2
-    invoke-virtual {p0}, Lb5/b;->f()[I
-
-    move-result-object v1
-
-    if-eqz v0, :cond_c
-
-    if-eqz v1, :cond_c
-
-    .line 3
-    invoke-static {v0, p0}, Lm5/a;->e([ILb5/b;)F
-
-    move-result v2
-
-    const/4 v3, 0x1
-
-    .line 4
-    aget v4, v0, v3
-
-    .line 5
-    aget v5, v1, v3
-
-    const/4 v6, 0x0
-
-    .line 6
-    aget v0, v0, v6
-
-    .line 7
-    aget v1, v1, v6
-
-    if-ge v0, v1, :cond_b
-
-    if-ge v4, v5, :cond_b
-
-    sub-int v7, v5, v4
-
-    sub-int v8, v1, v0
-
-    if-eq v7, v8, :cond_1
-
-    add-int v1, v0, v7
-
-    .line 8
-    invoke-virtual {p0}, Lb5/b;->k()I
-
-    move-result v8
-
-    if-ge v1, v8, :cond_0
-
-    goto :goto_0
-
-    .line 9
-    :cond_0
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    :cond_1
-    :goto_0
-    sub-int v8, v1, v0
-
-    add-int/2addr v8, v3
-
-    int-to-float v8, v8
-
-    div-float/2addr v8, v2
-
-    .line 10
-    invoke-static {v8}, Ljava/lang/Math;->round(F)I
-
-    move-result v8
-
-    add-int/2addr v7, v3
-
-    int-to-float v3, v7
-
-    div-float/2addr v3, v2
-
-    .line 11
-    invoke-static {v3}, Ljava/lang/Math;->round(F)I
-
-    move-result v3
-
-    if-lez v8, :cond_a
-
-    if-lez v3, :cond_a
-
-    if-ne v3, v8, :cond_9
-
-    const/high16 v7, 0x40000000    # 2.0f
-
-    div-float v7, v2, v7
-
-    float-to-int v7, v7
-
-    add-int/2addr v4, v7
-
-    add-int/2addr v0, v7
-
-    add-int/lit8 v9, v8, -0x1
-
-    int-to-float v9, v9
-
-    mul-float v9, v9, v2
-
-    float-to-int v9, v9
-
-    add-int/2addr v9, v0
-
-    sub-int/2addr v9, v1
-
-    if-lez v9, :cond_3
-
-    if-gt v9, v7, :cond_2
-
-    sub-int/2addr v0, v9
-
-    goto :goto_1
-
-    .line 12
-    :cond_2
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    :cond_3
-    :goto_1
-    add-int/lit8 v1, v3, -0x1
-
-    int-to-float v1, v1
-
-    mul-float v1, v1, v2
-
-    float-to-int v1, v1
-
-    add-int/2addr v1, v4
-
-    sub-int/2addr v1, v5
-
-    if-lez v1, :cond_5
-
-    if-gt v1, v7, :cond_4
-
-    sub-int/2addr v4, v1
-
-    goto :goto_2
-
-    .line 13
-    :cond_4
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    .line 14
-    :cond_5
-    :goto_2
-    new-instance v1, Lb5/b;
-
-    invoke-direct {v1, v8, v3}, Lb5/b;-><init>(II)V
-
-    const/4 v5, 0x0
-
-    :goto_3
-    if-ge v5, v3, :cond_8
-
-    int-to-float v7, v5
-
-    mul-float v7, v7, v2
-
-    float-to-int v7, v7
-
-    add-int/2addr v7, v4
-
-    const/4 v9, 0x0
-
-    :goto_4
-    if-ge v9, v8, :cond_7
-
-    int-to-float v10, v9
-
-    mul-float v10, v10, v2
-
-    float-to-int v10, v10
-
-    add-int/2addr v10, v0
-
-    .line 15
-    invoke-virtual {p0, v10, v7}, Lb5/b;->e(II)Z
-
-    move-result v10
-
-    if-eqz v10, :cond_6
-
-    .line 16
-    invoke-virtual {v1, v9, v5}, Lb5/b;->m(II)V
-
-    :cond_6
-    add-int/lit8 v9, v9, 0x1
-
-    goto :goto_4
-
-    :cond_7
-    add-int/lit8 v5, v5, 0x1
-
-    goto :goto_3
-
-    :cond_8
-    return-object v1
-
-    .line 17
-    :cond_9
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    .line 18
-    :cond_a
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    .line 19
-    :cond_b
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-
-    .line 20
-    :cond_c
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-.end method
-
-.method private static e([ILb5/b;)F
-    .locals 8
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/zxing/NotFoundException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p1}, Lb5/b;->h()I
-
-    move-result v0
-
-    .line 2
-    invoke-virtual {p1}, Lb5/b;->k()I
-
-    move-result v1
-
-    const/4 v2, 0x0
-
-    .line 3
-    aget v3, p0, v2
-
-    const/4 v4, 0x1
-
-    .line 4
-    aget v5, p0, v4
-
-    const/4 v6, 0x0
-
-    :goto_0
-    if-ge v3, v1, :cond_1
-
-    if-ge v5, v0, :cond_1
-
-    .line 5
-    invoke-virtual {p1, v3, v5}, Lb5/b;->e(II)Z
-
-    move-result v7
-
-    if-eq v4, v7, :cond_0
-
-    add-int/lit8 v6, v6, 0x1
-
-    const/4 v7, 0x5
-
-    if-eq v6, v7, :cond_1
-
-    xor-int/lit8 v4, v4, 0x1
-
-    :cond_0
-    add-int/lit8 v3, v3, 0x1
-
-    add-int/lit8 v5, v5, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    if-eq v3, v1, :cond_2
-
-    if-eq v5, v0, :cond_2
-
-    .line 6
-    aget p0, p0, v2
-
-    sub-int/2addr v3, p0
-
-    int-to-float p0, v3
-
-    const/high16 p1, 0x40e00000    # 7.0f
-
-    div-float/2addr p0, p1
-
-    return p0
-
-    .line 7
-    :cond_2
-    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-
-    move-result-object p0
-
-    throw p0
-.end method
-
-
-# virtual methods
-.method public a()V
     .locals 0
 
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
     return-void
 .end method
 
-.method public final b(Lcom/google/zxing/b;Ljava/util/Map;)Lcom/google/zxing/h;
-    .locals 5
+.method public static a(Lk5/a;)Ljava/util/HashMap;
+    .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/zxing/b;",
-            "Ljava/util/Map<",
-            "Lcom/google/zxing/DecodeHintType;",
-            "*>;)",
-            "Lcom/google/zxing/h;"
+            "Lk5/a;",
+            ")",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
         }
     .end annotation
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/zxing/NotFoundException;,
-            Lcom/google/zxing/ChecksumException;,
-            Lcom/google/zxing/FormatException;
-        }
-    .end annotation
+    const-string v0, "ap_q"
 
-    if-eqz p2, :cond_0
+    const-string v1, "biz"
 
     .line 1
-    sget-object v0, Lcom/google/zxing/DecodeHintType;->PURE_BARCODE:Lcom/google/zxing/DecodeHintType;
+    new-instance v2, Ljava/util/HashMap;
 
-    invoke-interface {p2, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
+    invoke-direct {v2}, Ljava/util/HashMap;-><init>()V
 
     .line 2
-    invoke-virtual {p1}, Lcom/google/zxing/b;->a()Lb5/b;
+    :try_start_0
+    invoke-static {}, Lm5/a;->b()Lm4/a;
 
-    move-result-object p1
-
-    invoke-static {p1}, Lm5/a;->d(Lb5/b;)Lb5/b;
-
-    move-result-object p1
+    move-result-object v3
 
     .line 3
-    iget-object v0, p0, Lm5/a;->a:Lcom/google/zxing/qrcode/decoder/d;
+    new-instance v4, Lorg/json/JSONObject;
 
-    invoke-virtual {v0, p1, p2}, Lcom/google/zxing/qrcode/decoder/d;->b(Lb5/b;Ljava/util/Map;)Lb5/d;
+    invoke-direct {v4}, Lorg/json/JSONObject;-><init>()V
 
-    move-result-object p1
+    if-eqz p0, :cond_0
 
     .line 4
-    sget-object p2, Lm5/a;->b:[Lcom/google/zxing/i;
+    invoke-virtual {p0}, Lk5/a;->a()Landroid/content/Context;
+
+    move-result-object v5
 
     goto :goto_0
 
-    .line 5
     :cond_0
-    new-instance v0, Lcom/google/zxing/qrcode/detector/c;
+    const/4 v5, 0x0
 
-    invoke-virtual {p1}, Lcom/google/zxing/b;->a()Lb5/b;
+    :goto_0
+    if-nez v5, :cond_1
 
-    move-result-object p1
+    .line 5
+    invoke-static {}, Lk5/b;->d()Lk5/b;
 
-    invoke-direct {v0, p1}, Lcom/google/zxing/qrcode/detector/c;-><init>(Lb5/b;)V
+    move-result-object v5
 
-    invoke-virtual {v0, p2}, Lcom/google/zxing/qrcode/detector/c;->e(Ljava/util/Map;)Lb5/f;
+    invoke-virtual {v5}, Lk5/b;->c()Landroid/content/Context;
 
-    move-result-object p1
+    move-result-object v5
+
+    invoke-virtual {v5}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v5
 
     .line 6
-    iget-object v0, p0, Lm5/a;->a:Lcom/google/zxing/qrcode/decoder/d;
+    :cond_1
+    invoke-static {p0, v5}, Lm5/l;->l(Lk5/a;Landroid/content/Context;)Ljava/lang/String;
 
-    invoke-virtual {p1}, Lb5/f;->a()Lb5/b;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1, p2}, Lcom/google/zxing/qrcode/decoder/d;->b(Lb5/b;Ljava/util/Map;)Lb5/d;
-
-    move-result-object p2
+    move-result-object v6
 
     .line 7
-    invoke-virtual {p1}, Lb5/f;->b()[Lcom/google/zxing/i;
+    invoke-static {p0, v5}, Lo5/b;->c(Lk5/a;Landroid/content/Context;)Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v5
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    move-object v4, p2
+    const-string v7, ""
 
-    move-object p2, p1
-
-    move-object p1, v4
+    if-eqz v3, :cond_2
 
     .line 8
-    :goto_0
-    invoke-virtual {p1}, Lb5/d;->d()Ljava/lang/Object;
+    :try_start_1
+    invoke-virtual {v3}, Lm4/a;->a()Ljava/lang/String;
 
-    move-result-object v0
+    move-result-object v8
 
-    instance-of v0, v0, Lcom/google/zxing/qrcode/decoder/f;
+    goto :goto_1
 
-    if-eqz v0, :cond_1
+    :cond_2
+    move-object v8, v7
+
+    :goto_1
+    invoke-virtual {v4, v0, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v8, "ap_link_token"
+
+    if-eqz p0, :cond_3
 
     .line 9
-    invoke-virtual {p1}, Lb5/d;->d()Ljava/lang/Object;
+    iget-object v9, p0, Lk5/a;->d:Ljava/lang/String;
 
-    move-result-object v0
+    goto :goto_2
 
-    check-cast v0, Lcom/google/zxing/qrcode/decoder/f;
+    :cond_3
+    move-object v9, v7
 
-    invoke-virtual {v0, p2}, Lcom/google/zxing/qrcode/decoder/f;->a([Lcom/google/zxing/i;)V
+    :goto_2
+    invoke-virtual {v4, v8, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v8, "u_pd"
 
     .line 10
-    :cond_1
-    new-instance v0, Lcom/google/zxing/h;
+    invoke-static {}, Lm5/l;->Z()I
 
-    invoke-virtual {p1}, Lb5/d;->h()Ljava/lang/String;
+    move-result v9
 
-    move-result-object v1
+    invoke-static {v9}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
-    invoke-virtual {p1}, Lb5/d;->e()[B
+    move-result-object v9
 
-    move-result-object v2
+    invoke-virtual {v4, v8, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    sget-object v3, Lcom/google/zxing/BarcodeFormat;->QR_CODE:Lcom/google/zxing/BarcodeFormat;
-
-    invoke-direct {v0, v1, v2, p2, v3}, Lcom/google/zxing/h;-><init>(Ljava/lang/String;[B[Lcom/google/zxing/i;Lcom/google/zxing/BarcodeFormat;)V
+    const-string v8, "u_lk"
 
     .line 11
-    invoke-virtual {p1}, Lb5/d;->a()Ljava/util/List;
+    invoke-static {}, Lm5/l;->D()Ljava/lang/String;
 
-    move-result-object p2
+    move-result-object v9
 
-    if-eqz p2, :cond_2
+    invoke-static {v9}, Lm5/l;->S(Ljava/lang/String;)I
+
+    move-result v9
+
+    invoke-static {v9}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v9
+
+    invoke-virtual {v4, v8, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v8, "u_pi"
+
+    if-eqz p0, :cond_4
 
     .line 12
-    sget-object v1, Lcom/google/zxing/ResultMetadataType;->BYTE_SEGMENTS:Lcom/google/zxing/ResultMetadataType;
+    iget-object v9, p0, Lk5/a;->g:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, p2}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
-
-    .line 13
-    :cond_2
-    invoke-virtual {p1}, Lb5/d;->b()Ljava/lang/String;
-
-    move-result-object p2
-
-    if-eqz p2, :cond_3
-
-    .line 14
-    sget-object v1, Lcom/google/zxing/ResultMetadataType;->ERROR_CORRECTION_LEVEL:Lcom/google/zxing/ResultMetadataType;
-
-    invoke-virtual {v0, v1, p2}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
-
-    .line 15
-    :cond_3
-    invoke-virtual {p1}, Lb5/d;->i()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_4
-
-    .line 16
-    sget-object p2, Lcom/google/zxing/ResultMetadataType;->STRUCTURED_APPEND_SEQUENCE:Lcom/google/zxing/ResultMetadataType;
-
-    .line 17
-    invoke-virtual {p1}, Lb5/d;->g()I
-
-    move-result v1
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    .line 18
-    invoke-virtual {v0, p2, v1}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
-
-    .line 19
-    sget-object p2, Lcom/google/zxing/ResultMetadataType;->STRUCTURED_APPEND_PARITY:Lcom/google/zxing/ResultMetadataType;
-
-    .line 20
-    invoke-virtual {p1}, Lb5/d;->f()I
-
-    move-result p1
-
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p1
-
-    .line 21
-    invoke-virtual {v0, p2, p1}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
+    goto :goto_3
 
     :cond_4
+    const-string v9, "_"
+
+    :goto_3
+    invoke-static {v9}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v9
+
+    invoke-virtual {v4, v8, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v8, "u_fu"
+
+    .line 13
+    invoke-virtual {v4, v8, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v8, "u_oi"
+
+    .line 14
+    invoke-virtual {v4, v8, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    const-string v5, "ap_req"
+
+    .line 15
+    invoke-virtual {v4}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v2, v5, v4}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 16
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    if-eqz v3, :cond_5
+
+    invoke-virtual {v3}, Lm4/a;->a()Ljava/lang/String;
+
+    move-result-object v7
+
+    :cond_5
+    invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v3, "|"
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {p0, v1, v0, v3}, Lu4/a;->d(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+
+    goto :goto_4
+
+    :catch_0
+    move-exception v0
+
+    const-string v3, "APMEx1"
+
+    .line 17
+    invoke-static {p0, v1, v3, v0}, Lu4/a;->e(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :goto_4
+    return-object v2
+.end method
+
+.method public static b()Lm4/a;
+    .locals 6
+
+    :try_start_0
+    const-string v0, "NP"
+
+    .line 1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v1
+
+    new-instance v3, Lo4/c;
+
+    .line 2
+    invoke-static {}, Lk5/b;->d()Lk5/b;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lk5/b;->e()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-direct {v3, v4}, Lo4/c;-><init>(Ljava/lang/String;)V
+
+    .line 3
+    invoke-static {}, Lk5/b;->d()Lk5/b;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lk5/b;->c()Landroid/content/Context;
+
+    move-result-object v4
+
+    invoke-static {v4}, Lu4/a$c;->a(Landroid/content/Context;)J
+
+    move-result-wide v4
+
+    long-to-int v5, v4
+
+    int-to-short v4, v5
+
+    new-instance v5, Lo4/f;
+
+    invoke-direct {v5}, Lo4/f;-><init>()V
+
+    .line 4
+    invoke-static/range {v0 .. v5}, Lo4/a;->c(Ljava/lang/String;JLo4/b;SLo4/e;)Lo4/a;
+
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    .line 5
+    :catch_0
+    :try_start_1
+    invoke-static {}, Lo4/a;->d()Lo4/a;
+
+    move-result-object v0
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    return-object v0
+
+    :catch_1
+    const/4 v0, 0x0
+
     return-object v0
 .end method
 
-.method public c(Lcom/google/zxing/b;)Lcom/google/zxing/h;
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/zxing/NotFoundException;,
-            Lcom/google/zxing/ChecksumException;,
-            Lcom/google/zxing/FormatException;
-        }
-    .end annotation
+.method public static c(Lk5/a;Lorg/json/JSONObject;)Lorg/json/JSONObject;
+    .locals 3
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0}, Lm5/a;->b(Lcom/google/zxing/b;Ljava/util/Map;)Lcom/google/zxing/h;
+    if-nez p1, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const-string v1, "ap_resp"
+
+    .line 1
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    return-object p1
+    .line 2
+    :try_start_0
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    .line 3
+    new-instance v1, Lorg/json/JSONObject;
+
+    invoke-direct {v1, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v1
+
+    :cond_1
+    return-object v0
+
+    :catch_0
+    move-exception p1
+
+    const-string v1, "biz"
+
+    const-string v2, "APMEx2"
+
+    .line 4
+    invoke-static {p0, v1, v2, p1}, Lu4/a;->e(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-object v0
+.end method
+
+.method public static d(Lk5/a;Ljava/util/HashMap;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lk5/a;",
+            "Ljava/util/HashMap<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {}, Ly4/a;->w()Ly4/a;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ly4/a;->c()Lorg/json/JSONObject;
+
+    move-result-object v0
+
+    if-eqz p1, :cond_1
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const-string v1, "ap_r"
+
+    .line 2
+    invoke-virtual {v0, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "biz"
+
+    invoke-static {p0, v3, v1, v2}, Lu4/a;->d(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 3
+    invoke-static {v0}, Lm5/l;->p(Lorg/json/JSONObject;)Ljava/util/Map;
+
+    move-result-object p0
+
+    invoke-virtual {p1, p0}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+.method public static e(Lk5/a;Lorg/json/JSONObject;Lorg/json/JSONObject;)V
+    .locals 1
+
+    if-eqz p1, :cond_1
+
+    if-nez p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    :try_start_0
+    const-string v0, "ap_args"
+
+    .line 1
+    invoke-virtual {p1, v0, p2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    const-string p2, "biz"
+
+    const-string v0, "APMEx2"
+
+    .line 2
+    invoke-static {p0, p2, v0, p1}, Lu4/a;->e(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    :cond_1
+    :goto_0
+    return-void
 .end method

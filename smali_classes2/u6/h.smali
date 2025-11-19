@@ -2,81 +2,131 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lh6/f;
+
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<T:",
         "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
+        "Lh6/f<",
+        "Landroid/graphics/drawable/Drawable;",
+        "Landroid/graphics/drawable/Drawable;",
+        ">;"
     }
 .end annotation
 
 
-# instance fields
-.field private a:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-.end field
-
-.field private b:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-.end field
-
-
 # direct methods
-.method protected constructor <init>(Ljava/lang/Object;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
+.method public constructor <init>()V
+    .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    if-eqz p1, :cond_0
-
-    iput-object p1, p0, Lu6/h;->b:Ljava/lang/Object;
-
     return-void
-
-    :cond_0
-    new-instance p1, Ljava/lang/RuntimeException;
-
-    const-string v0, "proxy must be has a default implementation"
-
-    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-
-    throw p1
 .end method
 
 
 # virtual methods
-.method protected c()Ljava/lang/Object;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
+.method public bridge synthetic a(Ljava/lang/Object;Lh6/e;)Z
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
         value = {
-            "()TT;"
+            Ljava/io/IOException;
         }
     .end annotation
 
-    iget-object v0, p0, Lu6/h;->a:Ljava/lang/Object;
+    check-cast p1, Landroid/graphics/drawable/Drawable;
 
-    if-eqz v0, :cond_0
+    invoke-virtual {p0, p1, p2}, Lu6/h;->d(Landroid/graphics/drawable/Drawable;Lh6/e;)Z
 
-    return-object v0
+    move-result p1
 
-    :cond_0
-    iget-object v0, p0, Lu6/h;->b:Ljava/lang/Object;
+    return p1
+.end method
 
-    return-object v0
+.method public bridge synthetic b(Ljava/lang/Object;IILh6/e;)Lk6/j;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    check-cast p1, Landroid/graphics/drawable/Drawable;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lu6/h;->c(Landroid/graphics/drawable/Drawable;IILh6/e;)Lk6/j;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public c(Landroid/graphics/drawable/Drawable;IILh6/e;)Lk6/j;
+    .locals 0
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/drawable/Drawable;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lk6/j<",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
+
+    invoke-static {p1}, Lu6/f;->c(Landroid/graphics/drawable/Drawable;)Lk6/j;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public d(Landroid/graphics/drawable/Drawable;Lh6/e;)Z
+    .locals 0
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    const/4 p1, 0x1
+
+    return p1
 .end method

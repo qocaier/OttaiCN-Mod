@@ -1,102 +1,194 @@
-.class public final Ls4/b;
+.class public Ls4/b;
 .super Ljava/lang/Object;
-.source "CollectionTypeAdapterFactory.java"
-
-# interfaces
-.implements Lcom/google/gson/r;
+.source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Ls4/b$a;
-    }
-.end annotation
+# static fields
+.field public static a:Z = false
 
-
-# instance fields
-.field private final a:Lcom/google/gson/internal/b;
+.field public static b:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Lcom/google/gson/internal/b;)V
+.method public static constructor <clinit>()V
     .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    iput-object p1, p0, Ls4/b;->a:Lcom/google/gson/internal/b;
 
     return-void
 .end method
 
+.method public constructor <init>()V
+    .locals 0
 
-# virtual methods
-.method public create(Lcom/google/gson/d;Lcom/google/gson/reflect/a;)Lcom/google/gson/q;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Ljava/lang/String;
     .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/google/gson/d;",
-            "Lcom/google/gson/reflect/a<",
-            "TT;>;)",
-            "Lcom/google/gson/q<",
-            "TT;>;"
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p2}, Lcom/google/gson/reflect/a;->getType()Ljava/lang/reflect/Type;
+    sget-object v0, Lcom/alipay/sdk/m/k/c;->e:Lcom/alipay/sdk/m/k/c;
+
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/alipay/sdk/m/k/c;->a(I)Lcom/alipay/sdk/m/k/c;
 
     move-result-object v0
 
     .line 2
-    invoke-virtual {p2}, Lcom/google/gson/reflect/a;->getRawType()Ljava/lang/Class;
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
 
-    move-result-object v1
+    move-result v1
 
-    .line 3
-    const-class v2, Ljava/util/Collection;
-
-    invoke-virtual {v2, v1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    const/4 p1, 0x0
-
-    return-object p1
-
-    .line 4
-    :cond_0
-    invoke-static {v0, v1}, Lcom/google/gson/internal/$Gson$Types;->h(Ljava/lang/reflect/Type;Ljava/lang/Class;)Ljava/lang/reflect/Type;
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->a()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
-    invoke-static {v0}, Lcom/google/gson/reflect/a;->get(Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/a;
+    const-string v2, ""
 
-    move-result-object v1
+    invoke-static {v1, v0, v2}, Ls4/b;->b(ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-virtual {p1, v1}, Lcom/google/gson/d;->n(Lcom/google/gson/reflect/a;)Lcom/google/gson/q;
+    move-result-object v0
 
-    move-result-object v1
+    return-object v0
+.end method
 
-    .line 6
-    iget-object v2, p0, Ls4/b;->a:Lcom/google/gson/internal/b;
+.method public static b(ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
 
-    invoke-virtual {v2, p2}, Lcom/google/gson/internal/b;->b(Lcom/google/gson/reflect/a;)Lcom/google/gson/internal/f;
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    move-result-object p2
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 7
-    new-instance v2, Ls4/b$a;
+    const-string v1, "resultStatus={"
 
-    invoke-direct {v2, p1, v0, v1, p2}, Ls4/b$a;-><init>(Lcom/google/gson/d;Ljava/lang/reflect/Type;Lcom/google/gson/q;Lcom/google/gson/internal/f;)V
+    .line 2
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    return-object v2
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p0, "};memo={"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "};result={"
+
+    .line 3
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "}"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 4
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static c(Ljava/lang/String;)V
+    .locals 0
+
+    sput-object p0, Ls4/b;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static d(Z)V
+    .locals 0
+
+    sput-boolean p0, Ls4/b;->a:Z
+
+    return-void
+.end method
+
+.method public static e()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/alipay/sdk/m/k/c;->i:Lcom/alipay/sdk/m/k/c;
+
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/alipay/sdk/m/k/c;->a(I)Lcom/alipay/sdk/m/k/c;
+
+    move-result-object v0
+
+    .line 2
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
+
+    move-result v1
+
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, ""
+
+    invoke-static {v1, v0, v2}, Ls4/b;->b(ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static f()Z
+    .locals 1
+
+    sget-boolean v0, Ls4/b;->a:Z
+
+    return v0
+.end method
+
+.method public static g()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, Ls4/b;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public static h()Ljava/lang/String;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/alipay/sdk/m/k/c;->h:Lcom/alipay/sdk/m/k/c;
+
+    .line 2
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/alipay/sdk/m/k/c;->a(I)Lcom/alipay/sdk/m/k/c;
+
+    move-result-object v0
+
+    .line 3
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->b()I
+
+    move-result v1
+
+    invoke-virtual {v0}, Lcom/alipay/sdk/m/k/c;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, ""
+
+    invoke-static {v1, v0, v2}, Ls4/b;->b(ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

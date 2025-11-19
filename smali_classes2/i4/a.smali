@@ -1,142 +1,140 @@
-.class public Li4/a;
+.class public final Li4/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-basement@@18.3.0"
+.source "SourceFile"
 
-
-# static fields
-.field private static a:Landroid/content/Context;
-
-.field private static b:Ljava/lang/Boolean;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+# interfaces
+.implements Li4/i;
+.implements Li4/j;
 
 
 # direct methods
-.method public static declared-synchronized a(Landroid/content/Context;)Z
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 4
-    .param p0    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
-    const-class v0, Li4/a;
+    check-cast p1, [Ljava/lang/Object;
 
-    monitor-enter v0
+    new-instance v0, Ljava/util/ArrayList;
 
-    .line 1
-    :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    move-result-object v1
+    array-length v1, p1
 
-    sget-object v2, Li4/a;->a:Landroid/content/Context;
+    const/4 v2, 0x0
 
-    if-eqz v2, :cond_1
+    :goto_0
+    if-ge v2, v1, :cond_0
 
-    sget-object v3, Li4/a;->b:Ljava/lang/Boolean;
+    aget-object v3, p1, v2
 
-    if-eqz v3, :cond_1
+    invoke-static {v3}, Li4/f;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-eq v2, v1, :cond_0
+    move-result-object v3
+
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 2
     :cond_0
-    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
+    return-object v0
+.end method
 
-    move-result p0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+.method public final a(Ljava/lang/Class;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)Z"
+        }
+    .end annotation
 
-    monitor-exit v0
+    invoke-virtual {p1}, Ljava/lang/Class;->isArray()Z
 
-    return p0
+    move-result p1
 
-    :cond_1
-    :goto_0
+    return p1
+.end method
+
+.method public final b(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+    .locals 4
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    const-class v1, Lorg/json/alipay/a;
+
+    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    check-cast p1, Lorg/json/alipay/a;
+
+    instance-of v0, p2, Ljava/lang/reflect/GenericArrayType;
+
+    if-nez v0, :cond_2
+
+    check-cast p2, Ljava/lang/Class;
+
+    invoke-virtual {p2}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+
+    move-result-object p2
+
+    invoke-virtual {p1}, Lorg/json/alipay/a;->a()I
+
+    move-result v0
+
+    invoke-static {p2, v0}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+
+    move-result-object v1
+
     const/4 v2, 0x0
 
-    .line 3
-    :try_start_1
-    sput-object v2, Li4/a;->b:Ljava/lang/Boolean;
+    :goto_0
+    if-ge v2, v0, :cond_1
 
-    invoke-static {}, Lg4/h;->f()Z
+    invoke-virtual {p1, v2}, Lorg/json/alipay/a;->a(I)Ljava/lang/Object;
 
-    move-result v2
+    move-result-object v3
 
-    if-eqz v2, :cond_2
+    invoke-static {v3, p2}, Li4/e;->a(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
-    .line 4
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    move-result-object v3
 
-    move-result-object p0
+    invoke-static {v1, v2, v3}, Ljava/lang/reflect/Array;->set(Ljava/lang/Object;ILjava/lang/Object;)V
 
-    invoke-virtual {p0}, Landroid/content/pm/PackageManager;->isInstantApp()Z
+    add-int/lit8 v2, v2, 0x1
 
-    move-result p0
+    goto :goto_0
 
-    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    :cond_1
+    return-object v1
 
-    move-result-object p0
-
-    sput-object p0, Li4/a;->b:Ljava/lang/Boolean;
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    goto :goto_1
-
-    .line 5
     :cond_2
-    :try_start_2
-    invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+    new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    move-result-object p0
+    const-string p2, "Does not support generic array!"
 
-    const-string v2, "com.google.android.instantapps.supervisor.InstantAppsRuntime"
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    .line 6
-    invoke-virtual {p0, v2}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
-
-    .line 7
-    sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    sput-object p0, Li4/a;->b:Ljava/lang/Boolean;
-    :try_end_2
-    .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_0
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    goto :goto_1
-
-    .line 8
-    :catch_0
-    :try_start_3
-    sget-object p0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    sput-object p0, Li4/a;->b:Ljava/lang/Boolean;
-
-    .line 9
-    :goto_1
-    sput-object v1, Li4/a;->a:Landroid/content/Context;
-
-    sget-object p0, Li4/a;->b:Ljava/lang/Boolean;
-
-    .line 10
-    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p0
-    :try_end_3
-    .catchall {:try_start_3 .. :try_end_3} :catchall_0
-
-    monitor-exit v0
-
-    return p0
-
-    :catchall_0
-    move-exception p0
-
-    monitor-exit v0
-
-    throw p0
+    throw p1
 .end method

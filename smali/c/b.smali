@@ -1,44 +1,96 @@
-.class public final synthetic Lc/b;
+.class public final Lc/b;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
+.source "SourceFile"
 
-# interfaces
-.implements Landroidx/camera/core/impl/CameraFactory$Provider;
+
+# annotations
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nCoroutineDebugging.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineDebugging.kt\n_COROUTINE/CoroutineDebuggingKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,66:1\n1#2:67\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nCoroutineDebugging.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineDebugging.kt\n_COROUTINE/CoroutineDebuggingKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,66:1\n1#2:67\n*E\n"
+    }
+.end annotation
 
 
 # static fields
-.field public static final synthetic a:Lc/b;
+.field public static final a:Ljava/lang/String; = "_COROUTINE"
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lc/b;
-
-    invoke-direct {v0}, Lc/b;-><init>()V
-
-    sput-object v0, Lc/b;->a:Lc/b;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public static constructor <clinit>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
     return-void
 .end method
 
+.method public static final synthetic a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+    .locals 0
 
-# virtual methods
-.method public final newInstance(Landroid/content/Context;Landroidx/camera/core/impl/CameraThreadConfig;Landroidx/camera/core/CameraSelector;)Landroidx/camera/core/impl/CameraFactory;
+    invoke-static {p0, p1}, Lc/b;->b(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final b(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+    .locals 3
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    aget-object p0, p0, v0
+
+    new-instance v0, Ljava/lang/StackTraceElement;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lc/b;->a:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const/16 v2, 0x2e
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getLineNumber()I
+
+    move-result p0
+
+    const-string v2, "_"
+
+    invoke-direct {v0, p1, v2, v1, p0}, Ljava/lang/StackTraceElement;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-object v0
+.end method
+
+.method public static final c()Ljava/lang/String;
     .locals 1
+    .annotation build Lzr/k;
+    .end annotation
 
-    new-instance v0, Landroidx/camera/camera2/internal/Camera2CameraFactory;
-
-    invoke-direct {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/Camera2CameraFactory;-><init>(Landroid/content/Context;Landroidx/camera/core/impl/CameraThreadConfig;Landroidx/camera/core/CameraSelector;)V
+    sget-object v0, Lc/b;->a:Ljava/lang/String;
 
     return-object v0
 .end method

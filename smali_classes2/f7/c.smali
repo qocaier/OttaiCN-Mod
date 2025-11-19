@@ -1,203 +1,376 @@
 .class public Lf7/c;
-.super Ljava/lang/Object;
+.super Ljava/io/InputStream;
 .source "SourceFile"
 
-# interfaces
-.implements Lf7/a;
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
 
 
-# instance fields
-.field private final a:Ljava/lang/String;
-
-.field private final b:Ljava/util/HashMap;
+# static fields
+.field public static final c:Ljava/util/Queue;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
+            "Ljava/util/Queue<",
+            "Lf7/c;",
             ">;"
         }
     .end annotation
 .end field
 
 
+# instance fields
+.field public a:Ljava/io/InputStream;
+
+.field public b:Ljava/io/IOException;
+
+
 # direct methods
-.method public constructor <init>()V
+.method public static constructor <clinit>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    const/4 v0, 0x0
 
-    const-class v0, Lf7/c;
-
-    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+    invoke-static {v0}, Lf7/n;->f(I)Ljava/util/Queue;
 
     move-result-object v0
 
-    iput-object v0, p0, Lf7/c;->a:Ljava/lang/String;
-
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    iput-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
+    sput-object v0, Lf7/c;->c:Ljava/util/Queue;
 
     return-void
 .end method
 
+.method public constructor <init>()V
+    .locals 0
 
-# virtual methods
-.method public a()J
-    .locals 2
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
-    invoke-virtual {p0}, Lf7/c;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lt7/d;->a(Ljava/lang/String;)J
-
-    move-result-wide v0
-
-    return-wide v0
+    return-void
 .end method
 
-.method public a(Ljava/lang/String;Ljava/lang/String;)V
+.method public static e()V
     .locals 2
 
-    if-eqz p2, :cond_1
+    .line 1
+    :goto_0
+    sget-object v0, Lf7/c;->c:Ljava/util/Queue;
 
-    invoke-virtual {p2}, Ljava/lang/String;->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Queue;->isEmpty()Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_0
+    if-nez v1, :cond_0
+
+    .line 2
+    invoke-interface {v0}, Ljava/util/Queue;->remove()Ljava/lang/Object;
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
-
-    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-void
-
-    :cond_1
-    :goto_0
-    iget-object p2, p0, Lf7/c;->a:Ljava/lang/String;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "The keys value is empty, returning without adding key: "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p2, p1, v0}, Lt7/b;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
     return-void
 .end method
 
-.method public b()Ljava/util/Map;
-    .locals 1
-
-    iget-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
-
-    return-object v0
-.end method
-
-.method public b(Ljava/lang/String;Ljava/lang/Object;)V
+.method public static g(Ljava/io/InputStream;)Lf7/c;
     .locals 2
+    .param p0    # Ljava/io/InputStream;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    if-nez p2, :cond_0
+    .line 1
+    sget-object v0, Lf7/c;->c:Ljava/util/Queue;
 
-    iget-object p2, p0, Lf7/c;->a:Ljava/lang/String;
+    monitor-enter v0
 
-    new-instance v0, Ljava/lang/StringBuilder;
+    .line 2
+    :try_start_0
+    invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    move-result-object v1
 
-    const-string v1, "The keys value is empty, returning without adding key: "
+    check-cast v1, Lf7/c;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 3
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-nez v1, :cond_0
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 4
+    new-instance v1, Lf7/c;
 
-    move-result-object p1
+    invoke-direct {v1}, Lf7/c;-><init>()V
 
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p2, p1, v0}, Lt7/b;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    return-void
-
+    .line 5
     :cond_0
-    iget-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
+    invoke-virtual {v1, p0}, Lf7/c;->i(Ljava/io/InputStream;)V
 
-    invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    return-object v1
 
-    return-void
+    :catchall_0
+    move-exception p0
+
+    .line 6
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p0
 .end method
 
-.method public c(Ljava/util/Map;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
+
+# virtual methods
+.method public available()I
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
         value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;)V"
+            Ljava/io/IOException;
         }
     .end annotation
 
-    if-nez p1, :cond_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
 
-    iget-object p1, p0, Lf7/c;->a:Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/io/InputStream;->available()I
 
-    const/4 v0, 0x0
+    move-result v0
 
-    new-array v0, v0, [Ljava/lang/Object;
+    return v0
+.end method
 
-    const-string v1, "Map passed in is null, returning without adding map."
+.method public close()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {p1, v1, v0}, Lt7/b;->g(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
 
-    return-void
-
-    :cond_0
-    iget-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
-
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
     return-void
 .end method
 
-.method public toString()Ljava/lang/String;
+.method public f()Ljava/io/IOException;
     .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    iget-object v0, p0, Lf7/c;->b:Ljava/util/HashMap;
-
-    invoke-static {v0}, Lt7/d;->d(Ljava/util/Map;)Lorg/json/JSONObject;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
-
-    move-result-object v0
+    iget-object v0, p0, Lf7/c;->b:Ljava/io/IOException;
 
     return-object v0
+.end method
+
+.method public i(Ljava/io/InputStream;)V
+    .locals 0
+    .param p1    # Ljava/io/InputStream;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    iput-object p1, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    return-void
+.end method
+
+.method public mark(I)V
+    .locals 1
+
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1}, Ljava/io/InputStream;->mark(I)V
+
+    return-void
+.end method
+
+.method public markSupported()Z
+    .locals 1
+
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->markSupported()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public read()I
+    .locals 1
+
+    .line 5
+    :try_start_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->read()I
+
+    move-result v0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 6
+    iput-object v0, p0, Lf7/c;->b:Ljava/io/IOException;
+
+    const/4 v0, -0x1
+
+    :goto_0
+    return v0
+.end method
+
+.method public read([B)I
+    .locals 1
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1}, Ljava/io/InputStream;->read([B)I
+
+    move-result p1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    .line 2
+    iput-object p1, p0, Lf7/c;->b:Ljava/io/IOException;
+
+    const/4 p1, -0x1
+
+    :goto_0
+    return p1
+.end method
+
+.method public read([BII)I
+    .locals 1
+
+    .line 3
+    :try_start_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1, p2, p3}, Ljava/io/InputStream;->read([BII)I
+
+    move-result p1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    .line 4
+    iput-object p1, p0, Lf7/c;->b:Ljava/io/IOException;
+
+    const/4 p1, -0x1
+
+    :goto_0
+    return p1
+.end method
+
+.method public release()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    .line 1
+    iput-object v0, p0, Lf7/c;->b:Ljava/io/IOException;
+
+    .line 2
+    iput-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    .line 3
+    sget-object v0, Lf7/c;->c:Ljava/util/Queue;
+
+    monitor-enter v0
+
+    .line 4
+    :try_start_0
+    invoke-interface {v0, p0}, Ljava/util/Queue;->offer(Ljava/lang/Object;)Z
+
+    .line 5
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception v1
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v1
+.end method
+
+.method public declared-synchronized reset()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->reset()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 2
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public skip(J)J
+    .locals 1
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lf7/c;->a:Ljava/io/InputStream;
+
+    invoke-virtual {v0, p1, p2}, Ljava/io/InputStream;->skip(J)J
+
+    move-result-wide p1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p1
+
+    .line 2
+    iput-object p1, p0, Lf7/c;->b:Ljava/io/IOException;
+
+    const-wide/16 p1, 0x0
+
+    :goto_0
+    return-wide p1
 .end method

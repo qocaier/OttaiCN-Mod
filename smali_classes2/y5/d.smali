@@ -1,385 +1,314 @@
 .class public Ly5/d;
-.super Lx5/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # instance fields
-.field private final c:Landroid/content/Context;
-
-.field private final d:Ljava/lang/String;
-
-.field private volatile e:Lx5/c;
-
-.field private final f:Ljava/lang/Object;
-
-.field private g:Lw5/b;
-
-.field private final h:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
+.field public final a:Ljava/lang/String;
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end field
 
-.field private volatile i:Ly5/f;
+.field public final b:Ljava/lang/String;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+.field public final c:Ljava/lang/String;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+.field public final d:Ly5/a;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+.field public final e:Z
+
+.field public final f:Z
+
+.field public final g:Z
+
+.field public final h:Ljava/lang/Integer;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
-    .locals 1
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ly5/a;ZZZLjava/lang/Integer;)V
+    .locals 0
+    .param p1    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Ly5/a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p8    # Ljava/lang/Integer;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
 
-    invoke-direct {p0}, Lx5/a;-><init>()V
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/lang/Object;
+    .line 2
+    iput-object p1, p0, Ly5/d;->a:Ljava/lang/String;
 
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+    .line 3
+    iput-object p2, p0, Ly5/d;->b:Ljava/lang/String;
 
-    iput-object v0, p0, Ly5/d;->f:Ljava/lang/Object;
+    .line 4
+    iput-object p3, p0, Ly5/d;->c:Ljava/lang/String;
 
-    sget-object v0, Lw5/b;->b:Lw5/b;
+    .line 5
+    iput-object p4, p0, Ly5/d;->d:Ly5/a;
 
-    iput-object v0, p0, Ly5/d;->g:Lw5/b;
+    .line 6
+    iput-boolean p5, p0, Ly5/d;->e:Z
 
-    new-instance v0, Ljava/util/HashMap;
+    .line 7
+    iput-boolean p6, p0, Ly5/d;->f:Z
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    .line 8
+    iput-boolean p7, p0, Ly5/d;->g:Z
 
-    iput-object v0, p0, Ly5/d;->h:Ljava/util/Map;
-
-    iput-object p1, p0, Ly5/d;->c:Landroid/content/Context;
-
-    iput-object p2, p0, Ly5/d;->d:Ljava/lang/String;
+    .line 9
+    iput-object p8, p0, Ly5/d;->h:Ljava/lang/Integer;
 
     return-void
 .end method
 
-.method private static e(Ljava/lang/String;)Ljava/lang/String;
-    .locals 3
+.method public static i(Ljava/util/Map;)Ly5/d;
+    .locals 11
+    .param p0    # Ljava/util/Map;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;)",
+            "Ly5/d;"
+        }
+    .end annotation
 
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
+    const/4 v0, 0x0
 
-    move-result v0
+    if-nez p0, :cond_0
 
-    const/16 v1, 0x2f
-
-    const/4 v2, 0x0
-
-    if-lez v0, :cond_0
-
-    :goto_0
-    invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
-
-    move-result v0
-
-    if-ne v0, v1, :cond_0
-
-    add-int/lit8 v2, v2, 0x1
-
-    goto :goto_0
+    return-object v0
 
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    const-string v1, "notificationIcon"
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    .line 1
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    move-result-object v1
 
-    invoke-virtual {p0, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+    check-cast v1, Ljava/util/Map;
+
+    invoke-static {v1}, Ly5/a;->c(Ljava/util/Map;)Ly5/a;
+
+    move-result-object v6
+
+    const-string v1, "notificationTitle"
+
+    .line 2
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v3, v1
+
+    check-cast v3, Ljava/lang/String;
+
+    const-string v1, "notificationChannelName"
+
+    .line 3
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v5, v1
+
+    check-cast v5, Ljava/lang/String;
+
+    const-string v1, "notificationText"
+
+    .line 4
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v4, v1
+
+    check-cast v4, Ljava/lang/String;
+
+    const-string v1, "enableWifiLock"
+
+    .line 5
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Boolean;
+
+    const-string v2, "enableWakeLock"
+
+    .line 6
+    invoke-interface {p0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Boolean;
+
+    const-string v7, "setOngoing"
+
+    .line 7
+    invoke-interface {p0, v7}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Ljava/lang/Boolean;
+
+    const-string v8, "color"
+
+    .line 8
+    invoke-interface {p0, v8}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz p0, :cond_1
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 9
+    check-cast p0, Ljava/lang/Number;
 
-    move-result-object p0
+    invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    :cond_1
+    move-object v10, v0
+
+    .line 10
+    new-instance p0, Ly5/d;
+
+    .line 11
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    .line 12
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v8
+
+    .line 13
+    invoke-virtual {v7}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v9
+
+    move-object v2, p0
+
+    move v7, v0
+
+    invoke-direct/range {v2 .. v10}, Ly5/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ly5/a;ZZZLjava/lang/Integer;)V
 
     return-object p0
 .end method
 
-.method private f()V
-    .locals 4
-
-    const-string v0, "AGC_ConfigImpl"
-
-    const-string v1, "initConfigReader"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
-
-    if-nez v0, :cond_1
-
-    iget-object v0, p0, Ly5/d;->f:Ljava/lang/Object;
-
-    monitor-enter v0
-
-    :try_start_0
-    iget-object v1, p0, Ly5/d;->e:Lx5/c;
-
-    if-nez v1, :cond_0
-
-    new-instance v1, Ly5/n;
-
-    iget-object v2, p0, Ly5/d;->c:Landroid/content/Context;
-
-    iget-object v3, p0, Ly5/d;->d:Ljava/lang/String;
-
-    invoke-direct {v1, v2, v3}, Ly5/n;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    iput-object v1, p0, Ly5/d;->e:Lx5/c;
-
-    new-instance v1, Ly5/f;
-
-    iget-object v2, p0, Ly5/d;->e:Lx5/c;
-
-    invoke-direct {v1, v2}, Ly5/f;-><init>(Lx5/c;)V
-
-    iput-object v1, p0, Ly5/d;->i:Ly5/f;
-
-    :cond_0
-    invoke-direct {p0}, Ly5/d;->h()V
-
-    monitor-exit v0
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v1
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
-.method private g(Ljava/lang/String;)Ljava/lang/String;
-    .locals 3
-
-    invoke-static {}, Lw5/f;->a()Ljava/util/Map;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    const/4 v2, 0x0
-
-    if-nez v1, :cond_0
-
-    return-object v2
-
-    :cond_0
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lw5/f$a;
-
-    if-eqz p1, :cond_1
-
-    invoke-interface {p1, p0}, Lw5/f$a;->a(Lw5/d;)Ljava/lang/String;
-
-    move-result-object p1
-
-    return-object p1
-
-    :cond_1
-    return-object v2
-.end method
-
-.method private h()V
-    .locals 4
-
-    iget-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    sget-object v1, Lw5/b;->b:Lw5/b;
-
-    if-ne v0, v1, :cond_1
-
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
-
-    const-string v1, "/region"
-
-    const/4 v2, 0x0
-
-    invoke-interface {v0, v1, v2}, Lx5/c;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Ly5/d;->e:Lx5/c;
-
-    const-string v3, "/agcgw/url"
-
-    invoke-interface {v1, v3, v2}, Lx5/c;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Ly5/b;->f(Ljava/lang/String;Ljava/lang/String;)Lw5/b;
-
-    move-result-object v0
-
-    iput-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "AGConnectServiceConfig"
-
-    const-string v1, "get route fail , config not ready"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 
 # virtual methods
-.method public a(Ljava/lang/String;)Ljava/lang/String;
+.method public a()Ljava/lang/Integer;
     .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    const/4 v0, 0x0
-
-    invoke-virtual {p0, p1, v0}, Ly5/d;->i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public b()Lw5/b;
-    .locals 2
-
-    const-string v0, "AGC_ConfigImpl"
-
-    const-string v1, "getRoutePolicy"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    if-nez v0, :cond_0
-
-    sget-object v0, Lw5/b;->b:Lw5/b;
-
-    iput-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    :cond_0
-    iget-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    sget-object v1, Lw5/b;->b:Lw5/b;
-
-    if-ne v0, v1, :cond_1
-
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
-
-    if-nez v0, :cond_1
-
-    invoke-direct {p0}, Ly5/d;->f()V
-
-    :cond_1
-    iget-object v0, p0, Ly5/d;->g:Lw5/b;
-
-    if-nez v0, :cond_2
-
-    goto :goto_0
-
-    :cond_2
-    move-object v1, v0
-
-    :goto_0
-    return-object v1
-.end method
-
-.method public getContext()Landroid/content/Context;
-    .locals 1
-
-    iget-object v0, p0, Ly5/d;->c:Landroid/content/Context;
+    iget-object v0, p0, Ly5/d;->h:Ljava/lang/Integer;
 
     return-object v0
 .end method
 
-.method public getIdentifier()Ljava/lang/String;
+.method public b()Ljava/lang/String;
     .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    const-string v0, "DEFAULT_INSTANCE"
+    iget-object v0, p0, Ly5/d;->c:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public i(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+.method public c()Ly5/a;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    iget-object v0, p0, Ly5/d;->d:Ly5/a;
+
+    return-object v0
+.end method
+
+.method public d()Ljava/lang/String;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    iget-object v0, p0, Ly5/d;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public e()Ljava/lang/String;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    iget-object v0, p0, Ly5/d;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public f()Z
     .locals 1
 
-    const-string v0, "path must not be null."
+    iget-boolean v0, p0, Ly5/d;->f:Z
 
-    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    return v0
+.end method
 
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
+.method public g()Z
+    .locals 1
 
-    if-nez v0, :cond_0
+    iget-boolean v0, p0, Ly5/d;->e:Z
 
-    invoke-direct {p0}, Ly5/d;->f()V
+    return v0
+.end method
 
-    :cond_0
-    invoke-static {p1}, Ly5/d;->e(Ljava/lang/String;)Ljava/lang/String;
+.method public h()Z
+    .locals 1
 
-    move-result-object p1
+    iget-boolean v0, p0, Ly5/d;->g:Z
 
-    iget-object v0, p0, Ly5/d;->h:Ljava/util/Map;
-
-    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/String;
-
-    if-eqz v0, :cond_1
-
-    return-object v0
-
-    :cond_1
-    invoke-direct {p0, p1}, Ly5/d;->g(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_2
-
-    return-object v0
-
-    :cond_2
-    iget-object v0, p0, Ly5/d;->e:Lx5/c;
-
-    invoke-interface {v0, p1, p2}, Lx5/c;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Ly5/f;->c(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    iget-object v0, p0, Ly5/d;->i:Ly5/f;
-
-    invoke-virtual {v0, p1, p2}, Ly5/f;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    :cond_3
-    return-object p1
+    return v0
 .end method

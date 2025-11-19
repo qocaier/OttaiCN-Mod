@@ -1,10 +1,10 @@
 .class public final Landroidx/activity/ActivityViewModelLazyKt;
 .super Ljava/lang/Object;
-.source "ActivityViewModelLazy.kt"
+.source "SourceFile"
 
 
 # direct methods
-.method public static final synthetic viewModels(Landroidx/activity/ComponentActivity;Lla/a;)Lkotlin/d;
+.method public static final synthetic viewModels(Landroidx/activity/ComponentActivity;Lco/a;)Len/w;
     .locals 4
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -15,18 +15,23 @@
             "Landroidx/lifecycle/ViewModel;",
             ">(",
             "Landroidx/activity/ComponentActivity;",
-            "Lla/a<",
+            "Lco/a<",
             "+",
             "Landroidx/lifecycle/ViewModelProvider$Factory;",
             ">;)",
-            "Lkotlin/d<",
+            "Len/w<",
             "TVM;>;"
         }
     .end annotation
 
+    .annotation runtime Len/j;
+        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
+        message = "Superseded by viewModels that takes a CreationExtras"
+    .end annotation
+
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p1, :cond_0
 
@@ -43,11 +48,11 @@
 
     const-string v2, "VM"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->l(ILjava/lang/String;)V
+    invoke-static {v1, v2}, Ldo/f0;->y(ILjava/lang/String;)V
 
     const-class v1, Landroidx/lifecycle/ViewModel;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/v;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
+    invoke-static {v1}, Ldo/n0;->d(Ljava/lang/Class;)Lno/d;
 
     move-result-object v1
 
@@ -62,12 +67,12 @@
     invoke-direct {v3, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$2;-><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 5
-    invoke-direct {v0, v1, v2, p1, v3}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lla/a;Lla/a;Lla/a;)V
+    invoke-direct {v0, v1, v2, p1, v3}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lno/d;Lco/a;Lco/a;Lco/a;)V
 
     return-object v0
 .end method
 
-.method public static final synthetic viewModels(Landroidx/activity/ComponentActivity;Lla/a;Lla/a;)Lkotlin/d;
+.method public static final synthetic viewModels(Landroidx/activity/ComponentActivity;Lco/a;Lco/a;)Len/w;
     .locals 4
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -78,22 +83,22 @@
             "Landroidx/lifecycle/ViewModel;",
             ">(",
             "Landroidx/activity/ComponentActivity;",
-            "Lla/a<",
+            "Lco/a<",
             "+",
             "Landroidx/lifecycle/viewmodel/CreationExtras;",
             ">;",
-            "Lla/a<",
+            "Lco/a<",
             "+",
             "Landroidx/lifecycle/ViewModelProvider$Factory;",
             ">;)",
-            "Lkotlin/d<",
+            "Len/w<",
             "TVM;>;"
         }
     .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
@@ -110,11 +115,11 @@
 
     const-string v2, "VM"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->l(ILjava/lang/String;)V
+    invoke-static {v1, v2}, Ldo/f0;->y(ILjava/lang/String;)V
 
     const-class v1, Landroidx/lifecycle/ViewModel;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/v;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
+    invoke-static {v1}, Ldo/n0;->d(Ljava/lang/Class;)Lno/d;
 
     move-result-object v1
 
@@ -126,15 +131,15 @@
     .line 9
     new-instance v3, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
 
-    invoke-direct {v3, p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;-><init>(Lla/a;Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v3, p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;-><init>(Lco/a;Landroidx/activity/ComponentActivity;)V
 
     .line 10
-    invoke-direct {v0, v1, v2, p2, v3}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lla/a;Lla/a;Lla/a;)V
+    invoke-direct {v0, v1, v2, p2, v3}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lno/d;Lco/a;Lco/a;Lco/a;)V
 
     return-object v0
 .end method
 
-.method public static synthetic viewModels$default(Landroidx/activity/ComponentActivity;Lla/a;ILjava/lang/Object;)Lkotlin/d;
+.method public static synthetic viewModels$default(Landroidx/activity/ComponentActivity;Lco/a;ILjava/lang/Object;)Len/w;
     .locals 2
 
     and-int/lit8 p2, p2, 0x1
@@ -147,7 +152,7 @@
     const-string p2, "<this>"
 
     .line 1
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p1, :cond_1
 
@@ -164,11 +169,11 @@
 
     const-string v0, "VM"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->l(ILjava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->y(ILjava/lang/String;)V
 
     const-class p3, Landroidx/lifecycle/ViewModel;
 
-    invoke-static {p3}, Lkotlin/jvm/internal/v;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
+    invoke-static {p3}, Ldo/n0;->d(Ljava/lang/Class;)Lno/d;
 
     move-result-object p3
 
@@ -183,12 +188,12 @@
     invoke-direct {v1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$2;-><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 6
-    invoke-direct {p2, p3, v0, p1, v1}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lla/a;Lla/a;Lla/a;)V
+    invoke-direct {p2, p3, v0, p1, v1}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lno/d;Lco/a;Lco/a;Lco/a;)V
 
     return-object p2
 .end method
 
-.method public static synthetic viewModels$default(Landroidx/activity/ComponentActivity;Lla/a;Lla/a;ILjava/lang/Object;)Lkotlin/d;
+.method public static synthetic viewModels$default(Landroidx/activity/ComponentActivity;Lco/a;Lco/a;ILjava/lang/Object;)Len/w;
     .locals 2
 
     and-int/lit8 p4, p3, 0x1
@@ -210,7 +215,7 @@
     const-string p3, "<this>"
 
     .line 7
-    invoke-static {p0, p3}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p2, :cond_2
 
@@ -227,11 +232,11 @@
 
     const-string v0, "VM"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/s;->l(ILjava/lang/String;)V
+    invoke-static {p4, v0}, Ldo/f0;->y(ILjava/lang/String;)V
 
     const-class p4, Landroidx/lifecycle/ViewModel;
 
-    invoke-static {p4}, Lkotlin/jvm/internal/v;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
+    invoke-static {p4}, Ldo/n0;->d(Ljava/lang/Class;)Lno/d;
 
     move-result-object p4
 
@@ -243,10 +248,10 @@
     .line 11
     new-instance v1, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
 
-    invoke-direct {v1, p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;-><init>(Lla/a;Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v1, p1, p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;-><init>(Lco/a;Landroidx/activity/ComponentActivity;)V
 
     .line 12
-    invoke-direct {p3, p4, v0, p2, v1}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lla/a;Lla/a;Lla/a;)V
+    invoke-direct {p3, p4, v0, p2, v1}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lno/d;Lco/a;Lco/a;Lco/a;)V
 
     return-object p3
 .end method

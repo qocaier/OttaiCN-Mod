@@ -1,268 +1,41 @@
-.class public Li/a;
+.class public final synthetic Li/a;
 .super Ljava/lang/Object;
-.source "Taobao"
-
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Li/a$a;
-    }
-.end annotation
-
-
-# static fields
-.field private static a:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Li/a$a;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private static final b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
-
-.field private static final c:Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-.field private static final d:Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
+.source "SourceFile"
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 2
-
-    .line 1
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    sput-object v0, Li/a;->a:Ljava/util/List;
-
-    .line 2
-    new-instance v0, Ljava/util/concurrent/locks/ReentrantReadWriteLock;
-
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;-><init>()V
-
-    sput-object v0, Li/a;->b:Ljava/util/concurrent/locks/ReentrantReadWriteLock;
-
-    .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->readLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-    move-result-object v1
-
-    sput-object v1, Li/a;->c:Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-    .line 4
-    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock;->writeLock()Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
-
-    move-result-object v0
-
-    sput-object v0, Li/a;->d:Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
+.method public static a(Landroidx/browser/customtabs/EngagementSignalsCallback;ILandroid/os/Bundle;)V
+    .locals 0
+    .param p1    # I
+        .annotation build Landroidx/annotation/IntRange;
+            from = 0x1L
+            to = 0x64L
+        .end annotation
+    .end param
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
     return-void
 .end method
 
-.method public static a(Lanetwork/channel/cache/Cache;Li/b;I)V
-    .locals 3
+.method public static b(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
+    .locals 0
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    if-eqz p0, :cond_1
-
-    if-eqz p1, :cond_0
-
-    .line 1
-    :try_start_0
-    sget-object v0, Li/a;->d:Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->lock()V
-
-    .line 2
-    sget-object v1, Li/a;->a:Ljava/util/List;
-
-    new-instance v2, Li/a$a;
-
-    invoke-direct {v2, p0, p1, p2}, Li/a$a;-><init>(Lanetwork/channel/cache/Cache;Li/b;I)V
-
-    invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 3
-    sget-object p0, Li/a;->a:Ljava/util/List;
-
-    invoke-static {p0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->unlock()V
-
-    return-void
-
-    .line 5
-    :cond_0
-    :try_start_1
-    new-instance p0, Ljava/lang/IllegalArgumentException;
-
-    const-string p1, "prediction is null"
-
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p0
-
-    .line 6
-    :cond_1
-    new-instance p0, Ljava/lang/IllegalArgumentException;
-
-    const-string p1, "cache is null"
-
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    :catchall_0
-    move-exception p0
-
-    .line 7
-    sget-object p1, Li/a;->d:Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;
-
-    invoke-virtual {p1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$WriteLock;->unlock()V
-
-    .line 8
-    throw p0
-.end method
-
-.method public static b()V
-    .locals 4
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    const-string v1, "anet.CacheManager"
-
-    const-string v2, "clearAllCache"
-
-    const/4 v3, 0x0
-
-    .line 1
-    invoke-static {v1, v2, v3, v0}, Lanet/channel/util/ALog;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 2
-    sget-object v0, Li/a;->a:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Li/a$a;
-
-    .line 3
-    :try_start_0
-    iget-object v1, v1, Li/a$a;->a:Lanetwork/channel/cache/Cache;
-
-    invoke-interface {v1}, Lanetwork/channel/cache/Cache;->clear()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    nop
-
-    goto :goto_0
-
-    :cond_0
     return-void
 .end method
 
-.method public static c(Ljava/lang/String;Ljava/util/Map;)Lanetwork/channel/cache/Cache;
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)",
-            "Lanetwork/channel/cache/Cache;"
-        }
-    .end annotation
+.method public static c(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
+    .locals 0
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    .line 1
-    :try_start_0
-    sget-object v0, Li/a;->c:Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-    invoke-virtual {v0}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->lock()V
-
-    .line 2
-    sget-object v0, Li/a;->a:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Li/a$a;
-
-    .line 3
-    iget-object v2, v1, Li/a$a;->b:Li/b;
-
-    .line 4
-    invoke-interface {v2, p0, p1}, Li/b;->handleCache(Ljava/lang/String;Ljava/util/Map;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 5
-    iget-object p0, v1, Li/a$a;->a:Lanetwork/channel/cache/Cache;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 6
-    :goto_0
-    sget-object p1, Li/a;->c:Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-    invoke-virtual {p1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
-
-    return-object p0
-
-    :cond_1
-    const/4 p0, 0x0
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception p0
-
-    sget-object p1, Li/a;->c:Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;
-
-    invoke-virtual {p1}, Ljava/util/concurrent/locks/ReentrantReadWriteLock$ReadLock;->unlock()V
-
-    .line 7
-    throw p0
+    return-void
 .end method

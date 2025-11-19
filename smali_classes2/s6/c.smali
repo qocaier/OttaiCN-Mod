@@ -1,176 +1,108 @@
 .class public Ls6/c;
-.super La8/a;
+.super Lu6/d;
 .source "SourceFile"
+
+# interfaces
+.implements Lk6/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lu6/d<",
+        "Landroid/graphics/drawable/BitmapDrawable;",
+        ">;",
+        "Lk6/g;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final b:Ll6/e;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+.method public constructor <init>(Landroid/graphics/drawable/BitmapDrawable;Ll6/e;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, La8/a;-><init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+    .line 1
+    invoke-direct {p0, p1}, Lu6/d;-><init>(Landroid/graphics/drawable/Drawable;)V
+
+    .line 2
+    iput-object p2, p0, Ls6/c;->b:Ll6/e;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected i(Landroid/app/Notification;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 5
+.method public a()Ljava/lang/Class;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MinSdkChecker;->isSupportNotificationBuild()Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/lang/Class<",
+            "Landroid/graphics/drawable/BitmapDrawable;",
+            ">;"
+        }
+    .end annotation
+
+    const-class v0, Landroid/graphics/drawable/BitmapDrawable;
+
+    return-object v0
+.end method
+
+.method public getSize()I
+    .locals 1
+
+    iget-object v0, p0, Lu6/d;->a:Landroid/graphics/drawable/Drawable;
+
+    check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
+
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lf7/n;->h(Landroid/graphics/Bitmap;)I
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    return v0
+.end method
 
-    new-instance v0, Landroid/widget/RemoteViews;
+.method public initialize()V
+    .locals 1
 
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
+    iget-object v0, p0, Lu6/d;->a:Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    check-cast v0, Landroid/graphics/drawable/BitmapDrawable;
 
-    move-result-object v1
+    invoke-virtual {v0}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
 
-    iget-object v2, p0, La8/a;->a:Landroid/content/Context;
+    move-result-object v0
 
-    invoke-static {v2}, Lv6/c;->g(Landroid/content/Context;)I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->prepareToDraw()V
 
-    move-result v2
-
-    invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
-
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lv6/c;->f(Landroid/content/Context;)I
-
-    move-result v1
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getTitle()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
-
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lv6/c;->c(Landroid/content/Context;)I
-
-    move-result v1
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getContent()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
-
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lv6/c;->d(Landroid/content/Context;)I
-
-    move-result v1
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v2
-
-    const-string v4, "setTime"
-
-    invoke-virtual {v0, v1, v4, v2, v3}, Landroid/widget/RemoteViews;->setLong(ILjava/lang/String;J)V
-
-    invoke-virtual {p0, v0, p2}, Ls6/c;->y(Landroid/widget/RemoteViews;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-
-    iget-object p2, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p2}, Lv6/c;->b(Landroid/content/Context;)I
-
-    move-result p2
-
-    const/16 v1, 0x8
-
-    invoke-virtual {v0, p2, v1}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iget-object p2, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p2}, Lv6/c;->a(Landroid/content/Context;)I
-
-    move-result p2
-
-    invoke-virtual {v0, p2, v1}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iput-object v0, p1, Landroid/app/Notification;->contentView:Landroid/widget/RemoteViews;
-
-    :cond_0
     return-void
 .end method
 
-.method protected y(Landroid/widget/RemoteViews;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
+.method public recycle()V
     .locals 2
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAppIconSetting()Lcom/meizu/cloud/pushsdk/notification/model/AppIconSetting;
+    iget-object v0, p0, Ls6/c;->b:Ll6/e;
 
-    move-result-object v0
+    iget-object v1, p0, Lu6/d;->a:Landroid/graphics/drawable/Drawable;
 
-    if-eqz v0, :cond_0
+    check-cast v1, Landroid/graphics/drawable/BitmapDrawable;
 
-    invoke-virtual {p0}, La8/a;->k()Z
+    invoke-virtual {v1}, Landroid/graphics/drawable/BitmapDrawable;->getBitmap()Landroid/graphics/Bitmap;
 
-    move-result v0
+    move-result-object v1
 
-    if-nez v0, :cond_0
+    invoke-interface {v0, v1}, Ll6/e;->c(Landroid/graphics/Bitmap;)V
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAppIconSetting()Lcom/meizu/cloud/pushsdk/notification/model/AppIconSetting;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AppIconSetting;->isDefaultLargeIcon()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAppIconSetting()Lcom/meizu/cloud/pushsdk/notification/model/AppIconSetting;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AppIconSetting;->getLargeIconUrl()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, La8/a;->e(Ljava/lang/String;)Landroid/graphics/Bitmap;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    iget-object p2, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p2}, Lv6/c;->e(Landroid/content/Context;)I
-
-    move-result p2
-
-    invoke-virtual {p1, p2, v0}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
-
-    goto :goto_0
-
-    :cond_0
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->e(Landroid/content/Context;)I
-
-    move-result v0
-
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getUploadDataPackageName()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p0, v1, p2}, La8/a;->d(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
-
-    move-result-object p2
-
-    invoke-virtual {p1, v0, p2}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
-
-    :goto_0
     return-void
 .end method

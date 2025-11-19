@@ -1,6 +1,6 @@
 .class final Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;
 .super Ljava/lang/Object;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroidx/activity/Cancellable;
@@ -12,20 +12,27 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x12
+    accessFlags = 0x11
     name = "OnBackPressedCancellable"
 .end annotation
 
 
 # instance fields
 .field private final onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
-.field final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
+.field public final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
 
 
 # direct methods
 .method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/OnBackPressedCallback;)V
     .locals 1
+    .param p1    # Landroidx/activity/OnBackPressedDispatcher;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -36,7 +43,7 @@
 
     const-string v0, "onBackPressedCallback"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->this$0:Landroidx/activity/OnBackPressedDispatcher;
@@ -57,13 +64,13 @@
     .line 1
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
-    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lkotlin/collections/i;
+    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lkotlin/collections/c;
 
     move-result-object v0
 
     iget-object v1, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
-    invoke-virtual {v0, v1}, Lkotlin/collections/i;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lkotlin/collections/c;->remove(Ljava/lang/Object;)Z
 
     .line 2
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->this$0:Landroidx/activity/OnBackPressedDispatcher;
@@ -74,7 +81,7 @@
 
     iget-object v1, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -101,19 +108,19 @@
     .line 6
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedCallback;->getEnabledChangedCallback$activity_release()Lla/a;
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedCallback;->getEnabledChangedCallback$activity_release()Lco/a;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lco/a;->invoke()Ljava/lang/Object;
 
     .line 7
     :cond_1
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$OnBackPressedCancellable;->onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
 
-    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lla/a;)V
+    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lco/a;)V
 
     return-void
 .end method

@@ -1,393 +1,272 @@
-.class public final Lg4/a;
+.class public Lg4/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-basement@@18.3.0"
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Ljava/lang/String; = "OpenId"
+
+.field public static b:Z = false
 
 
 # direct methods
-.method public static a([II)Z
-    .locals 3
-    .param p0    # [I
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+.method public static constructor <clinit>()V
+    .locals 0
 
-    const/4 v0, 0x0
-
-    if-eqz p0, :cond_1
-
-    const/4 v1, 0x0
-
-    :goto_0
-    array-length v2, p0
-
-    if-ge v1, v2, :cond_1
-
-    aget v2, p0, v1
-
-    if-ne v2, p1, :cond_0
-
-    const/4 p0, 0x1
-
-    return p0
-
-    :cond_0
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    return v0
+    return-void
 .end method
 
-.method public static b([Ljava/lang/Object;Ljava/lang/Object;)Z
-    .locals 4
-    .param p0    # [Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">([TT;TT;)Z"
-        }
-    .end annotation
+.method public constructor <init>()V
+    .locals 0
 
-    const/4 v0, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    if-eqz p0, :cond_0
+    return-void
+.end method
 
-    array-length v1, p0
+.method public static a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+    .locals 3
 
-    goto :goto_0
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, ""
+
+    if-nez p0, :cond_0
+
+    move-object p0, v1
 
     :cond_0
-    const/4 v1, 0x0
-
-    :goto_0
     const/4 v2, 0x0
 
-    :goto_1
-    if-ge v2, v1, :cond_2
-
-    aget-object v3, p0, v2
-
-    invoke-static {v3, p1}, Lz3/g;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_1
-
-    if-ltz v2, :cond_2
+    aput-object p0, v0, v2
 
     const/4 p0, 0x1
 
-    return p0
+    if-nez p1, :cond_1
+
+    move-object p1, v1
 
     :cond_1
-    add-int/lit8 v2, v2, 0x1
+    aput-object p1, v0, p0
 
-    goto :goto_1
+    const-string p0, "%s:%s"
+
+    invoke-static {p0, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static varargs b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    .locals 5
+
+    if-nez p0, :cond_0
+
+    if-nez p1, :cond_0
+
+    const-string p0, ""
+
+    return-object p0
+
+    .line 1
+    :cond_0
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const/4 v1, 0x1
+
+    new-array v2, v1, [Ljava/lang/Object;
+
+    if-nez p0, :cond_1
+
+    const-string p0, "-"
+
+    :cond_1
+    const/4 v3, 0x0
+
+    aput-object p0, v2, v3
+
+    const-string p0, "[%s] "
+
+    .line 2
+    invoke-static {p0, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    if-eqz p1, :cond_4
+
+    .line 3
+    array-length p0, p1
+
+    :goto_0
+    add-int/lit8 v2, v3, 0x1
+
+    .line 4
+    array-length v4, p1
+
+    if-ge v2, v4, :cond_3
+
+    .line 5
+    aget-object v3, p1, v3
+
+    aget-object v4, p1, v2
+
+    invoke-static {v3, v4}, Lg4/a;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    add-int/lit8 v3, p0, -0x1
+
+    if-ge v2, v3, :cond_2
+
+    const-string v3, ","
+
+    .line 6
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_2
-    return v0
-.end method
-
-.method public static c(Ljava/lang/StringBuilder;[D)V
-    .locals 4
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [D
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    array-length v0, p1
-
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
-
-    .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 3
-    :cond_0
-    aget-wide v2, p1, v1
-
-    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
+    add-int/lit8 v3, v2, 0x1
 
     goto :goto_0
 
-    :cond_1
+    .line 7
+    :cond_3
+    array-length p0, p1
+
+    sub-int/2addr p0, v1
+
+    if-ne v3, p0, :cond_4
+
+    .line 8
+    aget-object p0, p1, v3
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 9
+    :cond_4
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static c(Z)V
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "setDebug:"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "OpenId"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 2
+    sput-boolean p0, Lg4/a;->b:Z
+
     return-void
 .end method
 
-.method public static d(Ljava/lang/StringBuilder;[F)V
-    .locals 3
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [F
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+.method public static varargs d(Ljava/lang/String;[Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    array-length v0, p1
+    sget-boolean v0, Lg4/a;->b:Z
 
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
+    if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, p1}, Lg4/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 3
+    move-result-object p0
+
+    const-string p1, "OpenId"
+
+    invoke-static {p1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
     :cond_0
-    aget v2, p1, v1
-
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
     return-void
 .end method
 
-.method public static e(Ljava/lang/StringBuilder;[I)V
-    .locals 3
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [I
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+.method public static varargs e(Ljava/lang/String;[Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    array-length v0, p1
+    sget-boolean v0, Lg4/a;->b:Z
 
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
+    if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, p1}, Lg4/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 3
+    move-result-object p0
+
+    const-string p1, "OpenId"
+
+    invoke-static {p1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
     :cond_0
-    aget v2, p1, v1
-
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
     return-void
 .end method
 
-.method public static f(Ljava/lang/StringBuilder;[J)V
-    .locals 4
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [J
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+.method public static varargs f(Ljava/lang/String;[Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    array-length v0, p1
+    sget-boolean v0, Lg4/a;->b:Z
 
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
+    if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, p1}, Lg4/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 3
+    move-result-object p0
+
+    const-string p1, "OpenId"
+
+    invoke-static {p1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     :cond_0
-    aget-wide v2, p1, v1
-
-    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
     return-void
 .end method
 
-.method public static g(Ljava/lang/StringBuilder;[Ljava/lang/Object;)V
-    .locals 3
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljava/lang/StringBuilder;",
-            "[TT;)V"
-        }
-    .end annotation
+.method public static varargs g(Ljava/lang/String;[Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    array-length v0, p1
+    sget-boolean v0, Lg4/a;->b:Z
 
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
+    if-eqz v0, :cond_0
 
     .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, p1}, Lg4/a;->b(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 3
-    :cond_0
-    aget-object v2, p1, v1
+    move-result-object p0
 
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    const-string p1, "OpenId"
 
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    return-void
-.end method
-
-.method public static h(Ljava/lang/StringBuilder;[Z)V
-    .locals 3
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [Z
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    array-length v0, p1
-
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
-
-    .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 3
-    :cond_0
-    aget-boolean v2, p1, v1
-
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    return-void
-.end method
-
-.method public static i(Ljava/lang/StringBuilder;[Ljava/lang/String;)V
-    .locals 4
-    .param p0    # Ljava/lang/StringBuilder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # [Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    array-length v0, p1
-
-    const/4 v1, 0x0
-
-    :goto_0
-    if-ge v1, v0, :cond_1
-
-    if-eqz v1, :cond_0
-
-    const-string v2, ","
-
-    .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
-    const-string v2, "\""
-
-    .line 3
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    aget-object v3, p1, v1
-
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    :cond_1
     return-void
 .end method

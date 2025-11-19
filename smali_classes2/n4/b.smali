@@ -1,49 +1,94 @@
-.class final Ln4/b;
-.super Lcom/google/android/gms/common/api/a$a;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.class public Ln4/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ln4/a;
+
+
+# static fields
+.field public static a:Ln4/a;
+
+.field public static b:Lh4/a;
 
 
 # direct methods
-.method constructor <init>()V
+.method public static constructor <clinit>()V
     .locals 0
-
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/a$a;-><init>()V
 
     return-void
 .end method
 
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static b(Landroid/content/Context;Ljava/lang/String;)Ln4/a;
+    .locals 1
+
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    :cond_0
+    sget-object v0, Ln4/b;->a:Ln4/a;
+
+    if-nez v0, :cond_1
+
+    invoke-static {p0, p1}, Lh4/d;->a(Landroid/content/Context;Ljava/lang/String;)Lh4/a;
+
+    move-result-object p0
+
+    sput-object p0, Ln4/b;->b:Lh4/a;
+
+    new-instance p0, Ln4/b;
+
+    invoke-direct {p0}, Ln4/b;-><init>()V
+
+    sput-object p0, Ln4/b;->a:Ln4/a;
+
+    :cond_1
+    sget-object p0, Ln4/b;->a:Ln4/a;
+
+    return-object p0
+.end method
+
 
 # virtual methods
-.method public final bridge synthetic a(Landroid/content/Context;Landroid/os/Looper;Lz3/c;Ljava/lang/Object;Lcom/google/android/gms/common/api/d$a;Lcom/google/android/gms/common/api/d$b;)Lcom/google/android/gms/common/api/a$f;
-    .locals 8
+.method public a(Ll4/d;)Ll4/c;
+    .locals 1
 
-    .line 1
-    check-cast p4, Ln4/a;
+    invoke-static {p1}, Ll4/b;->a(Ll4/d;)Lcom/alipay/tscenter/biz/rpc/report/general/model/DataReportRequest;
 
-    .line 2
-    new-instance p4, Lcom/google/android/gms/signin/internal/a;
+    move-result-object p1
 
-    .line 3
-    invoke-static {p3}, Lcom/google/android/gms/signin/internal/a;->g0(Lz3/c;)Landroid/os/Bundle;
+    sget-object v0, Ln4/b;->b:Lh4/a;
 
-    move-result-object v5
+    invoke-interface {v0, p1}, Lh4/a;->a(Lcom/alipay/tscenter/biz/rpc/report/general/model/DataReportRequest;)Lcom/alipay/tscenter/biz/rpc/report/general/model/DataReportResult;
 
-    const/4 v3, 0x1
+    move-result-object p1
 
-    move-object v0, p4
+    invoke-static {p1}, Ll4/b;->b(Lcom/alipay/tscenter/biz/rpc/report/general/model/DataReportResult;)Ll4/c;
 
-    move-object v1, p1
+    move-result-object p1
 
-    move-object v2, p2
+    return-object p1
+.end method
 
-    move-object v4, p3
+.method public logCollect(Ljava/lang/String;)Z
+    .locals 1
 
-    move-object v6, p5
+    sget-object v0, Ln4/b;->b:Lh4/a;
 
-    move-object v7, p6
+    invoke-interface {v0, p1}, Lh4/a;->logCollect(Ljava/lang/String;)Z
 
-    .line 4
-    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/signin/internal/a;-><init>(Landroid/content/Context;Landroid/os/Looper;ZLz3/c;Landroid/os/Bundle;Lcom/google/android/gms/common/api/d$a;Lcom/google/android/gms/common/api/d$b;)V
+    move-result p1
 
-    return-object p4
+    return p1
 .end method

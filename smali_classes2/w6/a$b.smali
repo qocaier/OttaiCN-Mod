@@ -1,107 +1,122 @@
-.class Lw6/a$b;
-.super Landroid/content/BroadcastReceiver;
+.class public Lw6/a$b;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
+.annotation build Landroidx/annotation/VisibleForTesting;
+.end annotation
+
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Lw6/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2
+    accessFlags = 0x9
     name = "b"
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lw6/a;
+.field public final a:Ljava/util/Queue;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Queue<",
+            "Lg6/d;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method private constructor <init>(Lw6/a;)V
-    .locals 0
+.method public constructor <init>()V
+    .locals 1
 
-    iput-object p1, p0, Lw6/a$b;->a:Lw6/a;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+    const/4 v0, 0x0
 
-    return-void
-.end method
+    .line 2
+    invoke-static {v0}, Lf7/n;->f(I)Ljava/util/Queue;
 
-.method synthetic constructor <init>(Lw6/a;Lw6/a$a;)V
-    .locals 0
+    move-result-object v0
 
-    invoke-direct {p0, p1}, Lw6/a$b;-><init>(Lw6/a;)V
+    iput-object v0, p0, Lw6/a$b;->a:Ljava/util/Queue;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    .locals 0
+.method public declared-synchronized a(Ljava/nio/ByteBuffer;)Lg6/d;
+    .locals 1
 
-    if-eqz p2, :cond_1
+    monitor-enter p0
 
-    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lw6/a$b;->a:Ljava/util/Queue;
 
-    move-result-object p1
+    invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;
 
-    const-string p2, "alarm.util"
+    move-result-object v0
 
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    check-cast v0, Lg6/d;
 
-    move-result p1
+    if-nez v0, :cond_0
 
-    if-nez p1, :cond_0
+    .line 2
+    new-instance v0, Lg6/d;
 
-    goto :goto_0
+    invoke-direct {v0}, Lg6/d;-><init>()V
 
+    .line 3
     :cond_0
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p2, "on receive delayed task, keyword: "
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object p2, p0, Lw6/a$b;->a:Lw6/a;
-
-    invoke-static {p2}, Lw6/a;->a(Lw6/a;)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lg6/d;->q(Ljava/nio/ByteBuffer;)Lg6/d;
 
     move-result-object p1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const-string p2, "AlarmUtils"
+    monitor-exit p0
 
-    invoke-static {p2, p1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+    return-object p1
 
-    iget-object p1, p0, Lw6/a$b;->a:Lw6/a;
+    :catchall_0
+    move-exception p1
 
-    const/4 p2, 0x1
+    monitor-exit p0
 
-    invoke-static {p1, p2}, Lw6/a;->c(Lw6/a;Z)Z
+    throw p1
+.end method
 
-    iget-object p1, p0, Lw6/a$b;->a:Lw6/a;
+.method public declared-synchronized b(Lg6/d;)V
+    .locals 1
 
-    invoke-static {p1}, Lw6/a;->e(Lw6/a;)V
+    monitor-enter p0
 
-    iget-object p1, p0, Lw6/a$b;->a:Lw6/a;
+    .line 1
+    :try_start_0
+    invoke-virtual {p1}, Lg6/d;->a()V
 
-    invoke-static {p1}, Lw6/a;->f(Lw6/a;)Ljava/lang/Runnable;
+    .line 2
+    iget-object v0, p0, Lw6/a$b;->a:Ljava/util/Queue;
 
-    move-result-object p1
+    invoke-interface {v0, p1}, Ljava/util/Queue;->offer(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+    .line 3
+    monitor-exit p0
 
-    :cond_1
-    :goto_0
     return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit p0
+
+    throw p1
 .end method

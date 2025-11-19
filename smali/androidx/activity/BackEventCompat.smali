@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/BackEventCompat;
 .super Ljava/lang/Object;
-.source "BackEventCompat.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -14,6 +14,9 @@
 
 # static fields
 .field public static final Companion:Landroidx/activity/BackEventCompat$Companion;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field public static final EDGE_LEFT:I = 0x0
 
@@ -31,14 +34,14 @@
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 2
 
     new-instance v0, Landroidx/activity/BackEventCompat$Companion;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/BackEventCompat$Companion;-><init>(Lkotlin/jvm/internal/o;)V
+    invoke-direct {v0, v1}, Landroidx/activity/BackEventCompat$Companion;-><init>(Ldo/u;)V
 
     sput-object v0, Landroidx/activity/BackEventCompat;->Companion:Landroidx/activity/BackEventCompat$Companion;
 
@@ -76,13 +79,17 @@
 
 .method public constructor <init>(Landroid/window/BackEvent;)V
     .locals 4
+    .param p1    # Landroid/window/BackEvent;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x22
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     sget-object v0, Landroidx/activity/Api34Impl;->INSTANCE:Landroidx/activity/Api34Impl;
@@ -152,6 +159,9 @@
         value = 0x22
     .end annotation
 
+    .annotation build Lzr/k;
+    .end annotation
+
     .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -189,6 +199,8 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;

@@ -1,626 +1,266 @@
-.class public final Lo3/d;
+.class public Lo3/d;
 .super Ljava/lang/Object;
-.source "WebvttCssStyle.java"
+.source "SourceFile"
+
+# interfaces
+.implements Lo3/a;
 
 
 # instance fields
-.field private a:Ljava/lang/String;
+.field public volatile a:Z
 
-.field private b:Ljava/lang/String;
+.field public volatile b:Lanet/channel/request/Cancelable;
 
-.field private c:Ljava/util/Set;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Set<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public c:Lo3/l;
 
-.field private d:Ljava/lang/String;
+.field public d:I
 
-.field private e:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public e:I
 
-.field private f:I
-    .annotation build Landroidx/annotation/ColorInt;
-    .end annotation
-.end field
-
-.field private g:Z
-
-.field private h:I
-
-.field private i:Z
-
-.field private j:I
-
-.field private k:I
-
-.field private l:I
-
-.field private m:I
-
-.field private n:I
-
-.field private o:F
-
-.field private p:I
-
-.field private q:Z
+.field public f:Lanet/channel/request/Request;
 
 
 # direct methods
-.method public constructor <init>()V
+.method public constructor <init>(Lo3/l;)V
     .locals 2
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, ""
+    const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Lo3/d;->a:Ljava/lang/String;
+    iput-boolean v0, p0, Lo3/d;->a:Z
+
+    const/4 v1, 0x0
 
     .line 3
-    iput-object v0, p0, Lo3/d;->b:Ljava/lang/String;
+    iput-object v1, p0, Lo3/d;->b:Lanet/channel/request/Cancelable;
 
     .line 4
-    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lo3/d;->c:Ljava/util/Set;
+    iput v0, p0, Lo3/d;->d:I
 
     .line 5
-    iput-object v0, p0, Lo3/d;->d:Ljava/lang/String;
-
-    const/4 v0, 0x0
+    iput v0, p0, Lo3/d;->e:I
 
     .line 6
-    iput-object v0, p0, Lo3/d;->e:Ljava/lang/String;
-
-    const/4 v0, 0x0
+    iput-object p1, p0, Lo3/d;->c:Lo3/l;
 
     .line 7
-    iput-boolean v0, p0, Lo3/d;->g:Z
+    iget-object p1, p1, Lo3/l;->a:Lj3/j;
 
-    .line 8
-    iput-boolean v0, p0, Lo3/d;->i:Z
+    invoke-virtual {p1}, Lj3/j;->a()Lanet/channel/request/Request;
 
-    const/4 v1, -0x1
+    move-result-object p1
 
-    .line 9
-    iput v1, p0, Lo3/d;->j:I
-
-    .line 10
-    iput v1, p0, Lo3/d;->k:I
-
-    .line 11
-    iput v1, p0, Lo3/d;->l:I
-
-    .line 12
-    iput v1, p0, Lo3/d;->m:I
-
-    .line 13
-    iput v1, p0, Lo3/d;->n:I
-
-    .line 14
-    iput v1, p0, Lo3/d;->p:I
-
-    .line 15
-    iput-boolean v0, p0, Lo3/d;->q:Z
+    iput-object p1, p0, Lo3/d;->f:Lanet/channel/request/Request;
 
     return-void
 .end method
 
-.method private static B(ILjava/lang/String;Ljava/lang/String;I)I
-    .locals 1
-    .param p2    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+.method public static synthetic a(Lo3/d;I)I
+    .locals 0
 
-    .line 1
-    invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
+    iput p1, p0, Lo3/d;->d:I
 
-    move-result v0
+    return p1
+.end method
 
-    if-nez v0, :cond_2
+.method public static synthetic b(Lo3/d;)Lo3/l;
+    .locals 0
 
-    const/4 v0, -0x1
+    iget-object p0, p0, Lo3/d;->c:Lo3/l;
 
-    if-ne p0, v0, :cond_0
+    return-object p0
+.end method
 
-    goto :goto_0
+.method public static synthetic c(Lo3/d;)I
+    .locals 2
 
-    .line 2
-    :cond_0
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    iget v0, p0, Lo3/d;->e:I
 
-    move-result p1
+    add-int/lit8 v1, v0, 0x1
 
-    if-eqz p1, :cond_1
+    iput v1, p0, Lo3/d;->e:I
 
-    add-int v0, p0, p3
-
-    :cond_1
     return v0
+.end method
 
-    :cond_2
-    :goto_0
+.method public static synthetic d(Lo3/d;)I
+    .locals 0
+
+    iget p0, p0, Lo3/d;->e:I
+
     return p0
+.end method
+
+.method public static synthetic e(Lo3/d;)I
+    .locals 0
+
+    iget p0, p0, Lo3/d;->d:I
+
+    return p0
+.end method
+
+.method public static synthetic f(Lo3/d;)Lanet/channel/request/Request;
+    .locals 0
+
+    iget-object p0, p0, Lo3/d;->f:Lanet/channel/request/Request;
+
+    return-object p0
 .end method
 
 
 # virtual methods
-.method public A(Z)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->k:I
-
-    return-object p0
-.end method
-
-.method public a()I
-    .locals 2
-
-    .line 1
-    iget-boolean v0, p0, Lo3/d;->i:Z
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    iget v0, p0, Lo3/d;->h:I
-
-    return v0
-
-    .line 3
-    :cond_0
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    const-string v1, "Background color not defined."
-
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-.end method
-
-.method public b()Z
+.method public cancel()V
     .locals 1
-
-    iget-boolean v0, p0, Lo3/d;->q:Z
-
-    return v0
-.end method
-
-.method public c()I
-    .locals 2
-
-    .line 1
-    iget-boolean v0, p0, Lo3/d;->g:Z
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    iget v0, p0, Lo3/d;->f:I
-
-    return v0
-
-    .line 3
-    :cond_0
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    const-string v1, "Font color not defined"
-
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-.end method
-
-.method public d()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    iget-object v0, p0, Lo3/d;->e:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public e()F
-    .locals 1
-
-    iget v0, p0, Lo3/d;->o:F
-
-    return v0
-.end method
-
-.method public f()I
-    .locals 1
-
-    iget v0, p0, Lo3/d;->n:I
-
-    return v0
-.end method
-
-.method public g()I
-    .locals 1
-
-    iget v0, p0, Lo3/d;->p:I
-
-    return v0
-.end method
-
-.method public h(Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;Ljava/lang/String;)I
-    .locals 3
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            "Ljava/util/Set<",
-            "Ljava/lang/String;",
-            ">;",
-            "Ljava/lang/String;",
-            ")I"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lo3/d;->a:Ljava/lang/String;
-
-    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lo3/d;->b:Ljava/lang/String;
-
-    .line 2
-    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lo3/d;->c:Ljava/util/Set;
-
-    .line 3
-    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lo3/d;->d:Ljava/lang/String;
-
-    .line 4
-    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 5
-    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result p1
-
-    return p1
-
-    .line 6
-    :cond_0
-    iget-object v0, p0, Lo3/d;->a:Ljava/lang/String;
-
-    const/high16 v1, 0x40000000    # 2.0f
-
-    const/4 v2, 0x0
-
-    invoke-static {v2, v0, p1, v1}, Lo3/d;->B(ILjava/lang/String;Ljava/lang/String;I)I
-
-    move-result p1
-
-    .line 7
-    iget-object v0, p0, Lo3/d;->b:Ljava/lang/String;
-
-    const/4 v1, 0x2
-
-    invoke-static {p1, v0, p2, v1}, Lo3/d;->B(ILjava/lang/String;Ljava/lang/String;I)I
-
-    move-result p1
-
-    .line 8
-    iget-object p2, p0, Lo3/d;->d:Ljava/lang/String;
-
-    const/4 v0, 0x4
-
-    invoke-static {p1, p2, p4, v0}, Lo3/d;->B(ILjava/lang/String;Ljava/lang/String;I)I
-
-    move-result p1
-
-    const/4 p2, -0x1
-
-    if-eq p1, p2, :cond_2
-
-    .line 9
-    iget-object p2, p0, Lo3/d;->c:Ljava/util/Set;
-
-    invoke-interface {p3, p2}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
-
-    move-result p2
-
-    if-nez p2, :cond_1
-
-    goto :goto_0
-
-    .line 10
-    :cond_1
-    iget-object p2, p0, Lo3/d;->c:Ljava/util/Set;
-
-    invoke-interface {p2}, Ljava/util/Set;->size()I
-
-    move-result p2
-
-    mul-int/lit8 p2, p2, 0x4
-
-    add-int/2addr p1, p2
-
-    return p1
-
-    :cond_2
-    :goto_0
-    return v2
-.end method
-
-.method public i()I
-    .locals 4
-
-    .line 1
-    iget v0, p0, Lo3/d;->l:I
-
-    const/4 v1, -0x1
-
-    if-ne v0, v1, :cond_0
-
-    iget v2, p0, Lo3/d;->m:I
-
-    if-ne v2, v1, :cond_0
-
-    return v1
-
-    :cond_0
-    const/4 v1, 0x0
-
-    const/4 v2, 0x1
-
-    if-ne v0, v2, :cond_1
 
     const/4 v0, 0x1
 
-    goto :goto_0
-
-    :cond_1
-    const/4 v0, 0x0
+    .line 1
+    iput-boolean v0, p0, Lo3/d;->a:Z
 
     .line 2
-    :goto_0
-    iget v3, p0, Lo3/d;->m:I
+    iget-object v0, p0, Lo3/d;->b:Lanet/channel/request/Cancelable;
 
-    if-ne v3, v2, :cond_2
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v0, p0, Lo3/d;->b:Lanet/channel/request/Cancelable;
+
+    invoke-interface {v0}, Lanet/channel/request/Cancelable;->cancel()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public run()V
+    .locals 5
+
+    .line 1
+    iget-boolean v0, p0, Lo3/d;->a:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    .line 2
+    :cond_0
+    iget-object v0, p0, Lo3/d;->c:Lo3/l;
+
+    iget-object v0, v0, Lo3/l;->a:Lj3/j;
+
+    invoke-virtual {v0}, Lj3/j;->n()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    .line 3
+    iget-object v0, p0, Lo3/d;->c:Lo3/l;
+
+    iget-object v0, v0, Lo3/l;->a:Lj3/j;
+
+    invoke-virtual {v0}, Lj3/j;->l()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lg3/a;->j(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 4
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    .line 5
+    iget-object v1, p0, Lo3/d;->f:Lanet/channel/request/Request;
+
+    invoke-virtual {v1}, Lanet/channel/request/Request;->newBuilder()Lanet/channel/request/Request$Builder;
+
+    move-result-object v1
+
+    .line 6
+    iget-object v2, p0, Lo3/d;->f:Lanet/channel/request/Request;
+
+    invoke-virtual {v2}, Lanet/channel/request/Request;->getHeaders()Ljava/util/Map;
+
+    move-result-object v2
+
+    const-string v3, "Cookie"
+
+    invoke-interface {v2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    .line 7
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_1
+
+    const-string v4, "; "
+
+    .line 8
+    invoke-static {v2, v4, v0}, Lanet/channel/util/StringUtils;->concatString(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 9
+    :cond_1
+    invoke-virtual {v1, v3, v0}, Lanet/channel/request/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lanet/channel/request/Request$Builder;
+
+    .line 10
+    invoke-virtual {v1}, Lanet/channel/request/Request$Builder;->build()Lanet/channel/request/Request;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lo3/d;->f:Lanet/channel/request/Request;
+
+    .line 11
+    :cond_2
+    iget-object v0, p0, Lo3/d;->f:Lanet/channel/request/Request;
+
+    iget-object v0, v0, Lanet/channel/request/Request;->a:Lanet/channel/statist/RequestStatistic;
 
     const/4 v1, 0x2
 
-    :cond_2
-    or-int/2addr v0, v1
+    iput v1, v0, Lanet/channel/statist/RequestStatistic;->degraded:I
 
-    return v0
-.end method
+    .line 12
+    iget-object v0, p0, Lo3/d;->f:Lanet/channel/request/Request;
 
-.method public j()Z
-    .locals 1
+    iget-object v0, v0, Lanet/channel/request/Request;->a:Lanet/channel/statist/RequestStatistic;
 
-    iget-boolean v0, p0, Lo3/d;->i:Z
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    return v0
-.end method
+    move-result-wide v1
 
-.method public k()Z
-    .locals 1
+    iget-object v3, p0, Lo3/d;->f:Lanet/channel/request/Request;
 
-    iget-boolean v0, p0, Lo3/d;->g:Z
+    iget-object v3, v3, Lanet/channel/request/Request;->a:Lanet/channel/statist/RequestStatistic;
 
-    return v0
-.end method
+    iget-wide v3, v3, Lanet/channel/statist/RequestStatistic;->reqStart:J
 
-.method public l()Z
-    .locals 2
+    sub-long/2addr v1, v3
 
-    iget v0, p0, Lo3/d;->j:I
+    iput-wide v1, v0, Lanet/channel/statist/RequestStatistic;->sendBeforeTime:J
 
-    const/4 v1, 0x1
+    .line 13
+    iget-object v0, p0, Lo3/d;->f:Lanet/channel/request/Request;
 
-    if-ne v0, v1, :cond_0
+    new-instance v1, Lo3/e;
 
-    goto :goto_0
+    invoke-direct {v1, p0}, Lo3/e;-><init>(Lo3/d;)V
 
-    :cond_0
-    const/4 v1, 0x0
-
-    :goto_0
-    return v1
-.end method
-
-.method public m()Z
-    .locals 2
-
-    iget v0, p0, Lo3/d;->k:I
-
-    const/4 v1, 0x1
-
-    if-ne v0, v1, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v1, 0x0
-
-    :goto_0
-    return v1
-.end method
-
-.method public n(I)Lo3/d;
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lo3/d;->h:I
-
-    const/4 p1, 0x1
-
-    .line 2
-    iput-boolean p1, p0, Lo3/d;->i:Z
-
-    return-object p0
-.end method
-
-.method public o(Z)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->l:I
-
-    return-object p0
-.end method
-
-.method public p(Z)Lo3/d;
-    .locals 0
-
-    iput-boolean p1, p0, Lo3/d;->q:Z
-
-    return-object p0
-.end method
-
-.method public q(I)Lo3/d;
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lo3/d;->f:I
-
-    const/4 p1, 0x1
-
-    .line 2
-    iput-boolean p1, p0, Lo3/d;->g:Z
-
-    return-object p0
-.end method
-
-.method public r(Ljava/lang/String;)Lo3/d;
-    .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-
-    if-nez p1, :cond_0
-
-    const/4 p1, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-static {p1}, Lcom/google/common/base/a;->e(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    :goto_0
-    iput-object p1, p0, Lo3/d;->e:Ljava/lang/String;
-
-    return-object p0
-.end method
-
-.method public s(F)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->o:F
-
-    return-object p0
-.end method
-
-.method public t(I)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->n:I
-
-    return-object p0
-.end method
-
-.method public u(Z)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->m:I
-
-    return-object p0
-.end method
-
-.method public v(I)Lo3/d;
-    .locals 0
-
-    iput p1, p0, Lo3/d;->p:I
-
-    return-object p0
-.end method
-
-.method public w([Ljava/lang/String;)V
-    .locals 1
-
-    new-instance v0, Ljava/util/HashSet;
-
-    invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
-
-    iput-object v0, p0, Lo3/d;->c:Ljava/util/Set;
-
-    return-void
-.end method
-
-.method public x(Ljava/lang/String;)V
-    .locals 0
-
-    iput-object p1, p0, Lo3/d;->a:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public y(Ljava/lang/String;)V
-    .locals 0
-
-    iput-object p1, p0, Lo3/d;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public z(Ljava/lang/String;)V
-    .locals 0
-
-    iput-object p1, p0, Lo3/d;->d:Ljava/lang/String;
+    .line 14
+    invoke-static {v0, v1}, Lanet/channel/session/b;->a(Lanet/channel/request/Request;Lanet/channel/RequestCb;)Lanet/channel/session/b$a;
 
     return-void
 .end method

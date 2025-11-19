@@ -1,9 +1,9 @@
 .class public final synthetic Landroidx/activity/b;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
+.source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/LifecycleEventObserver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
@@ -23,12 +23,12 @@
 
 
 # virtual methods
-.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+.method public final run()V
     .locals 1
 
     iget-object v0, p0, Landroidx/activity/b;->a:Landroidx/activity/ComponentActivity;
 
-    invoke-static {v0, p1, p2}, Landroidx/activity/ComponentActivity;->d(Landroidx/activity/ComponentActivity;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {v0}, Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;->b(Landroidx/activity/ComponentActivity;)V
 
     return-void
 .end method

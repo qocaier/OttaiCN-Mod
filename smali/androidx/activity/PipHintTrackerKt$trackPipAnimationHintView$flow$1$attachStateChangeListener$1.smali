@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
 .super Ljava/lang/Object;
-.source "PipHintTracker.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroid/view/View$OnAttachStateChangeListener;
@@ -18,30 +18,30 @@
 
 
 # instance fields
-.field final synthetic $$this$callbackFlow:Lkotlinx/coroutines/channels/l;
+.field public final synthetic $$this$callbackFlow:Lkotlinx/coroutines/channels/j;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/l<",
+            "Lkotlinx/coroutines/channels/j<",
             "Landroid/graphics/Rect;",
             ">;"
         }
     .end annotation
 .end field
 
-.field final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
+.field public final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
 
-.field final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
+.field public final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
-.field final synthetic $view:Landroid/view/View;
+.field public final synthetic $view:Landroid/view/View;
 
 
 # direct methods
-.method constructor <init>(Lkotlinx/coroutines/channels/l;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
+.method public constructor <init>(Lkotlinx/coroutines/channels/j;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/l<",
+            "Lkotlinx/coroutines/channels/j<",
             "-",
             "Landroid/graphics/Rect;",
             ">;",
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/l;
+    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/j;
 
     iput-object p2, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$view:Landroid/view/View;
 
@@ -69,13 +69,17 @@
 # virtual methods
 .method public onViewAttachedToWindow(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "v"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/l;
+    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/j;
 
     iget-object v0, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$view:Landroid/view/View;
 
@@ -83,7 +87,7 @@
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/n;->v(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/k;->B(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$view:Landroid/view/View;
@@ -108,10 +112,14 @@
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
     .locals 2
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "v"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;

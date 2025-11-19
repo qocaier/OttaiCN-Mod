@@ -1,3 +1,18 @@
 .class public interface abstract Le3/b;
 .super Ljava/lang/Object;
-.source "SsChunkSource.java"
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract handleCache(Ljava/lang/String;Ljava/util/Map;)Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)Z"
+        }
+    .end annotation
+.end method

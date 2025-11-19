@@ -1,14 +1,19 @@
-.class public interface abstract Lj4/a;
+.class public Lj4/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-basement@@18.3.0"
-
-# interfaces
-.implements Landroid/os/IInterface;
+.source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lj4/a$a;
-    }
-.end annotation
+# static fields
+.field public static final a:I = 0x493e0
+
+.field public static final b:Ljava/lang/String; = "1"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

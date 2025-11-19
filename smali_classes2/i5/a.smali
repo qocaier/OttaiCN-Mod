@@ -1,193 +1,365 @@
-.class final Li5/a;
+.class public Li5/a;
 .super Ljava/lang/Object;
-.source "BitArrayBuilder.java"
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Lcom/alipay/sdk/m/s/a;
+
+.field public b:Ljava/lang/String;
+
+.field public c:[Ljava/lang/String;
 
 
 # direct methods
-.method static a(Ljava/util/List;)Lb5/a;
-    .locals 9
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Li5/a;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lcom/alipay/sdk/m/s/a;)V
+    .locals 0
+
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    iput-object p1, p0, Li5/a;->b:Ljava/lang/String;
+
+    .line 5
+    iput-object p2, p0, Li5/a;->a:Lcom/alipay/sdk/m/s/a;
+
+    return-void
+.end method
+
+.method public static b(Lorg/json/JSONObject;)Ljava/util/List;
+    .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
+            "Lorg/json/JSONObject;",
+            ")",
             "Ljava/util/List<",
-            "Li5/b;",
-            ">;)",
-            "Lb5/a;"
+            "Li5/a;",
+            ">;"
         }
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/List;->size()I
+    new-instance v0, Ljava/util/ArrayList;
 
-    move-result v0
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    const/4 v1, 0x1
+    if-nez p0, :cond_0
 
-    shl-int/2addr v0, v1
-
-    sub-int/2addr v0, v1
-
-    .line 2
-    invoke-interface {p0}, Ljava/util/List;->size()I
-
-    move-result v2
-
-    sub-int/2addr v2, v1
-
-    invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Li5/b;
-
-    invoke-virtual {v2}, Li5/b;->d()Lh5/b;
-
-    move-result-object v2
-
-    if-nez v2, :cond_0
-
-    add-int/lit8 v0, v0, -0x1
+    return-object v0
 
     :cond_0
-    mul-int/lit8 v0, v0, 0xc
+    const-string v1, "name"
+
+    const-string v2, ""
+
+    .line 2
+    invoke-virtual {p0, v1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
 
     .line 3
-    new-instance v2, Lb5/a;
+    invoke-static {p0}, Li5/a;->d(Ljava/lang/String;)[Ljava/lang/String;
 
-    invoke-direct {v2, v0}, Lb5/a;-><init>(I)V
+    move-result-object p0
 
-    const/4 v0, 0x0
+    const/4 v1, 0x0
 
     .line 4
-    invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    :goto_0
+    array-length v2, p0
 
-    move-result-object v3
-
-    check-cast v3, Li5/b;
+    if-ge v1, v2, :cond_2
 
     .line 5
-    invoke-virtual {v3}, Li5/b;->d()Lh5/b;
+    aget-object v2, p0, v1
 
-    move-result-object v3
+    invoke-static {v2}, Lcom/alipay/sdk/m/s/a;->a(Ljava/lang/String;)Lcom/alipay/sdk/m/s/a;
 
-    invoke-virtual {v3}, Lh5/b;->b()I
-
-    move-result v3
-
-    const/16 v4, 0xb
-
-    const/16 v5, 0xb
-
-    :goto_0
-    if-ltz v5, :cond_2
-
-    shl-int v6, v1, v5
-
-    and-int/2addr v6, v3
-
-    if-eqz v6, :cond_1
+    move-result-object v2
 
     .line 6
-    invoke-virtual {v2, v0}, Lb5/a;->l(I)V
+    sget-object v3, Lcom/alipay/sdk/m/s/a;->b:Lcom/alipay/sdk/m/s/a;
 
+    if-ne v2, v3, :cond_1
+
+    goto :goto_1
+
+    .line 7
     :cond_1
-    add-int/lit8 v0, v0, 0x1
+    new-instance v3, Li5/a;
 
-    add-int/lit8 v5, v5, -0x1
+    aget-object v4, p0, v1
+
+    invoke-direct {v3, v4, v2}, Li5/a;-><init>(Ljava/lang/String;Lcom/alipay/sdk/m/s/a;)V
+
+    .line 8
+    aget-object v2, p0, v1
+
+    invoke-static {v2}, Li5/a;->f(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v2
+
+    iput-object v2, v3, Li5/a;->c:[Ljava/lang/String;
+
+    .line 9
+    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :goto_1
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
     :cond_2
-    const/4 v3, 0x1
+    return-object v0
+.end method
 
-    .line 7
-    :goto_1
-    invoke-interface {p0}, Ljava/util/List;->size()I
+.method public static c(Li5/a;)V
+    .locals 4
 
-    move-result v5
+    .line 1
+    invoke-virtual {p0}, Li5/a;->g()[Ljava/lang/String;
 
-    if-ge v3, v5, :cond_7
+    move-result-object p0
 
-    .line 8
-    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    .line 2
+    array-length v0, p0
 
-    move-result-object v5
+    const/4 v1, 0x3
 
-    check-cast v5, Li5/b;
+    if-eq v0, v1, :cond_0
 
-    .line 9
-    invoke-virtual {v5}, Li5/b;->c()Lh5/b;
+    return-void
 
-    move-result-object v6
+    :cond_0
+    const/4 v0, 0x0
 
-    invoke-virtual {v6}, Lh5/b;->b()I
+    .line 3
+    aget-object v0, p0, v0
 
-    move-result v6
+    const-string v1, "tid"
 
-    const/16 v7, 0xb
+    invoke-static {v1, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
-    :goto_2
-    if-ltz v7, :cond_4
+    move-result v0
 
-    shl-int v8, v1, v7
+    if-eqz v0, :cond_2
 
-    and-int/2addr v8, v6
+    .line 4
+    invoke-static {}, Lk5/b;->d()Lk5/b;
 
-    if-eqz v8, :cond_3
+    move-result-object v0
 
-    .line 10
-    invoke-virtual {v2, v0}, Lb5/a;->l(I)V
+    invoke-virtual {v0}, Lk5/b;->c()Landroid/content/Context;
 
-    :cond_3
-    add-int/lit8 v0, v0, 0x1
+    move-result-object v0
 
-    add-int/lit8 v7, v7, -0x1
+    invoke-static {v0}, Ll5/a;->b(Landroid/content/Context;)Ll5/a;
 
-    goto :goto_2
+    move-result-object v0
 
-    .line 11
-    :cond_4
-    invoke-virtual {v5}, Li5/b;->d()Lh5/b;
+    const/4 v1, 0x1
 
-    move-result-object v6
+    .line 5
+    aget-object v2, p0, v1
 
-    if-eqz v6, :cond_6
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 12
-    invoke-virtual {v5}, Li5/b;->d()Lh5/b;
+    move-result v2
 
-    move-result-object v5
+    if-nez v2, :cond_2
 
-    invoke-virtual {v5}, Lh5/b;->b()I
+    const/4 v2, 0x2
 
-    move-result v5
+    aget-object v3, p0, v2
 
-    const/16 v6, 0xb
+    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    :goto_3
-    if-ltz v6, :cond_6
+    move-result v3
 
-    shl-int v7, v1, v6
+    if-eqz v3, :cond_1
 
-    and-int/2addr v7, v5
+    goto :goto_0
 
-    if-eqz v7, :cond_5
+    .line 6
+    :cond_1
+    aget-object v1, p0, v1
 
-    .line 13
-    invoke-virtual {v2, v0}, Lb5/a;->l(I)V
+    aget-object p0, p0, v2
 
-    :cond_5
-    add-int/lit8 v0, v0, 0x1
+    invoke-virtual {v0, v1, p0}, Ll5/a;->c(Ljava/lang/String;Ljava/lang/String;)V
 
-    add-int/lit8 v6, v6, -0x1
+    nop
 
-    goto :goto_3
+    :cond_2
+    :goto_0
+    return-void
+.end method
 
-    :cond_6
-    add-int/lit8 v3, v3, 0x1
+.method public static d(Ljava/lang/String;)[Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, ";"
+
+    .line 2
+    invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return-object p0
+.end method
+
+.method public static f(Ljava/lang/String;)[Ljava/lang/String;
+    .locals 7
+
+    .line 1
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    const/16 v1, 0x28
+
+    .line 2
+    invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(I)I
+
+    move-result v1
+
+    const/16 v2, 0x29
+
+    .line 3
+    invoke-virtual {p0, v2}, Ljava/lang/String;->lastIndexOf(I)I
+
+    move-result v2
+
+    const/4 v3, -0x1
+
+    if-eq v1, v3, :cond_2
+
+    if-eq v2, v3, :cond_2
+
+    if-gt v2, v1, :cond_0
 
     goto :goto_1
 
-    :cond_7
-    return-object v2
+    :cond_0
+    add-int/lit8 v1, v1, 0x1
+
+    .line 4
+    invoke-virtual {p0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "\' *, *\'"
+
+    .line 5
+    invoke-virtual {p0, v1, v3}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 6
+    array-length v1, p0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    :goto_0
+    if-ge v3, v1, :cond_1
+
+    aget-object v4, p0, v3
+
+    .line 7
+    invoke-virtual {v4}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object v4
+
+    const-string v5, "\'"
+
+    const-string v6, ""
+
+    invoke-virtual {v4, v5, v6}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    const-string v5, "\""
+
+    invoke-virtual {v4, v5, v6}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-interface {v0, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    new-array p0, v2, [Ljava/lang/String;
+
+    .line 8
+    invoke-interface {v0, p0}, Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, [Ljava/lang/String;
+
+    return-object p0
+
+    :cond_2
+    :goto_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public a()Lcom/alipay/sdk/m/s/a;
+    .locals 1
+
+    iget-object v0, p0, Li5/a;->a:Lcom/alipay/sdk/m/s/a;
+
+    return-object v0
+.end method
+
+.method public e()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Li5/a;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public g()[Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Li5/a;->c:[Ljava/lang/String;
+
+    return-object v0
 .end method

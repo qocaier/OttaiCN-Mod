@@ -1,14 +1,14 @@
 .class public final Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
 .super Lkotlin/jvm/internal/Lambda;
-.source "ActivityViewModelLazy.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ActivityViewModelLazyKt;->viewModels(Landroidx/activity/ComponentActivity;Lla/a;Lla/a;)Lkotlin/d;
+    value = Landroidx/activity/ActivityViewModelLazyKt;->viewModels(Landroidx/activity/ComponentActivity;Lco/a;Lco/a;)Len/w;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,34 +19,44 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
+        "Lco/a<",
         "Landroidx/lifecycle/viewmodel/CreationExtras;",
         ">;"
     }
 .end annotation
 
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nActivityViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt$viewModels$4\n*L\n1#1,90:1\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nActivityViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt$viewModels$4\n*L\n1#1,90:1\n*E\n"
+    }
+.end annotation
+
 
 # instance fields
-.field final synthetic $extrasProducer:Lla/a;
+.field public final synthetic $extrasProducer:Lco/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lla/a<",
+            "Lco/a<",
             "Landroidx/lifecycle/viewmodel/CreationExtras;",
             ">;"
         }
     .end annotation
 .end field
 
-.field final synthetic $this_viewModels:Landroidx/activity/ComponentActivity;
+.field public final synthetic $this_viewModels:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method public constructor <init>(Lla/a;Landroidx/activity/ComponentActivity;)V
+.method public constructor <init>(Lco/a;Landroidx/activity/ComponentActivity;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/a<",
+            "Lco/a<",
             "+",
             "Landroidx/lifecycle/viewmodel/CreationExtras;",
             ">;",
@@ -55,7 +65,7 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lla/a;
+    iput-object p1, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lco/a;
 
     iput-object p2, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$this_viewModels:Landroidx/activity/ComponentActivity;
 
@@ -70,13 +80,15 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
     .locals 1
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lla/a;
+    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lco/a;
 
     if-eqz v0, :cond_0
 
-    invoke-interface {v0}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lco/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -1,12 +1,29 @@
-.class public final Lx4/b;
+.class public Lx4/b;
 .super Ljava/lang/Object;
-.source "AztecReader.java"
+.source "SourceFile"
 
-# interfaces
-.implements Lcom/google/zxing/g;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lx4/b$c;,
+        Lx4/b$b;,
+        Lx4/b$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final synthetic a:Z = true
 
 
 # direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 0
 
@@ -15,276 +32,237 @@
     return-void
 .end method
 
+.method public static a([BI)[B
+    .locals 2
 
-# virtual methods
-.method public a()V
-    .locals 0
+    array-length v0, p0
 
-    return-void
+    const/4 v1, 0x0
+
+    invoke-static {p0, v1, v0, p1}, Lx4/b;->b([BIII)[B
+
+    move-result-object p0
+
+    return-object p0
 .end method
 
-.method public b(Lcom/google/zxing/b;Ljava/util/Map;)Lcom/google/zxing/h;
-    .locals 10
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/zxing/b;",
-            "Ljava/util/Map<",
-            "Lcom/google/zxing/DecodeHintType;",
-            "*>;)",
-            "Lcom/google/zxing/h;"
-        }
-    .end annotation
+.method public static b([BIII)[B
+    .locals 2
 
-    .annotation system Ldalvik/annotation/Throws;
+    .line 1
+    new-instance v0, Lx4/b$b;
+
+    mul-int/lit8 v1, p2, 0x3
+
+    div-int/lit8 v1, v1, 0x4
+
+    new-array v1, v1, [B
+
+    invoke-direct {v0, p3, v1}, Lx4/b$b;-><init>(I[B)V
+
+    const/4 p3, 0x1
+
+    .line 2
+    invoke-virtual {v0, p0, p1, p2, p3}, Lx4/b$b;->a([BIIZ)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    .line 3
+    iget p0, v0, Lx4/b$a;->b:I
+
+    iget-object p1, v0, Lx4/b$a;->a:[B
+
+    array-length p2, p1
+
+    if-ne p0, p2, :cond_0
+
+    return-object p1
+
+    .line 4
+    :cond_0
+    new-array p2, p0, [B
+
+    const/4 p3, 0x0
+
+    .line 5
+    invoke-static {p1, p3, p2, p3, p0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    return-object p2
+
+    .line 6
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "bad base-64"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static c([BI)[B
+    .locals 2
+
+    array-length v0, p0
+
+    const/4 v1, 0x0
+
+    invoke-static {p0, v1, v0, p1}, Lx4/b;->d([BIII)[B
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static d([BIII)[B
+    .locals 5
+    .annotation build Landroid/annotation/SuppressLint;
         value = {
-            Lcom/google/zxing/NotFoundException;,
-            Lcom/google/zxing/FormatException;
+            "Assert"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Ly4/a;
-
-    invoke-virtual {p1}, Lcom/google/zxing/b;->a()Lb5/b;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ly4/a;-><init>(Lb5/b;)V
-
-    const/4 p1, 0x0
+    new-instance v0, Lx4/b$c;
 
     const/4 v1, 0x0
 
-    .line 2
-    :try_start_0
-    invoke-virtual {v0, p1}, Ly4/a;->a(Z)Lx4/a;
+    invoke-direct {v0, p3, v1}, Lx4/b$c;-><init>(I[B)V
 
-    move-result-object v2
+    .line 2
+    div-int/lit8 p3, p2, 0x3
+
+    mul-int/lit8 p3, p3, 0x4
 
     .line 3
-    invoke-virtual {v2}, Lb5/f;->b()[Lcom/google/zxing/i;
+    iget-boolean v1, v0, Lx4/b$c;->f:Z
 
-    move-result-object v3
-    :try_end_0
-    .catch Lcom/google/zxing/NotFoundException; {:try_start_0 .. :try_end_0} :catch_3
-    .catch Lcom/google/zxing/FormatException; {:try_start_0 .. :try_end_0} :catch_2
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    if-eqz v1, :cond_0
 
     .line 4
-    :try_start_1
-    new-instance v4, Lcom/google/zxing/aztec/decoder/Decoder;
+    rem-int/lit8 v1, p2, 0x3
 
-    invoke-direct {v4}, Lcom/google/zxing/aztec/decoder/Decoder;-><init>()V
+    if-lez v1, :cond_3
 
-    invoke-virtual {v4, v2}, Lcom/google/zxing/aztec/decoder/Decoder;->c(Lx4/a;)Lb5/d;
-
-    move-result-object v2
-    :try_end_1
-    .catch Lcom/google/zxing/NotFoundException; {:try_start_1 .. :try_end_1} :catch_1
-    .catch Lcom/google/zxing/FormatException; {:try_start_1 .. :try_end_1} :catch_0
-
-    move-object v4, v3
-
-    move-object v3, v1
-
-    move-object v1, v2
-
-    move-object v2, v3
-
-    goto :goto_2
-
-    :catch_0
-    move-exception v2
+    add-int/lit8 p3, p3, 0x4
 
     goto :goto_0
 
-    :catch_1
-    move-exception v2
+    .line 5
+    :cond_0
+    rem-int/lit8 v1, p2, 0x3
+
+    if-eq v1, v3, :cond_2
+
+    if-eq v1, v2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    add-int/lit8 p3, p3, 0x3
+
+    goto :goto_0
+
+    :cond_2
+    add-int/lit8 p3, p3, 0x2
+
+    .line 6
+    :cond_3
+    :goto_0
+    iget-boolean v1, v0, Lx4/b$c;->g:Z
+
+    if-eqz v1, :cond_5
+
+    if-lez p2, :cond_5
+
+    add-int/lit8 v1, p2, -0x1
+
+    .line 7
+    div-int/lit8 v1, v1, 0x39
+
+    add-int/2addr v1, v3
+
+    iget-boolean v4, v0, Lx4/b$c;->h:Z
+
+    if-eqz v4, :cond_4
 
     goto :goto_1
 
-    :catch_2
-    move-exception v2
+    :cond_4
+    const/4 v2, 0x1
 
-    move-object v3, v1
+    :goto_1
+    mul-int v1, v1, v2
 
-    :goto_0
-    move-object v4, v3
+    add-int/2addr p3, v1
 
-    move-object v3, v2
+    .line 8
+    :cond_5
+    new-array v1, p3, [B
 
-    move-object v2, v1
+    iput-object v1, v0, Lx4/b$a;->a:[B
+
+    .line 9
+    invoke-virtual {v0, p0, p1, p2, v3}, Lx4/b$c;->a([BIIZ)Z
+
+    .line 10
+    sget-boolean p0, Lx4/b;->a:Z
+
+    if-nez p0, :cond_7
+
+    iget p0, v0, Lx4/b$a;->b:I
+
+    if-ne p0, p3, :cond_6
 
     goto :goto_2
 
-    :catch_3
-    move-exception v2
+    :cond_6
+    new-instance p0, Ljava/lang/AssertionError;
 
-    move-object v3, v1
+    invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
-    :goto_1
-    move-object v4, v3
-
-    move-object v3, v1
-
-    :goto_2
-    if-nez v1, :cond_2
-
-    const/4 v1, 0x1
-
-    .line 5
-    :try_start_2
-    invoke-virtual {v0, v1}, Ly4/a;->a(Z)Lx4/a;
-
-    move-result-object v0
-
-    .line 6
-    invoke-virtual {v0}, Lb5/f;->b()[Lcom/google/zxing/i;
-
-    move-result-object v4
-
-    .line 7
-    new-instance v1, Lcom/google/zxing/aztec/decoder/Decoder;
-
-    invoke-direct {v1}, Lcom/google/zxing/aztec/decoder/Decoder;-><init>()V
-
-    invoke-virtual {v1, v0}, Lcom/google/zxing/aztec/decoder/Decoder;->c(Lx4/a;)Lb5/d;
-
-    move-result-object v1
-    :try_end_2
-    .catch Lcom/google/zxing/NotFoundException; {:try_start_2 .. :try_end_2} :catch_5
-    .catch Lcom/google/zxing/FormatException; {:try_start_2 .. :try_end_2} :catch_4
-
-    goto :goto_4
-
-    :catch_4
-    move-exception p1
-
-    goto :goto_3
-
-    :catch_5
-    move-exception p1
-
-    :goto_3
-    if-nez v2, :cond_1
-
-    if-eqz v3, :cond_0
-
-    .line 8
-    throw v3
-
-    .line 9
-    :cond_0
-    throw p1
-
-    .line 10
-    :cond_1
-    throw v2
-
-    :cond_2
-    :goto_4
-    move-object v6, v4
-
-    if-eqz p2, :cond_3
+    throw p0
 
     .line 11
-    sget-object v0, Lcom/google/zxing/DecodeHintType;->NEED_RESULT_POINT_CALLBACK:Lcom/google/zxing/DecodeHintType;
+    :cond_7
+    :goto_2
+    iget-object p0, v0, Lx4/b$a;->a:[B
 
-    invoke-interface {p2, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Lcom/google/zxing/j;
-
-    if-eqz p2, :cond_3
-
-    .line 12
-    array-length v0, v6
-
-    :goto_5
-    if-ge p1, v0, :cond_3
-
-    aget-object v2, v6, p1
-
-    .line 13
-    invoke-interface {p2, v2}, Lcom/google/zxing/j;->a(Lcom/google/zxing/i;)V
-
-    add-int/lit8 p1, p1, 0x1
-
-    goto :goto_5
-
-    .line 14
-    :cond_3
-    new-instance p1, Lcom/google/zxing/h;
-
-    invoke-virtual {v1}, Lb5/d;->h()Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 15
-    invoke-virtual {v1}, Lb5/d;->e()[B
-
-    move-result-object v4
-
-    .line 16
-    invoke-virtual {v1}, Lb5/d;->c()I
-
-    move-result v5
-
-    sget-object v7, Lcom/google/zxing/BarcodeFormat;->AZTEC:Lcom/google/zxing/BarcodeFormat;
-
-    .line 17
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v8
-
-    move-object v2, p1
-
-    invoke-direct/range {v2 .. v9}, Lcom/google/zxing/h;-><init>(Ljava/lang/String;[BI[Lcom/google/zxing/i;Lcom/google/zxing/BarcodeFormat;J)V
-
-    .line 18
-    invoke-virtual {v1}, Lb5/d;->a()Ljava/util/List;
-
-    move-result-object p2
-
-    if-eqz p2, :cond_4
-
-    .line 19
-    sget-object v0, Lcom/google/zxing/ResultMetadataType;->BYTE_SEGMENTS:Lcom/google/zxing/ResultMetadataType;
-
-    invoke-virtual {p1, v0, p2}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
-
-    .line 20
-    :cond_4
-    invoke-virtual {v1}, Lb5/d;->b()Ljava/lang/String;
-
-    move-result-object p2
-
-    if-eqz p2, :cond_5
-
-    .line 21
-    sget-object v0, Lcom/google/zxing/ResultMetadataType;->ERROR_CORRECTION_LEVEL:Lcom/google/zxing/ResultMetadataType;
-
-    invoke-virtual {p1, v0, p2}, Lcom/google/zxing/h;->h(Lcom/google/zxing/ResultMetadataType;Ljava/lang/Object;)V
-
-    :cond_5
-    return-object p1
+    return-object p0
 .end method
 
-.method public c(Lcom/google/zxing/b;)Lcom/google/zxing/h;
+.method public static e([BI)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/zxing/NotFoundException;,
-            Lcom/google/zxing/FormatException;
-        }
-    .end annotation
 
-    const/4 v0, 0x0
+    .line 1
+    :try_start_0
+    new-instance v0, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, v0}, Lx4/b;->b(Lcom/google/zxing/b;Ljava/util/Map;)Lcom/google/zxing/h;
+    invoke-static {p0, p1}, Lx4/b;->c([BI)[B
 
-    move-result-object p1
+    move-result-object p0
 
-    return-object p1
+    const-string p1, "US-ASCII"
+
+    invoke-direct {v0, p0, p1}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
+    :try_end_0
+    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    move-exception p0
+
+    .line 2
+    new-instance p1, Ljava/lang/AssertionError;
+
+    invoke-direct {p1, p0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw p1
 .end method

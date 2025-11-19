@@ -1,13 +1,21 @@
-.class public final synthetic Lq3/c;
+.class public interface abstract annotation Lq3/c;
 .super Ljava/lang/Object;
-.source "BandwidthMeter.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
-# direct methods
-.method public static a(Lq3/e;)J
-    .locals 2
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-    const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    return-wide v0
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

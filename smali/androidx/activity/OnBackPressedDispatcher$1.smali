@@ -1,9 +1,9 @@
 .class final Landroidx/activity/OnBackPressedDispatcher$1;
 .super Lkotlin/jvm/internal/Lambda;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/l;
+.implements Lco/l;
 
 
 # annotations
@@ -12,27 +12,27 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/l<",
+        "Lco/l<",
         "Landroidx/activity/BackEventCompat;",
-        "Lkotlin/s;",
+        "Len/y1;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
+.field public final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
+.method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$1;->this$0:Landroidx/activity/OnBackPressedDispatcher;
@@ -54,17 +54,21 @@
 
     invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedDispatcher$1;->invoke(Landroidx/activity/BackEventCompat;)V
 
-    sget-object p1, Lkotlin/s;->a:Lkotlin/s;
+    sget-object p1, Len/y1;->a:Len/y1;
 
     return-object p1
 .end method
 
 .method public final invoke(Landroidx/activity/BackEventCompat;)V
     .locals 1
+    .param p1    # Landroidx/activity/BackEventCompat;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$1;->this$0:Landroidx/activity/OnBackPressedDispatcher;

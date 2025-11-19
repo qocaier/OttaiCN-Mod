@@ -1,130 +1,106 @@
 .class public Ly5/l;
 .super Ljava/lang/Object;
+.source "SourceFile"
 
 
-# instance fields
-.field private final a:Lx5/b;
+# static fields
+.field public static a:Ly5/l;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
-    .locals 2
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    invoke-direct {p0, p1, p2}, Ly5/l;->a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    const/16 v1, 0x1a
-
-    if-ge v0, v1, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    new-instance v0, Ly5/i;
-
-    invoke-direct {v0, p1, p2}, Ly5/i;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :cond_1
-    :goto_0
-    new-instance v0, Ly5/h;
-
-    invoke-direct {v0, p1, p2}, Ly5/h;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    :goto_1
-    iput-object v0, p0, Ly5/l;->a:Lx5/b;
+.method public static constructor <clinit>()V
+    .locals 0
 
     return-void
 .end method
 
-.method private a(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static declared-synchronized a()Ly5/l;
     .locals 2
 
-    const-string v0, "agc_plugin_"
+    const-class v0, Ly5/l;
 
-    const-string v1, "crypto"
+    monitor-enter v0
 
-    invoke-static {p1, p2, v0, v1}, Ly5/m;->b(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
+    .line 1
     :try_start_0
-    new-instance p2, Ljava/lang/String;
+    sget-object v1, Ly5/l;->a:Ly5/l;
 
-    invoke-static {p1}, Ly5/a;->b(Ljava/lang/String;)[B
+    if-nez v1, :cond_0
 
-    move-result-object p1
+    .line 2
+    new-instance v1, Ly5/l;
 
-    const-string v0, "utf-8"
+    invoke-direct {v1}, Ly5/l;-><init>()V
 
-    invoke-direct {p2, p1, v0}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
-    :try_end_0
-    .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
+    sput-object v1, Ly5/l;->a:Ly5/l;
 
-    return-object p2
-
-    :catch_0
-    move-exception p1
-
-    goto :goto_0
-
-    :catch_1
-    move-exception p1
-
-    :goto_0
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "UnsupportedEncodingException"
-
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "ReaderStrategy"
-
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
+    .line 3
     :cond_0
-    const/4 p1, 0x0
+    sget-object v1, Ly5/l;->a:Ly5/l;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    return-object p1
+    monitor-exit v0
+
+    return-object v1
+
+    :catchall_0
+    move-exception v1
+
+    monitor-exit v0
+
+    throw v1
 .end method
 
 
 # virtual methods
-.method public b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+.method public b(Landroid/content/Context;Lx5/a;)Lcom/baseflow/geolocator/location/LocationAccuracyStatus;
     .locals 1
 
-    iget-object v0, p0, Ly5/l;->a:Lx5/b;
+    const-string v0, "android.permission.ACCESS_FINE_LOCATION"
 
-    invoke-interface {v0, p1, p2}, Lx5/b;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .line 1
+    invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
-    move-result-object p1
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 2
+    sget-object p1, Lcom/baseflow/geolocator/location/LocationAccuracyStatus;->precise:Lcom/baseflow/geolocator/location/LocationAccuracyStatus;
+
+    return-object p1
+
+    :cond_0
+    const-string v0, "android.permission.ACCESS_COARSE_LOCATION"
+
+    .line 3
+    invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    .line 4
+    sget-object p1, Lcom/baseflow/geolocator/location/LocationAccuracyStatus;->reduced:Lcom/baseflow/geolocator/location/LocationAccuracyStatus;
+
+    return-object p1
+
+    .line 5
+    :cond_1
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->permissionDenied:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p2, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    const/4 p1, 0x0
 
     return-object p1
 .end method

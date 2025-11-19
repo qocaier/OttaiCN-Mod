@@ -1,144 +1,180 @@
 .class public final Lr3/q;
 .super Ljava/lang/Object;
-.source "LongArray.java"
+.source "SourceFile"
+
+# interfaces
+.implements Lu3/c;
+.implements Lq3/e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lu3/c<",
+        "TT;>;",
+        "Lq3/e<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final c:Ljava/lang/Object;
+
+.field public static final synthetic d:Z
 
 
 # instance fields
-.field private a:I
+.field public volatile a:Lu3/c;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lu3/c<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
 
-.field private b:[J
+.field public volatile b:Ljava/lang/Object;
 
 
 # direct methods
-.method public constructor <init>()V
+.method public static constructor <clinit>()V
     .locals 1
 
-    const/16 v0, 0x20
+    new-instance v0, Ljava/lang/Object;
 
-    .line 1
-    invoke-direct {p0, v0}, Lr3/q;-><init>(I)V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lr3/q;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
-.method public constructor <init>(I)V
-    .locals 0
+.method public constructor <init>(Lu3/c;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "provider"
+        }
+    .end annotation
 
-    .line 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lu3/c<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
-    new-array p1, p1, [J
+    .line 2
+    sget-object v0, Lr3/q;->c:Ljava/lang/Object;
 
-    iput-object p1, p0, Lr3/q;->b:[J
+    iput-object v0, p0, Lr3/q;->b:Ljava/lang/Object;
+
+    .line 3
+    iput-object p1, p0, Lr3/q;->a:Lu3/c;
 
     return-void
+.end method
+
+.method public static a(Lu3/c;)Lu3/c;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "provider"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<P::",
+            "Lu3/c<",
+            "TT;>;T:",
+            "Ljava/lang/Object;",
+            ">(TP;)",
+            "Lu3/c<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    instance-of v0, p0, Lr3/q;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p0, Lr3/d;
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    new-instance v0, Lr3/q;
+
+    invoke-static {p0}, Lr3/l;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lu3/c;
+
+    invoke-direct {v0, p0}, Lr3/q;-><init>(Lu3/c;)V
+
+    return-object v0
+
+    :cond_1
+    :goto_0
+    return-object p0
 .end method
 
 
 # virtual methods
-.method public a(J)V
+.method public get()Ljava/lang/Object;
     .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
 
     .line 1
-    iget v0, p0, Lr3/q;->a:I
-
-    iget-object v1, p0, Lr3/q;->b:[J
-
-    array-length v2, v1
-
-    if-ne v0, v2, :cond_0
-
-    mul-int/lit8 v0, v0, 0x2
+    iget-object v0, p0, Lr3/q;->a:Lu3/c;
 
     .line 2
-    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([JI)[J
+    iget-object v1, p0, Lr3/q;->b:Ljava/lang/Object;
+
+    sget-object v2, Lr3/q;->c:Ljava/lang/Object;
+
+    if-ne v1, v2, :cond_0
+
+    .line 3
+    invoke-interface {v0}, Lu3/c;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    iput-object v0, p0, Lr3/q;->b:[J
+    iput-object v0, p0, Lr3/q;->b:Ljava/lang/Object;
 
-    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    iput-object v0, p0, Lr3/q;->a:Lu3/c;
+
+    .line 5
     :cond_0
-    iget-object v0, p0, Lr3/q;->b:[J
-
-    iget v1, p0, Lr3/q;->a:I
-
-    add-int/lit8 v2, v1, 0x1
-
-    iput v2, p0, Lr3/q;->a:I
-
-    aput-wide p1, v0, v1
-
-    return-void
-.end method
-
-.method public b(I)J
-    .locals 3
-
-    if-ltz p1, :cond_0
-
-    .line 1
-    iget v0, p0, Lr3/q;->a:I
-
-    if-ge p1, v0, :cond_0
-
-    .line 2
-    iget-object v0, p0, Lr3/q;->b:[J
-
-    aget-wide v1, v0, p1
-
-    return-wide v1
-
-    .line 3
-    :cond_0
-    new-instance v0, Ljava/lang/IndexOutOfBoundsException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "Invalid index "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p1, ", size is "
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget p1, p0, Lr3/q;->a:I
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-.end method
-
-.method public c()I
-    .locals 1
-
-    iget v0, p0, Lr3/q;->a:I
-
-    return v0
-.end method
-
-.method public d()[J
-    .locals 2
-
-    iget-object v0, p0, Lr3/q;->b:[J
-
-    iget v1, p0, Lr3/q;->a:I
-
-    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([JI)[J
-
-    move-result-object v0
+    iget-object v0, p0, Lr3/q;->b:Ljava/lang/Object;
 
     return-object v0
 .end method

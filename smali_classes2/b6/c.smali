@@ -1,124 +1,200 @@
-.class public final Lb6/c;
+.class public interface abstract Lb6/c;
 .super Ljava/lang/Object;
-
-# interfaces
-.implements La6/b;
+.source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "<TResult:",
+        "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Ljava/lang/Object;",
-        "La6/b<",
-        "TTResult;>;"
+        "Ljava/lang/Object;"
     }
 .end annotation
 
 
-# instance fields
-.field private a:La6/d;
-
-.field private b:Ljava/util/concurrent/Executor;
-
-.field private final c:Ljava/lang/Object;
-
-
-# direct methods
-.method constructor <init>(Ljava/util/concurrent/Executor;La6/d;)V
-    .locals 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/lang/Object;
-
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
-
-    iput-object v0, p0, Lb6/c;->c:Ljava/lang/Object;
-
-    iput-object p2, p0, Lb6/c;->a:La6/d;
-
-    iput-object p1, p0, Lb6/c;->b:Ljava/util/concurrent/Executor;
-
-    return-void
-.end method
-
-.method static synthetic a(Lb6/c;)Ljava/lang/Object;
-    .locals 0
-
-    iget-object p0, p0, Lb6/c;->c:Ljava/lang/Object;
-
-    return-object p0
-.end method
-
-.method static synthetic b(Lb6/c;)La6/d;
-    .locals 0
-
-    iget-object p0, p0, Lb6/c;->a:La6/d;
-
-    return-object p0
-.end method
-
-
 # virtual methods
-.method public final cancel()V
-    .locals 2
+.method public abstract a(Ljava/net/URL;)Ljava/lang/Object;
+    .param p1    # Ljava/net/URL;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    iget-object v0, p0, Lb6/c;->c:Ljava/lang/Object;
-
-    monitor-enter v0
-
-    const/4 v1, 0x0
-
-    :try_start_0
-    iput-object v1, p0, Lb6/c;->a:La6/d;
-
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception v1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v1
-.end method
-
-.method public final onComplete(La6/f;)V
-    .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "La6/f<",
-            "TTResult;>;)V"
+            "Ljava/net/URL;",
+            ")TT;"
         }
     .end annotation
 
-    invoke-virtual {p1}, La6/f;->h()Z
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+.end method
 
-    move-result v0
+.method public abstract b(Landroid/net/Uri;)Ljava/lang/Object;
+    .param p1    # Landroid/net/Uri;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    if-nez v0, :cond_0
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    invoke-virtual {p1}, La6/f;->f()Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/net/Uri;",
+            ")TT;"
+        }
+    .end annotation
+.end method
 
-    move-result v0
+.method public abstract c([B)Ljava/lang/Object;
+    .param p1    # [B
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    if-nez v0, :cond_0
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    iget-object v0, p0, Lb6/c;->b:Ljava/util/concurrent/Executor;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "([B)TT;"
+        }
+    .end annotation
+.end method
 
-    new-instance v1, Lb6/c$a;
+.method public abstract d(Ljava/io/File;)Ljava/lang/Object;
+    .param p1    # Ljava/io/File;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    invoke-direct {v1, p0, p1}, Lb6/c$a;-><init>(Lb6/c;La6/f;)V
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/io/File;",
+            ")TT;"
+        }
+    .end annotation
+.end method
 
-    :cond_0
-    return-void
+.method public abstract e(Landroid/graphics/drawable/Drawable;)Ljava/lang/Object;
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/drawable/Drawable;",
+            ")TT;"
+        }
+    .end annotation
+.end method
+
+.method public abstract k(Landroid/graphics/Bitmap;)Ljava/lang/Object;
+    .param p1    # Landroid/graphics/Bitmap;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/Bitmap;",
+            ")TT;"
+        }
+    .end annotation
+.end method
+
+.method public abstract m(Ljava/lang/Object;)Ljava/lang/Object;
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")TT;"
+        }
+    .end annotation
+.end method
+
+.method public abstract o(Ljava/lang/Integer;)Ljava/lang/Object;
+    .param p1    # Ljava/lang/Integer;
+        .annotation build Landroidx/annotation/DrawableRes;
+        .end annotation
+
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+
+        .annotation build Landroidx/annotation/RawRes;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Integer;",
+            ")TT;"
+        }
+    .end annotation
+.end method
+
+.method public abstract q(Ljava/lang/String;)Ljava/lang/Object;
+    .param p1    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")TT;"
+        }
+    .end annotation
 .end method

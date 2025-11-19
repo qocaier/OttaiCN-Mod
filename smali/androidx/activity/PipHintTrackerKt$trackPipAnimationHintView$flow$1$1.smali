@@ -1,9 +1,9 @@
 .class final Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;
 .super Lkotlin/jvm/internal/Lambda;
-.source "PipHintTracker.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,32 +12,32 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
-        "Lkotlin/s;",
+        "Lco/a<",
+        "Len/y1;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $attachStateChangeListener:Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
+.field public final synthetic $attachStateChangeListener:Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
 
-.field final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
+.field public final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
 
-.field final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
+.field public final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
-.field final synthetic $view:Landroid/view/View;
+.field public final synthetic $view:Landroid/view/View;
 
 
 # direct methods
-.method constructor <init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;)V
+.method public constructor <init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;->$view:Landroid/view/View;
@@ -63,7 +63,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;->invoke()V
 
-    sget-object v0, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v0, Len/y1;->a:Len/y1;
 
     return-object v0
 .end method

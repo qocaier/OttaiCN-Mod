@@ -1,6 +1,6 @@
 .class public interface abstract Landroidx/activity/Cancellable;
 .super Ljava/lang/Object;
-.source "Cancellable.kt"
+.source "SourceFile"
 
 
 # virtual methods

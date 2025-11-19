@@ -1,1141 +1,1690 @@
-.class public final Lf3/b;
+.class public Lf3/b;
 .super Ljava/lang/Object;
-.source "Cue.java"
-
-# interfaces
-.implements Lcom/google/android/exoplayer2/h;
-
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lf3/b$b;
-    }
-.end annotation
+.source "SourceFile"
 
 
 # static fields
-.field private static final A:Ljava/lang/String;
+.field public static final a:Ljava/lang/String; = "SERVICE_OPTIMIZE"
 
-.field private static final B:Ljava/lang/String;
+.field public static final b:Ljava/lang/String; = "SESSION_ASYNC_OPTIMIZE"
 
-.field private static final C:Ljava/lang/String;
+.field public static volatile c:Z = true
 
-.field private static final D:Ljava/lang/String;
+.field public static volatile d:Z = true
 
-.field private static final E:Ljava/lang/String;
+.field public static volatile e:Z = true
 
-.field private static final F:Ljava/lang/String;
+.field public static volatile f:I = 0x5
 
-.field private static final G:Ljava/lang/String;
+.field public static volatile g:Z = true
 
-.field private static final H:Ljava/lang/String;
+.field public static volatile h:Z = true
 
-.field private static final I:Ljava/lang/String;
+.field public static volatile i:Z = false
 
-.field public static final J:Lcom/google/android/exoplayer2/h$a;
+.field public static volatile j:J = 0x0L
+
+.field public static volatile k:Z = false
+
+.field public static volatile l:Ljava/util/concurrent/ConcurrentHashMap;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/google/android/exoplayer2/h$a<",
-            "Lf3/b;",
+            "Ljava/util/concurrent/ConcurrentHashMap<",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field public static volatile m:Ljava/util/concurrent/CopyOnWriteArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/CopyOnWriteArrayList<",
+            "Ljava/lang/String;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final r:Lf3/b;
-
-.field private static final s:Ljava/lang/String;
-
-.field private static final t:Ljava/lang/String;
-
-.field private static final u:Ljava/lang/String;
-
-.field private static final v:Ljava/lang/String;
-
-.field private static final w:Ljava/lang/String;
-
-.field private static final x:Ljava/lang/String;
-
-.field private static final y:Ljava/lang/String;
-
-.field private static final z:Ljava/lang/String;
-
-
-# instance fields
-.field public final a:Ljava/lang/CharSequence;
-    .annotation build Landroidx/annotation/Nullable;
+.field public static final n:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
     .end annotation
 .end field
 
-.field public final b:Landroid/text/Layout$Alignment;
-    .annotation build Landroidx/annotation/Nullable;
+.field public static volatile o:I
+
+.field public static volatile p:Z
+
+.field public static volatile q:Z
+
+.field public static volatile r:I
+
+.field public static volatile s:Ljava/util/concurrent/CopyOnWriteArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/CopyOnWriteArrayList<",
+            "Ljava/lang/String;",
+            ">;"
+        }
     .end annotation
 .end field
 
-.field public final c:Landroid/text/Layout$Alignment;
-    .annotation build Landroidx/annotation/Nullable;
+.field public static volatile t:Ljava/util/concurrent/ConcurrentHashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/ConcurrentHashMap<",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
     .end annotation
 .end field
 
-.field public final d:Landroid/graphics/Bitmap;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public static volatile u:Z
 
-.field public final e:F
+.field public static volatile v:Z
 
-.field public final f:I
+.field public static volatile w:Z
 
-.field public final g:I
+.field public static volatile x:Z
 
-.field public final h:F
+.field public static volatile y:Z
 
-.field public final i:I
-
-.field public final j:F
-
-.field public final k:F
-
-.field public final l:Z
-
-.field public final m:I
-
-.field public final n:I
-
-.field public final o:F
-
-.field public final p:I
-
-.field public final q:F
+.field public static volatile z:Lf3/a;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 2
+.method public static constructor <clinit>()V
+    .locals 3
 
     .line 1
-    new-instance v0, Lf3/b$b;
+    new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Lf3/b$b;-><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    const-string v1, ""
+    sput-object v0, Lf3/b;->n:Ljava/util/List;
 
-    invoke-virtual {v0, v1}, Lf3/b$b;->o(Ljava/lang/CharSequence;)Lf3/b$b;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lf3/b$b;->a()Lf3/b;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->r:Lf3/b;
-
-    const/4 v0, 0x0
+    const/16 v0, 0x2710
 
     .line 2
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->s:Ljava/lang/String;
+    sput v0, Lf3/b;->o:I
 
     const/4 v0, 0x1
 
     .line 3
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
+    sput-boolean v0, Lf3/b;->p:Z
 
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->t:Ljava/lang/String;
-
-    const/4 v0, 0x2
-
-    .line 4
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->u:Ljava/lang/String;
-
-    const/4 v0, 0x3
-
-    .line 5
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->v:Ljava/lang/String;
-
-    const/4 v0, 0x4
-
-    .line 6
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->w:Ljava/lang/String;
-
-    const/4 v0, 0x5
-
-    .line 7
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->x:Ljava/lang/String;
-
-    const/4 v0, 0x6
-
-    .line 8
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->y:Ljava/lang/String;
-
-    const/4 v0, 0x7
-
-    .line 9
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->z:Ljava/lang/String;
-
-    const/16 v0, 0x8
-
-    .line 10
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->A:Ljava/lang/String;
-
-    const/16 v0, 0x9
-
-    .line 11
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->B:Ljava/lang/String;
-
-    const/16 v0, 0xa
-
-    .line 12
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->C:Ljava/lang/String;
-
-    const/16 v0, 0xb
-
-    .line 13
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->D:Ljava/lang/String;
-
-    const/16 v0, 0xc
-
-    .line 14
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->E:Ljava/lang/String;
-
-    const/16 v0, 0xd
-
-    .line 15
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->F:Ljava/lang/String;
-
-    const/16 v0, 0xe
-
-    .line 16
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->G:Ljava/lang/String;
-
-    const/16 v0, 0xf
-
-    .line 17
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->H:Ljava/lang/String;
-
-    const/16 v0, 0x10
-
-    .line 18
-    invoke-static {v0}, Lr3/l0;->p0(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lf3/b;->I:Ljava/lang/String;
-
-    .line 19
-    sget-object v0, Lf3/a;->a:Lf3/a;
-
-    sput-object v0, Lf3/b;->J:Lcom/google/android/exoplayer2/h$a;
-
-    return-void
-.end method
-
-.method private constructor <init>(Ljava/lang/CharSequence;Landroid/text/Layout$Alignment;Landroid/text/Layout$Alignment;Landroid/graphics/Bitmap;FIIFIIFFFZIIF)V
-    .locals 4
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p2    # Landroid/text/Layout$Alignment;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p3    # Landroid/text/Layout$Alignment;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p4    # Landroid/graphics/Bitmap;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-
-    move-object v0, p0
-
-    move-object v1, p1
-
-    move-object v2, p4
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    if-nez v1, :cond_0
-
-    .line 3
-    invoke-static {p4}, Lr3/a;->e(Ljava/lang/Object;)Ljava/lang/Object;
-
-    goto :goto_1
-
-    :cond_0
-    if-nez v2, :cond_1
-
-    const/4 v3, 0x1
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v3, 0x0
-
-    .line 4
-    :goto_0
-    invoke-static {v3}, Lr3/a;->a(Z)V
-
-    .line 5
-    :goto_1
-    instance-of v3, v1, Landroid/text/Spanned;
-
-    if-eqz v3, :cond_2
-
-    .line 6
-    invoke-static {p1}, Landroid/text/SpannedString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannedString;
-
-    move-result-object v1
-
-    iput-object v1, v0, Lf3/b;->a:Ljava/lang/CharSequence;
-
-    :goto_2
-    move-object v1, p2
-
-    goto :goto_3
-
-    :cond_2
-    if-eqz v1, :cond_3
-
-    .line 7
-    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    iput-object v1, v0, Lf3/b;->a:Ljava/lang/CharSequence;
-
-    goto :goto_2
-
-    :cond_3
     const/4 v1, 0x0
 
-    .line 8
-    iput-object v1, v0, Lf3/b;->a:Ljava/lang/CharSequence;
-
-    goto :goto_2
-
-    .line 9
-    :goto_3
-    iput-object v1, v0, Lf3/b;->b:Landroid/text/Layout$Alignment;
-
-    move-object v1, p3
-
-    .line 10
-    iput-object v1, v0, Lf3/b;->c:Landroid/text/Layout$Alignment;
-
-    .line 11
-    iput-object v2, v0, Lf3/b;->d:Landroid/graphics/Bitmap;
-
-    move v1, p5
-
-    .line 12
-    iput v1, v0, Lf3/b;->e:F
-
-    move v1, p6
-
-    .line 13
-    iput v1, v0, Lf3/b;->f:I
-
-    move v1, p7
-
-    .line 14
-    iput v1, v0, Lf3/b;->g:I
-
-    move v1, p8
-
-    .line 15
-    iput v1, v0, Lf3/b;->h:F
-
-    move v1, p9
-
-    .line 16
-    iput v1, v0, Lf3/b;->i:I
-
-    move/from16 v1, p12
-
-    .line 17
-    iput v1, v0, Lf3/b;->j:F
-
-    move/from16 v1, p13
-
-    .line 18
-    iput v1, v0, Lf3/b;->k:F
-
-    move/from16 v1, p14
-
-    .line 19
-    iput-boolean v1, v0, Lf3/b;->l:Z
-
-    move/from16 v1, p15
-
-    .line 20
-    iput v1, v0, Lf3/b;->m:I
-
-    move v1, p10
-
-    .line 21
-    iput v1, v0, Lf3/b;->n:I
-
-    move v1, p11
-
-    .line 22
-    iput v1, v0, Lf3/b;->o:F
-
-    move/from16 v1, p16
-
-    .line 23
-    iput v1, v0, Lf3/b;->p:I
-
-    move/from16 v1, p17
-
-    .line 24
-    iput v1, v0, Lf3/b;->q:F
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(Ljava/lang/CharSequence;Landroid/text/Layout$Alignment;Landroid/text/Layout$Alignment;Landroid/graphics/Bitmap;FIIFIIFFFZIIFLf3/b$a;)V
-    .locals 0
-
-    .line 1
-    invoke-direct/range {p0 .. p17}, Lf3/b;-><init>(Ljava/lang/CharSequence;Landroid/text/Layout$Alignment;Landroid/text/Layout$Alignment;Landroid/graphics/Bitmap;FIIFIIFFFZIIF)V
-
-    return-void
-.end method
-
-.method public static synthetic a(Landroid/os/Bundle;)Lf3/b;
-    .locals 0
-
-    invoke-static {p0}, Lf3/b;->c(Landroid/os/Bundle;)Lf3/b;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method private static final c(Landroid/os/Bundle;)Lf3/b;
-    .locals 4
-
-    .line 1
-    new-instance v0, Lf3/b$b;
-
-    invoke-direct {v0}, Lf3/b$b;-><init>()V
-
-    .line 2
-    sget-object v1, Lf3/b;->s:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_0
-
-    .line 3
-    invoke-virtual {v0, v1}, Lf3/b$b;->o(Ljava/lang/CharSequence;)Lf3/b$b;
-
     .line 4
-    :cond_0
-    sget-object v1, Lf3/b;->t:Ljava/lang/String;
+    sput-boolean v1, Lf3/b;->q:Z
 
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/text/Layout$Alignment;
-
-    if-eqz v1, :cond_1
+    const v2, 0xea60
 
     .line 5
-    invoke-virtual {v0, v1}, Lf3/b$b;->p(Landroid/text/Layout$Alignment;)Lf3/b$b;
-
-    .line 6
-    :cond_1
-    sget-object v1, Lf3/b;->u:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/text/Layout$Alignment;
-
-    if-eqz v1, :cond_2
-
-    .line 7
-    invoke-virtual {v0, v1}, Lf3/b$b;->j(Landroid/text/Layout$Alignment;)Lf3/b$b;
-
-    .line 8
-    :cond_2
-    sget-object v1, Lf3/b;->v:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/graphics/Bitmap;
-
-    if-eqz v1, :cond_3
-
-    .line 9
-    invoke-virtual {v0, v1}, Lf3/b$b;->f(Landroid/graphics/Bitmap;)Lf3/b$b;
-
-    .line 10
-    :cond_3
-    sget-object v1, Lf3/b;->w:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_4
-
-    sget-object v2, Lf3/b;->x:Ljava/lang/String;
-
-    invoke-virtual {p0, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_4
-
-    .line 11
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result v1
-
-    invoke-virtual {p0, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v2
-
-    invoke-virtual {v0, v1, v2}, Lf3/b$b;->h(FI)Lf3/b$b;
-
-    .line 12
-    :cond_4
-    sget-object v1, Lf3/b;->y:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    .line 13
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->i(I)Lf3/b$b;
-
-    .line 14
-    :cond_5
-    sget-object v1, Lf3/b;->z:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_6
-
-    .line 15
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->k(F)Lf3/b$b;
-
-    .line 16
-    :cond_6
-    sget-object v1, Lf3/b;->A:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_7
-
-    .line 17
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->l(I)Lf3/b$b;
-
-    .line 18
-    :cond_7
-    sget-object v1, Lf3/b;->C:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_8
-
-    sget-object v2, Lf3/b;->B:Ljava/lang/String;
-
-    invoke-virtual {p0, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_8
-
-    .line 19
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result v1
-
-    invoke-virtual {p0, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v2
-
-    invoke-virtual {v0, v1, v2}, Lf3/b$b;->q(FI)Lf3/b$b;
-
-    .line 20
-    :cond_8
-    sget-object v1, Lf3/b;->D:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_9
-
-    .line 21
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->n(F)Lf3/b$b;
-
-    .line 22
-    :cond_9
-    sget-object v1, Lf3/b;->E:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_a
-
-    .line 23
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->g(F)Lf3/b$b;
-
-    .line 24
-    :cond_a
-    sget-object v1, Lf3/b;->F:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_b
-
-    .line 25
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->s(I)Lf3/b$b;
-
-    .line 26
-    :cond_b
-    sget-object v1, Lf3/b;->G:Ljava/lang/String;
+    sput v2, Lf3/b;->r:I
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v1, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
+    .line 6
+    sput-object v2, Lf3/b;->s:Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    move-result v1
+    .line 7
+    sput-object v2, Lf3/b;->t:Ljava/util/concurrent/ConcurrentHashMap;
 
-    if-nez v1, :cond_c
+    .line 8
+    sput-boolean v0, Lf3/b;->u:Z
 
-    .line 27
-    invoke-virtual {v0}, Lf3/b$b;->b()Lf3/b$b;
+    .line 9
+    sput-boolean v1, Lf3/b;->v:Z
 
-    .line 28
-    :cond_c
-    sget-object v1, Lf3/b;->H:Ljava/lang/String;
+    .line 10
+    sput-boolean v1, Lf3/b;->w:Z
 
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+    .line 11
+    sput-boolean v0, Lf3/b;->x:Z
 
-    move-result v2
+    .line 12
+    sput-boolean v0, Lf3/b;->y:Z
 
-    if-eqz v2, :cond_d
-
-    .line 29
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lf3/b$b;->r(I)Lf3/b$b;
-
-    .line 30
-    :cond_d
-    sget-object v1, Lf3/b;->I:Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_e
-
-    .line 31
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
-
-    move-result p0
-
-    invoke-virtual {v0, p0}, Lf3/b$b;->m(F)Lf3/b$b;
-
-    .line 32
-    :cond_e
-    invoke-virtual {v0}, Lf3/b$b;->a()Lf3/b;
-
-    move-result-object p0
-
-    return-object p0
+    return-void
 .end method
 
+.method public constructor <init>()V
+    .locals 0
 
-# virtual methods
-.method public b()Lf3/b$b;
-    .locals 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Lf3/b$b;
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, p0, v1}, Lf3/b$b;-><init>(Lf3/b;Lf3/b$a;)V
-
-    return-object v0
+    return-void
 .end method
 
-.method public equals(Ljava/lang/Object;)Z
-    .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+.method public static A(I)V
+    .locals 0
 
-    const/4 v0, 0x1
+    sput p0, Lf3/b;->r:I
 
-    if-ne p0, p1, :cond_0
+    return-void
+.end method
 
-    return v0
+.method public static B(Z)V
+    .locals 0
 
-    :cond_0
-    const/4 v1, 0x0
+    sput-boolean p0, Lf3/b;->k:Z
 
-    if-eqz p1, :cond_4
+    return-void
+.end method
+
+.method public static C(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->v:Z
+
+    return-void
+.end method
+
+.method public static D(J)V
+    .locals 5
 
     .line 1
-    const-class v2, Lf3/b;
+    sget-wide v0, Lf3/b;->j:J
 
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    cmp-long v2, p0, v0
+
+    if-eqz v2, :cond_0
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x4
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    const-string v3, "old"
+
+    aput-object v3, v1, v2
+
+    const/4 v2, 0x1
+
+    .line 2
+    sget-wide v3, Lf3/b;->j:J
+
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v3
 
-    if-eq v2, v3, :cond_1
+    aput-object v3, v1, v2
 
-    goto/16 :goto_2
+    const/4 v2, 0x2
 
-    .line 2
-    :cond_1
-    check-cast p1, Lf3/b;
+    const-string v3, "new"
+
+    aput-object v3, v1, v2
+
+    const/4 v2, 0x3
+
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const-string v3, "set cache flag"
+
+    invoke-static {v2, v3, v0, v1}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3
-    iget-object v2, p0, Lf3/b;->a:Ljava/lang/CharSequence;
-
-    iget-object v3, p1, Lf3/b;->a:Ljava/lang/CharSequence;
-
-    invoke-static {v2, v3}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_3
-
-    iget-object v2, p0, Lf3/b;->b:Landroid/text/Layout$Alignment;
-
-    iget-object v3, p1, Lf3/b;->b:Landroid/text/Layout$Alignment;
-
-    if-ne v2, v3, :cond_3
-
-    iget-object v2, p0, Lf3/b;->c:Landroid/text/Layout$Alignment;
-
-    iget-object v3, p1, Lf3/b;->c:Landroid/text/Layout$Alignment;
-
-    if-ne v2, v3, :cond_3
-
-    iget-object v2, p0, Lf3/b;->d:Landroid/graphics/Bitmap;
-
-    if-nez v2, :cond_2
-
-    iget-object v2, p1, Lf3/b;->d:Landroid/graphics/Bitmap;
-
-    if-nez v2, :cond_3
-
-    goto :goto_0
-
-    :cond_2
-    iget-object v3, p1, Lf3/b;->d:Landroid/graphics/Bitmap;
-
-    if-eqz v3, :cond_3
+    sput-wide p0, Lf3/b;->j:J
 
     .line 4
-    invoke-virtual {v2, v3}, Landroid/graphics/Bitmap;->sameAs(Landroid/graphics/Bitmap;)Z
+    invoke-static {}, Lanetwork/channel/http/NetworkSdkSetting;->getContext()Landroid/content/Context;
 
-    move-result v2
+    move-result-object p0
 
-    if-eqz v2, :cond_3
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
-    :goto_0
-    iget v2, p0, Lf3/b;->e:F
+    move-result-object p0
 
-    iget v3, p1, Lf3/b;->e:F
+    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
-    cmpl-float v2, v2, v3
+    move-result-object p0
 
-    if-nez v2, :cond_3
+    .line 5
+    sget-wide v0, Lf3/b;->j:J
 
-    iget v2, p0, Lf3/b;->f:I
+    const-string p1, "Cache.Flag"
 
-    iget v3, p1, Lf3/b;->f:I
+    invoke-interface {p0, p1, v0, v1}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    if-ne v2, v3, :cond_3
+    .line 6
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    iget v2, p0, Lf3/b;->g:I
+    .line 7
+    invoke-static {}, Le3/a;->b()V
 
-    iget v3, p1, Lf3/b;->g:I
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->h:F
-
-    iget v3, p1, Lf3/b;->h:F
-
-    cmpl-float v2, v2, v3
-
-    if-nez v2, :cond_3
-
-    iget v2, p0, Lf3/b;->i:I
-
-    iget v3, p1, Lf3/b;->i:I
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->j:F
-
-    iget v3, p1, Lf3/b;->j:F
-
-    cmpl-float v2, v2, v3
-
-    if-nez v2, :cond_3
-
-    iget v2, p0, Lf3/b;->k:F
-
-    iget v3, p1, Lf3/b;->k:F
-
-    cmpl-float v2, v2, v3
-
-    if-nez v2, :cond_3
-
-    iget-boolean v2, p0, Lf3/b;->l:Z
-
-    iget-boolean v3, p1, Lf3/b;->l:Z
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->m:I
-
-    iget v3, p1, Lf3/b;->m:I
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->n:I
-
-    iget v3, p1, Lf3/b;->n:I
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->o:F
-
-    iget v3, p1, Lf3/b;->o:F
-
-    cmpl-float v2, v2, v3
-
-    if-nez v2, :cond_3
-
-    iget v2, p0, Lf3/b;->p:I
-
-    iget v3, p1, Lf3/b;->p:I
-
-    if-ne v2, v3, :cond_3
-
-    iget v2, p0, Lf3/b;->q:F
-
-    iget p1, p1, Lf3/b;->q:F
-
-    cmpl-float p1, v2, p1
-
-    if-nez p1, :cond_3
-
-    goto :goto_1
-
-    :cond_3
-    const/4 v0, 0x0
-
-    :goto_1
-    return v0
-
-    :cond_4
-    :goto_2
-    return v1
+    :cond_0
+    return-void
 .end method
 
-.method public hashCode()I
-    .locals 3
+.method public static E(Z)V
+    .locals 2
 
-    const/16 v0, 0x11
+    .line 1
+    sput-boolean p0, Lf3/b;->w:Z
+
+    .line 2
+    invoke-static {}, Lanetwork/channel/http/NetworkSdkSetting;->getContext()Landroid/content/Context;
+
+    move-result-object p0
+
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object p0
+
+    .line 3
+    sget-boolean v0, Lf3/b;->w:Z
+
+    const-string v1, "CHANNEL_LOCAL_INSTANCE_ENABLE"
+
+    invoke-interface {p0, v1, v0}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+
+    .line 4
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    return-void
+.end method
+
+.method public static F(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->y:Z
+
+    return-void
+.end method
+
+.method public static G(Ljava/lang/String;)V
+    .locals 12
+
+    const/4 v0, 0x2
+
+    .line 1
+    invoke-static {v0}, Lanet/channel/util/ALog;->isPrintLog(I)Z
+
+    move-result v1
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    if-eqz v1, :cond_0
 
     new-array v0, v0, [Ljava/lang/Object;
 
+    const-string v1, "Degrade List"
+
+    aput-object v1, v0, v3
+
+    const/4 v1, 0x1
+
+    aput-object p0, v0, v1
+
+    const-string v1, "setDegradeRequestList"
+
+    .line 2
+    invoke-static {v2, v1, v4, v0}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 3
+    :cond_0
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 4
+    sput-object v4, Lf3/b;->t:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+
+    .line 5
+    :cond_1
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    .line 6
+    :try_start_0
+    new-instance v1, Lorg/json/JSONObject;
+
+    invoke-direct {v1, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
+    .line 7
+    invoke-virtual {v1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    .line 8
+    :catch_0
+    :cond_2
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_6
+
+    .line 9
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Ljava/lang/String;
+
+    .line 10
+    invoke-virtual {v1, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v6
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
+
+    :try_start_1
+    const-string v7, "*"
+
+    .line 11
+    invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_3
+
+    .line 12
+    sget-object v6, Lf3/b;->n:Ljava/util/List;
+
+    invoke-virtual {v0, v5, v6}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    .line 13
+    :cond_3
+    instance-of v7, v6, Lorg/json/JSONArray;
+
+    if-eqz v7, :cond_2
+
+    .line 14
+    check-cast v6, Lorg/json/JSONArray;
+
+    .line 15
+    invoke-virtual {v6}, Lorg/json/JSONArray;->length()I
+
+    move-result v7
+
+    .line 16
+    new-instance v8, Ljava/util/ArrayList;
+
+    invoke-direct {v8, v7}, Ljava/util/ArrayList;-><init>(I)V
+
+    const/4 v9, 0x0
+
+    :goto_1
+    if-ge v9, v7, :cond_5
+
+    .line 17
+    invoke-virtual {v6, v9}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
+
+    move-result-object v10
+
+    .line 18
+    instance-of v11, v10, Ljava/lang/String;
+
+    if-eqz v11, :cond_4
+
+    .line 19
+    check-cast v10, Ljava/lang/String;
+
+    invoke-virtual {v8, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_4
+    add-int/lit8 v9, v9, 0x1
+
+    goto :goto_1
+
+    .line 20
+    :cond_5
+    invoke-virtual {v8}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v6
+
+    if-nez v6, :cond_2
+
+    .line 21
+    invoke-virtual {v0, v5, v8}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_1
+    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
+
+    goto :goto_0
+
+    :catch_1
+    move-exception p0
+
+    new-array v1, v3, [Ljava/lang/Object;
+
+    const-string v3, "parse jsonObject failed"
+
+    .line 22
+    invoke-static {v2, v3, v4, p0, v1}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    .line 23
+    :cond_6
+    sput-object v0, Lf3/b;->t:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+.end method
+
+.method public static H(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->q:Z
+
+    return-void
+.end method
+
+.method public static I(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->h:Z
+
+    return-void
+.end method
+
+.method public static J(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->g:Z
+
+    return-void
+.end method
+
+.method public static K(Z)V
+    .locals 0
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    return-void
+.end method
+
+.method public static L(Ljava/lang/String;)V
+    .locals 7
+
     .line 1
-    iget-object v1, p0, Lf3/b;->a:Ljava/lang/CharSequence;
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    const/4 v2, 0x0
+    move-result v0
 
-    aput-object v1, v0, v2
+    const/4 v1, 0x0
 
-    iget-object v1, p0, Lf3/b;->b:Landroid/text/Layout$Alignment;
+    if-eqz v0, :cond_0
+
+    .line 2
+    sput-object v1, Lf3/b;->s:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 3
+    :try_start_0
+    new-instance v2, Lorg/json/JSONObject;
+
+    invoke-direct {v2, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
+    const-string p0, "host"
+
+    .line 4
+    invoke-virtual {v2, p0}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+
+    move-result-object p0
+
+    .line 5
+    invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
+
+    move-result v2
+
+    .line 6
+    new-instance v3, Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-direct {v3}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+
+    const/4 v4, 0x0
+
+    :goto_0
+    if-ge v4, v2, :cond_2
+
+    .line 7
+    invoke-virtual {p0, v4}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 8
+    invoke-static {v5}, Lanet/channel/strategy/utils/d;->c(Ljava/lang/String;)Z
+
+    move-result v6
+
+    if-eqz v6, :cond_1
+
+    .line 9
+    invoke-virtual {v3, v5}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_1
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_0
+
+    .line 10
+    :cond_2
+    sput-object v3, Lf3/b;->s:Ljava/util/concurrent/CopyOnWriteArrayList;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_1
+
+    :catch_0
+    move-exception p0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const-string v3, "parse hosts failed"
+
+    .line 11
+    invoke-static {v2, v3, v1, p0, v0}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    :goto_1
+    return-void
+.end method
+
+.method public static M(Lf3/a;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lf3/b;->z:Lf3/a;
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    sget-object v0, Lf3/b;->z:Lf3/a;
+
+    invoke-interface {v0}, Lf3/a;->unRegister()V
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    .line 3
+    invoke-interface {p0}, Lf3/a;->register()V
+
+    .line 4
+    :cond_1
+    sput-object p0, Lf3/b;->z:Lf3/a;
+
+    return-void
+.end method
+
+.method public static N(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->e:Z
+
+    return-void
+.end method
+
+.method public static O(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->u:Z
+
+    return-void
+.end method
+
+.method public static P(I)V
+    .locals 0
+
+    sput p0, Lf3/b;->o:I
+
+    return-void
+.end method
+
+.method public static Q(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->p:Z
+
+    return-void
+.end method
+
+.method public static R(Z)V
+    .locals 4
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/4 v1, 0x0
+
+    const-string v2, "enable"
+
+    aput-object v2, v0, v1
+
+    .line 1
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
 
     const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
-    iget-object v1, p0, Lf3/b;->c:Landroid/text/Layout$Alignment;
+    const-string v1, "anet.NetworkConfigCenter"
 
-    const/4 v2, 0x2
+    const-string v2, "[setSSLEnabled]"
 
-    aput-object v1, v0, v2
+    const/4 v3, 0x0
 
-    iget-object v1, p0, Lf3/b;->d:Landroid/graphics/Bitmap;
-
-    const/4 v2, 0x3
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->e:F
+    invoke-static {v1, v2, v3, v0}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 2
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    sput-boolean p0, Lf3/b;->c:Z
+
+    return-void
+.end method
+
+.method public static S(I)V
+    .locals 0
+
+    sput p0, Lf3/b;->f:I
+
+    return-void
+.end method
+
+.method public static T(Z)V
+    .locals 4
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/4 v1, 0x0
+
+    const-string v2, "enable"
+
+    aput-object v2, v0, v1
+
+    .line 1
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
 
-    const/4 v2, 0x4
+    const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
-    iget v1, p0, Lf3/b;->f:I
+    const-string v1, "anet.NetworkConfigCenter"
+
+    const-string v2, "[setSpdyEnabled]"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3, v0}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 2
+    sput-boolean p0, Lf3/b;->d:Z
+
+    return-void
+.end method
+
+.method public static U(Ljava/lang/String;)V
+    .locals 8
+
+    const/4 v0, 0x2
+
+    .line 1
+    invoke-static {v0}, Lanet/channel/util/ALog;->isPrintLog(I)Z
+
+    move-result v1
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    if-eqz v1, :cond_0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "White List"
+
+    aput-object v1, v0, v3
+
+    const/4 v1, 0x1
+
+    aput-object p0, v0, v1
+
+    const-string v1, "updateRequestWhiteList"
+
+    .line 2
+    invoke-static {v2, v1, v4, v0}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 3
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/4 v2, 0x5
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->g:I
-
-    .line 4
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/4 v2, 0x6
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->h:F
-
-    .line 5
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v1
-
-    const/4 v2, 0x7
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->i:I
-
-    .line 6
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/16 v2, 0x8
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->j:F
-
-    .line 7
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v1
-
-    const/16 v2, 0x9
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->k:F
-
-    .line 8
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v1
-
-    const/16 v2, 0xa
-
-    aput-object v1, v0, v2
-
-    iget-boolean v1, p0, Lf3/b;->l:Z
-
-    .line 9
-    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v1
-
-    const/16 v2, 0xb
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->m:I
-
-    .line 10
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/16 v2, 0xc
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->n:I
-
-    .line 11
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/16 v2, 0xd
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->o:F
-
-    .line 12
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v1
-
-    const/16 v2, 0xe
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->p:I
-
-    .line 13
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const/16 v2, 0xf
-
-    aput-object v1, v0, v2
-
-    iget v1, p0, Lf3/b;->q:F
-
-    .line 14
-    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v1
-
-    const/16 v2, 0x10
-
-    aput-object v1, v0, v2
-
-    .line 15
-    invoke-static {v0}, Lcom/google/common/base/l;->b([Ljava/lang/Object;)I
+    :cond_0
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
+    if-eqz v0, :cond_1
+
+    .line 4
+    sput-object v4, Lf3/b;->m:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    return-void
+
+    .line 5
+    :cond_1
+    :try_start_0
+    new-instance v0, Lorg/json/JSONArray;
+
+    invoke-direct {v0, p0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    invoke-virtual {v0}, Lorg/json/JSONArray;->length()I
+
+    move-result p0
+
+    .line 7
+    new-instance v1, Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    invoke-direct {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
+
+    const/4 v5, 0x0
+
+    :goto_0
+    if-ge v5, p0, :cond_3
+
+    .line 8
+    invoke-virtual {v0, v5}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
+
+    move-result-object v6
+
+    .line 9
+    invoke-virtual {v6}, Ljava/lang/String;->isEmpty()Z
+
+    move-result v7
+
+    if-nez v7, :cond_2
+
+    .line 10
+    invoke-virtual {v1, v6}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_2
+    add-int/lit8 v5, v5, 0x1
+
+    goto :goto_0
+
+    .line 11
+    :cond_3
+    sput-object v1, Lf3/b;->m:Ljava/util/concurrent/CopyOnWriteArrayList;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_1
+
+    :catch_0
+    move-exception p0
+
+    new-array v0, v3, [Ljava/lang/Object;
+
+    const-string v1, "parse bizId failed"
+
+    .line 12
+    invoke-static {v2, v1, v4, p0, v0}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    :goto_1
+    return-void
+.end method
+
+.method public static V(Ljava/lang/String;)V
+    .locals 12
+
+    const/4 v0, 0x2
+
+    .line 1
+    invoke-static {v0}, Lanet/channel/util/ALog;->isPrintLog(I)Z
+
+    move-result v1
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    if-eqz v1, :cond_0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "White List"
+
+    aput-object v1, v0, v3
+
+    const/4 v1, 0x1
+
+    aput-object p0, v0, v1
+
+    const-string v1, "updateWhiteUrlList"
+
+    .line 2
+    invoke-static {v2, v1, v4, v0}, Lanet/channel/util/ALog;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    .line 3
+    :cond_0
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 4
+    sput-object v4, Lf3/b;->l:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+
+    .line 5
+    :cond_1
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+
+    .line 6
+    :try_start_0
+    new-instance v1, Lorg/json/JSONObject;
+
+    invoke-direct {v1, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+
+    .line 7
+    invoke-virtual {v1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    .line 8
+    :catch_0
+    :cond_2
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_6
+
+    .line 9
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Ljava/lang/String;
+
+    .line 10
+    invoke-virtual {v1, v5}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v6
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
+
+    :try_start_1
+    const-string v7, "*"
+
+    .line 11
+    invoke-virtual {v7, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_3
+
+    .line 12
+    sget-object v6, Lf3/b;->n:Ljava/util/List;
+
+    invoke-virtual {v0, v5, v6}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    .line 13
+    :cond_3
+    instance-of v7, v6, Lorg/json/JSONArray;
+
+    if-eqz v7, :cond_2
+
+    .line 14
+    check-cast v6, Lorg/json/JSONArray;
+
+    .line 15
+    invoke-virtual {v6}, Lorg/json/JSONArray;->length()I
+
+    move-result v7
+
+    .line 16
+    new-instance v8, Ljava/util/ArrayList;
+
+    invoke-direct {v8, v7}, Ljava/util/ArrayList;-><init>(I)V
+
+    const/4 v9, 0x0
+
+    :goto_1
+    if-ge v9, v7, :cond_5
+
+    .line 17
+    invoke-virtual {v6, v9}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
+
+    move-result-object v10
+
+    .line 18
+    instance-of v11, v10, Ljava/lang/String;
+
+    if-eqz v11, :cond_4
+
+    .line 19
+    check-cast v10, Ljava/lang/String;
+
+    invoke-virtual {v8, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    :cond_4
+    add-int/lit8 v9, v9, 0x1
+
+    goto :goto_1
+
+    .line 20
+    :cond_5
+    invoke-virtual {v8}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v6
+
+    if-nez v6, :cond_2
+
+    .line 21
+    invoke-virtual {v0, v5, v8}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_1
+    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
+
+    goto :goto_0
+
+    :catch_1
+    move-exception p0
+
+    new-array v1, v3, [Ljava/lang/Object;
+
+    const-string v3, "parse jsonObject failed"
+
+    .line 22
+    invoke-static {v2, v3, v4, p0, v1}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    .line 23
+    :cond_6
+    sput-object v0, Lf3/b;->l:Ljava/util/concurrent/ConcurrentHashMap;
+
+    return-void
+.end method
+
+.method public static a(Z)V
+    .locals 0
+
+    if-eqz p0, :cond_0
+
+    const/4 p0, 0x1
+
+    .line 1
+    invoke-static {p0}, Lf3/b;->H(Z)V
+
+    const/16 p0, 0x10
+
+    .line 2
+    invoke-static {p0}, Lanet/channel/thread/ThreadPoolExecutorFactory;->setNormalExecutorPoolSize(I)V
+
+    const-string p0, "[{\"host\":\"trade-acs.m.taobao.com\", \"protocol\":\"http2\", \"rtt\":\"0rtt\", \"publicKey\": \"acs\", \"isKeepAlive\":true}]"
+
+    .line 3
+    invoke-static {p0}, Lanet/channel/AwcnConfig;->registerPresetSessions(Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 4
+    invoke-static {p0}, Lf3/b;->H(Z)V
+
+    const/4 p0, 0x6
+
+    .line 5
+    invoke-static {p0}, Lanet/channel/thread/ThreadPoolExecutorFactory;->setNormalExecutorPoolSize(I)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public static b()I
+    .locals 1
+
+    sget v0, Lf3/b;->r:I
+
     return v0
+.end method
+
+.method public static c()I
+    .locals 1
+
+    sget v0, Lf3/b;->o:I
+
+    return v0
+.end method
+
+.method public static d()I
+    .locals 1
+
+    sget v0, Lf3/b;->f:I
+
+    return v0
+.end method
+
+.method public static e()V
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lanetwork/channel/http/NetworkSdkSetting;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object v0
+
+    const-string v1, "Cache.Flag"
+
+    const-wide/16 v2, 0x0
+
+    .line 2
+    invoke-interface {v0, v1, v2, v3}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
+
+    move-result-wide v1
+
+    sput-wide v1, Lf3/b;->j:J
+
+    const-string v1, "CHANNEL_LOCAL_INSTANCE_ENABLE"
+
+    const/4 v2, 0x0
+
+    .line 3
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    sput-boolean v1, Lf3/b;->w:Z
+
+    const-string v1, "ALLOW_SPDY_WHEN_BIND_SERVICE_FAILED"
+
+    const/4 v2, 0x1
+
+    .line 4
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    sput-boolean v0, Lf3/b;->x:Z
+
+    return-void
+.end method
+
+.method public static f()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->g:Z
+
+    if-eqz v0, :cond_0
+
+    sget-boolean v0, Lf3/b;->i:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+.end method
+
+.method public static g()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->x:Z
+
+    return v0
+.end method
+
+.method public static h()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->k:Z
+
+    return v0
+.end method
+
+.method public static i()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->v:Z
+
+    return v0
+.end method
+
+.method public static j(Ljava/lang/String;)Z
+    .locals 3
+
+    .line 1
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    return v1
+
+    .line 2
+    :cond_0
+    sget-object v0, Lf3/b;->m:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    .line 3
+    sget-object v2, Lf3/b;->m:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    if-nez v2, :cond_1
+
+    return v1
+
+    .line 4
+    :cond_1
+    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_2
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    .line 5
+    invoke-virtual {p0, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_3
+    return v1
+.end method
+
+.method public static k()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->w:Z
+
+    return v0
+.end method
+
+.method public static l()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->y:Z
+
+    return v0
+.end method
+
+.method public static m()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->q:Z
+
+    return v0
+.end method
+
+.method public static n()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->h:Z
+
+    return v0
+.end method
+
+.method public static o()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->g:Z
+
+    return v0
+.end method
+
+.method public static p()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->e:Z
+
+    return v0
+.end method
+
+.method public static q()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->u:Z
+
+    return v0
+.end method
+
+.method public static r(Lanet/channel/statist/RequestStatistic;)Z
+    .locals 4
+
+    const/4 v0, 0x0
+
+    if-nez p0, :cond_0
+
+    return v0
+
+    .line 1
+    :cond_0
+    sget-object v1, Lf3/b;->s:Ljava/util/concurrent/CopyOnWriteArrayList;
+
+    if-nez v1, :cond_1
+
+    return v0
+
+    .line 2
+    :cond_1
+    iget-object v2, p0, Lanet/channel/statist/RequestStatistic;->host:Ljava/lang/String;
+
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    return v0
+
+    .line 3
+    :cond_2
+    invoke-virtual {v1}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_3
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    .line 4
+    iget-object v3, p0, Lanet/channel/statist/RequestStatistic;->host:Ljava/lang/String;
+
+    invoke-virtual {v3, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_4
+    return v0
+.end method
+
+.method public static s()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->p:Z
+
+    return v0
+.end method
+
+.method public static t()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->c:Z
+
+    return v0
+.end method
+
+.method public static u()Z
+    .locals 1
+
+    sget-boolean v0, Lf3/b;->d:Z
+
+    return v0
+.end method
+
+.method public static v(Lanet/channel/util/HttpUrl;)Z
+    .locals 5
+
+    const/4 v0, 0x0
+
+    if-nez p0, :cond_0
+
+    return v0
+
+    .line 1
+    :cond_0
+    sget-object v1, Lf3/b;->t:Ljava/util/concurrent/ConcurrentHashMap;
+
+    if-nez v1, :cond_1
+
+    return v0
+
+    .line 2
+    :cond_1
+    invoke-virtual {p0}, Lanet/channel/util/HttpUrl;->host()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/List;
+
+    if-nez v1, :cond_2
+
+    return v0
+
+    .line 3
+    :cond_2
+    sget-object v2, Lf3/b;->n:Ljava/util/List;
+
+    const/4 v3, 0x1
+
+    if-ne v1, v2, :cond_3
+
+    return v3
+
+    .line 4
+    :cond_3
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_4
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_5
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    .line 5
+    invoke-virtual {p0}, Lanet/channel/util/HttpUrl;->path()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    return v3
+
+    :cond_5
+    return v0
+.end method
+
+.method public static w(Lanet/channel/util/HttpUrl;)Z
+    .locals 5
+
+    const/4 v0, 0x0
+
+    if-nez p0, :cond_0
+
+    return v0
+
+    .line 1
+    :cond_0
+    sget-object v1, Lf3/b;->l:Ljava/util/concurrent/ConcurrentHashMap;
+
+    if-nez v1, :cond_1
+
+    return v0
+
+    .line 2
+    :cond_1
+    invoke-virtual {p0}, Lanet/channel/util/HttpUrl;->host()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/List;
+
+    if-nez v1, :cond_2
+
+    return v0
+
+    .line 3
+    :cond_2
+    sget-object v2, Lf3/b;->n:Ljava/util/List;
+
+    const/4 v3, 0x1
+
+    if-ne v1, v2, :cond_3
+
+    return v3
+
+    .line 4
+    :cond_3
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_4
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_5
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    .line 5
+    invoke-virtual {p0}, Lanet/channel/util/HttpUrl;->path()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    return v3
+
+    :cond_5
+    return v0
+.end method
+
+.method public static x(Z)V
+    .locals 0
+
+    sput-boolean p0, Lf3/b;->i:Z
+
+    return-void
+.end method
+
+.method public static y(Z)V
+    .locals 2
+
+    .line 1
+    sput-boolean p0, Lf3/b;->x:Z
+
+    .line 2
+    invoke-static {}, Lanetwork/channel/http/NetworkSdkSetting;->getContext()Landroid/content/Context;
+
+    move-result-object p0
+
+    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+
+    move-result-object p0
+
+    .line 3
+    sget-boolean v0, Lf3/b;->x:Z
+
+    const-string v1, "ALLOW_SPDY_WHEN_BIND_SERVICE_FAILED"
+
+    invoke-interface {p0, v1, v0}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+
+    .line 4
+    invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    return-void
+.end method
+
+.method public static z(Ljava/lang/String;)V
+    .locals 6
+
+    .line 1
+    invoke-static {}, Lanet/channel/GlobalAppRuntimeInfo;->isTargetProcess()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 2
+    :try_start_0
+    new-instance v1, Lorg/json/JSONArray;
+
+    invoke-direct {v1, p0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+
+    .line 3
+    invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
+
+    move-result p0
+
+    .line 4
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2, p0}, Ljava/util/ArrayList;-><init>(I)V
+
+    const/4 v3, 0x0
+
+    :goto_0
+    if-ge v3, p0, :cond_2
+
+    .line 5
+    invoke-virtual {v1, v3}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 6
+    invoke-static {v4}, Lanet/channel/strategy/utils/d;->c(Ljava/lang/String;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_1
+
+    .line 7
+    invoke-interface {v2, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :cond_1
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_0
+
+    .line 8
+    :cond_2
+    invoke-static {}, Lanet/channel/strategy/dispatch/HttpDispatcher;->getInstance()Lanet/channel/strategy/dispatch/HttpDispatcher;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v2}, Lanet/channel/strategy/dispatch/HttpDispatcher;->addHosts(Ljava/util/List;)V
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_1
+
+    :catch_0
+    move-exception p0
+
+    const/4 v1, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v2, "anet.NetworkConfigCenter"
+
+    const-string v3, "parse hosts failed"
+
+    .line 9
+    invoke-static {v2, v3, v1, p0, v0}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    :goto_1
+    return-void
 .end method

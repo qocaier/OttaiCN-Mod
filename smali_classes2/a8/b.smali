@@ -1,208 +1,158 @@
 .class public La8/b;
-.super Ls6/c;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
-    .locals 0
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        La8/b$a;
+    }
+.end annotation
 
-    invoke-direct {p0, p1, p2}, Ls6/c;-><init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+
+# instance fields
+.field public a:[Ljava/util/UUID;
+
+.field public b:[Ljava/lang/String;
+
+.field public c:Ljava/lang/String;
+
+.field public d:Z
+
+.field public e:Z
+
+.field public f:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 2
+    iput-object v0, p0, La8/b;->a:[Ljava/util/UUID;
+
+    .line 3
+    iput-object v0, p0, La8/b;->b:[Ljava/lang/String;
+
+    .line 4
+    iput-object v0, p0, La8/b;->c:Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    .line 5
+    iput-boolean v0, p0, La8/b;->d:Z
+
+    .line 6
+    iput-boolean v0, p0, La8/b;->e:Z
+
+    const-wide/16 v0, 0x2710
+
+    .line 7
+    iput-wide v0, p0, La8/b;->f:J
 
     return-void
 .end method
 
+.method public static synthetic a(La8/b;[Ljava/util/UUID;)[Ljava/util/UUID;
+    .locals 0
+
+    iput-object p1, p0, La8/b;->a:[Ljava/util/UUID;
+
+    return-object p1
+.end method
+
+.method public static synthetic b(La8/b;[Ljava/lang/String;)[Ljava/lang/String;
+    .locals 0
+
+    iput-object p1, p0, La8/b;->b:[Ljava/lang/String;
+
+    return-object p1
+.end method
+
+.method public static synthetic c(La8/b;Ljava/lang/String;)Ljava/lang/String;
+    .locals 0
+
+    iput-object p1, p0, La8/b;->c:Ljava/lang/String;
+
+    return-object p1
+.end method
+
+.method public static synthetic d(La8/b;Z)Z
+    .locals 0
+
+    iput-boolean p1, p0, La8/b;->d:Z
+
+    return p1
+.end method
+
+.method public static synthetic e(La8/b;Z)Z
+    .locals 0
+
+    iput-boolean p1, p0, La8/b;->e:Z
+
+    return p1
+.end method
+
+.method public static synthetic f(La8/b;J)J
+    .locals 0
+
+    iput-wide p1, p0, La8/b;->f:J
+
+    return-wide p1
+.end method
+
 
 # virtual methods
-.method protected j(Landroid/app/Notification;Lcom/meizu/cloud/pushsdk/handler/MessageV3;Landroid/app/PendingIntent;)V
-    .locals 6
+.method public g()Ljava/lang/String;
+    .locals 1
 
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MinSdkChecker;->isSupportNotificationBuild()Z
+    iget-object v0, p0, La8/b;->c:Ljava/lang/String;
 
-    move-result v0
+    return-object v0
+.end method
 
-    if-eqz v0, :cond_0
+.method public h()[Ljava/lang/String;
+    .locals 1
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
+    iget-object v0, p0, La8/b;->b:[Ljava/lang/String;
 
-    move-result-object v0
+    return-object v0
+.end method
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getBannerImageUrl()Ljava/lang/String;
+.method public i()J
+    .locals 2
 
-    move-result-object v0
+    iget-wide v0, p0, La8/b;->f:J
 
-    invoke-virtual {p0, v0}, La8/a;->e(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    return-wide v0
+.end method
 
-    move-result-object v0
+.method public j()[Ljava/util/UUID;
+    .locals 1
 
-    invoke-virtual {p0}, La8/a;->k()Z
+    iget-object v0, p0, La8/b;->a:[Ljava/util/UUID;
 
-    move-result v1
+    return-object v0
+.end method
 
-    if-nez v1, :cond_0
+.method public k()Z
+    .locals 1
 
-    if-eqz v0, :cond_0
+    iget-boolean v0, p0, La8/b;->d:Z
 
-    new-instance v1, Landroid/widget/RemoteViews;
+    return v0
+.end method
 
-    iget-object v2, p0, La8/a;->a:Landroid/content/Context;
+.method public l()Z
+    .locals 1
 
-    invoke-virtual {v2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    iget-boolean v0, p0, La8/b;->e:Z
 
-    move-result-object v2
-
-    iget-object v3, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v3}, Lv6/c;->l(Landroid/content/Context;)I
-
-    move-result v3
-
-    invoke-direct {v1, v2, v3}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
-
-    iget-object v2, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v2}, Lv6/c;->i(Landroid/content/Context;)I
-
-    move-result v2
-
-    invoke-virtual {v1, v2, v0}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->j(Landroid/content/Context;)I
-
-    move-result v0
-
-    const/16 v2, 0x8
-
-    invoke-virtual {v1, v0, v2}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->i(Landroid/content/Context;)I
-
-    move-result v0
-
-    const/4 v3, 0x0
-
-    invoke-virtual {v1, v0, v3}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iput-object v1, p1, Landroid/app/Notification;->contentView:Landroid/widget/RemoteViews;
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getInnerStyle()I
-
-    move-result v0
-
-    sget-object v1, Lcom/meizu/cloud/pushsdk/notification/model/styleenum/InnerStyleLayout;->EXPANDABLE_PIC:Lcom/meizu/cloud/pushsdk/notification/model/styleenum/InnerStyleLayout;
-
-    invoke-virtual {v1}, Lcom/meizu/cloud/pushsdk/notification/model/styleenum/InnerStyleLayout;->getCode()I
-
-    move-result v1
-
-    if-ne v0, v1, :cond_0
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getExpandableImageUrl()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, La8/a;->e(Ljava/lang/String;)Landroid/graphics/Bitmap;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, La8/a;->k()Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    if-eqz v0, :cond_0
-
-    new-instance v1, Landroid/widget/RemoteViews;
-
-    iget-object v4, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-virtual {v4}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v4
-
-    iget-object v5, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v5}, Lv6/c;->l(Landroid/content/Context;)I
-
-    move-result v5
-
-    invoke-direct {v1, v4, v5}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
-
-    iget-object v4, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v4}, Lv6/c;->j(Landroid/content/Context;)I
-
-    move-result v4
-
-    invoke-virtual {v1, v4, v0}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->j(Landroid/content/Context;)I
-
-    move-result v0
-
-    invoke-virtual {v1, v0, v3}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->i(Landroid/content/Context;)I
-
-    move-result v0
-
-    invoke-virtual {v1, v0, v2}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iput-object v1, p1, Landroid/app/Notification;->bigContentView:Landroid/widget/RemoteViews;
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAdvertisementOption()Lcom/meizu/cloud/pushsdk/notification/model/AdvertisementOption;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAdvertisementOption()Lcom/meizu/cloud/pushsdk/notification/model/AdvertisementOption;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/notification/model/AdvertisementOption;->getAdInstallPackage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    iget-object p1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p1}, Lv6/c;->k(Landroid/content/Context;)I
-
-    move-result p1
-
-    invoke-virtual {v1, p1, v3}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iget-object p1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p1}, Lv6/c;->k(Landroid/content/Context;)I
-
-    move-result p1
-
-    invoke-virtual {v1, p1, p3}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
-
-    :cond_0
-    return-void
+    return v0
 .end method

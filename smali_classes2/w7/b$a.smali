@@ -1,28 +1,37 @@
-.class Lw7/b$a;
+.class public Lw7/b$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lx7/a;
+.implements Ljava/util/Comparator;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lw7/b;->u()Lx7/a;
+    value = Lw7/b;->g()Ljava/util/List;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x1
     name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator<",
+        "Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;",
+        ">;"
+    }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lw7/b;
+.field public final synthetic a:Lw7/b;
 
 
 # direct methods
-.method constructor <init>(Lw7/b;)V
+.method public constructor <init>(Lw7/b;)V
     .locals 0
 
     iput-object p1, p0, Lw7/b$a;->a:Lw7/b;
@@ -34,45 +43,34 @@
 
 
 # virtual methods
-.method public a(JJ)V
-    .locals 3
+.method public a(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)I
+    .locals 0
 
-    iget-object v0, p0, Lw7/b$a;->a:Lw7/b;
+    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Q()Ljava/lang/String;
 
-    const-wide/16 v1, 0x64
+    move-result-object p1
 
-    mul-long v1, v1, p1
+    invoke-virtual {p2}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Q()Ljava/lang/String;
 
-    div-long/2addr v1, p3
+    move-result-object p2
 
-    long-to-int v2, v1
+    invoke-virtual {p1, p2}, Ljava/lang/String;->compareToIgnoreCase(Ljava/lang/String;)I
 
-    invoke-static {v0, v2}, Lw7/b;->a(Lw7/b;I)I
+    move-result p1
 
-    iget-object v0, p0, Lw7/b$a;->a:Lw7/b;
+    return p1
+.end method
 
-    invoke-static {v0}, Lw7/b;->i(Lw7/b;)Lx7/a;
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
 
-    move-result-object v0
+    check-cast p1, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
 
-    if-eqz v0, :cond_0
+    check-cast p2, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
 
-    iget-object v0, p0, Lw7/b$a;->a:Lw7/b;
+    invoke-virtual {p0, p1, p2}, Lw7/b$a;->a(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)I
 
-    invoke-static {v0}, Lw7/b;->g(Lw7/b;)Z
+    move-result p1
 
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lw7/b$a;->a:Lw7/b;
-
-    invoke-static {v0}, Lw7/b;->i(Lw7/b;)Lx7/a;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1, p2, p3, p4}, Lx7/a;->a(JJ)V
-
-    :cond_0
-    return-void
+    return p1
 .end method

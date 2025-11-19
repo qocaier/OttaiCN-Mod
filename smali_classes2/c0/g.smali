@@ -1,44 +1,34 @@
-.class public interface abstract Lc0/g;
+.class public final synthetic Lc0/g;
 .super Ljava/lang/Object;
-.source "Transformation.java"
+.source "SourceFile"
 
 # interfaces
-.implements Lc0/b;
+.implements Ljava/lang/Runnable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lc0/b;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lc0/g;->a:Landroidx/camera/video/internal/audio/AudioSource;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Lcom/bumptech/glide/load/engine/s;II)Lcom/bumptech/glide/load/engine/s;
-    .param p1    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lcom/bumptech/glide/load/engine/s;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+.method public final run()V
+    .locals 1
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/bumptech/glide/load/engine/s<",
-            "TT;>;II)",
-            "Lcom/bumptech/glide/load/engine/s<",
-            "TT;>;"
-        }
-    .end annotation
+    iget-object v0, p0, Lc0/g;->a:Landroidx/camera/video/internal/audio/AudioSource;
+
+    invoke-static {v0}, Landroidx/camera/video/internal/audio/AudioSource;->b(Landroidx/camera/video/internal/audio/AudioSource;)V
+
+    return-void
 .end method

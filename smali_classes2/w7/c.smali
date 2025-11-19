@@ -3,150 +3,442 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
-
 # instance fields
-.field private final a:Ljava/lang/Object;
+.field public a:Landroid/os/HandlerThread;
+
+.field public b:Landroid/os/Handler;
+
+.field public c:Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
+
+.field public d:Ljava/lang/String;
+
+.field public e:Ljava/lang/String;
+
+.field public f:[B
+
+.field public g:I
+
+.field public h:Z
+
+.field public i:J
+
+.field public j:Lx7/m;
+
+.field public k:Ljava/util/Queue;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "TT;"
+            "Ljava/util/Queue<",
+            "[B>;"
         }
     .end annotation
 .end field
 
-.field private final b:Lcom/meizu/s/a;
-
-.field private c:Lcom/meizu/t/k;
+.field public l:I
 
 
 # direct methods
-.method public constructor <init>(Lcom/meizu/s/a;)V
-    .locals 1
+.method public constructor <init>()V
+    .locals 2
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v0, 0x0
+    .line 2
+    new-instance v0, Landroid/os/HandlerThread;
 
-    iput-object v0, p0, Lw7/c;->a:Ljava/lang/Object;
+    const-string v1, "splitWriter"
 
-    iput-object p1, p0, Lw7/c;->b:Lcom/meizu/s/a;
+    invoke-direct {v0, v1}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
+
+    iput-object v0, p0, Lw7/c;->a:Landroid/os/HandlerThread;
+
+    .line 3
+    invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
+
+    .line 4
+    new-instance v0, Lw7/c$a;
+
+    iget-object v1, p0, Lw7/c;->a:Landroid/os/HandlerThread;
+
+    invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-direct {v0, p0, v1}, Lw7/c$a;-><init>(Lw7/c;Landroid/os/Looper;)V
+
+    iput-object v0, p0, Lw7/c;->b:Landroid/os/Handler;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/Object;)V
+.method public static synthetic a(Lw7/c;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lw7/c;->a:Ljava/lang/Object;
-
-    const/4 p1, 0x0
-
-    iput-object p1, p0, Lw7/c;->b:Lcom/meizu/s/a;
+    invoke-virtual {p0}, Lw7/c;->l()V
 
     return-void
 .end method
 
-.method public static b(Lcom/meizu/s/a;)Lw7/c;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/meizu/s/a;",
-            ")",
-            "Lw7/c<",
-            "TT;>;"
-        }
-    .end annotation
+.method public static synthetic b(Lw7/c;)I
+    .locals 0
 
-    new-instance v0, Lw7/c;
+    iget p0, p0, Lw7/c;->l:I
 
-    invoke-direct {v0, p0}, Lw7/c;-><init>(Lcom/meizu/s/a;)V
-
-    return-object v0
+    return p0
 .end method
 
-.method public static c(Ljava/lang/Object;)Lw7/c;
-    .locals 1
+.method public static synthetic c(Lw7/c;)Ljava/util/Queue;
+    .locals 0
+
+    iget-object p0, p0, Lw7/c;->k:Ljava/util/Queue;
+
+    return-object p0
+.end method
+
+.method public static synthetic d(Lw7/c;)Lx7/m;
+    .locals 0
+
+    iget-object p0, p0, Lw7/c;->j:Lx7/m;
+
+    return-object p0
+.end method
+
+.method public static synthetic e(Lw7/c;)Z
+    .locals 0
+
+    iget-boolean p0, p0, Lw7/c;->h:Z
+
+    return p0
+.end method
+
+.method public static synthetic f(Lw7/c;)Landroid/os/Handler;
+    .locals 0
+
+    iget-object p0, p0, Lw7/c;->b:Landroid/os/Handler;
+
+    return-object p0
+.end method
+
+.method public static synthetic g(Lw7/c;)J
+    .locals 2
+
+    iget-wide v0, p0, Lw7/c;->i:J
+
+    return-wide v0
+.end method
+
+.method public static i([BI)Ljava/util/Queue;
+    .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(TT;)",
-            "Lw7/c<",
-            "TT;>;"
+            "([BI)",
+            "Ljava/util/Queue<",
+            "[B>;"
         }
     .end annotation
 
-    new-instance v0, Lw7/c;
+    const/16 v0, 0x14
 
-    invoke-direct {v0, p0}, Lw7/c;-><init>(Ljava/lang/Object;)V
+    if-le p1, v0, :cond_0
 
+    const-string v0, "Be careful: split count beyond 20! Ensure MTU higher than 23!"
+
+    .line 1
+    invoke-static {v0}, Lb8/a;->d(Ljava/lang/String;)V
+
+    .line 2
+    :cond_0
+    new-instance v0, Ljava/util/LinkedList;
+
+    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+
+    .line 3
+    array-length v1, p0
+
+    rem-int/2addr v1, p1
+
+    const/4 v2, 0x1
+
+    if-nez v1, :cond_1
+
+    .line 4
+    array-length v1, p0
+
+    div-int/2addr v1, p1
+
+    goto :goto_0
+
+    .line 5
+    :cond_1
+    array-length v1, p0
+
+    div-int/2addr v1, p1
+
+    add-int/2addr v1, v2
+
+    int-to-float v1, v1
+
+    invoke-static {v1}, Ljava/lang/Math;->round(F)I
+
+    move-result v1
+
+    :goto_0
+    if-lez v1, :cond_5
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    :goto_1
+    if-ge v4, v1, :cond_5
+
+    if-eq v1, v2, :cond_3
+
+    add-int/lit8 v5, v1, -0x1
+
+    if-ne v4, v5, :cond_2
+
+    goto :goto_2
+
+    :cond_2
+    mul-int v5, v4, p1
+
+    .line 6
+    new-array v6, p1, [B
+
+    invoke-static {p0, v5, v6, v3, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    goto :goto_4
+
+    .line 7
+    :cond_3
+    :goto_2
+    array-length v5, p0
+
+    rem-int/2addr v5, p1
+
+    if-nez v5, :cond_4
+
+    move v5, p1
+
+    goto :goto_3
+
+    :cond_4
+    array-length v5, p0
+
+    rem-int/2addr v5, p1
+
+    :goto_3
+    mul-int v6, v4, p1
+
+    .line 8
+    new-array v7, v5, [B
+
+    invoke-static {p0, v6, v7, v3, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    move-object v6, v7
+
+    .line 9
+    :goto_4
+    invoke-interface {v0, v6}, Ljava/util/Queue;->offer(Ljava/lang/Object;)Z
+
+    add-int/lit8 v4, v4, 0x1
+
+    goto :goto_1
+
+    :cond_5
     return-object v0
 .end method
 
 
 # virtual methods
-.method public a()Lcom/meizu/s/a;
-    .locals 1
+.method public final h()V
+    .locals 2
 
-    iget-object v0, p0, Lw7/c;->b:Lcom/meizu/s/a;
+    .line 1
+    iget-object v0, p0, Lw7/c;->a:Landroid/os/HandlerThread;
 
-    return-object v0
-.end method
+    invoke-virtual {v0}, Landroid/os/HandlerThread;->quit()Z
 
-.method public d(Lcom/meizu/t/k;)V
-    .locals 0
+    .line 2
+    iget-object v0, p0, Lw7/c;->b:Landroid/os/Handler;
 
-    iput-object p1, p0, Lw7/c;->c:Lcom/meizu/t/k;
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public e()Ljava/lang/Object;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
+.method public final j()V
+    .locals 3
 
-    iget-object v0, p0, Lw7/c;->a:Ljava/lang/Object;
+    .line 1
+    iget-object v0, p0, Lw7/c;->f:[B
 
-    return-object v0
+    if-eqz v0, :cond_1
+
+    .line 2
+    iget v1, p0, Lw7/c;->g:I
+
+    const/4 v2, 0x1
+
+    if-lt v1, v2, :cond_0
+
+    .line 3
+    invoke-static {v0, v1}, Lw7/c;->i([BI)Ljava/util/Queue;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lw7/c;->k:Ljava/util/Queue;
+
+    .line 4
+    invoke-interface {v0}, Ljava/util/Queue;->size()I
+
+    move-result v0
+
+    iput v0, p0, Lw7/c;->l:I
+
+    .line 5
+    invoke-virtual {p0}, Lw7/c;->l()V
+
+    return-void
+
+    .line 6
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "split count should higher than 0!"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    .line 7
+    :cond_1
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    const-string v1, "data is Null!"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
 .end method
 
-.method public f()Z
-    .locals 1
+.method public k(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;Ljava/lang/String;Ljava/lang/String;[BZJLx7/m;)V
+    .locals 0
 
-    iget-object v0, p0, Lw7/c;->b:Lcom/meizu/s/a;
+    .line 1
+    iput-object p1, p0, Lw7/c;->c:Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
+
+    .line 2
+    iput-object p2, p0, Lw7/c;->d:Ljava/lang/String;
+
+    .line 3
+    iput-object p3, p0, Lw7/c;->e:Ljava/lang/String;
+
+    .line 4
+    iput-object p4, p0, Lw7/c;->f:[B
+
+    .line 5
+    iput-boolean p5, p0, Lw7/c;->h:Z
+
+    .line 6
+    iput-wide p6, p0, Lw7/c;->i:J
+
+    .line 7
+    invoke-static {}, Lv7/a;->w()Lv7/a;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lv7/a;->G()I
+
+    move-result p1
+
+    iput p1, p0, Lw7/c;->g:I
+
+    .line 8
+    iput-object p8, p0, Lw7/c;->j:Lx7/m;
+
+    .line 9
+    invoke-virtual {p0}, Lw7/c;->j()V
+
+    return-void
+.end method
+
+.method public final l()V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lw7/c;->k:Ljava/util/Queue;
+
+    invoke-interface {v0}, Ljava/util/Queue;->peek()Ljava/lang/Object;
+
+    move-result-object v0
 
     if-nez v0, :cond_0
 
-    const/4 v0, 0x1
+    .line 2
+    invoke-virtual {p0}, Lw7/c;->h()V
 
-    goto :goto_0
+    return-void
 
+    .line 3
     :cond_0
-    const/4 v0, 0x0
+    iget-object v0, p0, Lw7/c;->k:Ljava/util/Queue;
 
-    :goto_0
-    return v0
+    invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [B
+
+    .line 4
+    iget-object v1, p0, Lw7/c;->c:Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
+
+    invoke-virtual {v1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->R()Lw7/a;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lw7/c;->d:Ljava/lang/String;
+
+    iget-object v3, p0, Lw7/c;->e:Ljava/lang/String;
+
+    .line 5
+    invoke-virtual {v1, v2, v3}, Lw7/a;->D(Ljava/lang/String;Ljava/lang/String;)Lw7/a;
+
+    move-result-object v1
+
+    new-instance v2, Lw7/c$b;
+
+    invoke-direct {v2, p0}, Lw7/c$b;-><init>(Lw7/c;)V
+
+    iget-object v3, p0, Lw7/c;->e:Ljava/lang/String;
+
+    .line 6
+    invoke-virtual {v1, v0, v2, v3}, Lw7/a;->E([BLx7/m;Ljava/lang/String;)V
+
+    .line 7
+    iget-boolean v0, p0, Lw7/c;->h:Z
+
+    if-nez v0, :cond_1
+
+    .line 8
+    iget-object v0, p0, Lw7/c;->b:Landroid/os/Handler;
+
+    const/16 v1, 0x33
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
+
+    move-result-object v0
+
+    .line 9
+    iget-object v1, p0, Lw7/c;->b:Landroid/os/Handler;
+
+    iget-wide v2, p0, Lw7/c;->i:J
+
+    invoke-virtual {v1, v0, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
+
+    :cond_1
+    return-void
 .end method

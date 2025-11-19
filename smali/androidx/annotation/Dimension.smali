@@ -1,6 +1,6 @@
 .class public interface abstract annotation Landroidx/annotation/Dimension;
 .super Ljava/lang/Object;
-.source "Dimension.jvm.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Ljava/lang/annotation/Annotation;
@@ -16,6 +16,25 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Landroidx/annotation/Dimension$Companion;
+    }
+.end annotation
+
+.annotation runtime Lfn/a;
+.end annotation
+
+.annotation runtime Lfn/c;
+    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
+.end annotation
+
+.annotation runtime Lfn/d;
+    allowedTargets = {
+        .enum Lkotlin/annotation/AnnotationTarget;->FUNCTION:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_GETTER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_SETTER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->VALUE_PARAMETER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->FIELD:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->LOCAL_VARIABLE:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lkotlin/annotation/AnnotationTarget;
     }
 .end annotation
 
@@ -39,6 +58,9 @@
 
 # static fields
 .field public static final Companion:Landroidx/annotation/Dimension$Companion;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field public static final DP:I = 0x0
 
@@ -48,7 +70,7 @@
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     sget-object v0, Landroidx/annotation/Dimension$Companion;->$$INSTANCE:Landroidx/annotation/Dimension$Companion;

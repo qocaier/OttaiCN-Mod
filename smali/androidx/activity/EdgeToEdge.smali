@@ -1,6 +1,22 @@
 .class public final Landroidx/activity/EdgeToEdge;
 .super Ljava/lang/Object;
-.source "EdgeToEdge.kt"
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lbo/i;
+    name = "EdgeToEdge"
+.end annotation
+
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nEdgeToEdge.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EdgeToEdge.kt\nandroidx/activity/EdgeToEdge\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,333:1\n1#2:334\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nEdgeToEdge.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EdgeToEdge.kt\nandroidx/activity/EdgeToEdge\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,333:1\n1#2:334\n*E\n"
+    }
+.end annotation
 
 
 # static fields
@@ -9,10 +25,13 @@
 .field private static final DefaultLightScrim:I
 
 .field private static Impl:Landroidx/activity/EdgeToEdgeImpl;
+    .annotation build Lzr/l;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 2
 
     const/16 v0, 0xe6
@@ -42,10 +61,20 @@
 
 .method public static final enable(Landroidx/activity/ComponentActivity;)V
     .locals 2
+    .param p0    # Landroidx/activity/ComponentActivity;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/i;
+        name = "enable"
+    .end annotation
+
+    .annotation build Lbo/j;
+    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -58,14 +87,28 @@
 
 .method public static final enable(Landroidx/activity/ComponentActivity;Landroidx/activity/SystemBarStyle;)V
     .locals 2
+    .param p0    # Landroidx/activity/ComponentActivity;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p1    # Landroidx/activity/SystemBarStyle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/i;
+        name = "enable"
+    .end annotation
+
+    .annotation build Lbo/j;
+    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "statusBarStyle"
+    const-string/jumbo v0, "statusBarStyle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -78,18 +121,36 @@
 
 .method public static final enable(Landroidx/activity/ComponentActivity;Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;)V
     .locals 9
+    .param p0    # Landroidx/activity/ComponentActivity;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p1    # Landroidx/activity/SystemBarStyle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/activity/SystemBarStyle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/i;
+        name = "enable"
+    .end annotation
+
+    .annotation build Lbo/j;
+    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "statusBarStyle"
+    const-string/jumbo v0, "statusBarStyle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "navigationBarStyle"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -102,10 +163,10 @@
 
     const-string/jumbo v0, "window.decorView"
 
-    invoke-static {v5, v0}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/activity/SystemBarStyle;->getDetectDarkMode$activity_release()Lla/l;
+    invoke-virtual {p1}, Landroidx/activity/SystemBarStyle;->getDetectDarkMode$activity_release()Lco/l;
 
     move-result-object v0
 
@@ -115,9 +176,9 @@
 
     const-string/jumbo v2, "view.resources"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v0, v1}, Lla/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lco/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -128,7 +189,7 @@
     move-result v6
 
     .line 3
-    invoke-virtual {p2}, Landroidx/activity/SystemBarStyle;->getDetectDarkMode$activity_release()Lla/l;
+    invoke-virtual {p2}, Landroidx/activity/SystemBarStyle;->getDetectDarkMode$activity_release()Lco/l;
 
     move-result-object v0
 
@@ -136,9 +197,9 @@
 
     move-result-object v1
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v0, v1}, Lla/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lco/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -232,7 +293,7 @@
 
     const-string/jumbo v8, "window"
 
-    invoke-static {v4, v8}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v8}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     move-object v1, v0
 
@@ -248,7 +309,7 @@
 
     move-result-object p0
 
-    invoke-static {p0, v8}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v8}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-interface {v0, p0}, Landroidx/activity/EdgeToEdgeImpl;->adjustLayoutInDisplayCutoutMode(Landroid/view/Window;)V
 
@@ -275,7 +336,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILla/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILco/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p1
 
@@ -297,7 +358,7 @@
 
     const/4 v5, 0x0
 
-    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILla/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILco/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p2
 

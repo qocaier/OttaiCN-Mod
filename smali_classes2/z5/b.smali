@@ -1,20 +1,13 @@
 .class public interface abstract Lz5/b;
 .super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ljava/lang/FunctionalInterface;
+.end annotation
 
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;)Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            ")",
-            "Ljava/util/List<",
-            "Lz5/a;",
-            ">;"
-        }
-    .end annotation
-.end method
-
-.method public abstract initialize(Landroid/content/Context;)V
+.method public abstract a(Lcom/baseflow/geolocator/permission/LocationPermission;)V
 .end method

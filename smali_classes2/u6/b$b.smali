@@ -1,188 +1,166 @@
-.class Lu6/b$b;
+.class public final Lu6/b$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lh6/f;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lu6/b;->b(Z)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lu6/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lh6/f<",
+        "Ljava/nio/ByteBuffer;",
+        "Landroid/graphics/drawable/Drawable;",
+        ">;"
+    }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lu6/b;
+.field public final a:Lu6/b;
 
 
 # direct methods
-.method constructor <init>(Lu6/b;)V
+.method public constructor <init>(Lu6/b;)V
     .locals 0
 
-    iput-object p1, p0, Lu6/b$b;->a:Lu6/b;
-
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lu6/b$b;->a:Lu6/b;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public run()V
-    .locals 5
+.method public bridge synthetic a(Ljava/lang/Object;Lh6/e;)Z
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    invoke-virtual {p0, p1, p2}, Lu6/b$b;->d(Ljava/nio/ByteBuffer;Lh6/e;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic b(Ljava/lang/Object;IILh6/e;)Lk6/j;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lu6/b$b;->c(Ljava/nio/ByteBuffer;IILh6/e;)Lk6/j;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public c(Ljava/nio/ByteBuffer;IILh6/e;)Lk6/j;
+    .locals 1
+    .param p1    # Ljava/nio/ByteBuffer;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/nio/ByteBuffer;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lk6/j<",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, Landroid/graphics/ImageDecoder;->createSource(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+
+    move-result-object p1
+
+    .line 2
     iget-object v0, p0, Lu6/b$b;->a:Lu6/b;
 
-    invoke-static {v0}, Lu6/b;->a(Lu6/b;)Ljava/util/List;
+    invoke-virtual {v0, p1, p2, p3, p4}, Lu6/b;->b(Landroid/graphics/ImageDecoder$Source;IILh6/e;)Lk6/j;
 
-    move-result-object v0
+    move-result-object p1
 
-    monitor-enter v0
+    return-object p1
+.end method
 
-    :try_start_0
-    iget-object v1, p0, Lu6/b$b;->a:Lu6/b;
+.method public d(Ljava/nio/ByteBuffer;Lh6/e;)Z
+    .locals 0
+    .param p1    # Ljava/nio/ByteBuffer;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {v1}, Lu6/b;->d(Lu6/b;)Landroid/os/Handler;
+    iget-object p2, p0, Lu6/b$b;->a:Lu6/b;
 
-    move-result-object v1
+    invoke-virtual {p2, p1}, Lu6/b;->d(Ljava/nio/ByteBuffer;)Z
 
-    const/4 v2, 0x0
+    move-result p1
 
-    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
-
-    new-instance v1, Ljava/util/ArrayList;
-
-    iget-object v2, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v2}, Lu6/b;->a(Lu6/b;)Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    iget-object v2, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v2}, Lu6/b;->a(Lu6/b;)Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-interface {v2}, Ljava/util/List;->clear()V
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_1
-
-    :try_start_1
-    iget-object v0, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v0}, Lu6/b;->f(Lu6/b;)Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v0}, Lu6/b;->h(Lu6/b;)Lu6/e;
-
-    move-result-object v0
-
-    iget-object v2, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v2}, Lu6/b;->f(Lu6/b;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v2}, Lu6/e;->c(Ljava/lang/String;)V
-
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lu6/b$c;
-
-    iget-object v2, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v2}, Lu6/b;->h(Lu6/b;)Lu6/e;
-
-    move-result-object v2
-
-    iget-object v3, v1, Lu6/b$c;->a:Ljava/lang/String;
-
-    iget-object v4, v1, Lu6/b$c;->b:Ljava/lang/String;
-
-    iget-object v1, v1, Lu6/b$c;->c:Ljava/lang/String;
-
-    invoke-virtual {v2, v3, v4, v1}, Lu6/e;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    goto :goto_0
-
-    :catch_0
-    :cond_0
-    :try_start_2
-    iget-object v0, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v0}, Lu6/b;->h(Lu6/b;)Lu6/e;
-
-    move-result-object v0
-    :try_end_2
-    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
-
-    goto :goto_1
-
-    :catchall_0
-    move-exception v0
-
-    :try_start_3
-    iget-object v1, p0, Lu6/b$b;->a:Lu6/b;
-
-    invoke-static {v1}, Lu6/b;->h(Lu6/b;)Lu6/e;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lu6/e;->a()V
-    :try_end_3
-    .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
-
-    :catch_1
-    throw v0
-
-    :goto_1
-    :try_start_4
-    invoke-virtual {v0}, Lu6/e;->a()V
-    :try_end_4
-    .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_2
-
-    :catch_2
-    return-void
-
-    :catchall_1
-    move-exception v1
-
-    :try_start_5
-    monitor-exit v0
-    :try_end_5
-    .catchall {:try_start_5 .. :try_end_5} :catchall_1
-
-    throw v1
+    return p1
 .end method

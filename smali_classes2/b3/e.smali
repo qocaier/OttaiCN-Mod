@@ -1,35 +1,22 @@
-.class public interface abstract Lb3/e;
+.class public Lb3/e;
 .super Ljava/lang/Object;
-.source "DashSegmentIndex.java"
+.source "SourceFile"
 
 
-# virtual methods
-.method public abstract b(J)J
-.end method
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lb3/e$a;,
+        Lb3/e$b;
+    }
+.end annotation
 
-.method public abstract c(JJ)J
-.end method
 
-.method public abstract d(JJ)J
-.end method
+# direct methods
+.method public constructor <init>()V
+    .locals 0
 
-.method public abstract e(JJ)J
-.end method
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-.method public abstract f(J)Lc3/i;
-.end method
-
-.method public abstract g(JJ)J
-.end method
-
-.method public abstract h(J)J
-.end method
-
-.method public abstract i()Z
-.end method
-
-.method public abstract j()J
-.end method
-
-.method public abstract k(JJ)J
+    return-void
 .end method

@@ -1,562 +1,257 @@
-.class Lu6/b;
+.class public final Lu6/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lu6/f;
-
 
 # annotations
+.annotation build Landroidx/annotation/RequiresApi;
+    value = 0x1c
+.end annotation
+
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lu6/b$c;
+        Lu6/b$b;,
+        Lu6/b$c;,
+        Lu6/b$a;
     }
+.end annotation
+
+.annotation runtime Ljava/lang/Deprecated;
 .end annotation
 
 
 # instance fields
-.field private final a:Ljava/text/SimpleDateFormat;
-
-.field private final b:Ljava/util/List;
+.field public final a:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lu6/b$c;",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private final c:Landroid/os/Handler;
-
-.field private d:J
-
-.field private e:I
-
-.field private final f:Lu6/e;
-
-.field private g:Ljava/lang/String;
-
-.field private final h:Ljava/lang/String;
-
-.field private i:Z
-
-.field private j:Ljava/util/concurrent/ThreadPoolExecutor;
+.field public final b:Ll6/b;
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 9
+.method public constructor <init>(Ljava/util/List;Ll6/b;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
+            ">;",
+            "Ll6/b;",
+            ")V"
+        }
+    .end annotation
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-wide/16 v0, 0x3c
+    .line 2
+    iput-object p1, p0, Lu6/b;->a:Ljava/util/List;
 
-    iput-wide v0, p0, Lu6/b;->d:J
-
-    const/16 v0, 0xa
-
-    iput v0, p0, Lu6/b;->e:I
-
-    const/4 v0, 0x0
-
-    iput-boolean v0, p0, Lu6/b;->i:Z
-
-    new-instance v0, Ljava/text/SimpleDateFormat;
-
-    const-string v1, "MM-dd HH:mm:ss"
-
-    invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
-
-    iput-object v0, p0, Lu6/b;->a:Ljava/text/SimpleDateFormat;
-
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-static {v0}, Ljava/util/Collections;->synchronizedList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lu6/b;->b:Ljava/util/List;
-
-    new-instance v0, Landroid/os/Handler;
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    iput-object v0, p0, Lu6/b;->c:Landroid/os/Handler;
-
-    new-instance v0, Lu6/e;
-
-    invoke-direct {v0}, Lu6/e;-><init>()V
-
-    iput-object v0, p0, Lu6/b;->f:Lu6/e;
-
-    invoke-static {}, Landroid/os/Process;->myPid()I
-
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lu6/b;->h:Ljava/lang/String;
-
-    new-instance v0, Ljava/util/concurrent/ThreadPoolExecutor;
-
-    sget-object v6, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
-
-    new-instance v7, Ljava/util/concurrent/LinkedBlockingQueue;
-
-    invoke-direct {v7}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
-
-    new-instance v1, Lu6/j;
-
-    invoke-direct {v1}, Lu6/j;-><init>()V
-
-    const-string v2, "log-pool-%d"
-
-    invoke-virtual {v1, v2}, Lu6/j;->c(Ljava/lang/String;)Lu6/j;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lu6/j;->a()Ljava/util/concurrent/ThreadFactory;
-
-    move-result-object v8
-
-    const/4 v2, 0x1
-
-    const/4 v3, 0x1
-
-    const-wide/16 v4, 0x1e
-
-    move-object v1, v0
-
-    invoke-direct/range {v1 .. v8}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
-
-    iput-object v0, p0, Lu6/b;->j:Ljava/util/concurrent/ThreadPoolExecutor;
-
-    const/4 v1, 0x1
-
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/ThreadPoolExecutor;->allowCoreThreadTimeOut(Z)V
+    .line 3
+    iput-object p2, p0, Lu6/b;->b:Ll6/b;
 
     return-void
 .end method
 
-.method static synthetic a(Lu6/b;)Ljava/util/List;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->b:Ljava/util/List;
-
-    return-object p0
-.end method
-
-.method private c(Lu6/b$c;)V
+.method public static a(Ljava/util/List;Ll6/b;)Lh6/f;
     .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
+            ">;",
+            "Ll6/b;",
+            ")",
+            "Lh6/f<",
+            "Ljava/nio/ByteBuffer;",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
 
-    :try_start_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
+    new-instance v0, Lu6/b$b;
 
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    new-instance v1, Lu6/b;
 
-    goto :goto_0
+    invoke-direct {v1, p0, p1}, Lu6/b;-><init>(Ljava/util/List;Ll6/b;)V
 
-    :catch_0
-    move-exception p1
+    invoke-direct {v0, v1}, Lu6/b$b;-><init>(Lu6/b;)V
 
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "add logInfo error "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "Logger"
-
-    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_0
-    return-void
+    return-object v0
 .end method
 
-.method static synthetic d(Lu6/b;)Landroid/os/Handler;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->c:Landroid/os/Handler;
-
-    return-object p0
-.end method
-
-.method private e()V
+.method public static f(Ljava/util/List;Ll6/b;)Lh6/f;
     .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
+            ">;",
+            "Ll6/b;",
+            ")",
+            "Lh6/f<",
+            "Ljava/io/InputStream;",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
 
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
+    new-instance v0, Lu6/b$c;
 
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    new-instance v1, Lu6/b;
 
-    move-result v0
+    invoke-direct {v1, p0, p1}, Lu6/b;-><init>(Ljava/util/List;Ll6/b;)V
 
-    iget v1, p0, Lu6/b;->e:I
+    invoke-direct {v0, v1}, Lu6/b$c;-><init>(Lu6/b;)V
 
-    if-ne v0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p0, v0}, Lu6/b;->b(Z)V
-
-    :cond_0
-    return-void
-.end method
-
-.method static synthetic f(Lu6/b;)Ljava/lang/String;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->g:Ljava/lang/String;
-
-    return-object p0
-.end method
-
-.method private g()V
-    .locals 6
-
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lu6/b;->c:Landroid/os/Handler;
-
-    new-instance v1, Lu6/b$a;
-
-    invoke-direct {v1, p0}, Lu6/b$a;-><init>(Lu6/b;)V
-
-    iget-wide v2, p0, Lu6/b;->d:J
-
-    const-wide/16 v4, 0x3e8
-
-    mul-long v2, v2, v4
-
-    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    :cond_0
-    return-void
-.end method
-
-.method static synthetic h(Lu6/b;)Lu6/e;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->f:Lu6/e;
-
-    return-object p0
-.end method
-
-.method static synthetic i(Lu6/b;)Ljava/text/SimpleDateFormat;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->a:Ljava/text/SimpleDateFormat;
-
-    return-object p0
-.end method
-
-.method static synthetic j(Lu6/b;)Ljava/lang/String;
-    .locals 0
-
-    iget-object p0, p0, Lu6/b;->h:Ljava/lang/String;
-
-    return-object p0
+    return-object v0
 .end method
 
 
 # virtual methods
-.method public a(Ljava/lang/String;)V
-    .locals 0
+.method public b(Landroid/graphics/ImageDecoder$Source;IILh6/e;)Lk6/j;
+    .locals 1
+    .param p1    # Landroid/graphics/ImageDecoder$Source;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/graphics/ImageDecoder$Source;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lk6/j<",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
 
-    iput-object p1, p0, Lu6/b;->g:Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    return-void
-.end method
+    .line 1
+    new-instance v0, Lr6/a;
 
-.method public a(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 3
+    invoke-direct {v0, p2, p3, p4}, Lr6/a;-><init>(IILh6/e;)V
 
-    iget-boolean v0, p0, Lu6/b;->i:Z
+    .line 2
+    invoke-static {p1, v0}, Landroid/graphics/ImageDecoder;->decodeDrawable(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
 
-    if-eqz v0, :cond_0
+    move-result-object p1
 
-    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    .line 3
+    instance-of p2, p1, Landroid/graphics/drawable/AnimatedImageDrawable;
 
+    if-eqz p2, :cond_0
+
+    .line 4
+    new-instance p2, Lu6/b$a;
+
+    check-cast p1, Landroid/graphics/drawable/AnimatedImageDrawable;
+
+    invoke-direct {p2, p1}, Lu6/b$a;-><init>(Landroid/graphics/drawable/AnimatedImageDrawable;)V
+
+    return-object p2
+
+    .line 5
     :cond_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
+    new-instance p2, Ljava/io/IOException;
 
-    monitor-enter v0
+    new-instance p3, Ljava/lang/StringBuilder;
 
-    :try_start_0
-    invoke-direct {p0}, Lu6/b;->g()V
+    invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
 
-    new-instance v1, Lu6/b$c;
+    const-string p4, "Received unexpected drawable type for animated webp, failing: "
 
-    const-string v2, "I"
+    invoke-virtual {p3, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-direct {v1, p0, v2, p1, p2}, Lu6/b$c;-><init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-direct {p0, v1}, Lu6/b;->c(Lu6/b$c;)V
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    invoke-direct {p0}, Lu6/b;->e()V
+    move-result-object p1
 
-    monitor-exit v0
+    invoke-direct {p2, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p1
+    throw p2
 .end method
 
-.method public a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
-    .locals 4
+.method public c(Ljava/io/InputStream;)Z
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    iget-boolean v0, p0, Lu6/b;->i:Z
+    iget-object v0, p0, Lu6/b;->a:Ljava/util/List;
 
-    if-eqz v0, :cond_0
+    iget-object v1, p0, Lu6/b;->b:Ll6/b;
 
-    invoke-static {p1, p2, p3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, v1}, Lcom/bumptech/glide/load/a;->f(Ljava/util/List;Ljava/io/InputStream;Ll6/b;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
-    :cond_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
+    move-result-object p1
 
-    monitor-enter v0
+    invoke-virtual {p0, p1}, Lu6/b;->e(Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;)Z
 
-    :try_start_0
-    invoke-direct {p0}, Lu6/b;->g()V
+    move-result p1
 
-    new-instance v1, Lu6/b$c;
-
-    const-string v2, "E"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p2, "\n"
-
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-static {p3}, Landroid/util/Log;->getStackTraceString(Ljava/lang/Throwable;)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-direct {v1, p0, v2, p1, p2}, Lu6/b$c;-><init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-direct {p0, v1}, Lu6/b;->c(Lu6/b$c;)V
-
-    invoke-direct {p0}, Lu6/b;->e()V
-
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p1
+    return p1
 .end method
 
-.method public a(Z)V
-    .locals 0
+.method public d(Ljava/nio/ByteBuffer;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    iput-boolean p1, p0, Lu6/b;->i:Z
+    iget-object v0, p0, Lu6/b;->a:Ljava/util/List;
 
-    return-void
+    invoke-static {v0, p1}, Lcom/bumptech/glide/load/a;->g(Ljava/util/List;Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lu6/b;->e(Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;)Z
+
+    move-result p1
+
+    return p1
 .end method
 
-.method public a()Z
+.method public final e(Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;)Z
     .locals 1
 
-    iget-boolean v0, p0, Lu6/b;->i:Z
+    sget-object v0, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->ANIMATED_WEBP:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
-    return v0
-.end method
+    if-ne p1, v0, :cond_0
 
-.method public b(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 3
-
-    iget-boolean v0, p0, Lu6/b;->i:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
-
-    monitor-enter v0
-
-    :try_start_0
-    invoke-direct {p0}, Lu6/b;->g()V
-
-    new-instance v1, Lu6/b$c;
-
-    const-string v2, "E"
-
-    invoke-direct {v1, p0, v2, p1, p2}, Lu6/b$c;-><init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-direct {p0, v1}, Lu6/b;->c(Lu6/b$c;)V
-
-    invoke-direct {p0}, Lu6/b;->e()V
-
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p1
-.end method
-
-.method public b(Z)V
-    .locals 1
-
-    new-instance v0, Lu6/b$b;
-
-    invoke-direct {v0, p0}, Lu6/b$b;-><init>(Lu6/b;)V
-
-    if-eqz p1, :cond_0
-
-    iget-object p1, p0, Lu6/b;->j:Ljava/util/concurrent/ThreadPoolExecutor;
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1, v0}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+    const/4 p1, 0x1
 
     goto :goto_0
 
     :cond_0
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+    const/4 p1, 0x0
 
     :goto_0
-    return-void
-.end method
-
-.method public c(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 3
-
-    iget-boolean v0, p0, Lu6/b;->i:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
-
-    monitor-enter v0
-
-    :try_start_0
-    invoke-direct {p0}, Lu6/b;->g()V
-
-    new-instance v1, Lu6/b$c;
-
-    const-string v2, "W"
-
-    invoke-direct {v1, p0, v2, p1, p2}, Lu6/b$c;-><init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-direct {p0, v1}, Lu6/b;->c(Lu6/b$c;)V
-
-    invoke-direct {p0}, Lu6/b;->e()V
-
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p1
-.end method
-
-.method public d(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 3
-
-    iget-boolean v0, p0, Lu6/b;->i:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_0
-    iget-object v0, p0, Lu6/b;->b:Ljava/util/List;
-
-    monitor-enter v0
-
-    :try_start_0
-    invoke-direct {p0}, Lu6/b;->g()V
-
-    new-instance v1, Lu6/b$c;
-
-    const-string v2, "D"
-
-    invoke-direct {v1, p0, v2, p1, p2}, Lu6/b$c;-><init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-direct {p0, v1}, Lu6/b;->c(Lu6/b$c;)V
-
-    invoke-direct {p0}, Lu6/b;->e()V
-
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw p1
+    return p1
 .end method

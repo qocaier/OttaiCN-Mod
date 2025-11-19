@@ -1,38 +1,40 @@
-.class public interface abstract Lc0/b;
+.class public final synthetic Lc0/b;
 .super Ljava/lang/Object;
-.source "Key.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
-# static fields
-.field public static final a:Ljava/nio/charset/Charset;
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource;
+
+.field public final synthetic b:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
+    .locals 0
 
-    const-string v0, "UTF-8"
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    iput-object p1, p0, Lc0/b;->a:Landroidx/camera/video/internal/audio/AudioSource;
 
-    move-result-object v0
-
-    sput-object v0, Lc0/b;->a:Ljava/nio/charset/Charset;
+    iput-boolean p2, p0, Lc0/b;->b:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public abstract b(Ljava/security/MessageDigest;)V
-    .param p1    # Ljava/security/MessageDigest;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-.end method
+.method public final run()V
+    .locals 2
 
-.method public abstract equals(Ljava/lang/Object;)Z
-.end method
+    iget-object v0, p0, Lc0/b;->a:Landroidx/camera/video/internal/audio/AudioSource;
 
-.method public abstract hashCode()I
+    iget-boolean v1, p0, Lc0/b;->b:Z
+
+    invoke-static {v0, v1}, Landroidx/camera/video/internal/audio/AudioSource;->e(Landroidx/camera/video/internal/audio/AudioSource;Z)V
+
+    return-void
 .end method

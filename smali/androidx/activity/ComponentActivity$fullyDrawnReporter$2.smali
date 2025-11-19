@@ -1,9 +1,9 @@
 .class final Landroidx/activity/ComponentActivity$fullyDrawnReporter$2;
 .super Lkotlin/jvm/internal/Lambda;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,14 +12,14 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
+        "Lco/a<",
         "Landroidx/activity/FullyDrawnReporter;",
         ">;"
     }
@@ -27,11 +27,11 @@
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/ComponentActivity$fullyDrawnReporter$2;->this$0:Landroidx/activity/ComponentActivity;
@@ -47,6 +47,8 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/FullyDrawnReporter;
     .locals 4
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 2
     new-instance v0, Landroidx/activity/FullyDrawnReporter;
@@ -66,7 +68,7 @@
     invoke-direct {v2, v3}, Landroidx/activity/ComponentActivity$fullyDrawnReporter$2$1;-><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 5
-    invoke-direct {v0, v1, v2}, Landroidx/activity/FullyDrawnReporter;-><init>(Ljava/util/concurrent/Executor;Lla/a;)V
+    invoke-direct {v0, v1, v2}, Landroidx/activity/FullyDrawnReporter;-><init>(Ljava/util/concurrent/Executor;Lco/a;)V
 
     return-object v0
 .end method

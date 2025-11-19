@@ -1,102 +1,98 @@
-.class public La7/b;
+.class public final La7/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/concurrent/Executor;
-
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        La7/b$b;
-    }
-.end annotation
-
 
 # instance fields
-.field private final a:Ljava/util/concurrent/ThreadPoolExecutor;
+.field public final a:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method private constructor <init>()V
-    .locals 9
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v8, Ljava/util/concurrent/ThreadPoolExecutor;
-
-    sget-object v5, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
-
-    new-instance v6, Ljava/util/concurrent/LinkedBlockingQueue;
-
-    invoke-direct {v6}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
-
-    new-instance v0, La7/d;
-
-    invoke-direct {v0}, La7/d;-><init>()V
-
-    const/16 v1, 0xa
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, La7/d;->a(Ljava/lang/Integer;)La7/d;
-
-    move-result-object v0
-
-    const-string v1, "message-pool-%d"
-
-    invoke-virtual {v0, v1}, La7/d;->b(Ljava/lang/String;)La7/d;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, La7/d;->c()Ljava/util/concurrent/ThreadFactory;
-
-    move-result-object v7
-
-    const/4 v1, 0x1
-
-    const/4 v2, 0x1
-
-    const-wide/16 v3, 0x0
-
-    move-object v0, v8
-
-    invoke-direct/range {v0 .. v7}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
-
-    iput-object v8, p0, La7/b;->a:Ljava/util/concurrent/ThreadPoolExecutor;
-
-    return-void
-.end method
-
-.method synthetic constructor <init>(La7/b$a;)V
-    .locals 0
-
-    invoke-direct {p0}, La7/b;-><init>()V
-
-    return-void
-.end method
-
-.method public static a()La7/b;
+.method public constructor <init>()V
     .locals 1
 
-    invoke-static {}, La7/b$b;->a()La7/b;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object v0
+    .line 2
+    new-instance v0, Ljava/util/ArrayList;
 
-    return-object v0
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    iput-object v0, p0, La7/b;->a:Ljava/util/List;
+
+    return-void
 .end method
 
 
 # virtual methods
-.method public execute(Ljava/lang/Runnable;)V
+.method public declared-synchronized a(Lcom/bumptech/glide/load/ImageHeaderParser;)V
     .locals 1
+    .param p1    # Lcom/bumptech/glide/load/ImageHeaderParser;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    iget-object v0, p0, La7/b;->a:Ljava/util/concurrent/ThreadPoolExecutor;
+    monitor-enter p0
 
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+    .line 1
+    :try_start_0
+    iget-object v0, p0, La7/b;->a:Ljava/util/List;
+
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 2
+    monitor-exit p0
 
     return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit p0
+
+    throw p1
+.end method
+
+.method public declared-synchronized b()Ljava/util/List;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/bumptech/glide/load/ImageHeaderParser;",
+            ">;"
+        }
+    .end annotation
+
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v0, p0, La7/b;->a:Ljava/util/List;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
 .end method

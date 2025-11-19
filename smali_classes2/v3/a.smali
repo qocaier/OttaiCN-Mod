@@ -1,79 +1,42 @@
 .class public Lv3/a;
-.super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
-
-
-# instance fields
-.field private a:I
+.super Lr5/a;
+.source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 1
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;J)V
+    .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x1
-
-    iput v0, p0, Lv3/a;->a:I
+    invoke-direct {p0, p1, p2, p3, p4}, Lr5/a;-><init>(Ljava/lang/String;Ljava/lang/String;J)V
 
     return-void
 .end method
 
+.method public static e(Lr5/a;)Lv3/a;
+    .locals 5
 
-# virtual methods
-.method public a(Ljava/lang/Object;)Lv3/a;
-    .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+    if-nez p0, :cond_0
 
-    iget v0, p0, Lv3/a;->a:I
+    const/4 p0, 0x0
 
-    mul-int/lit8 v0, v0, 0x1f
-
-    if-nez p1, :cond_0
-
-    const/4 p1, 0x0
-
-    goto :goto_0
+    return-object p0
 
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+    new-instance v0, Lv3/a;
 
-    move-result p1
+    invoke-virtual {p0}, Lr5/a;->a()Ljava/lang/String;
 
-    :goto_0
-    add-int/2addr v0, p1
+    move-result-object v1
 
-    iput v0, p0, Lv3/a;->a:I
+    invoke-virtual {p0}, Lr5/a;->b()Ljava/lang/String;
 
-    return-object p0
-.end method
+    move-result-object v2
 
-.method public b()I
-    .locals 1
+    invoke-virtual {p0}, Lr5/a;->c()J
 
-    iget v0, p0, Lv3/a;->a:I
+    move-result-wide v3
 
-    return v0
-.end method
+    invoke-direct {v0, v1, v2, v3, v4}, Lv3/a;-><init>(Ljava/lang/String;Ljava/lang/String;J)V
 
-.method public final c(Z)Lv3/a;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    iget v0, p0, Lv3/a;->a:I
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    add-int/2addr v0, p1
-
-    iput v0, p0, Lv3/a;->a:I
-
-    return-object p0
+    return-object v0
 .end method

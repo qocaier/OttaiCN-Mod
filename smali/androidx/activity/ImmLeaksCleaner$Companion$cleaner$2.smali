@@ -1,9 +1,9 @@
 .class final Landroidx/activity/ImmLeaksCleaner$Companion$cleaner$2;
 .super Lkotlin/jvm/internal/Lambda;
-.source "ImmLeaksCleaner.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,14 +12,14 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
+        "Lco/a<",
         "Landroidx/activity/ImmLeaksCleaner$Cleaner;",
         ">;"
     }
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/ImmLeaksCleaner$Companion$cleaner$2;
@@ -43,7 +43,7 @@
     return-void
 .end method
 
-.method constructor <init>()V
+.method public constructor <init>()V
     .locals 1
 
     const/4 v0, 0x0
@@ -57,6 +57,8 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/ImmLeaksCleaner$Cleaner;
     .locals 5
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 2
     :try_start_0
@@ -99,15 +101,15 @@
 
     const-string v4, "hField"
 
-    invoke-static {v0, v4}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "servedViewField"
 
-    invoke-static {v1, v4}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "nextServedViewField"
 
-    invoke-static {v3, v4}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v0, v1, v3}, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;)V
     :try_end_0

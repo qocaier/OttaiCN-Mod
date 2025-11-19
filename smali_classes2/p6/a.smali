@@ -2,308 +2,226 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lp6/o;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lp6/a$b;,
+        Lp6/a$c;,
+        Lp6/a$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<Data:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lp6/o<",
+        "Landroid/net/Uri;",
+        "TData;>;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final c:Ljava/lang/String; = "android_asset"
+
+.field public static final d:Ljava/lang/String; = "file:///android_asset/"
+
+.field public static final e:I = 0x16
+
+
+# instance fields
+.field public final a:Landroid/content/res/AssetManager;
+
+.field public final b:Lp6/a$a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lp6/a$a<",
+            "TData;>;"
+        }
+    .end annotation
+.end field
+
 
 # direct methods
-.method public static a(Landroid/content/Context;)V
-    .locals 2
-
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->isWatch()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "com.meizu.wearable.cloud"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "com.meizu.cloud"
-
-    :goto_0
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return-void
-
-    :cond_1
-    invoke-static {p0}, Lp6/a;->b(Landroid/content/Context;)V
-
-    invoke-static {p0}, Lp6/a;->c(Landroid/content/Context;)V
+.method public static constructor <clinit>()V
+    .locals 0
 
     return-void
 .end method
 
-.method private static b(Landroid/content/Context;)V
-    .locals 7
-
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->isWatch()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "com.meizu.wearable.cloud"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "com.meizu.cloud"
-
-    :goto_0
-    invoke-static {p0, v0}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->getAppVersionName(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v3, " start register cloudVersion_name "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "PullUpPush"
-
-    invoke-static {v3, v2}, Lcom/meizu/cloud/pushinternal/DebugLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v2, Landroid/content/Intent;
-
-    invoke-direct {v2}, Landroid/content/Intent;-><init>()V
-
-    invoke-static {p0}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->getMzPushServicePackageName(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v4
-
-    const-string v5, "com.meizu.cloud.pushsdk.pushservice.MzPushService"
-
-    const-string v6, "com.meizu.pushservice.action.START"
-
-    if-eqz v4, :cond_1
-
-    const-string v1, "cloud pushService start"
-
-    invoke-static {v3, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v2, v6}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {v2, v0, v5}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    goto/16 :goto_1
-
-    :cond_1
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_2
-
-    const-string v4, "4.5.7"
-
-    invoke-static {v1, v4}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->compareVersion(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_2
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "flyme 4.x start register cloud versionName "
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v3, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v2, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v0, "com.meizu.flyme.push.intent.REGISTER"
-
-    invoke-virtual {v2, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    goto :goto_1
-
-    :cond_2
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_3
-
-    const-string v4, "3"
-
-    invoke-virtual {v1, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "flyme 3.x start register cloud versionName "
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v3, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v1, "com.meizu.c2dm.intent.REGISTER"
-
-    invoke-virtual {v2, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {v2, v0}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    goto :goto_1
-
-    :cond_3
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, " start register "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v3, v0}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v2, v0, v5}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {v2, v6}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
-
-    :goto_1
-    :try_start_0
-    invoke-virtual {p0, v2}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_2
-
-    :catch_0
-    move-exception p0
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "start service error "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {v3, p0}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_2
-    return-void
-.end method
-
-.method private static c(Landroid/content/Context;)V
-    .locals 3
-    .annotation build Landroid/annotation/SuppressLint;
+.method public constructor <init>(Landroid/content/res/AssetManager;Lp6/a$a;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            "QueryPermissionsNeeded"
+            "(",
+            "Landroid/content/res/AssetManager;",
+            "Lp6/a$a<",
+            "TData;>;)V"
         }
     .end annotation
 
-    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/16 v1, 0x16
+    .line 2
+    iput-object p1, p0, Lp6/a;->a:Landroid/content/res/AssetManager;
 
-    if-le v0, v1, :cond_0
+    .line 3
+    iput-object p2, p0, Lp6/a;->b:Lp6/a$a;
 
     return-void
+.end method
 
-    :cond_0
-    new-instance v0, Landroid/content/Intent;
 
-    const-string v1, "com.meizu.cloud.pushservice.action.PUSH_TRACKER_SERVICE"
+# virtual methods
+.method public bridge synthetic a(Ljava/lang/Object;)Z
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    check-cast p1, Landroid/net/Uri;
 
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0, p1}, Lp6/a;->d(Landroid/net/Uri;)Z
 
-    move-result-object v1
+    move-result p1
 
-    const/4 v2, 0x0
+    return p1
+.end method
 
-    invoke-virtual {v1, v0, v2}, Landroid/content/pm/PackageManager;->queryIntentServices(Landroid/content/Intent;I)Ljava/util/List;
+.method public bridge synthetic b(Ljava/lang/Object;IILh6/e;)Lp6/o$a;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    check-cast p1, Landroid/net/Uri;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lp6/a;->c(Landroid/net/Uri;IILh6/e;)Lp6/o$a;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public c(Landroid/net/Uri;IILh6/e;)Lp6/o$a;
+    .locals 1
+    .param p1    # Landroid/net/Uri;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/net/Uri;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lp6/o$a<",
+            "TData;>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    sget p3, Lp6/a;->e:I
+
+    invoke-virtual {p2, p3}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 2
+    new-instance p3, Lp6/o$a;
+
+    new-instance p4, Le7/e;
+
+    invoke-direct {p4, p1}, Le7/e;-><init>(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lp6/a;->b:Lp6/a$a;
+
+    iget-object v0, p0, Lp6/a;->a:Landroid/content/res/AssetManager;
+
+    invoke-interface {p1, v0, p2}, Lp6/a$a;->a(Landroid/content/res/AssetManager;Ljava/lang/String;)Li6/d;
+
+    move-result-object p1
+
+    invoke-direct {p3, p4, p1}, Lp6/o$a;-><init>(Lh6/b;Li6/d;)V
+
+    return-object p3
+.end method
+
+.method public d(Landroid/net/Uri;)Z
+    .locals 2
+    .param p1    # Landroid/net/Uri;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     move-result-object v0
 
-    if-eqz v0, :cond_1
+    const-string v1, "file"
 
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
-    if-nez v0, :cond_2
+    const/4 v1, 0x0
 
-    :cond_1
-    invoke-static {p0, v2}, Ld7/a;->c(Landroid/content/Context;Z)Lp7/a;
+    if-eqz v0, :cond_0
 
-    move-result-object p0
+    .line 2
+    invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
 
-    invoke-virtual {p0}, Lp7/a;->f()V
+    move-result-object v0
 
-    :cond_2
-    return-void
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 3
+    invoke-virtual {p1}, Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+
+    move-result-object p1
+
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    const-string v0, "android_asset"
+
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 v1, 0x1
+
+    :cond_0
+    return v1
 .end method

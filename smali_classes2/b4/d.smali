@@ -1,112 +1,137 @@
 .class public final Lb4/d;
-.super Lcom/google/android/gms/common/api/c;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.super Ljava/lang/Object;
+.source "SourceFile"
 
-# interfaces
-.implements Lz3/k;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lb4/d$a;
+    }
+.end annotation
 
 
 # static fields
-.field private static final k:Lcom/google/android/gms/common/api/a$g;
-
-.field private static final l:Lcom/google/android/gms/common/api/a$a;
-
-.field private static final m:Lcom/google/android/gms/common/api/a;
-
-.field public static final synthetic n:I
-
-
-# direct methods
-.method static constructor <clinit>()V
-    .locals 4
-
-    new-instance v0, Lcom/google/android/gms/common/api/a$g;
-
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/a$g;-><init>()V
-
-    sput-object v0, Lb4/d;->k:Lcom/google/android/gms/common/api/a$g;
-
-    new-instance v1, Lb4/c;
-
-    invoke-direct {v1}, Lb4/c;-><init>()V
-
-    sput-object v1, Lb4/d;->l:Lcom/google/android/gms/common/api/a$a;
-
-    new-instance v2, Lcom/google/android/gms/common/api/a;
-
-    const-string v3, "ClientTelemetry.API"
-
-    invoke-direct {v2, v3, v1, v0}, Lcom/google/android/gms/common/api/a;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/a$a;Lcom/google/android/gms/common/api/a$g;)V
-
-    sput-object v2, Lb4/d;->m:Lcom/google/android/gms/common/api/a;
-
-    return-void
-.end method
-
-.method public constructor <init>(Landroid/content/Context;Lz3/l;)V
-    .locals 2
-
-    sget-object v0, Lb4/d;->m:Lcom/google/android/gms/common/api/a;
-
-    sget-object v1, Lcom/google/android/gms/common/api/c$a;->c:Lcom/google/android/gms/common/api/c$a;
-
-    invoke-direct {p0, p1, v0, p2, v1}, Lcom/google/android/gms/common/api/c;-><init>(Landroid/content/Context;Lcom/google/android/gms/common/api/a;Lcom/google/android/gms/common/api/a$d;Lcom/google/android/gms/common/api/c$a;)V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final a(Lcom/google/android/gms/common/internal/TelemetryData;)Lp4/e;
-    .locals 4
+.field public static final a:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(",
-            "Lcom/google/android/gms/common/internal/TelemetryData;",
-            ")",
-            "Lp4/e<",
-            "Ljava/lang/Void;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lb4/d$a;",
             ">;"
         }
     .end annotation
+.end field
 
-    .line 1
-    invoke-static {}, Lcom/google/android/gms/common/api/internal/g;->a()Lcom/google/android/gms/common/api/internal/g$a;
 
-    move-result-object v0
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
 
-    const/4 v1, 0x1
+    new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    new-array v1, v1, [Lcom/google/android/gms/common/Feature;
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    sget-object v2, Lk4/f;->a:Lcom/google/android/gms/common/Feature;
+    sput-object v0, Lb4/d;->a:Ljava/util/Map;
 
+    return-void
+.end method
+
+.method public static a(Ljava/lang/String;)Ljava/lang/String;
+    .locals 9
+
+    sget-object v0, Lb4/d;->a:Ljava/util/Map;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    return-object v1
+
+    :cond_0
+    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lb4/d$a;
+
+    if-nez v2, :cond_1
+
+    return-object v1
+
+    :cond_1
+    iget-wide v3, v2, Lb4/d$a;->b:J
+
+    iget-wide v5, v2, Lb4/d$a;->c:J
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v7
+
+    sub-long/2addr v7, v3
+
+    cmp-long v3, v7, v5
+
+    if-gez v3, :cond_2
+
+    const/4 v3, 0x1
+
+    goto :goto_0
+
+    :cond_2
     const/4 v3, 0x0
 
-    aput-object v2, v1, v3
+    :goto_0
+    if-eqz v3, :cond_3
 
-    .line 2
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/g$a;->d([Lcom/google/android/gms/common/Feature;)Lcom/google/android/gms/common/api/internal/g$a;
+    iget-object v2, v2, Lb4/d$a;->a:Ljava/lang/String;
 
-    .line 3
-    invoke-virtual {v0, v3}, Lcom/google/android/gms/common/api/internal/g$a;->c(Z)Lcom/google/android/gms/common/api/internal/g$a;
+    if-eqz v2, :cond_3
 
-    new-instance v1, Lb4/b;
+    return-object v2
 
-    invoke-direct {v1, p1}, Lb4/b;-><init>(Lcom/google/android/gms/common/internal/TelemetryData;)V
+    :cond_3
+    invoke-interface {v0, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 4
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/g$a;->b(Lx3/i;)Lcom/google/android/gms/common/api/internal/g$a;
+    return-object v1
+.end method
 
-    .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/g$a;->a()Lcom/google/android/gms/common/api/internal/g;
+.method public static b(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 4
 
-    move-result-object p1
+    if-nez p1, :cond_0
 
-    .line 6
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/c;->h(Lcom/google/android/gms/common/api/internal/g;)Lp4/e;
+    const-string p1, ""
 
-    move-result-object p1
+    :cond_0
+    sget-object v0, Lb4/d;->a:Ljava/util/Map;
 
-    return-object p1
+    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lb4/d$a;
+
+    if-nez v1, :cond_1
+
+    new-instance v1, Lb4/d$a;
+
+    invoke-direct {v1}, Lb4/d$a;-><init>()V
+
+    :cond_1
+    iput-object p1, v1, Lb4/d$a;->a:Ljava/lang/String;
+
+    const-wide/32 v2, 0x5265c00
+
+    iput-wide v2, v1, Lb4/d$a;->c:J
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    iput-wide v2, v1, Lb4/d$a;->b:J
+
+    invoke-interface {v0, p0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
 .end method

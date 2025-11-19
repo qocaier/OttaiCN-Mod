@@ -1,83 +1,34 @@
-.class public Lc2/b;
+.class public final synthetic Lc2/b;
 .super Ljava/lang/Object;
-.source "MathUtils.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/concurrent/Executor;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/media3/common/util/HandlerWrapper;
 
 
 # direct methods
-.method public static a(F)I
-    .locals 4
+.method public synthetic constructor <init>(Landroidx/media3/common/util/HandlerWrapper;)V
+    .locals 0
 
-    float-to-double v0, p0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-wide v2, 0x40d0003fffffffffL    # 16384.999999999996
+    iput-object p1, p0, Lc2/b;->a:Landroidx/media3/common/util/HandlerWrapper;
 
-    add-double/2addr v0, v2
-
-    double-to-int p0, v0
-
-    add-int/lit16 p0, p0, -0x4000
-
-    return p0
+    return-void
 .end method
 
-.method public static b(F)I
-    .locals 4
 
-    float-to-double v0, p0
-
-    const-wide/high16 v2, 0x40d0000000000000L    # 16384.0
-
-    add-double/2addr v0, v2
-
-    double-to-int p0, v0
-
-    add-int/lit16 p0, p0, -0x4000
-
-    return p0
-.end method
-
-.method public static c(FFF)F
+# virtual methods
+.method public final execute(Ljava/lang/Runnable;)V
     .locals 1
 
-    cmpg-float v0, p0, p1
+    iget-object v0, p0, Lc2/b;->a:Landroidx/media3/common/util/HandlerWrapper;
 
-    if-gtz v0, :cond_0
+    invoke-interface {v0, p1}, Landroidx/media3/common/util/HandlerWrapper;->post(Ljava/lang/Runnable;)Z
 
-    return p1
-
-    :cond_0
-    cmpl-float p1, p0, p2
-
-    if-ltz p1, :cond_1
-
-    return p2
-
-    :cond_1
-    return p0
-.end method
-
-.method public static d(FF)F
-    .locals 1
-
-    cmpl-float v0, p0, p1
-
-    if-lez v0, :cond_0
-
-    return p1
-
-    :cond_0
-    return p0
-.end method
-
-.method public static e(FF)F
-    .locals 1
-
-    cmpg-float v0, p0, p1
-
-    if-gez v0, :cond_0
-
-    return p1
-
-    :cond_0
-    return p0
+    return-void
 .end method

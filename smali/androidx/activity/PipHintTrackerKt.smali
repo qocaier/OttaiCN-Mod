@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/PipHintTrackerKt;
 .super Ljava/lang/Object;
-.source "PipHintTracker.kt"
+.source "SourceFile"
 
 
 # direct methods
@@ -14,8 +14,20 @@
     return-object p0
 .end method
 
-.method public static final trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.method public static final trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lnn/a;)Ljava/lang/Object;
     .locals 2
+    .param p0    # Landroid/app/Activity;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Lnn/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -25,12 +37,15 @@
             "(",
             "Landroid/app/Activity;",
             "Landroid/view/View;",
-            "Lkotlin/coroutines/c<",
+            "Lnn/a<",
             "-",
-            "Lkotlin/s;",
+            "Len/y1;",
             ">;)",
             "Ljava/lang/Object;"
         }
+    .end annotation
+
+    .annotation build Lzr/l;
     .end annotation
 
     .line 1
@@ -38,9 +53,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;-><init>(Landroid/view/View;Lkotlin/coroutines/c;)V
+    invoke-direct {v0, p1, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;-><init>(Landroid/view/View;Lnn/a;)V
 
-    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->d(Lla/p;)Lkotlinx/coroutines/flow/c;
+    invoke-static {v0}, Lap/g;->s(Lco/p;)Lap/e;
 
     move-result-object p1
 
@@ -49,11 +64,11 @@
 
     invoke-direct {v0, p0}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$2;-><init>(Landroid/app/Activity;)V
 
-    invoke-interface {p1, v0, p2}, Lkotlinx/coroutines/flow/c;->a(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p2}, Lap/e;->a(Lap/f;Lnn/a;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->d()Ljava/lang/Object;
+    invoke-static {}, Lpn/b;->l()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -62,7 +77,7 @@
     return-object p0
 
     :cond_0
-    sget-object p0, Lkotlin/s;->a:Lkotlin/s;
+    sget-object p0, Len/y1;->a:Len/y1;
 
     return-object p0
 .end method

@@ -1,12 +1,21 @@
-.class public final Lc4/c;
+.class public Lc4/c;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.source "SourceFile"
 
-# interfaces
-.implements Landroid/os/Parcelable$Creator;
+
+# static fields
+.field public static a:Lc4/b; = null
+
+.field public static b:Z = false
 
 
 # direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 0
 
@@ -15,83 +24,144 @@
     return-void
 .end method
 
+.method public static declared-synchronized a(Landroid/content/Context;)Ljava/lang/String;
+    .locals 3
 
-# virtual methods
-.method public final bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-    .locals 6
+    const-class v0, Lc4/c;
+
+    monitor-enter v0
+
+    if-eqz p0, :cond_2
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->H(Landroid/os/Parcel;)I
+    :try_start_0
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
-    move-result v0
+    move-result-object v1
 
-    const/4 v1, 0x0
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
-    const/4 v2, 0x0
+    move-result-object v2
+
+    if-eq v1, v2, :cond_1
 
     .line 2
-    :goto_0
-    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
-
-    move-result v3
-
-    if-ge v3, v0, :cond_2
+    invoke-static {p0}, Lc4/c;->b(Landroid/content/Context;)V
 
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->z(Landroid/os/Parcel;)I
+    sget-object v1, Lc4/c;->a:Lc4/b;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    move-result v3
+    if-eqz v1, :cond_0
 
     .line 4
-    invoke-static {v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->u(I)I
+    :try_start_1
+    invoke-interface {v1, p0}, Lc4/b;->a(Landroid/content/Context;)Ljava/lang/String;
 
-    move-result v4
+    move-result-object p0
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    const/4 v5, 0x1
+    monitor-exit v0
 
-    if-eq v4, v5, :cond_1
+    return-object p0
 
-    const/4 v5, 0x2
+    :catch_0
+    :cond_0
+    const/4 p0, 0x0
 
-    if-eq v4, v5, :cond_0
+    monitor-exit v0
+
+    return-object p0
 
     .line 5
-    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->G(Landroid/os/Parcel;I)V
+    :cond_1
+    :try_start_2
+    new-instance p0, Ljava/lang/IllegalStateException;
 
-    goto :goto_0
+    const-string v1, "Cannot be called from the main thread"
+
+    invoke-direct {p0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    .line 6
+    :cond_2
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    const-string v1, "Context is null"
+
+    invoke-direct {p0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+
+    throw p0
+.end method
+
+.method public static b(Landroid/content/Context;)V
+    .locals 2
+
+    .line 1
+    sget-object v0, Lc4/c;->a:Lc4/b;
+
+    if-nez v0, :cond_1
+
+    sget-boolean v0, Lc4/c;->b:Z
+
+    if-nez v0, :cond_1
+
+    .line 2
+    const-class v0, Lc4/c;
+
+    monitor-enter v0
+
+    .line 3
+    :try_start_0
+    sget-object v1, Lc4/c;->a:Lc4/b;
+
+    if-nez v1, :cond_0
+
+    sget-boolean v1, Lc4/c;->b:Z
+
+    if-nez v1, :cond_0
+
+    .line 4
+    invoke-static {p0}, Le4/a;->a(Landroid/content/Context;)Lc4/b;
+
+    move-result-object p0
+
+    sput-object p0, Lc4/c;->a:Lc4/b;
+
+    const/4 p0, 0x1
+
+    .line 5
+    sput-boolean p0, Lc4/c;->b:Z
 
     .line 6
     :cond_0
-    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->v(Landroid/os/Parcel;I)Z
-
-    move-result v2
+    monitor-exit v0
 
     goto :goto_0
 
-    .line 7
+    :catchall_0
+    move-exception p0
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p0
+
     :cond_1
-    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->B(Landroid/os/Parcel;I)I
-
-    move-result v1
-
-    goto :goto_0
-
-    .line 8
-    :cond_2
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(Landroid/os/Parcel;I)V
-
-    .line 9
-    new-instance p1, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-
-    invoke-direct {p1, v1, v2}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;-><init>(IZ)V
-
-    return-object p1
-.end method
-
-.method public final synthetic newArray(I)[Ljava/lang/Object;
-    .locals 0
-
-    new-array p1, p1, [Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-
-    return-object p1
+    :goto_0
+    return-void
 .end method

@@ -1,49 +1,21 @@
-.class public Le8/a;
+.class public final Le8/a;
 .super Ljava/lang/Object;
-.source "BleConnectStateParameter.java"
+.source "SourceFile"
 
 
-# instance fields
-.field private a:I
+# static fields
+.field public static final a:Z = false
 
-.field private b:Z
+.field public static final b:Ljava/lang/String; = "com.flutterandies.photo_manager"
+
+.field public static final c:Ljava/lang/String; = "release"
 
 
 # direct methods
-.method public constructor <init>(I)V
+.method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    iput p1, p0, Le8/a;->a:I
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public a()I
-    .locals 1
-
-    iget v0, p0, Le8/a;->a:I
-
-    return v0
-.end method
-
-.method public b()Z
-    .locals 1
-
-    iget-boolean v0, p0, Le8/a;->b:Z
-
-    return v0
-.end method
-
-.method public c(Z)V
-    .locals 0
-
-    iput-boolean p1, p0, Le8/a;->b:Z
 
     return-void
 .end method

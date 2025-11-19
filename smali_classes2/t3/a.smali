@@ -1,11 +1,20 @@
-.class public interface abstract Lt3/a;
+.class public interface abstract annotation Lt3/a;
 .super Ljava/lang/Object;
-.source "CameraMotionListener.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
-# virtual methods
-.method public abstract c(J[F)V
-.end method
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-.method public abstract e()V
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
+.annotation build Lr3/f;
+.end annotation

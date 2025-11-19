@@ -1,39 +1,36 @@
-.class public interface abstract Lc0/a;
+.class public final synthetic Lc0/a;
 .super Ljava/lang/Object;
-.source "Encoder.java"
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lc0/a;->a:Landroidx/camera/video/internal/audio/AudioSource;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract b(Ljava/lang/Object;Ljava/io/File;Lc0/d;)Z
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Ljava/io/File;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p3    # Lc0/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Ljava/io/File;",
-            "Lc0/d;",
-            ")Z"
-        }
-    .end annotation
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lc0/a;->a:Landroidx/camera/video/internal/audio/AudioSource;
+
+    invoke-static {v0, p1}, Landroidx/camera/video/internal/audio/AudioSource;->c(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
 .end method

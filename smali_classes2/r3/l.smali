@@ -1,61 +1,169 @@
-.class public interface abstract Lr3/l;
+.class public final Lr3/l;
 .super Ljava/lang/Object;
-.source "HandlerWrapper.java"
+.source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lr3/l$a;
-    }
-.end annotation
+# direct methods
+.method public constructor <init>()V
+    .locals 0
 
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-# virtual methods
-.method public abstract a(I)Lr3/l$a;
+    return-void
 .end method
 
-.method public abstract b(I)Z
+.method public static a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "reference"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;)TT;"
+        }
+    .end annotation
+
+    invoke-static {p0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-object p0
 .end method
 
-.method public abstract c(IIILjava/lang/Object;)Lr3/l$a;
-    .param p4    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+.method public static b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "reference",
+            "errorMessage"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;",
+            "Ljava/lang/String;",
+            ")TT;"
+        }
+    .end annotation
+
+    invoke-static {p0, p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    return-object p0
 .end method
 
-.method public abstract d(ILjava/lang/Object;)Lr3/l$a;
-    .param p2    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-.end method
+.method public static c(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "reference",
+            "errorMessageTemplate",
+            "errorMessageArg"
+        }
+    .end annotation
 
-.method public abstract e(Ljava/lang/Object;)V
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-.end method
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ")TT;"
+        }
+    .end annotation
 
-.method public abstract f(Lr3/l$a;)Z
-.end method
+    if-nez p0, :cond_3
 
-.method public abstract g(III)Lr3/l$a;
-.end method
+    const-string p0, "%s"
 
-.method public abstract getLooper()Landroid/os/Looper;
-.end method
+    .line 1
+    invoke-virtual {p1, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-.method public abstract h(Ljava/lang/Runnable;)Z
-.end method
+    move-result v0
 
-.method public abstract i(I)Z
-.end method
+    if-eqz v0, :cond_2
 
-.method public abstract j(IJ)Z
-.end method
+    .line 2
+    invoke-virtual {p1, p0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
-.method public abstract k(I)V
+    move-result v0
+
+    invoke-virtual {p1, p0}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+
+    move-result v1
+
+    if-ne v0, v1, :cond_1
+
+    .line 3
+    instance-of v0, p2, Ljava/lang/Class;
+
+    if-eqz v0, :cond_0
+
+    .line 4
+    check-cast p2, Ljava/lang/Class;
+
+    invoke-virtual {p2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+
+    move-result-object p2
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 6
+    :goto_0
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    invoke-virtual {p1, p0, p2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    .line 7
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "errorMessageTemplate has more than one format specifier"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    .line 8
+    :cond_2
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "errorMessageTemplate has no format specifiers"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_3
+    return-object p0
 .end method

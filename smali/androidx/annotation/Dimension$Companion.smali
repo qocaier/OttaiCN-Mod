@@ -1,6 +1,6 @@
 .class public final Landroidx/annotation/Dimension$Companion;
 .super Ljava/lang/Object;
-.source "Dimension.jvm.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -15,7 +15,7 @@
 
 
 # static fields
-.field static final synthetic $$INSTANCE:Landroidx/annotation/Dimension$Companion;
+.field public static final synthetic $$INSTANCE:Landroidx/annotation/Dimension$Companion;
 
 .field public static final DP:I = 0x0
 
@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/annotation/Dimension$Companion;

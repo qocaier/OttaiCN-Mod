@@ -1,3 +1,14 @@
-.class public final synthetic Ly3/a;
+.class public interface abstract Ly3/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ly3/a$a;
+    }
+.end annotation

@@ -1,199 +1,128 @@
 .class public Lm6/k;
-.super Lm6/n;
-.source "FitCenterStrategy.java"
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lm6/j;
 
 
-# static fields
-.field private static final b:Ljava/lang/String; = "k"
+# instance fields
+.field public a:Lm6/j$a;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 0
-
-    return-void
-.end method
-
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lm6/n;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected c(Lcom/journeyapps/barcodescanner/v;Lcom/journeyapps/barcodescanner/v;)F
-    .locals 7
+.method public a()V
+    .locals 0
 
-    .line 1
-    iget v0, p1, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    if-lez v0, :cond_2
-
-    iget v0, p1, Lcom/journeyapps/barcodescanner/v;->b:I
-
-    if-gtz v0, :cond_0
-
-    goto :goto_0
-
-    .line 2
-    :cond_0
-    invoke-virtual {p1, p2}, Lcom/journeyapps/barcodescanner/v;->d(Lcom/journeyapps/barcodescanner/v;)Lcom/journeyapps/barcodescanner/v;
-
-    move-result-object v0
-
-    .line 3
-    iget v1, v0, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    int-to-float v1, v1
-
-    const/high16 v2, 0x3f800000    # 1.0f
-
-    mul-float v1, v1, v2
-
-    iget p1, p1, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    int-to-float p1, p1
-
-    div-float/2addr v1, p1
-
-    cmpl-float p1, v1, v2
-
-    if-lez p1, :cond_1
-
-    div-float p1, v2, v1
-
-    float-to-double v3, p1
-
-    const-wide v5, 0x3ff199999999999aL    # 1.1
-
-    .line 4
-    invoke-static {v3, v4, v5, v6}, Ljava/lang/Math;->pow(DD)D
-
-    move-result-wide v3
-
-    double-to-float v1, v3
-
-    .line 5
-    :cond_1
-    iget p1, p2, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    int-to-float p1, p1
-
-    mul-float p1, p1, v2
-
-    iget v3, v0, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    int-to-float v3, v3
-
-    div-float/2addr p1, v3
-
-    iget p2, p2, Lcom/journeyapps/barcodescanner/v;->b:I
-
-    int-to-float p2, p2
-
-    mul-float p2, p2, v2
-
-    iget v0, v0, Lcom/journeyapps/barcodescanner/v;->b:I
-
-    int-to-float v0, v0
-
-    div-float/2addr p2, v0
-
-    mul-float p1, p1, p2
-
-    div-float/2addr v2, p1
-
-    div-float/2addr v2, p1
-
-    div-float/2addr v2, p1
-
-    mul-float v1, v1, v2
-
-    return v1
-
-    :cond_2
-    :goto_0
-    const/4 p1, 0x0
-
-    return p1
+    return-void
 .end method
 
-.method public d(Lcom/journeyapps/barcodescanner/v;Lcom/journeyapps/barcodescanner/v;)Landroid/graphics/Rect;
-    .locals 5
+.method public b(F)V
+    .locals 0
 
-    .line 1
-    invoke-virtual {p1, p2}, Lcom/journeyapps/barcodescanner/v;->d(Lcom/journeyapps/barcodescanner/v;)Lcom/journeyapps/barcodescanner/v;
+    return-void
+.end method
 
-    move-result-object v0
+.method public c(Lh6/b;)Lk6/j;
+    .locals 0
+    .param p1    # Lh6/b;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    .line 2
-    sget-object v1, Lm6/k;->b:Ljava/lang/String;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lh6/b;",
+            ")",
+            "Lk6/j<",
+            "*>;"
+        }
+    .end annotation
 
-    new-instance v2, Ljava/lang/StringBuilder;
+    const/4 p1, 0x0
 
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    return-object p1
+.end method
 
-    const-string v3, "Preview: "
+.method public d()J
+    .locals 2
 
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-wide/16 v0, 0x0
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    return-wide v0
+.end method
 
-    const-string p1, "; Scaled: "
+.method public e(Lh6/b;Lk6/j;)Lk6/j;
+    .locals 0
+    .param p1    # Lh6/b;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lk6/j;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lh6/b;",
+            "Lk6/j<",
+            "*>;)",
+            "Lk6/j<",
+            "*>;"
+        }
+    .end annotation
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    if-eqz p2, :cond_0
 
-    const-string p1, "; Want: "
+    iget-object p1, p0, Lm6/k;->a:Lm6/j$a;
 
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-interface {p1, p2}, Lm6/j$a;->a(Lk6/j;)V
 
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    :cond_0
+    const/4 p1, 0x0
 
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    return-object p1
+.end method
 
-    move-result-object p1
+.method public f(Lm6/j$a;)V
+    .locals 0
+    .param p1    # Lm6/j$a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    invoke-static {v1, p1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    iput-object p1, p0, Lm6/k;->a:Lm6/j$a;
 
-    .line 3
-    iget p1, v0, Lcom/journeyapps/barcodescanner/v;->a:I
+    return-void
+.end method
 
-    iget v1, p2, Lcom/journeyapps/barcodescanner/v;->a:I
+.method public getCurrentSize()J
+    .locals 2
 
-    sub-int/2addr p1, v1
+    const-wide/16 v0, 0x0
 
-    div-int/lit8 p1, p1, 0x2
+    return-wide v0
+.end method
 
-    .line 4
-    iget v1, v0, Lcom/journeyapps/barcodescanner/v;->b:I
+.method public trimMemory(I)V
+    .locals 0
 
-    iget p2, p2, Lcom/journeyapps/barcodescanner/v;->b:I
-
-    sub-int/2addr v1, p2
-
-    div-int/lit8 v1, v1, 0x2
-
-    .line 5
-    new-instance p2, Landroid/graphics/Rect;
-
-    neg-int v2, p1
-
-    neg-int v3, v1
-
-    iget v4, v0, Lcom/journeyapps/barcodescanner/v;->a:I
-
-    sub-int/2addr v4, p1
-
-    iget p1, v0, Lcom/journeyapps/barcodescanner/v;->b:I
-
-    sub-int/2addr p1, v1
-
-    invoke-direct {p2, v2, v3, v4, p1}, Landroid/graphics/Rect;-><init>(IIII)V
-
-    return-object p2
+    return-void
 .end method

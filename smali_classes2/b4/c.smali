@@ -1,43 +1,49 @@
-.class final Lb4/c;
-.super Lcom/google/android/gms/common/api/a$a;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.class public final Lb4/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/FileFilter;
+
+
+# instance fields
+.field public final synthetic a:Lb4/b;
 
 
 # direct methods
-.method constructor <init>()V
+.method public constructor <init>(Lb4/b;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/a$a;-><init>()V
+    iput-object p1, p0, Lb4/c;->a:Lb4/b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final synthetic b(Landroid/content/Context;Landroid/os/Looper;Lz3/c;Ljava/lang/Object;Lx3/c;Lx3/h;)Lcom/google/android/gms/common/api/a$f;
-    .locals 7
+.method public final accept(Ljava/io/File;)Z
+    .locals 1
 
-    .line 1
-    move-object v4, p4
+    invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
-    check-cast v4, Lz3/l;
+    move-result-object p1
 
-    .line 2
-    new-instance p4, Lb4/e;
+    const-string v0, "cpu[0-9]+"
 
-    move-object v0, p4
+    invoke-static {v0, p1}, Ljava/util/regex/Pattern;->matches(Ljava/lang/String;Ljava/lang/CharSequence;)Z
 
-    move-object v1, p1
+    move-result p1
 
-    move-object v2, p2
+    if-eqz p1, :cond_0
 
-    move-object v3, p3
+    const/4 p1, 0x1
 
-    move-object v5, p5
+    return p1
 
-    move-object v6, p6
+    :cond_0
+    const/4 p1, 0x0
 
-    invoke-direct/range {v0 .. v6}, Lb4/e;-><init>(Landroid/content/Context;Landroid/os/Looper;Lz3/c;Lz3/l;Lx3/c;Lx3/h;)V
-
-    return-object p4
+    return p1
 .end method

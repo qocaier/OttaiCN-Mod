@@ -1,111 +1,206 @@
-.class public final Ld3/c;
-.super Ljava/lang/Object;
-.source "FilteringHlsPlaylistParserFactory.java"
+.class public Ld3/c;
+.super Lanetwork/channel/aidl/d$a;
+.source "SourceFile"
 
-# interfaces
-.implements Ld3/e;
+
+# static fields
+.field public static final h:Ljava/lang/String; = "anet.ParcelableFutureResponse"
 
 
 # instance fields
-.field private final a:Ld3/e;
-
-.field private final b:Ljava/util/List;
+.field public f:Ljava/util/concurrent/Future;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/util/List<",
-            "Lcom/google/android/exoplayer2/offline/StreamKey;",
+            "Ljava/util/concurrent/Future<",
+            "Lb3/i;",
             ">;"
         }
     .end annotation
 .end field
 
+.field public g:Lanetwork/channel/aidl/NetworkResponse;
+
 
 # direct methods
-.method public constructor <init>(Ld3/e;Ljava/util/List;)V
+.method public constructor <init>(Ljava/util/concurrent/Future;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ld3/e;",
-            "Ljava/util/List<",
-            "Lcom/google/android/exoplayer2/offline/StreamKey;",
+            "Ljava/util/concurrent/Future<",
+            "Lb3/i;",
             ">;)V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Lanetwork/channel/aidl/d$a;-><init>()V
 
     .line 2
-    iput-object p1, p0, Ld3/c;->a:Ld3/e;
-
-    .line 3
-    iput-object p2, p0, Ld3/c;->b:Ljava/util/List;
+    iput-object p1, p0, Ld3/c;->f:Ljava/util/concurrent/Future;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a()Lcom/google/android/exoplayer2/upstream/d$a;
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
+.method public c1(J)Lanetwork/channel/aidl/NetworkResponse;
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
         value = {
-            "()",
-            "Lcom/google/android/exoplayer2/upstream/d$a<",
-            "Ld3/d;",
-            ">;"
+            Landroid/os/RemoteException;
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lx2/c;
+    iget-object v0, p0, Ld3/c;->f:Ljava/util/concurrent/Future;
 
-    iget-object v1, p0, Ld3/c;->a:Ld3/e;
+    const/16 v1, -0xc9
 
-    .line 2
-    invoke-interface {v1}, Ld3/e;->a()Lcom/google/android/exoplayer2/upstream/d$a;
-
-    move-result-object v1
-
-    iget-object v2, p0, Ld3/c;->b:Ljava/util/List;
-
-    invoke-direct {v0, v1, v2}, Lx2/c;-><init>(Lcom/google/android/exoplayer2/upstream/d$a;Ljava/util/List;)V
-
-    return-object v0
-.end method
-
-.method public b(Lcom/google/android/exoplayer2/source/hls/playlist/e;Lcom/google/android/exoplayer2/source/hls/playlist/d;)Lcom/google/android/exoplayer2/upstream/d$a;
-    .locals 2
-    .param p2    # Lcom/google/android/exoplayer2/source/hls/playlist/d;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/exoplayer2/source/hls/playlist/e;",
-            "Lcom/google/android/exoplayer2/source/hls/playlist/d;",
-            ")",
-            "Lcom/google/android/exoplayer2/upstream/d$a<",
-            "Ld3/d;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lx2/c;
-
-    iget-object v1, p0, Ld3/c;->a:Ld3/e;
+    if-nez v0, :cond_1
 
     .line 2
-    invoke-interface {v1, p1, p2}, Ld3/e;->b(Lcom/google/android/exoplayer2/source/hls/playlist/e;Lcom/google/android/exoplayer2/source/hls/playlist/d;)Lcom/google/android/exoplayer2/upstream/d$a;
+    iget-object p1, p0, Ld3/c;->g:Lanetwork/channel/aidl/NetworkResponse;
+
+    if-eqz p1, :cond_0
+
+    return-object p1
+
+    .line 3
+    :cond_0
+    new-instance p1, Lanetwork/channel/aidl/NetworkResponse;
+
+    invoke-direct {p1, v1}, Lanetwork/channel/aidl/NetworkResponse;-><init>(I)V
+
+    return-object p1
+
+    .line 4
+    :cond_1
+    :try_start_0
+    sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    invoke-interface {v0, p1, p2, v2}, Ljava/util/concurrent/Future;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1
 
-    iget-object p2, p0, Ld3/c;->b:Ljava/util/List;
+    check-cast p1, Lanetwork/channel/aidl/NetworkResponse;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-direct {v0, p1, p2}, Lx2/c;-><init>(Lcom/google/android/exoplayer2/upstream/d$a;Ljava/util/List;)V
+    return-object p1
 
-    return-object v0
+    :catch_0
+    move-exception p1
+
+    .line 5
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object p2
+
+    const-string v0, "NO SUPPORT"
+
+    invoke-virtual {v0, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_2
+
+    const/4 p2, 0x0
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v2, "anet.ParcelableFutureResponse"
+
+    const-string v3, "[get]\u6709listener\u5c06\u4e0d\u652f\u6301future.get()\u65b9\u6cd5\uff0c\u5982\u6709\u9700\u8981\u8bf7listener\u4f20\u5165null"
+
+    .line 6
+    invoke-static {v2, v3, p2, p1, v0}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
+
+    .line 7
+    :cond_2
+    new-instance p1, Lanetwork/channel/aidl/NetworkResponse;
+
+    invoke-direct {p1, v1}, Lanetwork/channel/aidl/NetworkResponse;-><init>(I)V
+
+    return-object p1
+.end method
+
+.method public cancel(Z)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ld3/c;->f:Ljava/util/concurrent/Future;
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    .line 2
+    :cond_0
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Future;->cancel(Z)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public isCancelled()Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ld3/c;->f:Ljava/util/concurrent/Future;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    .line 2
+    :cond_0
+    invoke-interface {v0}, Ljava/util/concurrent/Future;->isCancelled()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isDone()Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ld3/c;->f:Ljava/util/concurrent/Future;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    .line 2
+    :cond_0
+    invoke-interface {v0}, Ljava/util/concurrent/Future;->isDone()Z
+
+    move-result v0
+
+    return v0
 .end method

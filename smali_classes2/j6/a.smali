@@ -1,42 +1,10 @@
-.class public final Lj6/a;
+.class public Lj6/a;
 .super Ljava/lang/Object;
-.source "FluwxConfigurations.kt"
-
-
-# static fields
-.field public static final a:Lj6/a;
-
-.field private static final b:Ljava/lang/String;
-
-.field private static final c:Z
-
-.field private static final d:Z
+.source "SourceFile"
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lj6/a;
-
-    invoke-direct {v0}, Lj6/a;-><init>()V
-
-    sput-object v0, Lj6/a;->a:Lj6/a;
-
-    const-string v0, ""
-
-    .line 1
-    sput-object v0, Lj6/a;->b:Ljava/lang/String;
-
-    const/4 v0, 0x1
-
-    .line 2
-    sput-boolean v0, Lj6/a;->d:Z
-
-    return-void
-.end method
-
-.method private constructor <init>()V
+.method public constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -46,26 +14,32 @@
 
 
 # virtual methods
-.method public final a()Z
-    .locals 1
+.method public a(Ljava/io/File;)Z
+    .locals 0
 
-    sget-boolean v0, Lj6/a;->c:Z
+    invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
-    return v0
+    move-result p1
+
+    return p1
 .end method
 
-.method public final b()Ljava/lang/String;
+.method public b(Ljava/lang/String;)Ljava/io/File;
     .locals 1
 
-    sget-object v0, Lj6/a;->b:Ljava/lang/String;
+    new-instance v0, Ljava/io/File;
+
+    invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     return-object v0
 .end method
 
-.method public final c()Z
-    .locals 1
+.method public c(Ljava/io/File;)J
+    .locals 2
 
-    sget-boolean v0, Lj6/a;->d:Z
+    invoke-virtual {p1}, Ljava/io/File;->length()J
 
-    return v0
+    move-result-wide v0
+
+    return-wide v0
 .end method

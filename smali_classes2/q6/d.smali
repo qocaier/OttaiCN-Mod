@@ -1,281 +1,151 @@
 .class public Lq6/d;
-.super Lq6/c;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lp6/o;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lq6/d$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lp6/o<",
+        "Landroid/net/Uri;",
+        "Ljava/io/InputStream;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Landroid/content/Context;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+.method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Lq6/c;-><init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lq6/d;->a:Landroid/content/Context;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected i(Landroid/app/Notification;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 5
+.method public bridge synthetic a(Ljava/lang/Object;)Z
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    invoke-super {p0, p1, p2}, La8/a;->i(Landroid/app/Notification;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
+    check-cast p1, Landroid/net/Uri;
 
-    invoke-static {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV4;->parse(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)Lcom/meizu/cloud/pushsdk/handler/MessageV4;
+    invoke-virtual {p0, p1}, Lq6/d;->d(Landroid/net/Uri;)Z
 
-    move-result-object v0
+    move-result p1
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/handler/MessageV4;->getActVideoSetting()Lcom/meizu/cloud/pushsdk/notification/model/ActVideoSetting;
-
-    move-result-object v1
-
-    const-string v2, "only wifi can download act"
-
-    const-string v3, "AbstractPushNotification"
-
-    if-nez v1, :cond_0
-
-    invoke-static {v3, v2}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_0
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/handler/MessageV4;->getActVideoSetting()Lcom/meizu/cloud/pushsdk/notification/model/ActVideoSetting;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/meizu/cloud/pushsdk/notification/model/ActVideoSetting;->isWifiDisplay()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lv7/a;->b(Landroid/content/Context;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    invoke-static {v3, v2}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-
-    :cond_1
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v1}, Lcom/meizu/cloud/pushsdk/util/MzSystemUtils;->getDocumentsPath(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, "/pushSdkAct/"
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getUploadDataPackageName()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/handler/MessageV4;->getActVideoSetting()Lcom/meizu/cloud/pushsdk/notification/model/ActVideoSetting;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/ActVideoSetting;->getActUrl()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_2
-
-    invoke-static {v0, p2, v1}, Lu7/a;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lw7/b$c;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lw7/b$c;->b()Lw7/b;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lw7/b;->h()Lw7/c;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lw7/c;->f()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "down load "
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v0, " success"
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v3, v0}, Lcom/meizu/cloud/pushinternal/DebugLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    sget-object v2, Ljava/io/File;->separator:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v4, "ACT-"
-
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Lv6/e;
-
-    invoke-direct {v2, v1, v0}, Lv6/e;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v2}, Lv6/e;->c()Z
-
-    move-result v1
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "zip file "
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/meizu/cloud/pushinternal/DebugLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    if-eqz v1, :cond_2
-
-    new-instance v1, Landroid/os/Bundle;
-
-    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
-
-    const-string v2, "path"
-
-    invoke-virtual {v1, v2, v0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance v0, Landroid/os/Bundle;
-
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
-
-    const-string v2, "big"
-
-    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
-
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MinSdkChecker;->isSupportVideoNotification()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    iget-object p1, p1, Landroid/app/Notification;->extras:Landroid/os/Bundle;
-
-    const-string v1, "flyme.active"
-
-    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
-
-    :cond_2
-    new-instance p1, Lq6/d$a;
-
-    invoke-direct {p1, p0, p2}, Lq6/d$a;-><init>(Lq6/d;Ljava/lang/String;)V
-
-    invoke-static {p1}, Lj7/b;->d(Ljava/lang/Runnable;)V
-
-    return-void
+    return p1
 .end method
 
-.method protected q(Landroid/app/Notification$Builder;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 2
+.method public bridge synthetic b(Ljava/lang/Object;IILh6/e;)Lp6/o$a;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MinSdkChecker;->isSupportNotificationBuild()Z
+    check-cast p1, Landroid/net/Uri;
 
-    move-result v0
+    invoke-virtual {p0, p1, p2, p3, p4}, Lq6/d;->c(Landroid/net/Uri;IILh6/e;)Lp6/o$a;
 
-    if-eqz v0, :cond_0
+    move-result-object p1
 
-    new-instance v0, Landroid/app/Notification$BigTextStyle;
+    return-object p1
+.end method
 
-    invoke-direct {v0}, Landroid/app/Notification$BigTextStyle;-><init>()V
+.method public c(Landroid/net/Uri;IILh6/e;)Lp6/o$a;
+    .locals 0
+    .param p1    # Landroid/net/Uri;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/net/Uri;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lp6/o$a<",
+            "Ljava/io/InputStream;",
+            ">;"
+        }
+    .end annotation
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getTitle()Ljava/lang/String;
+    .line 1
+    invoke-static {p2, p3}, Lj6/b;->d(II)Z
 
-    move-result-object v1
+    move-result p2
 
-    invoke-virtual {v0, v1}, Landroid/app/Notification$BigTextStyle;->setBigContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$BigTextStyle;
+    if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
+    .line 2
+    new-instance p2, Lp6/o$a;
 
-    move-result-object p2
+    new-instance p3, Le7/e;
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getExpandableText()Ljava/lang/String;
+    invoke-direct {p3, p1}, Le7/e;-><init>(Ljava/lang/Object;)V
 
-    move-result-object p2
+    iget-object p4, p0, Lq6/d;->a:Landroid/content/Context;
 
-    invoke-virtual {v0, p2}, Landroid/app/Notification$BigTextStyle;->bigText(Ljava/lang/CharSequence;)Landroid/app/Notification$BigTextStyle;
+    invoke-static {p4, p1}, Lj6/c;->f(Landroid/content/Context;Landroid/net/Uri;)Lj6/c;
 
-    invoke-virtual {p1, v0}, Landroid/app/Notification$Builder;->setStyle(Landroid/app/Notification$Style;)Landroid/app/Notification$Builder;
+    move-result-object p1
+
+    invoke-direct {p2, p3, p1}, Lp6/o$a;-><init>(Lh6/b;Li6/d;)V
+
+    return-object p2
 
     :cond_0
-    return-void
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public d(Landroid/net/Uri;)Z
+    .locals 0
+    .param p1    # Landroid/net/Uri;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    invoke-static {p1}, Lj6/b;->a(Landroid/net/Uri;)Z
+
+    move-result p1
+
+    return p1
 .end method

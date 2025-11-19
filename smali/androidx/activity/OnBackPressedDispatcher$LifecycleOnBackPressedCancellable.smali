@@ -1,6 +1,6 @@
 .class final Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;
 .super Ljava/lang/Object;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroidx/lifecycle/LifecycleEventObserver;
@@ -13,24 +13,41 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x12
+    accessFlags = 0x11
     name = "LifecycleOnBackPressedCancellable"
 .end annotation
 
 
 # instance fields
 .field private currentCancellable:Landroidx/activity/Cancellable;
+    .annotation build Lzr/l;
+    .end annotation
+.end field
 
 .field private final lifecycle:Landroidx/lifecycle/Lifecycle;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
-.field final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
+.field public final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
 
 
 # direct methods
 .method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/Lifecycle;Landroidx/activity/OnBackPressedCallback;)V
     .locals 1
+    .param p1    # Landroidx/activity/OnBackPressedDispatcher;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/lifecycle/Lifecycle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -42,11 +59,11 @@
 
     const-string v0, "lifecycle"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onBackPressedCallback"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;->this$0:Landroidx/activity/OnBackPressedDispatcher;
@@ -98,14 +115,22 @@
 
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
+    .param p1    # Landroidx/lifecycle/LifecycleOwner;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
-    const-string v0, "source"
+    const-string/jumbo v0, "source"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "event"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;

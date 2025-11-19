@@ -1,6 +1,6 @@
 .class final Landroidx/activity/EdgeToEdgeApi30;
 .super Landroidx/activity/EdgeToEdgeApi29;
-.source "EdgeToEdge.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -22,12 +22,16 @@
 # virtual methods
 .method public adjustLayoutInDisplayCutoutMode(Landroid/view/Window;)V
     .locals 1
+    .param p1    # Landroid/view/Window;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string/jumbo v0, "window"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 

@@ -1,29 +1,10 @@
-.class public final synthetic Lc/a;
+.class public final Lc/a;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
-
-# interfaces
-.implements Landroidx/camera/core/impl/CameraDeviceSurfaceManager$Provider;
-
-
-# static fields
-.field public static final synthetic a:Lc/a;
+.source "SourceFile"
 
 
 # direct methods
-.method static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lc/a;
-
-    invoke-direct {v0}, Lc/a;-><init>()V
-
-    sput-object v0, Lc/a;->a:Lc/a;
-
-    return-void
-.end method
-
-.method private synthetic constructor <init>()V
+.method public constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -33,12 +14,46 @@
 
 
 # virtual methods
-.method public final newInstance(Landroid/content/Context;Ljava/lang/Object;Ljava/util/Set;)Landroidx/camera/core/impl/CameraDeviceSurfaceManager;
-    .locals 0
+.method public final a()Ljava/lang/StackTraceElement;
+    .locals 2
+    .annotation build Lzr/k;
+    .end annotation
 
-    invoke-static {p1, p2, p3}, Landroidx/camera/camera2/Camera2Config;->b(Landroid/content/Context;Ljava/lang/Object;Ljava/util/Set;)Landroidx/camera/core/impl/CameraDeviceSurfaceManager;
+    new-instance v0, Ljava/lang/Exception;
 
-    move-result-object p1
+    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
 
-    return-object p1
+    const-class v1, Lc/c;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lc/b;->a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final b()Ljava/lang/StackTraceElement;
+    .locals 2
+    .annotation build Lzr/k;
+    .end annotation
+
+    new-instance v0, Ljava/lang/Exception;
+
+    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
+
+    const-class v1, Lc/d;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lc/b;->a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+
+    move-result-object v0
+
+    return-object v0
 .end method

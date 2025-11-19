@@ -1,352 +1,207 @@
-.class public final Ls4/c;
-.super Lcom/google/gson/q;
-.source "DateTypeAdapter.java"
+.class public Ls4/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
+.annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        "Lcom/google/gson/q<",
-        "Ljava/util/Date;",
-        ">;"
+        Ls4/c$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final b:Lcom/google/gson/r;
+.field public static final a:I = 0x3f2
 
-
-# instance fields
-.field private final a:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/text/DateFormat;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public static b:Ls4/c$a;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Ls4/c$a;
-
-    invoke-direct {v0}, Ls4/c$a;-><init>()V
-
-    sput-object v0, Ls4/c;->b:Lcom/google/gson/r;
-
-    return-void
-.end method
-
 .method public constructor <init>()V
-    .locals 4
+    .locals 0
 
-    .line 1
-    invoke-direct {p0}, Lcom/google/gson/q;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    iput-object v0, p0, Ls4/c;->a:Ljava/util/List;
-
-    .line 3
-    sget-object v1, Ljava/util/Locale;->US:Ljava/util/Locale;
-
-    const/4 v2, 0x2
-
-    invoke-static {v2, v2, v1}, Ljava/text/DateFormat;->getDateTimeInstance(IILjava/util/Locale;)Ljava/text/DateFormat;
-
-    move-result-object v3
-
-    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 4
-    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v1}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    .line 5
-    invoke-static {v2, v2}, Ljava/text/DateFormat;->getDateTimeInstance(II)Ljava/text/DateFormat;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 6
-    :cond_0
-    invoke-static {}, Lcom/google/gson/internal/d;->d()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 7
-    invoke-static {v2, v2}, Lcom/google/gson/internal/g;->c(II)Ljava/text/DateFormat;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_1
     return-void
 .end method
 
-.method private a(Lw4/a;)Ljava/util/Date;
+.method public static a(Lk5/a;IILandroid/content/Intent;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+
+    const/4 v0, 0x0
+
+    const/16 v1, 0x3f2
+
+    if-eq p1, v1, :cond_0
+
+    return v0
+
+    :cond_0
+    if-nez p3, :cond_1
+
+    return v0
 
     .line 1
-    invoke-virtual {p1}, Lw4/a;->D()Ljava/lang/String;
+    :cond_1
+    sget-object p1, Ls4/c;->b:Ls4/c$a;
 
-    move-result-object v0
+    const/4 v1, 0x1
 
-    .line 2
-    iget-object v1, p0, Ls4/c;->a:Ljava/util/List;
+    if-nez p1, :cond_2
 
-    monitor-enter v1
+    return v1
 
-    .line 3
-    :try_start_0
-    iget-object v2, p0, Ls4/c;->a:Ljava/util/List;
-
-    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v2
-
-    :catch_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/text/DateFormat;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    :try_start_1
-    invoke-virtual {v3, v0}, Ljava/text/DateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
-
-    move-result-object p1
-    :try_end_1
-    .catch Ljava/text/ParseException; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    :try_start_2
-    monitor-exit v1
-
-    return-object p1
-
-    .line 5
-    :cond_0
-    monitor-exit v1
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 6
-    :try_start_3
-    new-instance v1, Ljava/text/ParsePosition;
-
+    :cond_2
     const/4 v2, 0x0
 
-    invoke-direct {v1, v2}, Ljava/text/ParsePosition;-><init>(I)V
-
-    invoke-static {v0, v1}, Lt4/a;->c(Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;
-
-    move-result-object p1
-    :try_end_3
-    .catch Ljava/text/ParseException; {:try_start_3 .. :try_end_3} :catch_1
-
-    return-object p1
-
-    :catch_1
-    move-exception v1
-
-    .line 7
-    new-instance v2, Lcom/google/gson/JsonSyntaxException;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "Failed parsing \'"
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v0, "\' as Date; at path "
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Lw4/a;->q()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v2, p1, v1}, Lcom/google/gson/JsonSyntaxException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    throw v2
-
-    :catchall_0
-    move-exception p1
-
-    .line 8
-    :try_start_4
-    monitor-exit v1
-    :try_end_4
-    .catchall {:try_start_4 .. :try_end_4} :catchall_0
-
-    throw p1
-.end method
-
-
-# virtual methods
-.method public b(Lw4/a;)Ljava/util/Date;
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p1}, Lw4/a;->F()Lcom/google/gson/stream/JsonToken;
-
-    move-result-object v0
-
-    sget-object v1, Lcom/google/gson/stream/JsonToken;->NULL:Lcom/google/gson/stream/JsonToken;
-
-    if-ne v0, v1, :cond_0
-
     .line 2
-    invoke-virtual {p1}, Lw4/a;->B()V
+    sput-object v2, Ls4/c;->b:Ls4/c$a;
 
-    const/4 p1, 0x0
+    const/4 v3, -0x1
 
-    return-object p1
+    const-string v4, "biz"
+
+    if-eq p2, v3, :cond_4
+
+    if-eqz p2, :cond_3
 
     .line 3
-    :cond_0
-    invoke-direct {p0, p1}, Ls4/c;->a(Lw4/a;)Ljava/util/Date;
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string p3, ""
+
+    invoke-virtual {p1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    return-object p1
-.end method
+    const-string p2, "TbUnknown"
 
-.method public c(Lw4/b;Ljava/util/Date;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+    invoke-static {p0, v4, p2, p1}, Lu4/a;->i(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    if-nez p2, :cond_0
-
-    .line 1
-    invoke-virtual {p1}, Lw4/b;->u()Lw4/b;
-
-    return-void
-
-    .line 2
-    :cond_0
-    iget-object v0, p0, Ls4/c;->a:Ljava/util/List;
-
-    const/4 v1, 0x0
-
-    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/text/DateFormat;
-
-    .line 3
-    iget-object v1, p0, Ls4/c;->a:Ljava/util/List;
-
-    monitor-enter v1
+    goto :goto_0
 
     .line 4
-    :try_start_0
-    invoke-virtual {v0, p2}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+    :cond_3
+    invoke-virtual {p3, v1}, Landroid/content/Intent;->toUri(I)Ljava/lang/String;
 
     move-result-object p2
 
+    const-string p3, "TbCancel"
+
+    invoke-static {p0, v4, p3, p2}, Lu4/a;->d(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string p0, "CANCELED"
+
     .line 5
-    monitor-exit v1
+    invoke-interface {p1, v0, v2, p0}, Ls4/c$a;->a(ZLorg/json/JSONObject;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 6
+    :cond_4
+    invoke-virtual {p3, v1}, Landroid/content/Intent;->toUri(I)Ljava/lang/String;
+
+    move-result-object p2
+
+    const-string v0, "TbOk"
+
+    invoke-static {p0, v4, v0, p2}, Lu4/a;->d(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 7
+    invoke-static {p3}, Lm5/l;->t(Landroid/content/Intent;)Lorg/json/JSONObject;
+
+    move-result-object p0
+
+    const-string p2, "OK"
+
+    invoke-interface {p1, v1, p0, p2}, Ls4/c$a;->a(ZLorg/json/JSONObject;Ljava/lang/String;)V
+
+    :goto_0
+    return v1
+.end method
+
+.method public static b(Lk5/a;Landroid/app/Activity;ILjava/lang/String;Ljava/lang/String;Ls4/c$a;)Z
+    .locals 2
+
+    const-string v0, "biz"
+
+    :try_start_0
+    const-string v1, "TbStart"
+
+    .line 1
+    invoke-static {p0, v0, v1}, Lu4/a;->c(Lk5/a;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 2
+    new-instance v1, Landroid/content/Intent;
+
+    invoke-static {p3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object p3
+
+    invoke-direct {v1, p4, p3}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
+    .line 3
+    invoke-virtual {p1, v1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
+
+    .line 4
+    sput-object p5, Ls4/c;->b:Ls4/c$a;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
-    invoke-virtual {p1, p2}, Lw4/b;->I(Ljava/lang/String;)Lw4/b;
+    const/4 p0, 0x1
 
-    return-void
+    return p0
 
     :catchall_0
     move-exception p1
 
-    .line 7
-    :try_start_1
-    monitor-exit v1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    const/4 p2, 0x0
 
-    throw p1
+    const/4 p3, 0x0
+
+    const-string p4, "UNKNOWN_ERROR"
+
+    .line 5
+    invoke-interface {p5, p3, p2, p4}, Ls4/c$a;->a(ZLorg/json/JSONObject;Ljava/lang/String;)V
+
+    const-string p2, "TbActFail"
+
+    .line 6
+    invoke-static {p0, v0, p2, p1}, Lu4/a;->e(Lk5/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return p3
 .end method
 
-.method public bridge synthetic read(Lw4/a;)Ljava/lang/Object;
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method public static c(Lk5/a;Landroid/content/Context;)Z
+    .locals 4
 
-    invoke-virtual {p0, p1}, Ls4/c;->b(Lw4/a;)Ljava/util/Date;
+    .line 1
+    new-instance v0, Ly4/a$b;
 
-    move-result-object p1
+    const-string v1, "com.taobao.taobao"
 
-    return-object p1
-.end method
+    const/4 v2, 0x0
 
-.method public bridge synthetic write(Lw4/b;Ljava/lang/Object;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+    const-string v3, ""
 
-    check-cast p2, Ljava/util/Date;
+    invoke-direct {v0, v1, v2, v3}, Ly4/a$b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    invoke-virtual {p0, p1, p2}, Ls4/c;->c(Lw4/b;Ljava/util/Date;)V
+    .line 2
+    invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
-    return-void
+    move-result-object v0
+
+    .line 3
+    invoke-static {p0, p1, v0, v2}, Lm5/l;->y(Lk5/a;Landroid/content/Context;Ljava/util/List;Z)Z
+
+    move-result p0
+
+    return p0
 .end method

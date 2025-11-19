@@ -1,6 +1,6 @@
 .class interface abstract Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 .super Ljava/lang/Object;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Ljava/util/concurrent/Executor;
@@ -12,7 +12,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x60a
+    accessFlags = 0x609
     name = "ReportFullyDrawnExecutor"
 .end annotation
 
@@ -22,4 +22,8 @@
 .end method
 
 .method public abstract viewCreated(Landroid/view/View;)V
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 .end method

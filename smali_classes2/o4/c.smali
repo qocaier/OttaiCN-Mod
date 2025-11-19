@@ -1,16 +1,57 @@
-.class public interface abstract Lo4/c;
-.super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
+.class public final Lo4/c;
+.super Lo4/b;
+.source "SourceFile"
 
-# interfaces
-.implements Landroid/os/IInterface;
+
+# instance fields
+.field public final f:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lo4/b;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lo4/c;->f:Ljava/lang/String;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract k(Lcom/google/android/gms/signin/internal/zak;)V
+.method public a()V
+    .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Landroid/os/RemoteException;
+            Ljava/lang/Exception;
         }
     .end annotation
+
+    const/4 v0, 0x1
+
+    .line 1
+    iput-byte v0, p0, Lo4/b;->a:B
+
+    .line 2
+    iget-object v0, p0, Lo4/c;->f:Ljava/lang/String;
+
+    const-string v1, "UTF-8"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+
+    move-result-object v0
+
+    iput-object v0, p0, Lo4/b;->c:[B
+
+    .line 3
+    array-length v0, v0
+
+    int-to-byte v0, v0
+
+    iput-byte v0, p0, Lo4/b;->b:B
+
+    return-void
 .end method

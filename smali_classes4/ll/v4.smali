@@ -1,0 +1,46 @@
+.class public final synthetic Lll/v4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;
+
+.field public final synthetic b:Lxb/u0;
+
+.field public final synthetic c:Lio/flutter/plugins/camerax/GeneratedCameraXLibrary$Result;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;Lxb/u0;Lio/flutter/plugins/camerax/GeneratedCameraXLibrary$Result;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lll/v4;->a:Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;
+
+    iput-object p2, p0, Lll/v4;->b:Lxb/u0;
+
+    iput-object p3, p0, Lll/v4;->c:Lio/flutter/plugins/camerax/GeneratedCameraXLibrary$Result;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    iget-object v0, p0, Lll/v4;->a:Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;
+
+    iget-object v1, p0, Lll/v4;->b:Lxb/u0;
+
+    iget-object v2, p0, Lll/v4;->c:Lio/flutter/plugins/camerax/GeneratedCameraXLibrary$Result;
+
+    invoke-static {v0, v1, v2}, Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;->d(Lio/flutter/plugins/camerax/ProcessCameraProviderHostApiImpl;Lxb/u0;Lio/flutter/plugins/camerax/GeneratedCameraXLibrary$Result;)V
+
+    return-void
+.end method

@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/ImmLeaksCleaner$ValidCleaner;
 .super Landroidx/activity/ImmLeaksCleaner$Cleaner;
-.source "ImmLeaksCleaner.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -16,32 +16,53 @@
 
 # instance fields
 .field private final hField:Ljava/lang/reflect/Field;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final nextServedViewField:Ljava/lang/reflect/Field;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final servedViewField:Ljava/lang/reflect/Field;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;)V
     .locals 1
+    .param p1    # Ljava/lang/reflect/Field;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/reflect/Field;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/reflect/Field;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string v0, "hField"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "servedViewField"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "nextServedViewField"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Landroidx/activity/ImmLeaksCleaner$Cleaner;-><init>(Lkotlin/jvm/internal/o;)V
+    invoke-direct {p0, v0}, Landroidx/activity/ImmLeaksCleaner$Cleaner;-><init>(Ldo/u;)V
 
     .line 2
     iput-object p1, p0, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;->hField:Ljava/lang/reflect/Field;
@@ -59,10 +80,14 @@
 # virtual methods
 .method public clearNextServedView(Landroid/view/inputmethod/InputMethodManager;)Z
     .locals 2
+    .param p1    # Landroid/view/inputmethod/InputMethodManager;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v0, p0, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;->nextServedViewField:Ljava/lang/reflect/Field;
@@ -86,10 +111,16 @@
 
 .method public getLock(Landroid/view/inputmethod/InputMethodManager;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Landroid/view/inputmethod/InputMethodManager;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lzr/l;
+    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     :try_start_0
     iget-object v0, p0, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;->hField:Ljava/lang/reflect/Field;
@@ -111,10 +142,16 @@
 
 .method public getServedView(Landroid/view/inputmethod/InputMethodManager;)Landroid/view/View;
     .locals 2
+    .param p1    # Landroid/view/inputmethod/InputMethodManager;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lzr/l;
+    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 

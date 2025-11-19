@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/SystemBarStyle$Companion;
 .super Ljava/lang/Object;
-.source "EdgeToEdge.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -18,12 +18,13 @@
 .method private constructor <init>()V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkotlin/jvm/internal/o;)V
+.method public synthetic constructor <init>(Ldo/u;)V
     .locals 0
 
     invoke-direct {p0}, Landroidx/activity/SystemBarStyle$Companion;-><init>()V
@@ -31,7 +32,7 @@
     return-void
 .end method
 
-.method public static synthetic auto$default(Landroidx/activity/SystemBarStyle$Companion;IILla/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+.method public static synthetic auto$default(Landroidx/activity/SystemBarStyle$Companion;IILco/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
     .locals 0
 
     and-int/lit8 p4, p4, 0x4
@@ -43,7 +44,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILla/l;)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILco/l;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -62,6 +63,14 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
+    .annotation build Lbo/j;
+    .end annotation
+
+    .annotation runtime Lbo/n;
+    .end annotation
+
+    .annotation build Lzr/k;
+    .end annotation
 
     const/4 v3, 0x0
 
@@ -75,14 +84,14 @@
 
     move v2, p2
 
-    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILla/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILco/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final auto(IILla/l;)Landroidx/activity/SystemBarStyle;
+.method public final auto(IILco/l;)Landroidx/activity/SystemBarStyle;
     .locals 7
     .param p1    # I
         .annotation build Landroidx/annotation/ColorInt;
@@ -92,10 +101,20 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
+    .param p3    # Lco/l;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/j;
+    .end annotation
+
+    .annotation runtime Lbo/n;
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
-            "Lla/l<",
+            "Lco/l<",
             "-",
             "Landroid/content/res/Resources;",
             "Ljava/lang/Boolean;",
@@ -104,9 +123,12 @@
         }
     .end annotation
 
+    .annotation build Lzr/k;
+    .end annotation
+
     const-string v0, "detectDarkMode"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Landroidx/activity/SystemBarStyle;
 
@@ -122,7 +144,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v1 .. v6}, Landroidx/activity/SystemBarStyle;-><init>(IIILla/l;Lkotlin/jvm/internal/o;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/activity/SystemBarStyle;-><init>(IIILco/l;Ldo/u;)V
 
     return-object v0
 .end method
@@ -133,6 +155,11 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
+    .annotation runtime Lbo/n;
+    .end annotation
+
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 1
     new-instance v6, Landroidx/activity/SystemBarStyle;
@@ -151,7 +178,7 @@
     move v2, p1
 
     .line 3
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILla/l;Lkotlin/jvm/internal/o;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILco/l;Ldo/u;)V
 
     return-object v6
 .end method
@@ -166,6 +193,11 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
+    .annotation runtime Lbo/n;
+    .end annotation
+
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 1
     new-instance v6, Landroidx/activity/SystemBarStyle;
@@ -184,7 +216,7 @@
     move v2, p2
 
     .line 3
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILla/l;Lkotlin/jvm/internal/o;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILco/l;Ldo/u;)V
 
     return-object v6
 .end method

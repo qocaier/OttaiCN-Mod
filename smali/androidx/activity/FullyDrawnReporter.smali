@@ -1,12 +1,30 @@
 .class public final Landroidx/activity/FullyDrawnReporter;
 .super Ljava/lang/Object;
-.source "FullyDrawnReporter.kt"
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nFullyDrawnReporter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporter\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,190:1\n1#2:191\n1855#3,2:192\n*S KotlinDebug\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporter\n*L\n154#1:192,2\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nFullyDrawnReporter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporter\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,190:1\n1#2:191\n1855#3,2:192\n*S KotlinDebug\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporter\n*L\n154#1:192,2\n*E\n"
+    }
+.end annotation
 
 
 # instance fields
 .field private final executor:Ljava/util/concurrent/Executor;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final lock:Ljava/lang/Object;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final onReportCallbacks:Ljava/util/List;
     .annotation build Landroidx/annotation/GuardedBy;
@@ -16,20 +34,26 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;>;"
         }
     .end annotation
+
+    .annotation build Lzr/k;
+    .end annotation
 .end field
 
-.field private final reportFullyDrawn:Lla/a;
+.field private final reportFullyDrawn:Lco/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;"
         }
+    .end annotation
+
+    .annotation build Lzr/k;
     .end annotation
 .end field
 
@@ -40,6 +64,9 @@
 .end field
 
 .field private final reportRunnable:Ljava/lang/Runnable;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private reportedFullyDrawn:Z
     .annotation build Landroidx/annotation/GuardedBy;
@@ -55,25 +82,33 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/concurrent/Executor;Lla/a;)V
+.method public constructor <init>(Ljava/util/concurrent/Executor;Lco/a;)V
     .locals 1
+    .param p1    # Ljava/util/concurrent/Executor;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/concurrent/Executor;",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "executor"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "reportFullyDrawn"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -82,7 +117,7 @@
     iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->executor:Ljava/util/concurrent/Executor;
 
     .line 3
-    iput-object p2, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lla/a;
+    iput-object p2, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lco/a;
 
     .line 4
     new-instance p1, Ljava/lang/Object;
@@ -99,9 +134,9 @@
     iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->onReportCallbacks:Ljava/util/List;
 
     .line 6
-    new-instance p1, Landroidx/activity/m;
+    new-instance p1, Ld/j;
 
-    invoke-direct {p1, p0}, Landroidx/activity/m;-><init>(Landroidx/activity/FullyDrawnReporter;)V
+    invoke-direct {p1, p0}, Ld/j;-><init>(Landroidx/activity/FullyDrawnReporter;)V
 
     iput-object p1, p0, Landroidx/activity/FullyDrawnReporter;->reportRunnable:Ljava/lang/Runnable;
 
@@ -147,9 +182,9 @@
 .method private static final reportRunnable$lambda$2(Landroidx/activity/FullyDrawnReporter;)V
     .locals 2
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
@@ -172,16 +207,16 @@
     if-nez v1, :cond_0
 
     .line 4
-    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lla/a;
+    iget-object v1, p0, Landroidx/activity/FullyDrawnReporter;->reportFullyDrawn:Lco/a;
 
-    invoke-interface {v1}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lco/a;->invoke()Ljava/lang/Object;
 
     .line 5
     invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->fullyDrawnReported()V
 
     .line 6
     :cond_0
-    sget-object p0, Lkotlin/s;->a:Lkotlin/s;
+    sget-object p0, Len/y1;->a:Len/y1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -200,20 +235,24 @@
 
 
 # virtual methods
-.method public final addOnReportDrawnListener(Lla/a;)V
+.method public final addOnReportDrawnListener(Lco/a;)V
     .locals 2
+    .param p1    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "callback"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
@@ -247,7 +286,7 @@
     if-eqz v1, :cond_1
 
     .line 5
-    invoke-interface {p1}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lco/a;->invoke()Ljava/lang/Object;
 
     :cond_1
     return-void
@@ -284,7 +323,7 @@
 
     .line 4
     :cond_0
-    sget-object v1, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v1, Len/y1;->a:Len/y1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -339,10 +378,10 @@
 
     move-result-object v2
 
-    check-cast v2, Lla/a;
+    check-cast v2, Lco/a;
 
     .line 5
-    invoke-interface {v2}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v2}, Lco/a;->invoke()Ljava/lang/Object;
 
     goto :goto_0
 
@@ -353,7 +392,7 @@
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
     .line 7
-    sget-object v1, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v1, Len/y1;->a:Len/y1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -394,20 +433,24 @@
     throw v1
 .end method
 
-.method public final removeOnReportDrawnListener(Lla/a;)V
+.method public final removeOnReportDrawnListener(Lco/a;)V
     .locals 2
+    .param p1    # Lco/a;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)V"
         }
     .end annotation
 
     const-string v0, "callback"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Landroidx/activity/FullyDrawnReporter;->lock:Ljava/lang/Object;
@@ -421,7 +464,7 @@
     invoke-interface {v1, p1}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
 
     .line 3
-    sget-object p1, Lkotlin/s;->a:Lkotlin/s;
+    sget-object p1, Len/y1;->a:Len/y1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -466,7 +509,7 @@
 
     .line 5
     :cond_0
-    sget-object v1, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v1, Len/y1;->a:Len/y1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

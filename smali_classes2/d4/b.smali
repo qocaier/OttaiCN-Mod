@@ -1,130 +1,51 @@
 .class public final Ld4/b;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
-
-# interfaces
-.implements Landroid/os/Parcelable$Creator;
+.source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 0
+.method public static a(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    :try_start_0
+    invoke-static {p0}, Ld4/f;->a(Ljava/lang/String;)Ljava/lang/String;
 
-    return-void
-.end method
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    goto :goto_0
 
-# virtual methods
-.method public final bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-    .locals 8
+    :catchall_0
+    const-string v0, ""
 
-    .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->H(Landroid/os/Parcel;)I
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x0
-
-    move-object v2, v1
-
-    move-object v3, v2
-
-    const/4 v4, 0x0
-
-    .line 2
     :goto_0
-    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+    invoke-static {v0}, Lq5/a;->c(Ljava/lang/String;)Z
 
-    move-result v5
+    move-result v1
 
-    if-ge v5, v0, :cond_4
+    if-eqz v1, :cond_0
 
-    .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->z(Landroid/os/Parcel;)I
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    move-result v5
+    const-string v1, ".SystemConfig"
 
-    .line 4
-    invoke-static {v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->u(I)I
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    move-result v6
+    sget-object v1, Ljava/io/File;->separator:Ljava/lang/String;
 
-    const/4 v7, 0x1
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    if-eq v6, v7, :cond_3
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v7, 0x2
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    if-eq v6, v7, :cond_2
+    move-result-object p0
 
-    const/4 v7, 0x3
+    invoke-static {p0}, Ld4/c;->a(Ljava/lang/String;)Ljava/lang/String;
 
-    if-eq v6, v7, :cond_1
+    move-result-object v0
 
-    const/4 v7, 0x4
-
-    if-eq v6, v7, :cond_0
-
-    .line 5
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->G(Landroid/os/Parcel;I)V
-
-    goto :goto_0
-
-    .line 6
     :cond_0
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->o(Landroid/os/Parcel;I)Ljava/lang/String;
-
-    move-result-object v3
-
-    goto :goto_0
-
-    .line 7
-    :cond_1
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->o(Landroid/os/Parcel;I)Ljava/lang/String;
-
-    move-result-object v2
-
-    goto :goto_0
-
-    .line 8
-    :cond_2
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->v(Landroid/os/Parcel;I)Z
-
-    move-result v4
-
-    goto :goto_0
-
-    .line 9
-    :cond_3
-    sget-object v1, Lcom/google/android/gms/common/Feature;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 10
-    invoke-static {p1, v5, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->s(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    goto :goto_0
-
-    .line 11
-    :cond_4
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->t(Landroid/os/Parcel;I)V
-
-    .line 12
-    new-instance p1, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-
-    invoke-direct {p1, v1, v4, v2, v3}, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;-><init>(Ljava/util/List;ZLjava/lang/String;Ljava/lang/String;)V
-
-    return-object p1
-.end method
-
-.method public final synthetic newArray(I)[Ljava/lang/Object;
-    .locals 0
-
-    new-array p1, p1, [Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-
-    return-object p1
+    return-object v0
 .end method

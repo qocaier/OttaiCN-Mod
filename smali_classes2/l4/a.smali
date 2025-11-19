@@ -1,25 +1,27 @@
-.class public final Ll4/a;
-.super Landroid/os/Handler;
-.source "com.google.android.gms:play-services-tasks@@18.1.0"
+.class public Ll4/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # instance fields
-.field private final a:Landroid/os/Looper;
+.field public a:Z
+
+.field public b:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Landroid/os/Looper;)V
-    .locals 0
+.method public constructor <init>()V
+    .locals 1
 
-    .line 1
-    invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    const/4 v0, 0x0
 
-    move-result-object p1
+    iput-boolean v0, p0, Ll4/a;->a:Z
 
-    iput-object p1, p0, Ll4/a;->a:Landroid/os/Looper;
+    const-string v0, ""
+
+    iput-object v0, p0, Ll4/a;->b:Ljava/lang/String;
 
     return-void
 .end method

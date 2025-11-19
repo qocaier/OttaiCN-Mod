@@ -1,50 +1,69 @@
 .class final Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;
 .super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
-.source "FullyDrawnReporter.kt"
+.source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/FullyDrawnReporterKt;->reportWhenComplete(Landroidx/activity/FullyDrawnReporter;Lla/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    value = Landroidx/activity/FullyDrawnReporterKt;->reportWhenComplete(Landroidx/activity/FullyDrawnReporter;Lco/l;Lnn/a;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
-.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nFullyDrawnReporter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1\n*L\n1#1,190:1\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nFullyDrawnReporter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullyDrawnReporter.kt\nandroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1\n*L\n1#1,190:1\n*E\n"
+    }
+.end annotation
+
+.annotation runtime Lqn/d;
     c = "androidx.activity.FullyDrawnReporterKt"
     f = "FullyDrawnReporter.kt"
+    i = {
+        0x0
+    }
     l = {
         0xb9
     }
     m = "reportWhenComplete"
+    n = {
+        "$this$reportWhenComplete"
+    }
+    s = {
+        "L$0"
+    }
 .end annotation
 
 
 # instance fields
-.field L$0:Ljava/lang/Object;
+.field public L$0:Ljava/lang/Object;
 
-.field label:I
+.field public label:I
 
-.field synthetic result:Ljava/lang/Object;
+.field public synthetic result:Ljava/lang/Object;
 
 
 # direct methods
-.method constructor <init>(Lkotlin/coroutines/c;)V
+.method public constructor <init>(Lnn/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/c<",
+            "Lnn/a<",
             "-",
             "Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;",
             ">;)V"
         }
     .end annotation
 
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/c;)V
+    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lnn/a;)V
 
     return-void
 .end method
@@ -53,6 +72,12 @@
 # virtual methods
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lzr/l;
+    .end annotation
 
     iput-object p1, p0, Landroidx/activity/FullyDrawnReporterKt$reportWhenComplete$1;->result:Ljava/lang/Object;
 
@@ -66,7 +91,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1, p1, p0}, Landroidx/activity/FullyDrawnReporterKt;->reportWhenComplete(Landroidx/activity/FullyDrawnReporter;Lla/l;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    invoke-static {p1, p1, p0}, Landroidx/activity/FullyDrawnReporterKt;->reportWhenComplete(Landroidx/activity/FullyDrawnReporter;Lco/l;Lnn/a;)Ljava/lang/Object;
 
     move-result-object p1
 

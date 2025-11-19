@@ -1,31 +1,40 @@
-.class public interface abstract Lc0/f;
+.class public final synthetic Lc0/f;
 .super Ljava/lang/Object;
-.source "ResourceEncoder.java"
+.source "SourceFile"
 
 # interfaces
-.implements Lc0/a;
+.implements Ljava/lang/Runnable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lc0/a<",
-        "Lcom/bumptech/glide/load/engine/s<",
-        "TT;>;>;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
+
+.field public final synthetic b:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lc0/f;->a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
+
+    iput-boolean p2, p0, Lc0/f;->b:Z
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract a(Lc0/d;)Lcom/bumptech/glide/load/EncodeStrategy;
-    .param p1    # Lc0/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+.method public final run()V
+    .locals 2
+
+    iget-object v0, p0, Lc0/f;->a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
+
+    iget-boolean v1, p0, Lc0/f;->b:Z
+
+    invoke-static {v0, v1}, Landroidx/camera/video/internal/audio/AudioSource;->g(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
+
+    return-void
 .end method

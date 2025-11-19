@@ -1,9 +1,9 @@
 .class final synthetic Landroidx/activity/OnBackPressedDispatcher$addCancellableCallback$1;
 .super Lkotlin/jvm/internal/FunctionReferenceImpl;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,22 +12,22 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1000
+    accessFlags = 0x1001
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Lla/a<",
-        "Lkotlin/s;",
+        "Lco/a<",
+        "Len/y1;",
         ">;"
     }
 .end annotation
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/Object;)V
+.method public constructor <init>(Ljava/lang/Object;)V
     .locals 7
 
     const-class v3, Landroidx/activity/OnBackPressedDispatcher;
@@ -57,7 +57,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$addCancellableCallback$1;->invoke()V
 
-    sget-object v0, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v0, Len/y1;->a:Len/y1;
 
     return-object v0
 .end method

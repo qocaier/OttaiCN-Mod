@@ -2,187 +2,224 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# static fields
-.field private static final d:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Class<",
-            "*>;>;"
-        }
-    .end annotation
-.end field
+# interfaces
+.implements Ly6/l;
 
 
 # instance fields
-.field private a:Ljava/lang/Class;
+.field public final a:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/lang/Class<",
-            "*>;"
+            "Ljava/util/Set<",
+            "Ly6/n;",
+            ">;"
         }
     .end annotation
 .end field
 
-.field private b:Ljava/lang/String;
+.field public b:Z
 
-.field private c:Ljava/lang/Object;
+.field public c:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>()V
     .locals 1
 
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    sput-object v0, Ly6/a;->d:Ljava/util/HashMap;
-
-    return-void
-.end method
-
-.method private constructor <init>(Ljava/lang/Object;)V
-    .locals 0
-
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Ly6/a;->c:Ljava/lang/Object;
+    .line 2
+    new-instance v0, Ljava/util/WeakHashMap;
+
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+
+    .line 3
+    invoke-static {v0}, Ljava/util/Collections;->newSetFromMap(Ljava/util/Map;)Ljava/util/Set;
+
+    move-result-object v0
+
+    iput-object v0, p0, Ly6/a;->a:Ljava/util/Set;
 
     return-void
-.end method
-
-.method private constructor <init>(Ljava/lang/String;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Ly6/a;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public static b(Ljava/lang/Object;)Ly6/a;
-    .locals 1
-
-    new-instance v0, Ly6/a;
-
-    invoke-direct {v0, p0}, Ly6/a;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
-.end method
-
-.method public static c(Ljava/lang/String;)Ly6/a;
-    .locals 1
-
-    new-instance v0, Ly6/a;
-
-    invoke-direct {v0, p0}, Ly6/a;-><init>(Ljava/lang/String;)V
-
-    return-object v0
 .end method
 
 
 # virtual methods
-.method a()Ljava/lang/Class;
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/lang/Class<",
-            "*>;"
-        }
-    .end annotation
+.method public a(Ly6/n;)V
+    .locals 1
+    .param p1    # Ly6/n;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/ClassNotFoundException;
-        }
-    .end annotation
+    .line 1
+    iget-object v0, p0, Ly6/a;->a:Ljava/util/Set;
 
-    iget-object v0, p0, Ly6/a;->a:Ljava/lang/Class;
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    .line 2
+    iget-boolean v0, p0, Ly6/a;->c:Z
 
     if-eqz v0, :cond_0
+
+    .line 3
+    invoke-interface {p1}, Ly6/n;->onDestroy()V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    iget-boolean v0, p0, Ly6/a;->b:Z
+
+    if-eqz v0, :cond_1
+
+    .line 5
+    invoke-interface {p1}, Ly6/n;->onStart()V
+
+    goto :goto_0
+
+    .line 6
+    :cond_1
+    invoke-interface {p1}, Ly6/n;->onStop()V
+
+    :goto_0
+    return-void
+.end method
+
+.method public b(Ly6/n;)V
+    .locals 1
+    .param p1    # Ly6/n;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    iget-object v0, p0, Ly6/a;->a:Ljava/util/Set;
+
+    invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public c()V
+    .locals 2
+
+    const/4 v0, 0x1
+
+    .line 1
+    iput-boolean v0, p0, Ly6/a;->c:Z
+
+    .line 2
+    iget-object v0, p0, Ly6/a;->a:Ljava/util/Set;
+
+    invoke-static {v0}, Lf7/n;->k(Ljava/util/Collection;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ly6/n;
+
+    .line 3
+    invoke-interface {v1}, Ly6/n;->onDestroy()V
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Ly6/a;->c:Ljava/lang/Object;
+    return-void
+.end method
 
-    if-eqz v0, :cond_1
+.method public d()V
+    .locals 2
 
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 0x1
+
+    .line 1
+    iput-boolean v0, p0, Ly6/a;->b:Z
+
+    .line 2
+    iget-object v0, p0, Ly6/a;->a:Ljava/util/Set;
+
+    invoke-static {v0}, Lf7/n;->k(Ljava/util/Collection;)Ljava/util/List;
 
     move-result-object v0
 
-    goto :goto_0
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    :cond_1
-    sget-object v0, Ly6/a;->d:Ljava/util/HashMap;
-
-    iget-object v1, p0, Ly6/a;->b:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/Class;
-
-    if-nez v1, :cond_2
-
-    iget-object v1, p0, Ly6/a;->b:Ljava/lang/String;
-
-    invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
-
-    move-result-object v1
-
-    iget-object v2, p0, Ly6/a;->b:Ljava/lang/String;
-
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    :cond_2
-    move-object v0, v1
+    move-result-object v0
 
     :goto_0
-    return-object v0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ly6/n;
+
+    .line 3
+    invoke-interface {v1}, Ly6/n;->onStart()V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
 .end method
 
-.method public varargs d([Ljava/lang/Class;)Ly6/b;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "([",
-            "Ljava/lang/Class<",
-            "*>;)",
-            "Ly6/b;"
-        }
-    .end annotation
+.method public e()V
+    .locals 2
 
-    new-instance v0, Ly6/b;
+    const/4 v0, 0x0
 
-    invoke-direct {v0, p0, p1}, Ly6/b;-><init>(Ly6/a;[Ljava/lang/Class;)V
+    .line 1
+    iput-boolean v0, p0, Ly6/a;->b:Z
 
-    return-object v0
-.end method
+    .line 2
+    iget-object v0, p0, Ly6/a;->a:Ljava/util/Set;
 
-.method public varargs e(Ljava/lang/String;[Ljava/lang/Class;)Ly6/c;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "[",
-            "Ljava/lang/Class<",
-            "*>;)",
-            "Ly6/c;"
-        }
-    .end annotation
+    invoke-static {v0}, Lf7/n;->k(Ljava/util/Collection;)Ljava/util/List;
 
-    new-instance v0, Ly6/c;
+    move-result-object v0
 
-    invoke-direct {v0, p0, p1, p2}, Ly6/c;-><init>(Ly6/a;Ljava/lang/String;[Ljava/lang/Class;)V
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    return-object v0
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ly6/n;
+
+    .line 3
+    invoke-interface {v1}, Ly6/n;->onStop()V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
 .end method

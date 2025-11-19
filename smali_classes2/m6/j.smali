@@ -1,133 +1,78 @@
-.class public Lm6/j;
+.class public interface abstract Lm6/j;
 .super Ljava/lang/Object;
-.source "DisplayConfiguration.java"
+.source "SourceFile"
 
 
-# instance fields
-.field private a:Lcom/journeyapps/barcodescanner/v;
-
-.field private b:I
-
-.field private c:Z
-
-.field private d:Lm6/n;
-
-
-# direct methods
-.method static constructor <clinit>()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public constructor <init>(ILcom/journeyapps/barcodescanner/v;)V
-    .locals 1
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x0
-
-    .line 2
-    iput-boolean v0, p0, Lm6/j;->c:Z
-
-    .line 3
-    new-instance v0, Lm6/k;
-
-    invoke-direct {v0}, Lm6/k;-><init>()V
-
-    iput-object v0, p0, Lm6/j;->d:Lm6/n;
-
-    .line 4
-    iput p1, p0, Lm6/j;->b:I
-
-    .line 5
-    iput-object p2, p0, Lm6/j;->a:Lcom/journeyapps/barcodescanner/v;
-
-    return-void
-.end method
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lm6/j$a;
+    }
+.end annotation
 
 
 # virtual methods
-.method public a(Ljava/util/List;Z)Lcom/journeyapps/barcodescanner/v;
-    .locals 1
+.method public abstract a()V
+.end method
+
+.method public abstract b(F)V
+.end method
+
+.method public abstract c(Lh6/b;)Lk6/j;
+    .param p1    # Lh6/b;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljava/util/List<",
-            "Lcom/journeyapps/barcodescanner/v;",
-            ">;Z)",
-            "Lcom/journeyapps/barcodescanner/v;"
+            "Lh6/b;",
+            ")",
+            "Lk6/j<",
+            "*>;"
         }
     .end annotation
-
-    .line 1
-    invoke-virtual {p0, p2}, Lm6/j;->b(Z)Lcom/journeyapps/barcodescanner/v;
-
-    move-result-object p2
-
-    .line 2
-    iget-object v0, p0, Lm6/j;->d:Lm6/n;
-
-    invoke-virtual {v0, p1, p2}, Lm6/n;->b(Ljava/util/List;Lcom/journeyapps/barcodescanner/v;)Lcom/journeyapps/barcodescanner/v;
-
-    move-result-object p1
-
-    return-object p1
 .end method
 
-.method public b(Z)Lcom/journeyapps/barcodescanner/v;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lm6/j;->a:Lcom/journeyapps/barcodescanner/v;
-
-    if-nez v0, :cond_0
-
-    const/4 p1, 0x0
-
-    return-object p1
-
-    :cond_0
-    if-eqz p1, :cond_1
-
-    .line 2
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/v;->b()Lcom/journeyapps/barcodescanner/v;
-
-    move-result-object p1
-
-    return-object p1
-
-    :cond_1
-    return-object v0
+.method public abstract d()J
 .end method
 
-.method public c()I
-    .locals 1
+.method public abstract e(Lh6/b;Lk6/j;)Lk6/j;
+    .param p1    # Lh6/b;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lk6/j;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-    iget v0, p0, Lm6/j;->b:I
-
-    return v0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lh6/b;",
+            "Lk6/j<",
+            "*>;)",
+            "Lk6/j<",
+            "*>;"
+        }
+    .end annotation
 .end method
 
-.method public d(Lcom/journeyapps/barcodescanner/v;)Landroid/graphics/Rect;
-    .locals 2
-
-    iget-object v0, p0, Lm6/j;->d:Lm6/n;
-
-    iget-object v1, p0, Lm6/j;->a:Lcom/journeyapps/barcodescanner/v;
-
-    invoke-virtual {v0, p1, v1}, Lm6/n;->d(Lcom/journeyapps/barcodescanner/v;Lcom/journeyapps/barcodescanner/v;)Landroid/graphics/Rect;
-
-    move-result-object p1
-
-    return-object p1
+.method public abstract f(Lm6/j$a;)V
+    .param p1    # Lm6/j$a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 .end method
 
-.method public e(Lm6/n;)V
-    .locals 0
+.method public abstract getCurrentSize()J
+.end method
 
-    iput-object p1, p0, Lm6/j;->d:Lm6/n;
-
-    return-void
+.method public abstract trimMemory(I)V
 .end method

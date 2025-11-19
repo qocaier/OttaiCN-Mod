@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/Api26Impl;
 .super Ljava/lang/Object;
-.source "PipHintTracker.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -11,10 +11,13 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/Api26Impl;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/Api26Impl;
@@ -38,14 +41,22 @@
 # virtual methods
 .method public final setPipParamsSourceRectHint(Landroid/app/Activity;Landroid/graphics/Rect;)V
     .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroid/graphics/Rect;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "hint"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroid/app/PictureInPictureParams$Builder;

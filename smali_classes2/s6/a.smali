@@ -1,167 +1,208 @@
 .class public Ls6/a;
-.super Ls6/c;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lh6/f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<DataType:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lh6/f<",
+        "TDataType;",
+        "Landroid/graphics/drawable/BitmapDrawable;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lh6/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lh6/f<",
+            "TDataType;",
+            "Landroid/graphics/Bitmap;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Landroid/content/res/Resources;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+.method public constructor <init>(Landroid/content/Context;Lh6/f;)V
     .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lh6/f<",
+            "TDataType;",
+            "Landroid/graphics/Bitmap;",
+            ">;)V"
+        }
+    .end annotation
 
-    invoke-direct {p0, p1, p2}, Ls6/c;-><init>(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
+    .line 1
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1, p2}, Ls6/a;-><init>(Landroid/content/res/Resources;Lh6/f;)V
 
     return-void
 .end method
 
-.method private z(Landroid/widget/RemoteViews;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 2
+.method public constructor <init>(Landroid/content/res/Resources;Lh6/f;)V
+    .locals 0
+    .param p1    # Landroid/content/res/Resources;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/f;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/res/Resources;",
+            "Lh6/f<",
+            "TDataType;",
+            "Landroid/graphics/Bitmap;",
+            ">;)V"
+        }
+    .end annotation
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object v0
+    .line 4
+    invoke-static {p1}, Lf7/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-eqz v0, :cond_1
+    move-result-object p1
 
-    invoke-virtual {p0}, La8/a;->k()Z
+    check-cast p1, Landroid/content/res/Resources;
 
-    move-result v0
+    iput-object p1, p0, Ls6/a;->b:Landroid/content/res/Resources;
 
-    if-nez v0, :cond_1
+    .line 5
+    invoke-static {p2}, Lf7/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
+    move-result-object p1
 
-    move-result-object v0
+    check-cast p1, Lh6/f;
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getExpandableImageUrl()Ljava/lang/String;
+    iput-object p1, p0, Ls6/a;->a:Lh6/f;
 
-    move-result-object v0
+    return-void
+.end method
 
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+.method public constructor <init>(Landroid/content/res/Resources;Ll6/e;Lh6/f;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/res/Resources;",
+            "Ll6/e;",
+            "Lh6/f<",
+            "TDataType;",
+            "Landroid/graphics/Bitmap;",
+            ">;)V"
+        }
+    .end annotation
 
-    move-result v0
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
-    if-nez v0, :cond_0
+    .line 2
+    invoke-direct {p0, p1, p3}, Ls6/a;-><init>(Landroid/content/res/Resources;Lh6/f;)V
 
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getNotificationStyle()Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;
-
-    move-result-object p2
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/notification/model/NotificationStyle;->getExpandableImageUrl()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p0, p2}, La8/a;->e(Ljava/lang/String;)Landroid/graphics/Bitmap;
-
-    move-result-object p2
-
-    if-eqz p2, :cond_0
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->b(Landroid/content/Context;)I
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p1, v0, v1}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->b(Landroid/content/Context;)I
-
-    move-result v0
-
-    invoke-virtual {p1, v0, p2}, Landroid/widget/RemoteViews;->setImageViewBitmap(ILandroid/graphics/Bitmap;)V
-
-    goto :goto_0
-
-    :cond_0
-    iget-object p2, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {p2}, Lv6/c;->b(Landroid/content/Context;)I
-
-    move-result p2
-
-    const/16 v0, 0x8
-
-    invoke-virtual {p1, p2, v0}, Landroid/widget/RemoteViews;->setViewVisibility(II)V
-
-    :cond_1
-    :goto_0
     return-void
 .end method
 
 
 # virtual methods
-.method protected j(Landroid/app/Notification;Lcom/meizu/cloud/pushsdk/handler/MessageV3;Landroid/app/PendingIntent;)V
-    .locals 4
+.method public a(Ljava/lang/Object;Lh6/e;)Z
+    .locals 1
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TDataType;",
+            "Lh6/e;",
+            ")Z"
+        }
+    .end annotation
 
-    invoke-static {}, Lcom/meizu/cloud/pushsdk/util/MinSdkChecker;->isSupportNotificationBuild()Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    move-result p3
+    iget-object v0, p0, Ls6/a;->a:Lh6/f;
 
-    if-eqz p3, :cond_0
+    invoke-interface {v0, p1, p2}, Lh6/f;->a(Ljava/lang/Object;Lh6/e;)Z
 
-    new-instance p3, Landroid/widget/RemoteViews;
+    move-result p1
 
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
+    return p1
+.end method
 
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+.method public b(Ljava/lang/Object;IILh6/e;)Lk6/j;
+    .locals 1
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TDataType;II",
+            "Lh6/e;",
+            ")",
+            "Lk6/j<",
+            "Landroid/graphics/drawable/BitmapDrawable;",
+            ">;"
+        }
+    .end annotation
 
-    move-result-object v0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    iget-object v1, p0, La8/a;->a:Landroid/content/Context;
+    .line 1
+    iget-object v0, p0, Ls6/a;->a:Lh6/f;
 
-    invoke-static {v1}, Lv6/c;->g(Landroid/content/Context;)I
+    invoke-interface {v0, p1, p2, p3, p4}, Lh6/f;->b(Ljava/lang/Object;IILh6/e;)Lk6/j;
 
-    move-result v1
+    move-result-object p1
 
-    invoke-direct {p3, v0, v1}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
+    .line 2
+    iget-object p2, p0, Ls6/a;->b:Landroid/content/res/Resources;
 
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
+    invoke-static {p2, p1}, Ls6/v;->c(Landroid/content/res/Resources;Lk6/j;)Lk6/j;
 
-    invoke-static {v0}, Lv6/c;->f(Landroid/content/Context;)I
+    move-result-object p1
 
-    move-result v0
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getTitle()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p3, v0, v1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->c(Landroid/content/Context;)I
-
-    move-result v0
-
-    invoke-virtual {p2}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getContent()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p3, v0, v1}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
-
-    iget-object v0, p0, La8/a;->a:Landroid/content/Context;
-
-    invoke-static {v0}, Lv6/c;->d(Landroid/content/Context;)I
-
-    move-result v0
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v1
-
-    const-string v3, "setTime"
-
-    invoke-virtual {p3, v0, v3, v1, v2}, Landroid/widget/RemoteViews;->setLong(ILjava/lang/String;J)V
-
-    invoke-virtual {p0, p3, p2}, Ls6/c;->y(Landroid/widget/RemoteViews;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-
-    invoke-direct {p0, p3, p2}, Ls6/a;->z(Landroid/widget/RemoteViews;Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-
-    iput-object p3, p1, Landroid/app/Notification;->bigContentView:Landroid/widget/RemoteViews;
-
-    :cond_0
-    return-void
+    return-object p1
 .end method

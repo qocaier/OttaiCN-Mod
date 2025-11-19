@@ -1,192 +1,185 @@
-.class public Lk4/a;
+.class public final Lk4/a;
 .super Ljava/lang/Object;
-.source "com.google.android.gms:play-services-base@@18.3.0"
-
-# interfaces
-.implements Landroid/os/IInterface;
-
-
-# instance fields
-.field private final a:Landroid/os/IBinder;
-
-.field private final b:Ljava/lang/String;
+.source "SourceFile"
 
 
 # direct methods
-.method protected constructor <init>(Landroid/os/IBinder;Ljava/lang/String;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lk4/a;->a:Landroid/os/IBinder;
-
-    iput-object p2, p0, Lk4/a;->b:Ljava/lang/String;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method protected final A(ILandroid/os/Parcel;)Landroid/os/Parcel;
-    .locals 3
-    .annotation system Ldalvik/annotation/Throws;
+.method public static a(Ljava/lang/reflect/Type;)Ljava/lang/Class;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Landroid/os/RemoteException;
+            "(",
+            "Ljava/lang/reflect/Type;",
+            ")",
+            "Ljava/lang/Class<",
+            "*>;"
         }
     .end annotation
 
-    .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    :goto_0
+    instance-of v0, p0, Ljava/lang/Class;
 
-    move-result-object p1
+    if-eqz v0, :cond_0
 
-    :try_start_0
-    iget-object v0, p0, Lk4/a;->a:Landroid/os/IBinder;
+    check-cast p0, Ljava/lang/Class;
 
-    const/4 v1, 0x2
+    return-object p0
 
-    const/4 v2, 0x0
+    :cond_0
+    instance-of v0, p0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 2
-    invoke-interface {v0, v1, p2, p1, v2}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    if-eqz v0, :cond_1
 
-    .line 3
-    invoke-virtual {p1}, Landroid/os/Parcel;->readException()V
-    :try_end_0
-    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    check-cast p0, Ljava/lang/reflect/ParameterizedType;
 
-    .line 4
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
+    invoke-interface {p0}, Ljava/lang/reflect/ParameterizedType;->getRawType()Ljava/lang/reflect/Type;
 
-    return-object p1
-
-    :catchall_0
-    move-exception p1
+    move-result-object p0
 
     goto :goto_0
 
-    :catch_0
-    move-exception v0
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalArgumentException;
 
-    .line 5
-    :try_start_1
-    invoke-virtual {p1}, Landroid/os/Parcel;->recycle()V
+    const-string v0, "TODO"
 
-    .line 6
-    throw v0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    .line 7
-    :goto_0
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
-
-    .line 8
-    throw p1
+    throw p0
 .end method
 
-.method protected final Y(ILandroid/os/Parcel;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
-
-    move-result-object v0
-
-    :try_start_0
-    iget-object v1, p0, Lk4/a;->a:Landroid/os/IBinder;
-
-    const/4 v2, 0x0
-
-    .line 2
-    invoke-interface {v1, p1, p2, v0, v2}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-
-    .line 3
-    invoke-virtual {v0}, Landroid/os/Parcel;->readException()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
-
-    .line 5
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
-
-    return-void
-
-    :catchall_0
-    move-exception p1
-
-    .line 6
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
-
-    .line 7
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
-
-    .line 8
-    throw p1
-.end method
-
-.method protected final Z(ILandroid/os/Parcel;)V
+.method public static b(Ljava/lang/Class;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
+    .annotation system Ldalvik/annotation/Signature;
         value = {
-            Landroid/os/RemoteException;
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)Z"
         }
     .end annotation
 
-    .line 1
-    :try_start_0
-    iget-object p1, p0, Lk4/a;->a:Landroid/os/IBinder;
+    invoke-virtual {p0}, Ljava/lang/Class;->isPrimitive()Z
 
-    const/4 v0, 0x0
+    move-result v0
 
     const/4 v1, 0x1
 
-    invoke-interface {p1, v1, p2, v0, v1}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    if-eqz v0, :cond_0
 
-    .line 2
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
+    return v1
 
-    return-void
+    :cond_0
+    const-class v0, Ljava/lang/String;
 
-    :catchall_0
-    move-exception p1
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {p2}, Landroid/os/Parcel;->recycle()V
+    move-result v0
 
-    .line 3
-    throw p1
-.end method
+    if-eqz v0, :cond_1
 
-.method public final asBinder()Landroid/os/IBinder;
-    .locals 1
+    return v1
 
-    iget-object v0, p0, Lk4/a;->a:Landroid/os/IBinder;
+    :cond_1
+    const-class v0, Ljava/lang/Integer;
 
-    return-object v0
-.end method
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
-.method protected final u()Landroid/os/Parcel;
-    .locals 2
+    move-result v0
 
-    .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+    if-eqz v0, :cond_2
 
-    move-result-object v0
+    return v1
 
-    iget-object v1, p0, Lk4/a;->b:Ljava/lang/String;
+    :cond_2
+    const-class v0, Ljava/lang/Long;
 
-    .line 2
-    invoke-virtual {v0, v1}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
-    return-object v0
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    return v1
+
+    :cond_3
+    const-class v0, Ljava/lang/Double;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    return v1
+
+    :cond_4
+    const-class v0, Ljava/lang/Float;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    return v1
+
+    :cond_5
+    const-class v0, Ljava/lang/Boolean;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_6
+
+    return v1
+
+    :cond_6
+    const-class v0, Ljava/lang/Short;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    return v1
+
+    :cond_7
+    const-class v0, Ljava/lang/Character;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return v1
+
+    :cond_8
+    const-class v0, Ljava/lang/Byte;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_9
+
+    return v1
+
+    :cond_9
+    const-class v0, Ljava/lang/Void;
+
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_a
+
+    return v1
+
+    :cond_a
+    const/4 p0, 0x0
+
+    return p0
 .end method

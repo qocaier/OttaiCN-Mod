@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/Api34Impl;
 .super Ljava/lang/Object;
-.source "BackEventCompat.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -11,10 +11,13 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/Api34Impl;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/Api34Impl;
@@ -41,6 +44,9 @@
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
+    .annotation build Lzr/k;
+    .end annotation
+
     new-instance v0, Landroid/window/BackEvent;
 
     invoke-direct {v0, p1, p2, p3, p4}, Landroid/window/BackEvent;-><init>(FFFI)V
@@ -50,12 +56,16 @@
 
 .method public final progress(Landroid/window/BackEvent;)F
     .locals 1
+    .param p1    # Landroid/window/BackEvent;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/window/BackEvent;->getProgress()F
 
@@ -66,12 +76,16 @@
 
 .method public final swipeEdge(Landroid/window/BackEvent;)I
     .locals 1
+    .param p1    # Landroid/window/BackEvent;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/window/BackEvent;->getSwipeEdge()I
 
@@ -82,12 +96,16 @@
 
 .method public final touchX(Landroid/window/BackEvent;)F
     .locals 1
+    .param p1    # Landroid/window/BackEvent;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/window/BackEvent;->getTouchX()F
 
@@ -98,12 +116,16 @@
 
 .method public final touchY(Landroid/window/BackEvent;)F
     .locals 1
+    .param p1    # Landroid/window/BackEvent;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/window/BackEvent;->getTouchY()F
 

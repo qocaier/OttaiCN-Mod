@@ -1,514 +1,787 @@
 .class public final Ln6/a;
 .super Ljava/lang/Object;
-.source "FlularkPlugin.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lio/flutter/embedding/engine/plugins/FlutterPlugin;
-.implements Lio/flutter/embedding/engine/plugins/activity/ActivityAware;
-.implements Lio/flutter/plugin/common/PluginRegistry$NewIntentListener;
-.implements Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;
+.implements Ljava/util/concurrent/ExecutorService;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ln6/a$b;,
+        Ln6/a$d;,
+        Ln6/a$c;,
+        Ln6/a$e;
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:Ljava/lang/String; = "source"
+
+.field public static final c:Ljava/lang/String; = "disk-cache"
+
+.field public static final d:I = 0x1
+
+.field public static final e:Ljava/lang/String; = "GlideExecutor"
+
+.field public static final f:Ljava/lang/String; = "source-unlimited"
+
+.field public static final g:Ljava/lang/String; = "animation"
+
+.field public static final h:J
+
+.field public static final i:I = 0x4
+
+.field public static volatile j:I
 
 
 # instance fields
-.field private a:Lio/flutter/plugin/common/MethodChannel;
-
-.field private b:Landroid/content/Context;
-
-.field private c:Ljava/lang/String;
+.field public final a:Ljava/util/concurrent/ExecutorService;
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 1
+.method public static constructor <clinit>()V
+    .locals 3
+
+    sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    const-wide/16 v1, 0xa
+
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
+
+    move-result-wide v0
+
+    sput-wide v0, Ln6/a;->h:J
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/concurrent/ExecutorService;)V
+    .locals 0
+    .annotation build Landroidx/annotation/VisibleForTesting;
+    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, ""
-
     .line 2
-    iput-object v0, p0, Ln6/a;->c:Ljava/lang/String;
+    iput-object p1, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
 
     return-void
 .end method
 
-.method public static final synthetic a(Ln6/a;)Lio/flutter/plugin/common/MethodChannel;
-    .locals 0
+.method public static a()I
+    .locals 2
 
-    iget-object p0, p0, Ln6/a;->a:Lio/flutter/plugin/common/MethodChannel;
+    invoke-static {}, Ln6/a;->b()I
+
+    move-result v0
+
+    const/4 v1, 0x4
+
+    if-lt v0, v1, :cond_0
+
+    const/4 v0, 0x2
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+.end method
+
+.method public static b()I
+    .locals 2
+
+    .line 1
+    sget v0, Ln6/a;->j:I
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x4
+
+    .line 2
+    invoke-static {}, Ln6/b;->a()I
+
+    move-result v1
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
+
+    move-result v0
+
+    sput v0, Ln6/a;->j:I
+
+    .line 3
+    :cond_0
+    sget v0, Ln6/a;->j:I
+
+    return v0
+.end method
+
+.method public static c()Ln6/a$b;
+    .locals 3
+
+    .line 1
+    invoke-static {}, Ln6/a;->a()I
+
+    move-result v0
+
+    .line 2
+    new-instance v1, Ln6/a$b;
+
+    const/4 v2, 0x1
+
+    invoke-direct {v1, v2}, Ln6/a$b;-><init>(Z)V
+
+    .line 3
+    invoke-virtual {v1, v0}, Ln6/a$b;->c(I)Ln6/a$b;
+
+    move-result-object v0
+
+    const-string v1, "animation"
+
+    .line 4
+    invoke-virtual {v0, v1}, Ln6/a$b;->b(Ljava/lang/String;)Ln6/a$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static d()Ln6/a;
+    .locals 1
+
+    invoke-static {}, Ln6/a;->c()Ln6/a$b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static e(ILn6/a$e;)Ln6/a;
+    .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 1
+    invoke-static {}, Ln6/a;->c()Ln6/a$b;
+
+    move-result-object v0
+
+    .line 2
+    invoke-virtual {v0, p0}, Ln6/a$b;->c(I)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 3
+    invoke-virtual {p0, p1}, Ln6/a$b;->e(Ln6/a$e;)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 4
+    invoke-virtual {p0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object p0
 
     return-object p0
 .end method
 
-
-# virtual methods
-.method public final b(Landroid/content/Intent;)V
+.method public static f()Ln6/a$b;
     .locals 2
 
-    const-string v0, "intent"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----handleIntent"
-
     .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    new-instance v0, Ln6/a$b;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1}, Ln6/a$b;-><init>(Z)V
 
     .line 2
-    invoke-static {}, Ls8/c;->w()Ls8/c;
+    invoke-virtual {v0, v1}, Ln6/a$b;->c(I)Ln6/a$b;
 
     move-result-object v0
 
-    iget-object v1, p0, Ln6/a;->b:Landroid/content/Context;
+    const-string v1, "disk-cache"
 
-    if-nez v1, :cond_0
+    .line 3
+    invoke-virtual {v0, v1}, Ln6/a$b;->b(Ljava/lang/String;)Ln6/a$b;
 
-    const-string v1, "mContext"
+    move-result-object v0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/s;->w(Ljava/lang/String;)V
+    return-object v0
+.end method
+
+.method public static g()Ln6/a;
+    .locals 1
+
+    invoke-static {}, Ln6/a;->f()Ln6/a$b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static h(ILjava/lang/String;Ln6/a$e;)Ln6/a;
+    .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 1
+    invoke-static {}, Ln6/a;->f()Ln6/a$b;
+
+    move-result-object v0
+
+    .line 2
+    invoke-virtual {v0, p0}, Ln6/a$b;->c(I)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 3
+    invoke-virtual {p0, p1}, Ln6/a$b;->b(Ljava/lang/String;)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 4
+    invoke-virtual {p0, p2}, Ln6/a$b;->e(Ln6/a$e;)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 5
+    invoke-virtual {p0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static i(Ln6/a$e;)Ln6/a;
+    .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    invoke-static {}, Ln6/a;->f()Ln6/a$b;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ln6/a$b;->e(Ln6/a$e;)Ln6/a$b;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static j()Ln6/a$b;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ln6/a$b;
 
     const/4 v1, 0x0
 
-    :cond_0
-    check-cast v1, Landroid/app/Activity;
-
-    invoke-virtual {v0, v1, p1}, Ls8/c;->z(Landroid/app/Activity;Landroid/content/Intent;)V
-
-    return-void
-.end method
-
-.method public onAttachedToActivity(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
-    .locals 2
-
-    const-string v0, "binding"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----onAttachedToActivity"
-
-    .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-direct {v0, v1}, Ln6/a$b;-><init>(Z)V
 
     .line 2
-    invoke-interface {p1}, Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;->getActivity()Landroid/app/Activity;
-
-    move-result-object v0
-
-    const-string v1, "binding.activity"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v0, p0, Ln6/a;->b:Landroid/content/Context;
-
-    .line 3
-    invoke-interface {p1, p0}, Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;->addOnNewIntentListener(Lio/flutter/plugin/common/PluginRegistry$NewIntentListener;)V
-
-    .line 4
-    invoke-interface {p1}, Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;->getActivity()Landroid/app/Activity;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
-
-    move-result-object p1
-
-    const-string v0, "binding.activity.intent"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p0, p1}, Ln6/a;->b(Landroid/content/Intent;)V
-
-    return-void
-.end method
-
-.method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
-    .locals 3
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    const-string v0, "flutterPluginBinding"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----onAttachedToEngine"
-
-    .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 2
-    new-instance v0, Lio/flutter/plugin/common/MethodChannel;
-
-    invoke-virtual {p1}, Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;->getBinaryMessenger()Lio/flutter/plugin/common/BinaryMessenger;
-
-    move-result-object v1
-
-    const-string v2, "com.luckyaf/flulark"
-
-    invoke-direct {v0, v1, v2}, Lio/flutter/plugin/common/MethodChannel;-><init>(Lio/flutter/plugin/common/BinaryMessenger;Ljava/lang/String;)V
-
-    iput-object v0, p0, Ln6/a;->a:Lio/flutter/plugin/common/MethodChannel;
-
-    .line 3
-    invoke-virtual {v0, p0}, Lio/flutter/plugin/common/MethodChannel;->setMethodCallHandler(Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;)V
-
-    .line 4
-    invoke-virtual {p1}, Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    const-string v0, "flutterPluginBinding.getApplicationContext()"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object p1, p0, Ln6/a;->b:Landroid/content/Context;
-
-    return-void
-.end method
-
-.method public onDetachedFromActivity()V
-    .locals 2
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----onDetachedFromActivity"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    return-void
-.end method
-
-.method public onDetachedFromActivityForConfigChanges()V
-    .locals 2
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----onDetachedFromActivityForConfigChanges"
-
-    .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 2
-    invoke-virtual {p0}, Ln6/a;->onDetachedFromActivity()V
-
-    return-void
-.end method
-
-.method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
-    .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    const-string v0, "binding"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iget-object p1, p0, Ln6/a;->a:Lio/flutter/plugin/common/MethodChannel;
-
-    const/4 v0, 0x0
-
-    if-nez p1, :cond_0
-
-    const-string p1, "channel"
-
-    invoke-static {p1}, Lkotlin/jvm/internal/s;->w(Ljava/lang/String;)V
-
-    move-object p1, v0
-
-    :cond_0
-    invoke-virtual {p1, v0}, Lio/flutter/plugin/common/MethodChannel;->setMethodCallHandler(Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;)V
-
-    return-void
-.end method
-
-.method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
-    .locals 4
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    const-string v0, "call"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "result"
-
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    iget-object v0, p1, Lio/flutter/plugin/common/MethodCall;->method:Ljava/lang/String;
-
-    if-eqz v0, :cond_a
-
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    invoke-static {}, Ln6/a;->b()I
 
     move-result v1
 
-    const v2, -0x599f27d8
+    invoke-virtual {v0, v1}, Ln6/a$b;->c(I)Ln6/a$b;
 
-    if-eq v1, v2, :cond_5
+    move-result-object v0
 
-    const v2, -0x1d0e67c
-
-    if-eq v1, v2, :cond_2
-
-    const p1, -0xf97d13
-
-    if-eq v1, p1, :cond_0
-
-    goto/16 :goto_0
-
-    :cond_0
-    const-string p1, "flu_lark_platform_version"
-
-    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_1
-
-    goto/16 :goto_0
-
-    .line 2
-    :cond_1
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v0, "Android "
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
-
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-interface {p2, p1}, Lio/flutter/plugin/common/MethodChannel$Result;->success(Ljava/lang/Object;)V
-
-    goto/16 :goto_0
-
-    :cond_2
-    const-string p2, "flu_lark_register"
+    const-string v1, "source"
 
     .line 3
-    invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ln6/a$b;->b(Ljava/lang/String;)Ln6/a$b;
 
-    move-result p2
+    move-result-object v0
 
-    if-nez p2, :cond_3
-
-    goto/16 :goto_0
-
-    :cond_3
-    const-string p2, "flu_lark_app_id"
-
-    .line 4
-    invoke-virtual {p1, p2}, Lio/flutter/plugin/common/MethodCall;->argument(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Ljava/lang/String;
-
-    if-nez p1, :cond_4
-
-    const-string p1, ""
-
-    :cond_4
-    iput-object p1, p0, Ln6/a;->c:Ljava/lang/String;
-
-    goto :goto_0
-
-    :cond_5
-    const-string p2, "flu_lark_login"
-
-    .line 5
-    invoke-virtual {v0, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p2
-
-    if-nez p2, :cond_6
-
-    goto :goto_0
-
-    :cond_6
-    const-string p2, "flu_lark_challenge_mode"
-
-    .line 6
-    invoke-virtual {p1, p2}, Lio/flutter/plugin/common/MethodCall;->argument(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Ljava/lang/Boolean;
-
-    if-nez p1, :cond_7
-
-    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    :cond_7
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    .line 7
-    new-instance p2, Ljava/util/ArrayList;
-
-    invoke-direct {p2}, Ljava/util/ArrayList;-><init>()V
-
-    const-string v0, "contact:user.email:readonly"
-
-    .line 8
-    invoke-virtual {p2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    const-string v0, "contact:user.phone:readonly"
-
-    .line 9
-    invoke-virtual {p2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 10
-    iget-object v0, p0, Ln6/a;->b:Landroid/content/Context;
-
-    const-string v1, "mContext"
-
-    if-nez v0, :cond_8
-
-    invoke-static {v1}, Lkotlin/jvm/internal/s;->w(Ljava/lang/String;)V
-
-    :cond_8
-    const-string v0, "LarkSSO"
-
-    const-string v2, "mContext----- not null"
-
-    .line 11
-    invoke-static {v0, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 12
-    new-instance v2, Ls8/c$b;
-
-    invoke-direct {v2}, Ls8/c$b;-><init>()V
-
-    iget-object v3, p0, Ln6/a;->c:Ljava/lang/String;
-
-    invoke-virtual {v2, v3}, Ls8/c$b;->k(Ljava/lang/String;)Ls8/c$b;
-
-    move-result-object v2
-
-    const-string v3, "Feishu"
-
-    .line 13
-    invoke-virtual {v2, v3}, Ls8/c$b;->p(Ljava/lang/String;)Ls8/c$b;
-
-    move-result-object v2
-
-    const-string v3, "zh"
-
-    .line 14
-    invoke-virtual {v2, v3}, Ls8/c$b;->n(Ljava/lang/String;)Ls8/c$b;
-
-    move-result-object v2
-
-    .line 15
-    invoke-virtual {v2, p1}, Ls8/c$b;->l(Z)Ls8/c$b;
-
-    move-result-object p1
-
-    .line 16
-    invoke-virtual {p1, p2}, Ls8/c$b;->o(Ljava/util/ArrayList;)Ls8/c$b;
-
-    move-result-object p1
-
-    .line 17
-    iget-object p2, p0, Ln6/a;->b:Landroid/content/Context;
-
-    if-nez p2, :cond_9
-
-    invoke-static {v1}, Lkotlin/jvm/internal/s;->w(Ljava/lang/String;)V
-
-    const/4 p2, 0x0
-
-    :cond_9
-    check-cast p2, Landroid/app/Activity;
-
-    invoke-virtual {p1, p2}, Ls8/c$b;->m(Landroid/app/Activity;)Ls8/c$b;
-
-    move-result-object p1
-
-    const-string p2, "LarkSSO-----startSSOVerify"
-
-    .line 18
-    invoke-static {v0, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 19
-    invoke-static {}, Ls8/c;->w()Ls8/c;
-
-    move-result-object p2
-
-    new-instance v0, Ln6/a$a;
-
-    invoke-direct {v0, p0}, Ln6/a$a;-><init>(Ln6/a;)V
-
-    invoke-virtual {p2, p1, v0}, Ls8/c;->C(Ls8/c$b;Ls8/b;)V
-
-    :cond_a
-    :goto_0
-    return-void
+    return-object v0
 .end method
 
-.method public onNewIntent(Landroid/content/Intent;)Z
-    .locals 2
+.method public static k()Ln6/a;
+    .locals 1
 
-    const-string v0, "intent"
+    invoke-static {}, Ln6/a;->j()Ln6/a$b;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    move-result-object v0
 
-    const-string v0, "LarkSSO"
+    invoke-virtual {v0}, Ln6/a$b;->a()Ln6/a;
 
-    const-string v1, "LarkSSO-----onNewIntent"
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static l(ILjava/lang/String;Ln6/a$e;)Ln6/a;
+    .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 
     .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {}, Ln6/a;->j()Ln6/a$b;
+
+    move-result-object v0
 
     .line 2
-    invoke-virtual {p0, p1}, Ln6/a;->b(Landroid/content/Intent;)V
+    invoke-virtual {v0, p0}, Ln6/a$b;->c(I)Ln6/a$b;
 
-    const/4 p1, 0x0
+    move-result-object p0
+
+    .line 3
+    invoke-virtual {p0, p1}, Ln6/a$b;->b(Ljava/lang/String;)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 4
+    invoke-virtual {p0, p2}, Ln6/a$b;->e(Ln6/a$e;)Ln6/a$b;
+
+    move-result-object p0
+
+    .line 5
+    invoke-virtual {p0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static m(Ln6/a$e;)Ln6/a;
+    .locals 1
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    invoke-static {}, Ln6/a;->j()Ln6/a$b;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ln6/a$b;->e(Ln6/a$e;)Ln6/a$b;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ln6/a$b;->a()Ln6/a;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static n()Ln6/a;
+    .locals 11
+
+    new-instance v0, Ln6/a;
+
+    new-instance v9, Ljava/util/concurrent/ThreadPoolExecutor;
+
+    sget-wide v4, Ln6/a;->h:J
+
+    sget-object v6, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    new-instance v7, Ljava/util/concurrent/SynchronousQueue;
+
+    invoke-direct {v7}, Ljava/util/concurrent/SynchronousQueue;-><init>()V
+
+    new-instance v8, Ln6/a$d;
+
+    new-instance v1, Ln6/a$c;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, v2}, Ln6/a$c;-><init>(Ln6/a$a;)V
+
+    sget-object v2, Ln6/a$e;->d:Ln6/a$e;
+
+    const-string v3, "source-unlimited"
+
+    const/4 v10, 0x0
+
+    invoke-direct {v8, v1, v3, v2, v10}, Ln6/a$d;-><init>(Ljava/util/concurrent/ThreadFactory;Ljava/lang/String;Ln6/a$e;Z)V
+
+    const/4 v2, 0x0
+
+    const v3, 0x7fffffff
+
+    move-object v1, v9
+
+    invoke-direct/range {v1 .. v8}, Ljava/util/concurrent/ThreadPoolExecutor;-><init>(IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;Ljava/util/concurrent/ThreadFactory;)V
+
+    invoke-direct {v0, v9}, Ln6/a;-><init>(Ljava/util/concurrent/ExecutorService;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+    .locals 1
+    .param p3    # Ljava/util/concurrent/TimeUnit;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+
+    move-result p1
 
     return p1
 .end method
 
-.method public onReattachedToActivityForConfigChanges(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
-    .locals 2
+.method public execute(Ljava/lang/Runnable;)V
+    .locals 1
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
 
-    const-string v0, "binding"
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "LarkSSO"
-
-    const-string v1, "LarkSSO-----onReattachedToActivityForConfigChanges"
-
-    .line 1
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 2
-    invoke-virtual {p0, p1}, Ln6/a;->onAttachedToActivity(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
     return-void
+.end method
+
+.method public invokeAll(Ljava/util/Collection;)Ljava/util/List;
+    .locals 1
+    .param p1    # Ljava/util/Collection;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;)",
+            "Ljava/util/List<",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+    .locals 1
+    .param p1    # Ljava/util/Collection;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Ljava/util/concurrent/TimeUnit;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Ljava/util/List<",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/util/Collection;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;)TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;,
+            Ljava/util/concurrent/ExecutionException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/util/Collection;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Ljava/util/concurrent/TimeUnit;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;,
+            Ljava/util/concurrent/ExecutionException;,
+            Ljava/util/concurrent/TimeoutException;
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public isShutdown()Z
+    .locals 1
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isTerminated()Z
+    .locals 1
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public shutdown()V
+    .locals 1
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+
+    return-void
+.end method
+
+.method public shutdownNow()Ljava/util/List;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Runnable;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdownNow()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+    .locals 1
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Runnable;",
+            ")",
+            "Ljava/util/concurrent/Future<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+    .locals 1
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Runnable;",
+            "TT;)",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1, p2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+    .locals 1
+    .param p1    # Ljava/util/concurrent/Callable;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;)",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 3
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Ln6/a;->a:Ljava/util/concurrent/ExecutorService;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

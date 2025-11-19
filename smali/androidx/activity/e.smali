@@ -1,36 +1,40 @@
 .class public final synthetic Landroidx/activity/e;
 .super Ljava/lang/Object;
-.source "R8$$SyntheticClass"
+.source "SourceFile"
 
 # interfaces
-.implements Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
+.implements Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/activity/ComponentActivity;
+.field public final synthetic a:Lkotlinx/coroutines/channels/j;
+
+.field public final synthetic b:Landroid/view/View;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;Landroid/view/View;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/activity/e;->a:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
+
+    iput-object p2, p0, Landroidx/activity/e;->b:Landroid/view/View;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final saveState()Landroid/os/Bundle;
-    .locals 1
+.method public final onScrollChanged()V
+    .locals 2
 
-    iget-object v0, p0, Landroidx/activity/e;->a:Landroidx/activity/ComponentActivity;
+    iget-object v0, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
 
-    invoke-static {v0}, Landroidx/activity/ComponentActivity;->c(Landroidx/activity/ComponentActivity;)Landroid/os/Bundle;
+    iget-object v1, p0, Landroidx/activity/e;->b:Landroid/view/View;
 
-    move-result-object v0
+    invoke-static {v0, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->h(Lkotlinx/coroutines/channels/j;Landroid/view/View;)V
 
-    return-object v0
+    return-void
 .end method

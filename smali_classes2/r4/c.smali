@@ -1,36 +1,100 @@
-.class public interface abstract annotation Lr4/c;
+.class public Lr4/c;
 .super Ljava/lang/Object;
-.source "SerializedName.java"
-
-# interfaces
-.implements Ljava/lang/annotation/Annotation;
+.source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Lr4/c;
-        alternate = {}
-    .end subannotation
-.end annotation
+# instance fields
+.field public a:Ljava/lang/String;
 
-.annotation runtime Ljava/lang/annotation/Documented;
-.end annotation
+.field public b:Ljava/lang/Boolean;
 
-.annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
-.end annotation
 
-.annotation runtime Ljava/lang/annotation/Target;
-    value = {
-        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
-        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
-    }
-.end annotation
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract alternate()[Ljava/lang/String;
+.method public a(Z)V
+    .locals 0
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lr4/c;->b:Ljava/lang/Boolean;
+
+    return-void
 .end method
 
-.method public abstract value()Ljava/lang/String;
+.method public b()Z
+    .locals 1
+
+    iget-object v0, p0, Lr4/c;->b:Ljava/lang/Boolean;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public c(Ljava/lang/String;)Z
+    .locals 1
+
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return p1
+
+    :cond_0
+    iget-object v0, p0, Lr4/c;->a:Ljava/lang/String;
+
+    invoke-static {v0, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public d(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lr4/c;->a:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public e()Z
+    .locals 1
+
+    iget-object v0, p0, Lr4/c;->b:Ljava/lang/Boolean;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
 .end method

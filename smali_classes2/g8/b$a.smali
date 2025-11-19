@@ -1,6 +1,6 @@
-.class public Lg8/b$a;
+.class public final Lg8/b$a;
 .super Ljava/lang/Object;
-.source "BleScanRuleConfig.java"
+.source "SourceFile"
 
 
 # annotations
@@ -9,123 +9,111 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
+    accessFlags = 0x19
     name = "a"
 .end annotation
 
 
-# instance fields
-.field private a:[Ljava/util/UUID;
-
-.field private b:[Ljava/lang/String;
-
-.field private c:Ljava/lang/String;
-
-.field private d:Z
-
-.field private e:Z
-
-.field private f:J
-
-
 # direct methods
 .method public constructor <init>()V
-    .locals 2
+    .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/4 v0, 0x0
+    return-void
+.end method
 
-    .line 2
-    iput-object v0, p0, Lg8/b$a;->a:[Ljava/util/UUID;
+.method public synthetic constructor <init>(Ldo/u;)V
+    .locals 0
 
-    .line 3
-    iput-object v0, p0, Lg8/b$a;->b:[Ljava/lang/String;
-
-    .line 4
-    iput-object v0, p0, Lg8/b$a;->c:Ljava/lang/String;
-
-    const/4 v0, 0x0
-
-    .line 5
-    iput-boolean v0, p0, Lg8/b$a;->d:Z
-
-    .line 6
-    iput-boolean v0, p0, Lg8/b$a;->e:Z
-
-    const-wide/16 v0, 0x2710
-
-    .line 7
-    iput-wide v0, p0, Lg8/b$a;->f:J
+    invoke-direct {p0}, Lg8/b$a;-><init>()V
 
     return-void
+.end method
+
+.method public static synthetic a(Ln8/c;I[Ljava/lang/String;[I)Z
+    .locals 0
+
+    invoke-static {p0, p1, p2, p3}, Lg8/b$a;->c(Ln8/c;I[Ljava/lang/String;[I)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static final c(Ln8/c;I[Ljava/lang/String;[I)Z
+    .locals 1
+
+    const-string v0, "$permissionsUtils"
+
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "permissions"
+
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "grantResults"
+
+    invoke-static {p3, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0, p1, p2, p3}, Ln8/c;->b(I[Ljava/lang/String;[I)Ln8/c;
+
+    const/4 p0, 0x0
+
+    return p0
 .end method
 
 
 # virtual methods
-.method a(Lg8/b;)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lg8/b$a;->a:[Ljava/util/UUID;
-
-    invoke-static {p1, v0}, Lg8/b;->a(Lg8/b;[Ljava/util/UUID;)[Ljava/util/UUID;
-
-    .line 2
-    iget-object v0, p0, Lg8/b$a;->b:[Ljava/lang/String;
-
-    invoke-static {p1, v0}, Lg8/b;->b(Lg8/b;[Ljava/lang/String;)[Ljava/lang/String;
-
-    .line 3
-    iget-object v0, p0, Lg8/b$a;->c:Ljava/lang/String;
-
-    invoke-static {p1, v0}, Lg8/b;->c(Lg8/b;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 4
-    iget-boolean v0, p0, Lg8/b$a;->d:Z
-
-    invoke-static {p1, v0}, Lg8/b;->d(Lg8/b;Z)Z
-
-    .line 5
-    iget-boolean v0, p0, Lg8/b$a;->e:Z
-
-    invoke-static {p1, v0}, Lg8/b;->e(Lg8/b;Z)Z
-
-    .line 6
-    iget-wide v0, p0, Lg8/b$a;->f:J
-
-    invoke-static {p1, v0, v1}, Lg8/b;->f(Lg8/b;J)J
-
-    return-void
-.end method
-
-.method public b()Lg8/b;
+.method public final b(Ln8/c;)Lio/flutter/plugin/common/PluginRegistry$RequestPermissionsResultListener;
     .locals 1
+    .param p1    # Ln8/c;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lzr/k;
+    .end annotation
 
-    .line 1
-    new-instance v0, Lg8/b;
+    const-string v0, "permissionsUtils"
 
-    invoke-direct {v0}, Lg8/b;-><init>()V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
-    invoke-virtual {p0, v0}, Lg8/b$a;->a(Lg8/b;)V
+    new-instance v0, Lg8/a;
+
+    invoke-direct {v0, p1}, Lg8/a;-><init>(Ln8/c;)V
 
     return-object v0
 .end method
 
-.method public c(J)Lg8/b$a;
-    .locals 0
+.method public final d(Lcom/fluttercandies/photo_manager/core/PhotoManagerPlugin;Lio/flutter/plugin/common/BinaryMessenger;)V
+    .locals 2
+    .param p1    # Lcom/fluttercandies/photo_manager/core/PhotoManagerPlugin;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Lio/flutter/plugin/common/BinaryMessenger;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
-    iput-wide p1, p0, Lg8/b$a;->f:J
+    const-string v0, "plugin"
 
-    return-object p0
-.end method
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-.method public d([Ljava/util/UUID;)Lg8/b$a;
-    .locals 0
+    const-string v0, "messenger"
 
-    iput-object p1, p0, Lg8/b$a;->a:[Ljava/util/UUID;
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    return-object p0
+    .line 1
+    new-instance v0, Lio/flutter/plugin/common/MethodChannel;
+
+    const-string v1, "com.fluttercandies/photo_manager"
+
+    invoke-direct {v0, p2, v1}, Lio/flutter/plugin/common/MethodChannel;-><init>(Lio/flutter/plugin/common/BinaryMessenger;Ljava/lang/String;)V
+
+    .line 2
+    invoke-virtual {v0, p1}, Lio/flutter/plugin/common/MethodChannel;->setMethodCallHandler(Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;)V
+
+    return-void
 .end method

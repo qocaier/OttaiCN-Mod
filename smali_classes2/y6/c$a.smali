@@ -1,4 +1,4 @@
-.class Ly6/c$a;
+.class public interface abstract Ly6/c$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,6 +9,11 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2
+    accessFlags = 0x609
     name = "a"
 .end annotation
+
+
+# virtual methods
+.method public abstract a(Z)V
+.end method

@@ -1,6 +1,6 @@
 .class final Landroidx/activity/EdgeToEdgeApi21;
 .super Landroidx/activity/EdgeToEdgeBase;
-.source "EdgeToEdge.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -22,24 +22,40 @@
 # virtual methods
 .method public setUp(Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;Landroid/view/Window;Landroid/view/View;ZZ)V
     .locals 0
+    .param p1    # Landroidx/activity/SystemBarStyle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/activity/SystemBarStyle;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p3    # Landroid/view/Window;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p4    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
-    const-string p5, "statusBarStyle"
+    const-string/jumbo p5, "statusBarStyle"
 
-    invoke-static {p1, p5}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "navigationBarStyle"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string/jumbo p1, "window"
 
-    invoke-static {p3, p1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string/jumbo p1, "view"
 
-    invoke-static {p4, p1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

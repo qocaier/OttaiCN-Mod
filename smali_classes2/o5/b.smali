@@ -1,335 +1,197 @@
-.class public abstract Lo5/b;
+.class public Lo5/b;
 .super Ljava/lang/Object;
-
-
-# instance fields
-.field protected final a:B
-
-.field private final b:I
-
-.field private final c:I
-
-.field protected final d:I
-
-.field private final e:I
-
-.field protected f:[B
-
-.field protected g:I
-
-.field private h:I
-
-.field protected i:Z
-
-.field protected j:I
-
-.field protected k:I
+.source "SourceFile"
 
 
 # direct methods
-.method protected constructor <init>(IIII)V
-    .locals 1
+.method public constructor <init>()V
+    .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const/16 v0, 0x3d
-
-    iput-byte v0, p0, Lo5/b;->a:B
-
-    iput p1, p0, Lo5/b;->b:I
-
-    iput p2, p0, Lo5/b;->c:I
-
-    if-lez p3, :cond_0
-
-    if-lez p4, :cond_0
-
-    div-int/2addr p3, p2
-
-    mul-int p3, p3, p2
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p3, 0x0
-
-    :goto_0
-    iput p3, p0, Lo5/b;->d:I
-
-    iput p4, p0, Lo5/b;->e:I
-
     return-void
 .end method
 
-.method private a()V
-    .locals 4
-
-    iget-object v0, p0, Lo5/b;->f:[B
-
-    const/4 v1, 0x0
-
-    if-nez v0, :cond_0
-
-    invoke-virtual {p0}, Lo5/b;->h()I
-
-    move-result v0
-
-    new-array v0, v0, [B
-
-    iput-object v0, p0, Lo5/b;->f:[B
-
-    iput v1, p0, Lo5/b;->g:I
-
-    iput v1, p0, Lo5/b;->h:I
-
-    goto :goto_0
-
-    :cond_0
-    array-length v2, v0
-
-    mul-int/lit8 v2, v2, 0x2
-
-    new-array v2, v2, [B
-
-    array-length v3, v0
-
-    invoke-static {v0, v1, v2, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    iput-object v2, p0, Lo5/b;->f:[B
-
-    :goto_0
-    return-void
-.end method
-
-.method private j()V
-    .locals 1
-
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lo5/b;->f:[B
-
-    const/4 v0, 0x0
-
-    iput v0, p0, Lo5/b;->g:I
-
-    iput v0, p0, Lo5/b;->h:I
-
-    iput v0, p0, Lo5/b;->j:I
-
-    iput v0, p0, Lo5/b;->k:I
-
-    iput-boolean v0, p0, Lo5/b;->i:Z
-
-    return-void
-.end method
-
-
-# virtual methods
-.method protected b(I)V
-    .locals 2
-
-    iget-object v0, p0, Lo5/b;->f:[B
-
-    if-eqz v0, :cond_0
-
-    array-length v0, v0
-
-    iget v1, p0, Lo5/b;->g:I
-
-    add-int/2addr v1, p1
-
-    if-ge v0, v1, :cond_1
-
-    :cond_0
-    invoke-direct {p0}, Lo5/b;->a()V
-
-    :cond_1
-    return-void
-.end method
-
-.method abstract c([BII)V
-.end method
-
-.method protected abstract d(B)Z
-.end method
-
-.method e()I
-    .locals 2
-
-    iget-object v0, p0, Lo5/b;->f:[B
-
-    if-eqz v0, :cond_0
-
-    iget v0, p0, Lo5/b;->g:I
-
-    iget v1, p0, Lo5/b;->h:I
-
-    sub-int/2addr v0, v1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method f([BII)I
-    .locals 2
-
-    iget-object v0, p0, Lo5/b;->f:[B
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {p0}, Lo5/b;->e()I
-
-    move-result v0
-
-    invoke-static {v0, p3}, Ljava/lang/Math;->min(II)I
-
-    move-result p3
-
-    iget-object v0, p0, Lo5/b;->f:[B
-
-    iget v1, p0, Lo5/b;->h:I
-
-    invoke-static {v0, v1, p1, p2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    iget p1, p0, Lo5/b;->h:I
-
-    add-int/2addr p1, p3
-
-    iput p1, p0, Lo5/b;->h:I
-
-    iget p2, p0, Lo5/b;->g:I
-
-    if-lt p1, p2, :cond_0
-
-    const/4 p1, 0x0
-
-    iput-object p1, p0, Lo5/b;->f:[B
-
-    :cond_0
-    return p3
-
-    :cond_1
-    iget-boolean p1, p0, Lo5/b;->i:Z
-
-    if-eqz p1, :cond_2
-
-    const/4 p1, -0x1
-
-    goto :goto_0
-
-    :cond_2
-    const/4 p1, 0x0
-
-    :goto_0
-    return p1
-.end method
-
-.method public g(Ljava/lang/String;)[B
-    .locals 0
-
-    invoke-static {p1}, Leb/a;->b(Ljava/lang/String;)[B
+.method public static a(Lk5/a;Landroid/content/Context;)Landroid/net/NetworkInfo;
+    .locals 12
+
+    .line 1
+    invoke-static {p1}, Lo5/a;->a(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Lo5/b;->i([B)[B
+    .line 2
+    sget-object v9, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    new-instance v4, Lo5/b$c;
+
+    invoke-direct {v4}, Lo5/b$c;-><init>()V
+
+    new-instance v5, Lo5/b$d;
+
+    invoke-direct {v5, p1}, Lo5/b$d;-><init>(Landroid/content/Context;)V
+
+    const/4 v0, 0x2
+
+    const-wide/16 v1, 0xa
+
+    const/4 v6, 0x0
+
+    const-wide/16 v7, 0xa
+
+    const/4 v11, 0x0
+
+    move-object v3, v9
+
+    move-object v10, p0
+
+    invoke-static/range {v0 .. v11}, Lo5/a;->c(IJLjava/util/concurrent/TimeUnit;Lo5/a$a;Ljava/util/concurrent/Callable;ZJLjava/util/concurrent/TimeUnit;Lk5/a;Z)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroid/net/NetworkInfo;
+
+    return-object p0
+.end method
+
+.method public static b(Lk5/a;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 12
+
+    .line 1
+    invoke-static {p1}, Lo5/a;->a(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
-    return-object p1
+    .line 2
+    sget-object v9, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    new-instance v4, Lo5/b$g;
+
+    invoke-direct {v4}, Lo5/b$g;-><init>()V
+
+    new-instance v5, Lo5/b$h;
+
+    invoke-direct {v5, p2, p3, p1, p0}, Lo5/b$h;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lk5/a;)V
+
+    const/4 v0, 0x4
+
+    const-wide/16 v1, 0xa
+
+    const/4 v6, 0x1
+
+    const-wide/16 v7, 0x3
+
+    const/4 v11, 0x1
+
+    move-object v3, v9
+
+    move-object v10, p0
+
+    invoke-static/range {v0 .. v11}, Lo5/a;->c(IJLjava/util/concurrent/TimeUnit;Lo5/a$a;Ljava/util/concurrent/Callable;ZJLjava/util/concurrent/TimeUnit;Lk5/a;Z)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    return-object p0
 .end method
 
-.method protected h()I
-    .locals 1
+.method public static c(Lk5/a;Landroid/content/Context;)Ljava/lang/String;
+    .locals 12
 
-    const/16 v0, 0x2000
+    .line 1
+    invoke-static {}, Ly4/a;->w()Ly4/a;
 
-    return v0
-.end method
+    move-result-object v0
 
-.method public i([B)[B
-    .locals 2
+    invoke-virtual {v0}, Ly4/a;->L()Z
 
-    invoke-direct {p0}, Lo5/b;->j()V
-
-    if-eqz p1, :cond_1
-
-    array-length v0, p1
+    move-result v0
 
     if-nez v0, :cond_0
 
-    goto :goto_0
+    const-string p0, ""
 
+    return-object p0
+
+    .line 2
     :cond_0
-    array-length v0, p1
+    invoke-static {p1}, Lo5/a;->a(Landroid/content/Context;)Landroid/content/Context;
 
-    const/4 v1, 0x0
+    move-result-object p1
 
-    invoke-virtual {p0, p1, v1, v0}, Lo5/b;->c([BII)V
+    .line 3
+    sget-object v3, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    const/4 v0, -0x1
+    new-instance v4, Lo5/b$a;
 
-    invoke-virtual {p0, p1, v1, v0}, Lo5/b;->c([BII)V
+    invoke-direct {v4}, Lo5/b$a;-><init>()V
 
-    iget p1, p0, Lo5/b;->g:I
+    new-instance v5, Lo5/b$b;
 
-    new-array v0, p1, [B
+    invoke-direct {v5, p1}, Lo5/b$b;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {p0, v0, v1, p1}, Lo5/b;->f([BII)I
+    sget-object v9, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    return-object v0
+    const/4 v0, 0x1
 
-    :cond_1
-    :goto_0
-    return-object p1
+    const-wide/16 v1, 0x1
+
+    const/4 v6, 0x1
+
+    const-wide/16 v7, 0xc8
+
+    const/4 v11, 0x1
+
+    move-object v10, p0
+
+    invoke-static/range {v0 .. v11}, Lo5/a;->c(IJLjava/util/concurrent/TimeUnit;Lo5/a$a;Ljava/util/concurrent/Callable;ZJLjava/util/concurrent/TimeUnit;Lk5/a;Z)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    return-object p0
 .end method
 
-.method protected k([B)Z
-    .locals 5
+.method public static d(Lk5/a;Landroid/content/Context;)Ljava/lang/String;
+    .locals 12
 
-    const/4 v0, 0x0
+    .line 1
+    invoke-static {p1}, Lo5/a;->a(Landroid/content/Context;)Landroid/content/Context;
 
-    if-nez p1, :cond_0
+    move-result-object p1
 
-    return v0
+    .line 2
+    sget-object v3, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
 
-    :cond_0
-    array-length v1, p1
+    new-instance v4, Lo5/b$e;
 
-    const/4 v2, 0x0
+    invoke-direct {v4}, Lo5/b$e;-><init>()V
 
-    :goto_0
-    if-ge v2, v1, :cond_3
+    new-instance v5, Lo5/b$f;
 
-    aget-byte v3, p1, v2
+    invoke-direct {v5, p1, p0}, Lo5/b$f;-><init>(Landroid/content/Context;Lk5/a;)V
 
-    const/16 v4, 0x3d
+    sget-object v9, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    if-eq v4, v3, :cond_2
+    const/4 v0, 0x3
 
-    invoke-virtual {p0, v3}, Lo5/b;->d(B)Z
+    const-wide/16 v1, 0x1
 
-    move-result v3
+    const/4 v6, 0x1
 
-    if-eqz v3, :cond_1
+    const-wide/16 v7, 0x3
 
-    goto :goto_1
+    const/4 v11, 0x0
 
-    :cond_1
-    add-int/lit8 v2, v2, 0x1
+    move-object v10, p0
 
-    goto :goto_0
+    invoke-static/range {v0 .. v11}, Lo5/a;->c(IJLjava/util/concurrent/TimeUnit;Lo5/a$a;Ljava/util/concurrent/Callable;ZJLjava/util/concurrent/TimeUnit;Lk5/a;Z)Ljava/lang/Object;
 
-    :cond_2
-    :goto_1
-    const/4 p1, 0x1
+    move-result-object p0
 
-    return p1
+    check-cast p0, Ljava/lang/String;
 
-    :cond_3
-    return v0
+    return-object p0
 .end method

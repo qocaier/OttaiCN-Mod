@@ -1,43 +1,34 @@
-.class public Lb2/a;
+.class public final synthetic Lb2/a;
 .super Ljava/lang/Object;
-.source "ByteArraySource.java"
+.source "SourceFile"
 
 # interfaces
-.implements Lb2/b;
+.implements Landroidx/media3/common/util/NetworkTypeObserver$Listener;
 
 
 # instance fields
-.field private a:[B
+.field public final synthetic a:Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;
 
 
 # direct methods
-.method public constructor <init>([B)V
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    iput-object p1, p0, Lb2/a;->a:[B
+    iput-object p1, p0, Lb2/a;->a:Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Lcom/shockwave/pdfium/PdfiumCore;Ljava/lang/String;)Lcom/shockwave/pdfium/PdfDocument;
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+.method public final onNetworkTypeChanged(I)V
+    .locals 1
 
-    iget-object p1, p0, Lb2/a;->a:[B
+    iget-object v0, p0, Lb2/a;->a:Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;
 
-    invoke-virtual {p2, p1, p3}, Lcom/shockwave/pdfium/PdfiumCore;->k([BLjava/lang/String;)Lcom/shockwave/pdfium/PdfDocument;
+    invoke-static {v0, p1}, Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;->a(Landroidx/media3/exoplayer/upstream/experimental/ExperimentalBandwidthMeter;I)V
 
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

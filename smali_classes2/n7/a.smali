@@ -1,751 +1,141 @@
-.class public Ln7/a;
+.class public final Ln7/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ln7/d;
-
-
-# static fields
-.field private static final f:Ljava/lang/String; = "a"
+.implements Lio/flutter/embedding/engine/plugins/FlutterPlugin;
+.implements Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;
 
 
 # instance fields
-.field private a:Landroid/database/sqlite/SQLiteDatabase;
-
-.field private final b:Ln7/b;
-
-.field private final c:[Ljava/lang/String;
-
-.field private d:J
-
-.field private final e:I
+.field public a:Lio/flutter/plugin/common/MethodChannel;
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method public constructor <init>()V
     .locals 0
-
-    return-void
-.end method
-
-.method public constructor <init>(Landroid/content/Context;I)V
-    .locals 3
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "id"
+    return-void
+.end method
 
-    const-string v1, "eventData"
 
-    const-string v2, "dateCreated"
+# virtual methods
+.method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
+    .locals 2
+    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
-    filled-new-array {v0, v1, v2}, [Ljava/lang/String;
+    const-string v0, "flutterPluginBinding"
 
-    move-result-object v0
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iput-object v0, p0, Ln7/a;->c:[Ljava/lang/String;
+    .line 1
+    new-instance v0, Lio/flutter/plugin/common/MethodChannel;
 
-    const-wide/16 v0, -0x1
-
-    iput-wide v0, p0, Ln7/a;->d:J
-
-    invoke-direct {p0, p1}, Ln7/a;->b(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p1, v0}, Ln7/b;->a(Landroid/content/Context;Ljava/lang/String;)Ln7/b;
+    invoke-virtual {p1}, Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;->getBinaryMessenger()Lio/flutter/plugin/common/BinaryMessenger;
 
     move-result-object p1
 
-    iput-object p1, p0, Ln7/a;->b:Ln7/b;
+    const-string v1, "ble_live"
 
-    invoke-virtual {p0}, Ln7/a;->i()V
+    invoke-direct {v0, p1, v1}, Lio/flutter/plugin/common/MethodChannel;-><init>(Lio/flutter/plugin/common/BinaryMessenger;Ljava/lang/String;)V
 
-    iput p2, p0, Ln7/a;->e:I
+    iput-object v0, p0, Ln7/a;->a:Lio/flutter/plugin/common/MethodChannel;
+
+    .line 2
+    invoke-virtual {v0, p0}, Lio/flutter/plugin/common/MethodChannel;->setMethodCallHandler(Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;)V
 
     return-void
 .end method
 
-.method private b(Landroid/content/Context;)Ljava/lang/String;
-    .locals 6
+.method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
+    .locals 1
+    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+
+    const-string v0, "binding"
+
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p1, p0, Ln7/a;->a:Lio/flutter/plugin/common/MethodChannel;
 
     const/4 v0, 0x0
 
-    :try_start_0
-    const-string v1, "com.meizu.cloud.utils.ProcessUtils"
+    if-nez p1, :cond_0
 
-    invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    const-string p1, "channel"
 
-    move-result-object v1
+    invoke-static {p1}, Ldo/f0;->S(Ljava/lang/String;)V
 
-    const/4 v2, 0x1
+    move-object p1, v0
 
-    new-array v3, v2, [Ljava/lang/Class;
+    :cond_0
+    invoke-virtual {p1, v0}, Lio/flutter/plugin/common/MethodChannel;->setMethodCallHandler(Lio/flutter/plugin/common/MethodChannel$MethodCallHandler;)V
 
-    const-class v4, Landroid/content/Context;
+    return-void
+.end method
 
-    const/4 v5, 0x0
+.method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    .locals 1
+    .param p1    # Lio/flutter/plugin/common/MethodCall;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
-    aput-object v4, v3, v5
+    const-string v0, "call"
 
-    const-string v4, "getCurrentProcessName"
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v1, v4, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    const-string v0, "result"
 
-    move-result-object v1
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-array v2, v2, [Ljava/lang/Object;
+    .line 1
+    iget-object p1, p1, Lio/flutter/plugin/common/MethodCall;->method:Ljava/lang/String;
 
-    aput-object p1, v2, v5
+    const-string v0, "getPlatformVersion"
 
-    invoke-virtual {v1, v0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Ljava/lang/String;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    move-object v0, p1
-
-    goto :goto_0
-
-    :catch_0
-    move-exception p1
-
-    sget-object v1, Ln7/a;->f:Ljava/lang/String;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "getCurrentProcessName error "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {v1, p1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p1, v0}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
-    const-string v1, "PushEvents.db"
-
     if-eqz p1, :cond_0
 
-    return-object v1
-
-    :cond_0
+    .line 2
     new-instance p1, Ljava/lang/StringBuilder;
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v0, "_"
+    const-string v0, "Android "
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    return-object p1
-.end method
-
-.method public static e([B)Ljava/util/Map;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "([B)",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    :try_start_0
-    new-instance v0, Ljava/io/ByteArrayInputStream;
-
-    invoke-direct {v0, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
-
-    new-instance p0, Ljava/io/ObjectInputStream;
-
-    invoke-direct {p0, v0}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
-
-    invoke-virtual {p0}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/util/HashMap;
-
-    invoke-virtual {p0}, Ljava/io/ObjectInputStream;->close()V
-
-    invoke-virtual {v0}, Ljava/io/ByteArrayInputStream;->close()V
-    :try_end_0
-    .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object v1
-
-    :catch_0
-    move-exception p0
+    invoke-interface {p2, p1}, Lio/flutter/plugin/common/MethodChannel$Result;->success(Ljava/lang/Object;)V
 
     goto :goto_0
 
-    :catch_1
-    move-exception p0
-
-    :goto_0
-    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
-
-    const/4 p0, 0x0
-
-    return-object p0
-.end method
-
-.method public static f(Ljava/util/Map;)[B
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;)[B"
-        }
-    .end annotation
-
-    :try_start_0
-    new-instance v0, Ljava/io/ByteArrayOutputStream;
-
-    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
-
-    new-instance v1, Ljava/io/ObjectOutputStream;
-
-    invoke-direct {v1, v0}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
-
-    invoke-virtual {v1, p0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
-
-    invoke-virtual {v1}, Ljava/io/ObjectOutputStream;->close()V
-
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->close()V
-
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
-
-    move-result-object p0
-    :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object p0
-
-    :catch_0
-    move-exception p0
-
-    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
-
-    const/4 p0, 0x0
-
-    return-object p0
-.end method
-
-
-# virtual methods
-.method public a()Lh7/b;
-    .locals 6
-
-    new-instance v0, Ljava/util/LinkedList;
-
-    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
-
-    new-instance v1, Ljava/util/ArrayList;
-
-    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
-
-    iget v2, p0, Ln7/a;->e:I
-
-    invoke-virtual {p0, v2}, Ln7/a;->c(I)Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v2
-
-    :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/util/Map;
-
-    new-instance v4, Lf7/c;
-
-    invoke-direct {v4}, Lf7/c;-><init>()V
-
-    const-string v5, "eventData"
-
-    invoke-interface {v3, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v5
-
-    check-cast v5, Ljava/util/Map;
-
-    invoke-virtual {v4, v5}, Lf7/c;->c(Ljava/util/Map;)V
-
-    const-string v5, "id"
-
-    invoke-interface {v3, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/Long;
-
-    invoke-virtual {v0, v3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
-
-    invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
+    .line 3
     :cond_0
-    new-instance v2, Lh7/b;
+    invoke-interface {p2}, Lio/flutter/plugin/common/MethodChannel$Result;->notImplemented()V
 
-    invoke-direct {v2, v1, v0}, Lh7/b;-><init>(Ljava/util/ArrayList;Ljava/util/LinkedList;)V
-
-    return-object v2
-.end method
-
-.method public a(Lf7/a;)V
-    .locals 0
-
-    invoke-virtual {p0, p1}, Ln7/a;->g(Lf7/a;)J
-
-    return-void
-.end method
-
-.method public a(J)Z
-    .locals 4
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "id="
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    const-string v3, "events"
-
-    invoke-virtual {v0, v3, v1, v2}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
-
-    move-result v0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, -0x1
-
-    :goto_0
-    sget-object v1, Ln7/a;->f:Ljava/lang/String;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "Removed event from database: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 p2, 0x0
-
-    new-array v2, p2, [Ljava/lang/Object;
-
-    invoke-static {v1, p1, v2}, Lt7/b;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    const/4 p1, 0x1
-
-    if-ne v0, p1, :cond_1
-
-    const/4 p2, 0x1
-
-    :cond_1
-    return p2
-.end method
-
-.method public b()J
-    .locals 2
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    const-string v1, "events"
-
-    invoke-static {v0, v1}, Landroid/database/DatabaseUtils;->queryNumEntries(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)J
-
-    move-result-wide v0
-
-    goto :goto_0
-
-    :cond_0
-    const-wide/16 v0, 0x0
-
-    :goto_0
-    return-wide v0
-.end method
-
-.method public c(I)Ljava/util/List;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I)",
-            "Ljava/util/List<",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;>;"
-        }
-    .end annotation
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "id ASC LIMIT "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    invoke-virtual {p0, v0, p1}, Ln7/a;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public d(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
-    .locals 10
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ")",
-            "Ljava/util/List<",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;>;"
-        }
-    .end annotation
-
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    iget-object v2, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    iget-object v4, p0, Ln7/a;->c:[Ljava/lang/String;
-
-    const/4 v6, 0x0
-
-    const/4 v7, 0x0
-
-    const/4 v8, 0x0
-
-    const-string v3, "events"
-
-    move-object v5, p1
-
-    move-object v9, p2
-
-    invoke-virtual/range {v2 .. v9}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    move-result-object p1
-
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToFirst()Z
-
-    :goto_0
-    invoke-interface {p1}, Landroid/database/Cursor;->isAfterLast()Z
-
-    move-result p2
-
-    if-nez p2, :cond_0
-
-    new-instance p2, Ljava/util/HashMap;
-
-    const/4 v1, 0x4
-
-    invoke-direct {p2, v1}, Ljava/util/HashMap;-><init>(I)V
-
-    const/4 v1, 0x0
-
-    invoke-interface {p1, v1}, Landroid/database/Cursor;->getLong(I)J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    const-string v2, "id"
-
-    invoke-interface {p2, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 v1, 0x1
-
-    invoke-interface {p1, v1}, Landroid/database/Cursor;->getBlob(I)[B
-
-    move-result-object v1
-
-    invoke-static {v1}, Ln7/a;->e([B)Ljava/util/Map;
-
-    move-result-object v1
-
-    const-string v2, "eventData"
-
-    invoke-interface {p2, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const/4 v1, 0x2
-
-    invoke-interface {p1, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "dateCreated"
-
-    invoke-interface {p2, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    invoke-interface {p1}, Landroid/database/Cursor;->moveToNext()Z
-
-    invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
-    :cond_0
-    invoke-interface {p1}, Landroid/database/Cursor;->close()V
-
-    :cond_1
-    return-object v0
-.end method
-
-.method public g(Lf7/a;)J
-    .locals 3
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {p1}, Lf7/a;->b()Ljava/util/Map;
-
-    move-result-object p1
-
-    invoke-static {p1}, Ln7/a;->f(Ljava/util/Map;)[B
-
-    move-result-object p1
-
-    new-instance v0, Landroid/content/ContentValues;
-
-    const/4 v1, 0x2
-
-    invoke-direct {v0, v1}, Landroid/content/ContentValues;-><init>(I)V
-
-    const-string v1, "eventData"
-
-    invoke-virtual {v0, v1, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;[B)V
-
-    iget-object p1, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    const/4 v1, 0x0
-
-    const-string v2, "events"
-
-    invoke-virtual {p1, v2, v1, v0}, Landroid/database/sqlite/SQLiteDatabase;->insert(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
-
-    move-result-wide v0
-
-    iput-wide v0, p0, Ln7/a;->d:J
-
-    :cond_0
-    sget-object p1, Ln7/a;->f:Ljava/lang/String;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "Added event to database: "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-wide v1, p0, Ln7/a;->d:J
-
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    new-array v1, v1, [Ljava/lang/Object;
-
-    invoke-static {p1, v0, v1}, Lt7/b;->e(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    iget-wide v0, p0, Ln7/a;->d:J
-
-    return-wide v0
-.end method
-
-.method public h()Z
-    .locals 1
-
-    iget-object v0, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->isOpen()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-.end method
-
-.method public i()V
-    .locals 4
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    :try_start_0
-    iget-object v0, p0, Ln7/a;->b:Ln7/b;
-
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
-
-    move-result-object v0
-
-    iput-object v0, p0, Ln7/a;->a:Landroid/database/sqlite/SQLiteDatabase;
-
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->enableWriteAheadLogging()Z
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    move-exception v0
-
-    sget-object v1, Ln7/a;->f:Ljava/lang/String;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, " open database error "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v2, 0x0
-
-    new-array v2, v2, [Ljava/lang/Object;
-
-    invoke-static {v1, v0, v2}, Lt7/b;->f(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
-    :cond_0
     :goto_0
     return-void
-.end method
-
-.method public isOpen()Z
-    .locals 1
-
-    invoke-virtual {p0}, Ln7/a;->h()Z
-
-    move-result v0
-
-    return v0
 .end method

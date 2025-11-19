@@ -1,9 +1,9 @@
 .class final Landroidx/activity/OnBackPressedDispatcher$3;
 .super Lkotlin/jvm/internal/Lambda;
-.source "OnBackPressedDispatcher.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,26 +12,26 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
-        "Lkotlin/s;",
+        "Lco/a<",
+        "Len/y1;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
+.field public final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
+.method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher$3;->this$0:Landroidx/activity/OnBackPressedDispatcher;
@@ -51,7 +51,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$3;->invoke()V
 
-    sget-object v0, Lkotlin/s;->a:Lkotlin/s;
+    sget-object v0, Len/y1;->a:Len/y1;
 
     return-object v0
 .end method

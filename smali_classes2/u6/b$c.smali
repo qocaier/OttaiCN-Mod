@@ -1,6 +1,9 @@
-.class Lu6/b$c;
+.class public final Lu6/b$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lh6/f;
 
 
 # annotations
@@ -9,88 +12,159 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x19
     name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lh6/f<",
+        "Ljava/io/InputStream;",
+        "Landroid/graphics/drawable/Drawable;",
+        ">;"
+    }
 .end annotation
 
 
 # instance fields
-.field final a:Ljava/lang/String;
-
-.field final b:Ljava/lang/String;
-
-.field final c:Ljava/lang/String;
-
-.field final synthetic d:Lu6/b;
+.field public final a:Lu6/b;
 
 
 # direct methods
-.method public constructor <init>(Lu6/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    .locals 4
+.method public constructor <init>(Lu6/b;)V
+    .locals 0
 
-    iput-object p1, p0, Lu6/b$c;->d:Lu6/b;
-
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {p1}, Lu6/b;->i(Lu6/b;)Ljava/text/SimpleDateFormat;
-
-    move-result-object v1
-
-    new-instance v2, Ljava/util/Date;
-
-    invoke-direct {v2}, Ljava/util/Date;-><init>()V
-
-    invoke-virtual {v1, v2}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, " "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-static {p1}, Lu6/b;->j(Lu6/b;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "-"
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/Thread;->getId()J
-
-    move-result-wide v2
-
-    invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "/"
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lu6/b$c;->a:Ljava/lang/String;
-
-    iput-object p3, p0, Lu6/b$c;->b:Ljava/lang/String;
-
-    iput-object p4, p0, Lu6/b$c;->c:Ljava/lang/String;
+    .line 2
+    iput-object p1, p0, Lu6/b$c;->a:Lu6/b;
 
     return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(Ljava/lang/Object;Lh6/e;)Z
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    check-cast p1, Ljava/io/InputStream;
+
+    invoke-virtual {p0, p1, p2}, Lu6/b$c;->d(Ljava/io/InputStream;Lh6/e;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic b(Ljava/lang/Object;IILh6/e;)Lk6/j;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    check-cast p1, Ljava/io/InputStream;
+
+    invoke-virtual {p0, p1, p2, p3, p4}, Lu6/b$c;->c(Ljava/io/InputStream;IILh6/e;)Lk6/j;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public c(Ljava/io/InputStream;IILh6/e;)Lk6/j;
+    .locals 1
+    .param p1    # Ljava/io/InputStream;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p4    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/io/InputStream;",
+            "II",
+            "Lh6/e;",
+            ")",
+            "Lk6/j<",
+            "Landroid/graphics/drawable/Drawable;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, Lf7/a;->b(Ljava/io/InputStream;)Ljava/nio/ByteBuffer;
+
+    move-result-object p1
+
+    invoke-static {p1}, Landroid/graphics/ImageDecoder;->createSource(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+
+    move-result-object p1
+
+    .line 2
+    iget-object v0, p0, Lu6/b$c;->a:Lu6/b;
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Lu6/b;->b(Landroid/graphics/ImageDecoder$Source;IILh6/e;)Lk6/j;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public d(Ljava/io/InputStream;Lh6/e;)Z
+    .locals 0
+    .param p1    # Ljava/io/InputStream;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lh6/e;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    iget-object p2, p0, Lu6/b$c;->a:Lu6/b;
+
+    invoke-virtual {p2, p1}, Lu6/b;->c(Ljava/io/InputStream;)Z
+
+    move-result p1
+
+    return p1
 .end method

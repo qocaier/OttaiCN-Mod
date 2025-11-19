@@ -1,201 +1,83 @@
-.class public final Ls/b;
-.super Ls/a;
-.source "CurrentBrightnessChangeStreamHandler.kt"
-
-
-# instance fields
-.field private final b:Landroid/content/Context;
-
-.field private final c:Lla/l;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lla/l<",
-            "Lio/flutter/plugin/common/EventChannel$EventSink;",
-            "Lkotlin/s;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final d:Lla/l;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lla/l<",
-            "Lio/flutter/plugin/common/EventChannel$EventSink;",
-            "Lkotlin/s;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field private final e:Landroid/database/ContentObserver;
+.class public final synthetic Ls/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lla/l;Lla/l;)V
+.method public static a(Landroidx/camera/core/impl/CameraConfig;)Landroidx/camera/core/impl/SessionProcessor;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lla/l<",
-            "-",
-            "Lio/flutter/plugin/common/EventChannel$EventSink;",
-            "Lkotlin/s;",
-            ">;",
-            "Lla/l<",
-            "-",
-            "Lio/flutter/plugin/common/EventChannel$EventSink;",
-            "Lkotlin/s;",
-            ">;)V"
-        }
+    .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    const-string v0, "context"
+    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_SESSION_PROCESSOR:Landroidx/camera/core/impl/Config$Option;
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-interface {p0, v0}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;)Ljava/lang/Object;
 
-    const-string v0, "onChange"
+    move-result-object p0
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    check-cast p0, Landroidx/camera/core/impl/SessionProcessor;
 
-    .line 1
-    invoke-direct {p0}, Ls/a;-><init>()V
-
-    .line 2
-    iput-object p1, p0, Ls/b;->b:Landroid/content/Context;
-
-    .line 3
-    iput-object p2, p0, Ls/b;->c:Lla/l;
-
-    .line 4
-    iput-object p3, p0, Ls/b;->d:Lla/l;
-
-    .line 5
-    new-instance p1, Landroid/os/Handler;
-
-    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-
-    move-result-object p2
-
-    invoke-direct {p1, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    new-instance p2, Ls/b$a;
-
-    invoke-direct {p2, p0, p1}, Ls/b$a;-><init>(Ls/b;Landroid/os/Handler;)V
-
-    iput-object p2, p0, Ls/b;->e:Landroid/database/ContentObserver;
-
-    return-void
+    return-object p0
 .end method
 
-
-# virtual methods
-.method public final b(D)V
+.method public static b(Landroidx/camera/core/impl/CameraConfig;Landroidx/camera/core/impl/SessionProcessor;)Landroidx/camera/core/impl/SessionProcessor;
     .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Ls/a;->a()Lio/flutter/plugin/common/EventChannel$EventSink;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    .line 2
-    :cond_0
-    invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-
-    move-result-object p1
-
-    invoke-interface {v0, p1}, Lio/flutter/plugin/common/EventChannel$EventSink;->success(Ljava/lang/Object;)V
-
-    return-void
-.end method
-
-.method public final c()Lla/l;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lla/l<",
-            "Lio/flutter/plugin/common/EventChannel$EventSink;",
-            "Lkotlin/s;",
-            ">;"
-        }
+    .param p1    # Landroidx/camera/core/impl/SessionProcessor;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Ls/b;->d:Lla/l;
+    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_SESSION_PROCESSOR:Landroidx/camera/core/impl/Config$Option;
 
-    return-object v0
+    invoke-interface {p0, v0, p1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroidx/camera/core/impl/SessionProcessor;
+
+    return-object p0
 .end method
 
-.method public onCancel(Ljava/lang/Object;)V
-    .locals 1
-
-    .line 1
-    invoke-super {p0, p1}, Ls/a;->onCancel(Ljava/lang/Object;)V
-
-    .line 2
-    iget-object p1, p0, Ls/b;->b:Landroid/content/Context;
-
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object p1
-
-    iget-object v0, p0, Ls/b;->e:Landroid/database/ContentObserver;
-
-    invoke-virtual {p1, v0}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
-
-    return-void
-.end method
-
-.method public onListen(Ljava/lang/Object;Lio/flutter/plugin/common/EventChannel$EventSink;)V
+.method public static c(Landroidx/camera/core/impl/CameraConfig;)I
     .locals 2
 
-    .line 1
-    invoke-super {p0, p1, p2}, Ls/a;->onListen(Ljava/lang/Object;Lio/flutter/plugin/common/EventChannel$EventSink;)V
-
-    .line 2
-    iget-object p1, p0, Ls/b;->b:Landroid/content/Context;
-
-    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object p1
-
-    const-string p2, "screen_brightness"
-
-    .line 3
-    invoke-static {p2}, Landroid/provider/Settings$System;->getUriFor(Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object p2
-
-    .line 4
-    iget-object v0, p0, Ls/b;->e:Landroid/database/ContentObserver;
+    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_USE_CASE_COMBINATION_REQUIRED_RULE:Landroidx/camera/core/impl/Config$Option;
 
     const/4 v1, 0x0
 
-    .line 5
-    invoke-virtual {p1, p2, v1, v0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 6
-    invoke-virtual {p0}, Ls/a;->a()Lio/flutter/plugin/common/EventChannel$EventSink;
+    move-result-object v1
 
-    move-result-object p1
+    invoke-interface {p0, v0, v1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
 
-    if-nez p1, :cond_0
+    move-result-object p0
 
-    return-void
+    check-cast p0, Ljava/lang/Integer;
 
-    .line 7
-    :cond_0
-    iget-object p2, p0, Ls/b;->c:Lla/l;
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
-    if-eqz p2, :cond_1
+    move-result p0
 
-    invoke-interface {p2, p1}, Lla/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    return p0
+.end method
 
-    :cond_1
-    return-void
+.method public static d(Landroidx/camera/core/impl/CameraConfig;)Landroidx/camera/core/impl/UseCaseConfigFactory;
+    .locals 2
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_USECASE_CONFIG_FACTORY:Landroidx/camera/core/impl/Config$Option;
+
+    sget-object v1, Landroidx/camera/core/impl/UseCaseConfigFactory;->EMPTY_INSTANCE:Landroidx/camera/core/impl/UseCaseConfigFactory;
+
+    invoke-interface {p0, v0, v1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroidx/camera/core/impl/UseCaseConfigFactory;
+
+    return-object p0
 .end method

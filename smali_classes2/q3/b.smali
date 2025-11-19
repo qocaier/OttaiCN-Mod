@@ -1,28 +1,21 @@
-.class public interface abstract Lq3/b;
+.class public interface abstract annotation Lq3/b;
 .super Ljava/lang/Object;
-.source "Allocator.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lq3/b$a;
-    }
+.annotation runtime Ljava/lang/annotation/Documented;
 .end annotation
 
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-# virtual methods
-.method public abstract a()Lq3/a;
-.end method
-
-.method public abstract b()V
-.end method
-
-.method public abstract c(Lq3/a;)V
-.end method
-
-.method public abstract d(Lq3/b$a;)V
-.end method
-
-.method public abstract e()I
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

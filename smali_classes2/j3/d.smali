@@ -1,31 +1,90 @@
-.class public final Lj3/d;
+.class public Lj3/d;
 .super Ljava/lang/Object;
-.source "TextEmphasisSpan.java"
+.source "SourceFile"
 
 
-# instance fields
-.field public a:I
+# static fields
+.field public static final a:[Ljava/util/concurrent/ExecutorService;
 
-.field public b:I
-
-.field public final c:I
+.field public static b:Ljava/util/concurrent/atomic/AtomicInteger;
 
 
 # direct methods
-.method public constructor <init>(III)V
-    .locals 0
+.method public static constructor <clinit>()V
+    .locals 4
+
+    const/4 v0, 0x2
+
+    new-array v1, v0, [Ljava/util/concurrent/ExecutorService;
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    sput-object v1, Lj3/d;->a:[Ljava/util/concurrent/ExecutorService;
 
     .line 2
-    iput p1, p0, Lj3/d;->a:I
+    new-instance v1, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, v2}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+
+    sput-object v1, Lj3/d;->b:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    :goto_0
+    if-ge v2, v0, :cond_0
 
     .line 3
-    iput p2, p0, Lj3/d;->b:I
+    sget-object v1, Lj3/d;->a:[Ljava/util/concurrent/ExecutorService;
 
-    .line 4
-    iput p3, p0, Lj3/d;->c:I
+    new-instance v3, Lj3/e;
+
+    invoke-direct {v3}, Lj3/e;-><init>()V
+
+    invoke-static {v3}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static synthetic a()Ljava/util/concurrent/atomic/AtomicInteger;
+    .locals 1
+
+    sget-object v0, Lj3/d;->b:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    return-object v0
+.end method
+
+.method public static b(ILjava/lang/Runnable;)V
+    .locals 1
+
+    .line 1
+    rem-int/lit8 p0, p0, 0x2
+
+    invoke-static {p0}, Ljava/lang/Math;->abs(I)I
+
+    move-result p0
+
+    .line 2
+    sget-object v0, Lj3/d;->a:[Ljava/util/concurrent/ExecutorService;
+
+    aget-object p0, v0, p0
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
     return-void
 .end method

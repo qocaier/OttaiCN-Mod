@@ -1,446 +1,856 @@
 .class public Ly5/j;
 .super Ljava/lang/Object;
+.source "SourceFile"
 
 # interfaces
-.implements Lx5/c;
+.implements Ly5/n;
+
+
+# static fields
+.field public static final i:Ljava/lang/String; = "FlutterGeolocator"
 
 
 # instance fields
-.field private final a:Lorg/json/JSONObject;
+.field public final a:Landroid/content/Context;
+
+.field public final b:Lka/n;
+
+.field public final c:Lka/f;
+
+.field public final d:Ly5/t;
+
+.field public final e:I
+
+.field public final f:Ly5/q;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public g:Lx5/a;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public h:Ly5/u;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
 
 
 # direct methods
-.method constructor <init>(Ljava/io/InputStream;Ljava/lang/String;)V
-    .locals 0
+.method public constructor <init>(Landroid/content/Context;Ly5/q;)V
+    .locals 1
+    .param p1    # Landroid/content/Context;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Ly5/q;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-direct {p0, p1}, Ly5/j;->a(Ljava/io/InputStream;)Lorg/json/JSONObject;
+    .line 2
+    iput-object p1, p0, Ly5/j;->a:Landroid/content/Context;
 
-    move-result-object p1
+    .line 3
+    invoke-static {p1}, Lka/p;->b(Landroid/content/Context;)Lka/f;
 
-    iput-object p1, p0, Ly5/j;->a:Lorg/json/JSONObject;
+    move-result-object v0
 
-    invoke-direct {p0, p2}, Ly5/j;->b(Ljava/lang/String;)V
+    iput-object v0, p0, Ly5/j;->c:Lka/f;
 
-    return-void
-.end method
+    .line 4
+    iput-object p2, p0, Ly5/j;->f:Ly5/q;
 
-.method private a(Ljava/io/InputStream;)Lorg/json/JSONObject;
-    .locals 3
+    .line 5
+    new-instance v0, Ly5/t;
 
-    const-string v0, "InputStreamReader"
+    invoke-direct {v0, p1, p2}, Ly5/t;-><init>(Landroid/content/Context;Ly5/q;)V
 
-    if-eqz p1, :cond_0
+    iput-object v0, p0, Ly5/j;->d:Ly5/t;
 
-    :try_start_0
-    new-instance v1, Lorg/json/JSONObject;
-
-    const-string v2, "UTF-8"
-
-    invoke-static {p1, v2}, Ly5/b;->g(Ljava/io/InputStream;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {v1, p1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object v1
-
-    :catch_0
-    const-string p1, "JSONException when reading the \'Config\' from InputStream."
-
-    goto :goto_0
-
-    :catch_1
-    const-string p1, "IOException when reading the \'Config\' from InputStream."
-
-    :goto_0
-    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_0
-    new-instance p1, Lorg/json/JSONObject;
-
-    invoke-direct {p1}, Lorg/json/JSONObject;-><init>()V
-
-    return-object p1
-.end method
-
-.method private b(Ljava/lang/String;)V
-    .locals 6
-
-    const-string v0, "app_id"
-
-    const-string v1, "InputStreamReader"
-
-    :try_start_0
-    invoke-direct {p0, p1}, Ly5/j;->d(Ljava/lang/String;)Lorg/json/JSONObject;
-
-    move-result-object p1
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    :cond_0
-    const-string v2, "/configuration_version"
-
-    const-string v3, ""
-
-    invoke-virtual {p0, v2, v3}, Ly5/j;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    new-instance v3, Ljava/math/BigDecimal;
-
-    const-string v4, "0.0"
-
-    invoke-direct {v3, v4}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-    :try_end_0
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_1
-
-    :try_start_1
-    invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
-
-    move-result-wide v4
-
-    invoke-static {v4, v5}, Ljava/math/BigDecimal;->valueOf(D)Ljava/math/BigDecimal;
-
-    move-result-object v3
-    :try_end_1
-    .catch Ljava/lang/NumberFormatException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_1
-
-    goto :goto_0
-
-    :catch_0
-    :try_start_2
-    const-string v2, "configuration_version to double error"
-
-    invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_0
-    new-instance v2, Ljava/math/BigDecimal;
-
-    const-string v4, "2.0"
-
-    invoke-direct {v2, v4}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v3, v2}, Ljava/math/BigDecimal;->compareTo(Ljava/math/BigDecimal;)I
-
-    move-result v2
-
-    if-nez v2, :cond_1
-
-    iget-object v2, p0, Ly5/j;->a:Lorg/json/JSONObject;
-
-    const-string v3, "client"
-
-    invoke-virtual {v2, v3}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v2, v0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-
-    goto :goto_2
-
-    :cond_1
-    new-instance v0, Ljava/math/BigDecimal;
-
-    const-string v2, "3.0"
-
-    invoke-direct {v0, v2}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v3, v0}, Ljava/math/BigDecimal;->compareTo(Ljava/math/BigDecimal;)I
+    .line 6
+    invoke-virtual {p0}, Ly5/j;->s()I
 
     move-result v0
 
-    if-ltz v0, :cond_3
+    iput v0, p0, Ly5/j;->e:I
 
-    invoke-virtual {p1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+    .line 7
+    new-instance v0, Ly5/j$a;
 
-    move-result-object v0
+    invoke-direct {v0, p0, p2, p1}, Ly5/j$a;-><init>(Ly5/j;Ly5/q;Landroid/content/Context;)V
 
-    :cond_2
-    :goto_1
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+    iput-object v0, p0, Ly5/j;->b:Lka/n;
 
-    move-result v2
-
-    if-eqz v2, :cond_3
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Ljava/lang/String;
-
-    const-string v3, "package_name"
-
-    invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-nez v3, :cond_2
-
-    invoke-virtual {p1, v2}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    iget-object v4, p0, Ly5/j;->a:Lorg/json/JSONObject;
-
-    invoke-direct {p0, v2, v3, v4}, Ly5/j;->c(Ljava/lang/String;Ljava/lang/Object;Lorg/json/JSONObject;)V
-    :try_end_2
-    .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_1
-
-    goto :goto_1
-
-    :catch_1
-    const-string p1, "JSONException when reading the \'appInfos\' from InputStream."
-
-    invoke-static {v1, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_3
-    :goto_2
     return-void
 .end method
 
-.method private c(Ljava/lang/String;Ljava/lang/Object;Lorg/json/JSONObject;)V
-    .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lorg/json/JSONException;
-        }
-    .end annotation
+.method public static synthetic g(Ly5/j;Lka/q;)V
+    .locals 0
 
-    if-eqz p1, :cond_2
+    invoke-direct {p0, p1}, Ly5/j;->v(Lka/q;)V
 
-    if-eqz p2, :cond_2
+    return-void
+.end method
 
-    if-nez p3, :cond_0
+.method public static synthetic h(Ly5/j;Landroid/app/Activity;Lx5/a;Ljava/lang/Exception;)V
+    .locals 0
 
-    goto :goto_1
+    invoke-direct {p0, p1, p2, p3}, Ly5/j;->w(Landroid/app/Activity;Lx5/a;Ljava/lang/Exception;)V
 
+    return-void
+.end method
+
+.method public static synthetic i(Lx5/a;Ljava/lang/Exception;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Ly5/j;->t(Lx5/a;Ljava/lang/Exception;)V
+
+    return-void
+.end method
+
+.method public static synthetic j(Ly5/r;Loa/k;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Ly5/j;->u(Ly5/r;Loa/k;)V
+
+    return-void
+.end method
+
+.method public static synthetic k(Ly5/j;)Ly5/u;
+    .locals 0
+
+    iget-object p0, p0, Ly5/j;->h:Ly5/u;
+
+    return-object p0
+.end method
+
+.method public static synthetic l(Ly5/j;)Lka/n;
+    .locals 0
+
+    iget-object p0, p0, Ly5/j;->b:Lka/n;
+
+    return-object p0
+.end method
+
+.method public static synthetic m(Ly5/j;)Lka/f;
+    .locals 0
+
+    iget-object p0, p0, Ly5/j;->c:Lka/f;
+
+    return-object p0
+.end method
+
+.method public static synthetic n(Ly5/j;)Lx5/a;
+    .locals 0
+
+    iget-object p0, p0, Ly5/j;->g:Lx5/a;
+
+    return-object p0
+.end method
+
+.method public static synthetic o(Ly5/j;)Ly5/t;
+    .locals 0
+
+    iget-object p0, p0, Ly5/j;->d:Ly5/t;
+
+    return-object p0
+.end method
+
+.method public static p(Ly5/q;)Lcom/google/android/gms/location/LocationRequest;
+    .locals 3
+    .param p0    # Ly5/q;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x21
+
+    if-ge v0, v1, :cond_0
+
+    .line 2
+    invoke-static {p0}, Ly5/j;->q(Ly5/q;)Lcom/google/android/gms/location/LocationRequest;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 3
     :cond_0
-    instance-of v0, p2, Lorg/json/JSONObject;
+    new-instance v0, Lcom/google/android/gms/location/LocationRequest$a;
 
-    if-eqz v0, :cond_1
+    const-wide/16 v1, 0x0
 
-    check-cast p2, Lorg/json/JSONObject;
+    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest$a;-><init>(J)V
 
-    invoke-virtual {p2}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+    if-eqz p0, :cond_1
 
-    move-result-object v0
-
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    .line 4
+    invoke-virtual {p0}, Ly5/q;->a()Lcom/baseflow/geolocator/location/LocationAccuracy;
 
     move-result-object v1
 
-    check-cast v1, Ljava/lang/String;
+    invoke-static {v1}, Ly5/j;->y(Lcom/baseflow/geolocator/location/LocationAccuracy;)I
 
-    invoke-virtual {p2, v1}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    move-result v1
 
-    move-result-object v2
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/location/LocationRequest$a;->j(I)Lcom/google/android/gms/location/LocationRequest$a;
 
-    invoke-virtual {p3, p1}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+    .line 5
+    invoke-virtual {p0}, Ly5/q;->c()J
 
-    move-result-object v3
+    move-result-wide v1
 
-    invoke-direct {p0, v1, v2, v3}, Ly5/j;->c(Ljava/lang/String;Ljava/lang/Object;Lorg/json/JSONObject;)V
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest$a;->d(J)Lcom/google/android/gms/location/LocationRequest$a;
 
-    goto :goto_0
+    .line 6
+    invoke-virtual {p0}, Ly5/q;->c()J
 
+    move-result-wide v1
+
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest$a;->i(J)Lcom/google/android/gms/location/LocationRequest$a;
+
+    .line 7
+    invoke-virtual {p0}, Ly5/q;->b()J
+
+    move-result-wide v1
+
+    long-to-float p0, v1
+
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/location/LocationRequest$a;->h(F)Lcom/google/android/gms/location/LocationRequest$a;
+
+    .line 8
     :cond_1
-    invoke-virtual {p3, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v0}, Lcom/google/android/gms/location/LocationRequest$a;->a()Lcom/google/android/gms/location/LocationRequest;
 
-    :cond_2
-    :goto_1
-    return-void
+    move-result-object p0
+
+    return-object p0
 .end method
 
-.method private d(Ljava/lang/String;)Lorg/json/JSONObject;
-    .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lorg/json/JSONException;
-        }
-    .end annotation
+.method public static q(Ly5/q;)Lcom/google/android/gms/location/LocationRequest;
+    .locals 5
+    .param p0    # Ly5/q;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
 
-    iget-object v0, p0, Ly5/j;->a:Lorg/json/JSONObject;
-
-    const-string v1, "appInfos"
-
-    invoke-virtual {v0, v1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/location/LocationRequest;->t()Lcom/google/android/gms/location/LocationRequest;
 
     move-result-object v0
 
+    if-eqz p0, :cond_0
+
+    .line 2
+    invoke-virtual {p0}, Ly5/q;->a()Lcom/baseflow/geolocator/location/LocationAccuracy;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ly5/j;->y(Lcom/baseflow/geolocator/location/LocationAccuracy;)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/location/LocationRequest;->S(I)Lcom/google/android/gms/location/LocationRequest;
+
+    .line 3
+    invoke-virtual {p0}, Ly5/q;->c()J
+
+    move-result-wide v1
+
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest;->P(J)Lcom/google/android/gms/location/LocationRequest;
+
+    .line 4
+    invoke-virtual {p0}, Ly5/q;->c()J
+
+    move-result-wide v1
+
+    const-wide/16 v3, 0x2
+
+    div-long/2addr v1, v3
+
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest;->O(J)Lcom/google/android/gms/location/LocationRequest;
+
+    .line 5
+    invoke-virtual {p0}, Ly5/q;->b()J
+
+    move-result-wide v1
+
+    long-to-float p0, v1
+
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/location/LocationRequest;->T(F)Lcom/google/android/gms/location/LocationRequest;
+
+    :cond_0
+    return-object v0
+.end method
+
+.method public static r(Lcom/google/android/gms/location/LocationRequest;)Lcom/google/android/gms/location/LocationSettingsRequest;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/google/android/gms/location/LocationSettingsRequest$a;
+
+    invoke-direct {v0}, Lcom/google/android/gms/location/LocationSettingsRequest$a;-><init>()V
+
+    .line 2
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/location/LocationSettingsRequest$a;->b(Lcom/google/android/gms/location/LocationRequest;)Lcom/google/android/gms/location/LocationSettingsRequest$a;
+
+    .line 3
+    invoke-virtual {v0}, Lcom/google/android/gms/location/LocationSettingsRequest$a;->c()Lcom/google/android/gms/location/LocationSettingsRequest;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic t(Lx5/a;Ljava/lang/Exception;)V
+    .locals 1
+
+    const-string p1, "Geolocator"
+
+    const-string v0, "Error trying to get last the last known GPS location"
+
+    .line 1
+    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    if-eqz p0, :cond_0
+
+    .line 2
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->errorWhileAcquiringPosition:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p0, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public static synthetic u(Ly5/r;Loa/k;)V
+    .locals 3
+
+    .line 1
+    invoke-virtual {p1}, Loa/k;->v()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 2
+    sget-object v0, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p0, v0}, Ly5/r;->b(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    .line 3
+    :cond_0
+    invoke-virtual {p1}, Loa/k;->r()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lka/q;
+
+    if-eqz p1, :cond_5
+
+    .line 4
+    invoke-virtual {p1}, Lka/q;->g()Lcom/google/android/gms/location/LocationSettingsStates;
+
+    move-result-object p1
+
+    const/4 v0, 0x1
+
     const/4 v1, 0x0
 
-    :goto_0
-    invoke-virtual {v0}, Lorg/json/JSONArray;->length()I
+    if-eqz p1, :cond_1
+
+    .line 5
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationSettingsStates;->w()Z
 
     move-result v2
 
-    if-ge v1, v2, :cond_1
+    if-eqz v2, :cond_1
 
-    invoke-virtual {v0, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    const-string v3, "package_name"
-
-    invoke-virtual {v2, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    return-object v2
-
-    :cond_0
-    add-int/lit8 v1, v1, 0x1
+    const/4 v2, 0x1
 
     goto :goto_0
 
     :cond_1
+    const/4 v2, 0x0
+
+    :goto_0
+    if-eqz p1, :cond_2
+
+    .line 6
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationSettingsStates;->A()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    const/4 p1, 0x1
+
+    goto :goto_1
+
+    :cond_2
     const/4 p1, 0x0
 
-    return-object p1
+    :goto_1
+    if-nez v2, :cond_4
+
+    if-eqz p1, :cond_3
+
+    goto :goto_2
+
+    :cond_3
+    const/4 v0, 0x0
+
+    .line 7
+    :cond_4
+    :goto_2
+    invoke-interface {p0, v0}, Ly5/r;->a(Z)V
+
+    goto :goto_3
+
+    .line 8
+    :cond_5
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p0, p1}, Ly5/r;->b(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    :goto_3
+    return-void
+.end method
+
+.method private synthetic v(Lka/q;)V
+    .locals 0
+
+    iget-object p1, p0, Ly5/j;->f:Ly5/q;
+
+    invoke-virtual {p0, p1}, Ly5/j;->x(Ly5/q;)V
+
+    return-void
+.end method
+
+.method private synthetic w(Landroid/app/Activity;Lx5/a;Ljava/lang/Exception;)V
+    .locals 2
+
+    .line 1
+    instance-of v0, p3, Lcom/google/android/gms/common/api/ResolvableApiException;
+
+    if-eqz v0, :cond_2
+
+    if-nez p1, :cond_0
+
+    .line 2
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p2, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    return-void
+
+    .line 3
+    :cond_0
+    check-cast p3, Lcom/google/android/gms/common/api/ResolvableApiException;
+
+    .line 4
+    invoke-virtual {p3}, Lcom/google/android/gms/common/api/ApiException;->getStatusCode()I
+
+    move-result v0
+
+    const/4 v1, 0x6
+
+    if-ne v0, v1, :cond_1
+
+    .line 5
+    :try_start_0
+    iget v0, p0, Ly5/j;->e:I
+
+    invoke-virtual {p3, p1, v0}, Lcom/google/android/gms/common/api/ResolvableApiException;->startResolutionForResult(Landroid/app/Activity;I)V
+    :try_end_0
+    .catch Landroid/content/IntentSender$SendIntentException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    .line 6
+    :catch_0
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p2, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p2, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    goto :goto_0
+
+    .line 8
+    :cond_2
+    check-cast p3, Lcom/google/android/gms/common/api/ApiException;
+
+    .line 9
+    invoke-virtual {p3}, Lcom/google/android/gms/common/api/ApiException;->getStatusCode()I
+
+    move-result p1
+
+    const/16 p3, 0x2136
+
+    if-ne p1, p3, :cond_3
+
+    .line 10
+    iget-object p1, p0, Ly5/j;->f:Ly5/q;
+
+    invoke-virtual {p0, p1}, Ly5/j;->x(Ly5/q;)V
+
+    goto :goto_0
+
+    .line 11
+    :cond_3
+    sget-object p1, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p2, p1}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public static y(Lcom/baseflow/geolocator/location/LocationAccuracy;)I
+    .locals 1
+
+    sget-object v0, Ly5/j$b;->a:[I
+
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result p0
+
+    aget p0, v0, p0
+
+    const/4 v0, 0x1
+
+    if-eq p0, v0, :cond_2
+
+    const/4 v0, 0x2
+
+    if-eq p0, v0, :cond_1
+
+    const/4 v0, 0x3
+
+    if-eq p0, v0, :cond_0
+
+    const/16 p0, 0x64
+
+    return p0
+
+    :cond_0
+    const/16 p0, 0x66
+
+    return p0
+
+    :cond_1
+    const/16 p0, 0x68
+
+    return p0
+
+    :cond_2
+    const/16 p0, 0x69
+
+    return p0
 .end method
 
 
 # virtual methods
-.method public getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-    .locals 5
+.method public synthetic a(Landroid/content/Context;)Z
+    .locals 0
 
-    const-string v0, "/"
+    invoke-static {p0, p1}, Ly5/m;->a(Ly5/n;Landroid/content/Context;)Z
 
-    invoke-virtual {p1, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+    move-result p1
 
-    move-result v1
+    return p1
+.end method
 
-    if-eqz v1, :cond_0
+.method public b(Ly5/r;)V
+    .locals 2
 
-    return-object p2
+    .line 1
+    iget-object v0, p0, Ly5/j;->a:Landroid/content/Context;
 
-    :cond_0
-    invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object v0
-
-    :try_start_0
-    iget-object v1, p0, Ly5/j;->a:Lorg/json/JSONObject;
-
-    const/4 v2, 0x1
-
-    const/4 v3, 0x1
-
-    :goto_0
-    array-length v4, v0
-
-    if-ge v3, v4, :cond_2
-
-    array-length v4, v0
-
-    sub-int/2addr v4, v2
-
-    if-ne v3, v4, :cond_1
-
-    aget-object v0, v0, v3
-
-    invoke-virtual {v1, v0}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0}, Lka/p;->h(Landroid/content/Context;)Lka/w;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    new-instance v1, Lcom/google/android/gms/location/LocationSettingsRequest$a;
+
+    invoke-direct {v1}, Lcom/google/android/gms/location/LocationSettingsRequest$a;-><init>()V
+
+    .line 2
+    invoke-virtual {v1}, Lcom/google/android/gms/location/LocationSettingsRequest$a;->c()Lcom/google/android/gms/location/LocationSettingsRequest;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Lka/w;->s(Lcom/google/android/gms/location/LocationSettingsRequest;)Loa/k;
+
+    move-result-object v0
+
+    new-instance v1, Ly5/e;
+
+    invoke-direct {v1, p1}, Ly5/e;-><init>(Ly5/r;)V
+
+    .line 3
+    invoke-virtual {v0, v1}, Loa/k;->f(Loa/e;)Loa/k;
+
+    return-void
+.end method
+
+.method public c(Ly5/u;Lx5/a;)V
+    .locals 2
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "MissingPermission"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ly5/j;->c:Lka/f;
+
+    .line 2
+    invoke-interface {v0}, Lka/f;->F()Loa/k;
+
+    move-result-object v0
+
+    .line 3
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance v1, Ly5/i;
+
+    invoke-direct {v1, p1}, Ly5/i;-><init>(Ly5/u;)V
+
+    invoke-virtual {v0, v1}, Loa/k;->l(Loa/g;)Loa/k;
 
     move-result-object p1
 
-    return-object p1
+    new-instance v0, Ly5/f;
 
-    :cond_1
-    aget-object v4, v0, v3
+    invoke-direct {v0, p2}, Ly5/f;-><init>(Lx5/a;)V
 
-    invoke-virtual {v1, v4}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+    .line 4
+    invoke-virtual {p1, v0}, Loa/k;->i(Loa/f;)Loa/k;
 
-    move-result-object v1
-    :try_end_0
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+    return-void
+.end method
 
-    add-int/lit8 v3, v3, 0x1
+.method public d(II)Z
+    .locals 2
+
+    .line 1
+    iget v0, p0, Ly5/j;->e:I
+
+    const/4 v1, 0x0
+
+    if-ne p1, v0, :cond_3
+
+    const/4 p1, -0x1
+
+    if-ne p2, p1, :cond_2
+
+    .line 2
+    iget-object p1, p0, Ly5/j;->f:Ly5/q;
+
+    if-eqz p1, :cond_1
+
+    iget-object p2, p0, Ly5/j;->h:Ly5/u;
+
+    if-eqz p2, :cond_1
+
+    iget-object p2, p0, Ly5/j;->g:Lx5/a;
+
+    if-nez p2, :cond_0
 
     goto :goto_0
 
-    :catch_0
-    new-instance v0, Ljava/lang/StringBuilder;
+    .line 3
+    :cond_0
+    invoke-virtual {p0, p1}, Ly5/j;->x(Ly5/q;)V
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    const/4 p1, 0x1
 
-    const-string v1, "JSONException when reading \'path\': "
+    return p1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :cond_1
+    :goto_0
+    return v1
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "InputStreamReader"
-
-    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
+    .line 4
     :cond_2
-    return-object p2
+    iget-object p1, p0, Ly5/j;->g:Lx5/a;
+
+    if-eqz p1, :cond_3
+
+    .line 5
+    sget-object p2, Lcom/baseflow/geolocator/errors/ErrorCodes;->locationServicesDisabled:Lcom/baseflow/geolocator/errors/ErrorCodes;
+
+    invoke-interface {p1, p2}, Lx5/a;->a(Lcom/baseflow/geolocator/errors/ErrorCodes;)V
+
+    :cond_3
+    return v1
 .end method
 
-.method public toString()Ljava/lang/String;
-    .locals 2
+.method public e(Landroid/app/Activity;Ly5/u;Lx5/a;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .param p2    # Ly5/u;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p3    # Lx5/a;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "MissingPermission"
+        }
+    .end annotation
 
-    new-instance v0, Ljava/lang/StringBuilder;
+    .line 1
+    iput-object p2, p0, Ly5/j;->h:Ly5/u;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    .line 2
+    iput-object p3, p0, Ly5/j;->g:Lx5/a;
 
-    const-string v1, "InputStreamReader{config="
+    .line 3
+    iget-object p2, p0, Ly5/j;->f:Ly5/q;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2}, Ly5/j;->p(Ly5/q;)Lcom/google/android/gms/location/LocationRequest;
 
-    iget-object v1, p0, Ly5/j;->a:Lorg/json/JSONObject;
+    move-result-object p2
 
-    invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    .line 4
+    invoke-static {p2}, Ly5/j;->r(Lcom/google/android/gms/location/LocationRequest;)Lcom/google/android/gms/location/LocationSettingsRequest;
 
-    move-result-object v1
+    move-result-object p2
 
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    .line 5
+    iget-object v0, p0, Ly5/j;->a:Landroid/content/Context;
 
-    move-result v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const/16 v1, 0x7d
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-static {v0}, Lka/p;->h(Landroid/content/Context;)Lka/w;
 
     move-result-object v0
 
-    return-object v0
+    .line 6
+    invoke-interface {v0, p2}, Lka/w;->s(Lcom/google/android/gms/location/LocationSettingsRequest;)Loa/k;
+
+    move-result-object p2
+
+    new-instance v0, Ly5/h;
+
+    invoke-direct {v0, p0}, Ly5/h;-><init>(Ly5/j;)V
+
+    .line 7
+    invoke-virtual {p2, v0}, Loa/k;->l(Loa/g;)Loa/k;
+
+    move-result-object p2
+
+    new-instance v0, Ly5/g;
+
+    invoke-direct {v0, p0, p1, p3}, Ly5/g;-><init>(Ly5/j;Landroid/app/Activity;Lx5/a;)V
+
+    .line 8
+    invoke-virtual {p2, v0}, Loa/k;->i(Loa/f;)Loa/k;
+
+    return-void
+.end method
+
+.method public f()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Ly5/j;->d:Ly5/t;
+
+    invoke-virtual {v0}, Ly5/t;->i()V
+
+    .line 2
+    iget-object v0, p0, Ly5/j;->c:Lka/f;
+
+    iget-object v1, p0, Ly5/j;->b:Lka/n;
+
+    invoke-interface {v0, v1}, Lka/f;->v(Lka/n;)Loa/k;
+
+    return-void
+.end method
+
+.method public final declared-synchronized s()I
+    .locals 2
+
+    monitor-enter p0
+
+    .line 1
+    :try_start_0
+    new-instance v0, Ljava/security/SecureRandom;
+
+    invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
+
+    const/high16 v1, 0x10000
+
+    .line 2
+    invoke-virtual {v0, v1}, Ljava/security/SecureRandom;->nextInt(I)I
+
+    move-result v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public final x(Ly5/q;)V
+    .locals 3
+    .annotation build Landroid/annotation/SuppressLint;
+        value = {
+            "MissingPermission"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, Ly5/j;->p(Ly5/q;)Lcom/google/android/gms/location/LocationRequest;
+
+    move-result-object p1
+
+    .line 2
+    iget-object v0, p0, Ly5/j;->d:Ly5/t;
+
+    invoke-virtual {v0}, Ly5/t;->h()V
+
+    .line 3
+    iget-object v0, p0, Ly5/j;->c:Lka/f;
+
+    iget-object v1, p0, Ly5/j;->b:Lka/n;
+
+    .line 4
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v2
+
+    .line 5
+    invoke-interface {v0, p1, v1, v2}, Lka/f;->n(Lcom/google/android/gms/location/LocationRequest;Lka/n;Landroid/os/Looper;)Loa/k;
+
+    return-void
 .end method

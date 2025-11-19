@@ -1,250 +1,156 @@
-.class public final Ls4/a;
-.super Lcom/google/gson/q;
-.source "ArrayTypeAdapter.java"
-
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/gson/q<",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
+.class public Ls4/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
 
 
 # static fields
-.field public static final c:Lcom/google/gson/r;
+.field public static a:Ljava/lang/String; = ""
 
+.field public static final b:Ly4/a$b;
 
-# instance fields
-.field private final a:Ljava/lang/Class;
+.field public static final c:Ly4/a$b;
+
+.field public static d:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljava/lang/Class<",
-            "TE;>;"
-        }
-    .end annotation
-.end field
-
-.field private final b:Lcom/google/gson/q;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/gson/q<",
-            "TE;>;"
+            "Ljava/util/List<",
+            "Ly4/a$b;",
+            ">;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Ls4/a$a;
-
-    invoke-direct {v0}, Ls4/a$a;-><init>()V
-
-    sput-object v0, Ls4/a;->c:Lcom/google/gson/r;
-
-    return-void
-.end method
-
-.method public constructor <init>(Lcom/google/gson/d;Lcom/google/gson/q;Ljava/lang/Class;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/gson/d;",
-            "Lcom/google/gson/q<",
-            "TE;>;",
-            "Ljava/lang/Class<",
-            "TE;>;)V"
-        }
-    .end annotation
+.method public static constructor <clinit>()V
+    .locals 5
 
     .line 1
-    invoke-direct {p0}, Lcom/google/gson/q;-><init>()V
+    new-instance v0, Ly4/a$b;
+
+    const-string v1, "com.eg.android.AlipayGphone"
+
+    const/16 v2, 0x49
+
+    const-string v3, "b6cbad6cbd5ed0d209afc69ad3b7a617efaae9b3c47eabe0be42d924936fa78c8001b1fd74b079e5ff9690061dacfa4768e981a526b9ca77156ca36251cf2f906d105481374998a7e6e6e18f75ca98b8ed2eaf86ff402c874cca0a263053f22237858206867d210020daa38c48b20cc9dfd82b44a51aeb5db459b22794e2d649"
+
+    invoke-direct {v0, v1, v2, v3}, Ly4/a$b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v0, Ls4/a;->b:Ly4/a$b;
 
     .line 2
-    new-instance v0, Ls4/n;
+    new-instance v1, Ly4/a$b;
 
-    invoke-direct {v0, p1, p2, p3}, Ls4/n;-><init>(Lcom/google/gson/d;Lcom/google/gson/q;Ljava/lang/reflect/Type;)V
+    const-string v2, "hk.alipay.wallet"
 
-    iput-object v0, p0, Ls4/a;->b:Lcom/google/gson/q;
+    const/16 v3, 0x28
+
+    const-string v4, "e6b1bdcb890370f2f2419fe06d0fdf7628ad0083d52da1ecfe991164711bbf9297e75353de96f1740695d07610567b1240549af9cbd87d06919ac31c859ad37ab6907c311b4756e1e208775989a4f691bff4bbbc58174d2a96b1d0d970a05114d7ee57dfc33b1bafaf6e0d820e838427018b6435f903df04ba7fd34d73f843df9434b164e0220baabb10c8978c3f4c6b7da79d8220a968356d15090dea07df9606f665cbec14d218dd3d691cce2866a58840971b6a57b76af88b1a65fdffd2c080281a6ab20be5879e0330eb7ff70871ce684e7174ada5dc3159c461375a0796b17ce7beca83cf34f65976d237aee993db48d34a4e344f4d8b7e99119168bdd7"
+
+    invoke-direct {v1, v2, v3, v4}, Ly4/a$b;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v1, Ls4/a;->c:Ly4/a$b;
 
     .line 3
-    iput-object p3, p0, Ls4/a;->a:Ljava/lang/Class;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public read(Lw4/a;)Ljava/lang/Object;
-    .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p1}, Lw4/a;->F()Lcom/google/gson/stream/JsonToken;
+    invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
-    sget-object v1, Lcom/google/gson/stream/JsonToken;->NULL:Lcom/google/gson/stream/JsonToken;
+    sput-object v0, Ls4/a;->d:Ljava/util/List;
 
-    if-ne v0, v1, :cond_0
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Ljava/lang/String;
+    .locals 1
+
+    sget-object v0, Ls4/a;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public static b(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    sput-object p0, Ls4/a;->a:Ljava/lang/String;
 
     .line 2
-    invoke-virtual {p1}, Lw4/a;->B()V
+    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
-    const/4 p1, 0x0
+    const-string v0, "hk"
 
-    return-object p1
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_0
 
     .line 3
-    :cond_0
-    new-instance v0, Ljava/util/ArrayList;
+    sget-object p0, Ls4/a;->b:Ly4/a$b;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+    invoke-static {p0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
-    .line 4
-    invoke-virtual {p1}, Lw4/a;->e()V
+    move-result-object p0
 
-    .line 5
-    :goto_0
-    invoke-virtual {p1}, Lw4/a;->r()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 6
-    iget-object v1, p0, Ls4/a;->b:Lcom/google/gson/q;
-
-    invoke-virtual {v1, p1}, Lcom/google/gson/q;->read(Lw4/a;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    .line 7
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    sput-object p0, Ls4/a;->d:Ljava/util/List;
 
     goto :goto_0
 
-    .line 8
-    :cond_1
-    invoke-virtual {p1}, Lw4/a;->j()V
+    .line 4
+    :cond_0
+    sget-object p0, Ls4/a;->c:Ly4/a$b;
 
-    .line 9
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+    invoke-static {p0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
-    move-result p1
+    move-result-object p0
 
-    .line 10
-    iget-object v1, p0, Ls4/a;->a:Ljava/lang/Class;
+    sput-object p0, Ls4/a;->d:Ljava/util/List;
 
-    invoke-virtual {v1}, Ljava/lang/Class;->isPrimitive()Z
+    :goto_0
+    return-void
+.end method
 
-    move-result v1
+.method public static c()Z
+    .locals 2
 
-    if-eqz v1, :cond_3
+    sget-object v0, Ls4/a;->a:Ljava/lang/String;
 
-    .line 11
-    iget-object v1, p0, Ls4/a;->a:Ljava/lang/Class;
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    invoke-static {v1, p1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    move-result v0
 
-    move-result-object v1
+    if-nez v0, :cond_1
 
-    const/4 v2, 0x0
+    sget-object v0, Ls4/a;->a:Ljava/lang/String;
 
-    :goto_1
-    if-ge v2, p1, :cond_2
+    const-string v1, "cn"
 
-    .line 12
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-static {v1, v0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
-    move-result-object v3
+    move-result v0
 
-    invoke-static {v1, v2, v3}, Ljava/lang/reflect/Array;->set(Ljava/lang/Object;ILjava/lang/Object;)V
+    if-eqz v0, :cond_0
 
-    add-int/lit8 v2, v2, 0x1
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
 
     goto :goto_1
 
-    :cond_2
-    return-object v1
-
-    .line 13
-    :cond_3
-    iget-object v1, p0, Ls4/a;->a:Ljava/lang/Class;
-
-    invoke-static {v1, p1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, [Ljava/lang/Object;
-
-    .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public write(Lw4/b;Ljava/lang/Object;)V
-    .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    if-nez p2, :cond_0
-
-    .line 1
-    invoke-virtual {p1}, Lw4/b;->u()Lw4/b;
-
-    return-void
-
-    .line 2
-    :cond_0
-    invoke-virtual {p1}, Lw4/b;->g()Lw4/b;
-
-    const/4 v0, 0x0
-
-    .line 3
-    invoke-static {p2}, Ljava/lang/reflect/Array;->getLength(Ljava/lang/Object;)I
-
-    move-result v1
-
-    :goto_0
-    if-ge v0, v1, :cond_1
-
-    .line 4
-    invoke-static {p2, v0}, Ljava/lang/reflect/Array;->get(Ljava/lang/Object;I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    .line 5
-    iget-object v3, p0, Ls4/a;->b:Lcom/google/gson/q;
-
-    invoke-virtual {v3, p1, v2}, Lcom/google/gson/q;->write(Lw4/b;Ljava/lang/Object;)V
-
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_0
-
-    .line 6
     :cond_1
-    invoke-virtual {p1}, Lw4/b;->j()Lw4/b;
+    :goto_0
+    const/4 v0, 0x1
 
-    return-void
+    :goto_1
+    return v0
 .end method

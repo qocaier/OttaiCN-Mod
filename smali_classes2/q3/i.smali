@@ -1,15 +1,21 @@
-.class public final synthetic Lq3/i;
+.class public interface abstract annotation Lq3/i;
 .super Ljava/lang/Object;
-.source "DataSource.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
-# direct methods
-.method public static a(Lq3/j;)Ljava/util/Map;
-    .locals 0
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-    invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    move-result-object p0
-
-    return-object p0
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

@@ -1,12 +1,27 @@
 .class public interface abstract annotation Landroidx/annotation/CallSuper;
 .super Ljava/lang/Object;
-.source "CallSuper.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Ljava/lang/annotation/Annotation;
 
 
 # annotations
+.annotation runtime Lfn/a;
+.end annotation
+
+.annotation runtime Lfn/c;
+    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
+.end annotation
+
+.annotation runtime Lfn/d;
+    allowedTargets = {
+        .enum Lkotlin/annotation/AnnotationTarget;->FUNCTION:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_GETTER:Lkotlin/annotation/AnnotationTarget;,
+        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_SETTER:Lkotlin/annotation/AnnotationTarget;
+    }
+.end annotation
+
 .annotation runtime Ljava/lang/annotation/Documented;
 .end annotation
 

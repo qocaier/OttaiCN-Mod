@@ -1,83 +1,55 @@
-.class final Lb6/b$a;
+.class public interface abstract Lb6/b$a;
 .super Ljava/lang/Object;
-
-# interfaces
-.implements Ljava/lang/Runnable;
+.source "SourceFile"
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lb6/b;->onComplete(La6/f;)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lb6/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
-    name = null
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<U:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
 .end annotation
 
 
-# instance fields
-.field final synthetic a:La6/f;
+# virtual methods
+.method public abstract a(I)Ljava/util/List;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-.field final synthetic b:Lb6/b;
-
-
-# direct methods
-.method constructor <init>(Lb6/b;La6/f;)V
-    .locals 0
-
-    iput-object p1, p0, Lb6/b$a;->b:Lb6/b;
-
-    iput-object p2, p0, Lb6/b$a;->a:La6/f;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)",
+            "Ljava/util/List<",
+            "TU;>;"
+        }
+    .end annotation
 .end method
 
+.method public abstract b(Ljava/lang/Object;)Lb6/d;
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
 
-# virtual methods
-.method public final run()V
-    .locals 3
-
-    iget-object v0, p0, Lb6/b$a;->b:Lb6/b;
-
-    invoke-static {v0}, Lb6/b;->a(Lb6/b;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    monitor-enter v0
-
-    :try_start_0
-    iget-object v1, p0, Lb6/b$a;->b:Lb6/b;
-
-    invoke-static {v1}, Lb6/b;->b(Lb6/b;)La6/c;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_0
-
-    iget-object v1, p0, Lb6/b$a;->b:Lb6/b;
-
-    invoke-static {v1}, Lb6/b;->b(Lb6/b;)La6/c;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lb6/b$a;->a:La6/f;
-
-    invoke-interface {v1, v2}, La6/c;->onComplete(La6/f;)V
-
-    :cond_0
-    monitor-exit v0
-
-    return-void
-
-    :catchall_0
-    move-exception v1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TU;)",
+            "Lb6/d<",
+            "*>;"
+        }
+    .end annotation
 .end method

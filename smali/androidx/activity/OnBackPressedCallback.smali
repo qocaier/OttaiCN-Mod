@@ -1,6 +1,18 @@
 .class public abstract Landroidx/activity/OnBackPressedCallback;
 .super Ljava/lang/Object;
-.source "OnBackPressedCallback.kt"
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nOnBackPressedCallback.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,115:1\n1855#2,2:116\n*S KotlinDebug\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n*L\n67#1:116,2\n*E\n"
+.end annotation
+
+.annotation build Ldo/t0;
+    value = {
+        "SMAP\nOnBackPressedCallback.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,115:1\n1855#2,2:116\n*S KotlinDebug\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n*L\n67#1:116,2\n*E\n"
+    }
+.end annotation
 
 
 # instance fields
@@ -12,15 +24,21 @@
             ">;"
         }
     .end annotation
+
+    .annotation build Lzr/k;
+    .end annotation
 .end field
 
-.field private enabledChangedCallback:Lla/a;
+.field private enabledChangedCallback:Lco/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;"
         }
+    .end annotation
+
+    .annotation build Lzr/l;
     .end annotation
 .end field
 
@@ -51,10 +69,17 @@
 # virtual methods
 .method public final addCancellable(Landroidx/activity/Cancellable;)V
     .locals 1
+    .param p1    # Landroidx/activity/Cancellable;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/i;
+        name = "addCancellable"
+    .end annotation
 
     const-string v0, "cancellable"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -63,18 +88,21 @@
     return-void
 .end method
 
-.method public final getEnabledChangedCallback$activity_release()Lla/a;
+.method public final getEnabledChangedCallback$activity_release()Lco/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lla/a;
+    .annotation build Lzr/l;
+    .end annotation
+
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lco/a;
 
     return-object v0
 .end method
@@ -94,24 +122,32 @@
 
 .method public handleOnBackProgressed(Landroidx/activity/BackEventCompat;)V
     .locals 1
+    .param p1    # Landroidx/activity/BackEventCompat;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public handleOnBackStarted(Landroidx/activity/BackEventCompat;)V
     .locals 1
+    .param p1    # Landroidx/activity/BackEventCompat;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -163,10 +199,17 @@
 
 .method public final removeCancellable(Landroidx/activity/Cancellable;)V
     .locals 1
+    .param p1    # Landroidx/activity/Cancellable;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/i;
+        name = "removeCancellable"
+    .end annotation
 
     const-string v0, "cancellable"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
 
@@ -184,28 +227,32 @@
     iput-boolean p1, p0, Landroidx/activity/OnBackPressedCallback;->isEnabled:Z
 
     .line 2
-    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lla/a;
+    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lco/a;
 
     if-eqz p1, :cond_0
 
-    invoke-interface {p1}, Lla/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lco/a;->invoke()Ljava/lang/Object;
 
     :cond_0
     return-void
 .end method
 
-.method public final setEnabledChangedCallback$activity_release(Lla/a;)V
+.method public final setEnabledChangedCallback$activity_release(Lco/a;)V
     .locals 0
+    .param p1    # Lco/a;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lla/a<",
-            "Lkotlin/s;",
+            "Lco/a<",
+            "Len/y1;",
             ">;)V"
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lla/a;
+    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lco/a;
 
     return-void
 .end method

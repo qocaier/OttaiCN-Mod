@@ -1,468 +1,912 @@
 .class public Lb7/g;
-.super Lb7/c;
+.super Lb7/a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lb7/c<",
-        "Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;",
+        "Lb7/a<",
+        "Lb7/g;",
         ">;"
     }
 .end annotation
 
 
+# static fields
+.field public static A0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static B0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static u0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static v0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static w0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static x0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static y0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+.field public static z0:Lb7/g;
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+.end field
+
+
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;)V
+.method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p5}, Lb7/c;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;)V
+    invoke-direct {p0}, Lb7/a;-><init>()V
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;)V
-    .locals 6
+.method public static Y0(Lh6/h;)Lb7/g;
+    .locals 1
+    .param p0    # Lh6/h;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    const/4 v2, 0x0
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    const/4 v3, 0x0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lh6/h<",
+            "Landroid/graphics/Bitmap;",
+            ">;)",
+            "Lb7/g;"
+        }
+    .end annotation
 
-    move-object v0, p0
+    new-instance v0, Lb7/g;
 
-    move-object v1, p1
+    invoke-direct {v0}, Lb7/g;-><init>()V
 
-    move-object v4, p2
+    invoke-virtual {v0, p0}, Lb7/a;->Q0(Lh6/h;)Lb7/a;
 
-    move-object v5, p3
+    move-result-object p0
 
-    invoke-direct/range {v0 .. v5}, Lb7/g;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;)V
+    check-cast p0, Lb7/g;
 
-    return-void
+    return-object p0
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;Z)V
+.method public static Z0()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->y0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->i()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->y0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->y0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static a1()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->x0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->j()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->x0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->x0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static b1()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->z0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->l()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->z0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->z0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static c1(Ljava/lang/Class;)Lb7/g;
+    .locals 1
+    .param p0    # Ljava/lang/Class;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Class<",
+            "*>;)",
+            "Lb7/g;"
+        }
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->p(Ljava/lang/Class;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static d1(Lk6/c;)Lb7/g;
+    .locals 1
+    .param p0    # Lk6/c;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->s(Lk6/c;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static e1(Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;)Lb7/g;
+    .locals 1
+    .param p0    # Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->v(Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static f1(Landroid/graphics/Bitmap$CompressFormat;)Lb7/g;
+    .locals 1
+    .param p0    # Landroid/graphics/Bitmap$CompressFormat;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->w(Landroid/graphics/Bitmap$CompressFormat;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static g1(I)Lb7/g;
+    .locals 1
+    .param p0    # I
+        .annotation build Landroidx/annotation/IntRange;
+            from = 0x0L
+            to = 0x64L
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->x(I)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static h1(I)Lb7/g;
+    .locals 1
+    .param p0    # I
+        .annotation build Landroidx/annotation/DrawableRes;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->y(I)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static i1(Landroid/graphics/drawable/Drawable;)Lb7/g;
+    .locals 1
+    .param p0    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->z(Landroid/graphics/drawable/Drawable;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static j1()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->w0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->C()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->w0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->w0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static k1(Lcom/bumptech/glide/load/DecodeFormat;)Lb7/g;
+    .locals 1
+    .param p0    # Lcom/bumptech/glide/load/DecodeFormat;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->D(Lcom/bumptech/glide/load/DecodeFormat;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static l1(J)Lb7/g;
+    .locals 1
+    .param p0    # J
+        .annotation build Landroidx/annotation/IntRange;
+            from = 0x0L
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0, p1}, Lb7/a;->E(J)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static m1()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->B0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->t()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->B0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->B0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static n1()Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lb7/g;->A0:Lb7/g;
+
+    if-nez v0, :cond_0
+
+    .line 2
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0}, Lb7/a;->u()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    invoke-virtual {v0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object v0
+
+    check-cast v0, Lb7/g;
+
+    sput-object v0, Lb7/g;->A0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object v0, Lb7/g;->A0:Lb7/g;
+
+    return-object v0
+.end method
+
+.method public static o1(Lh6/d;Ljava/lang/Object;)Lb7/g;
+    .locals 1
+    .param p0    # Lh6/d;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p1    # Ljava/lang/Object;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lh6/d<",
+            "TT;>;TT;)",
+            "Lb7/g;"
+        }
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0, p1}, Lb7/a;->J0(Lh6/d;Ljava/lang/Object;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static p1(I)Lb7/g;
     .locals 0
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
 
-    invoke-direct {p0, p1, p2, p3}, Lb7/g;-><init>(Landroid/content/Context;Lz6/a;Ljava/util/concurrent/ScheduledExecutorService;)V
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    iput-boolean p4, p0, Lb7/c;->g:Z
+    invoke-static {p0, p0}, Lb7/g;->q1(II)Lb7/g;
 
-    return-void
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static q1(II)Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0, p1}, Lb7/a;->A0(II)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static r1(I)Lb7/g;
+    .locals 1
+    .param p0    # I
+        .annotation build Landroidx/annotation/DrawableRes;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->B0(I)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static s1(Landroid/graphics/drawable/Drawable;)Lb7/g;
+    .locals 1
+    .param p0    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->C0(Landroid/graphics/drawable/Drawable;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static t1(Lcom/bumptech/glide/Priority;)Lb7/g;
+    .locals 1
+    .param p0    # Lcom/bumptech/glide/Priority;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->D0(Lcom/bumptech/glide/Priority;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static u1(Lh6/b;)Lb7/g;
+    .locals 1
+    .param p0    # Lh6/b;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->K0(Lh6/b;)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static v1(F)Lb7/g;
+    .locals 1
+    .param p0    # F
+        .annotation build Landroidx/annotation/FloatRange;
+            from = 0.0
+            to = 1.0
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->L0(F)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static w1(Z)Lb7/g;
+    .locals 1
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    if-eqz p0, :cond_1
+
+    .line 1
+    sget-object p0, Lb7/g;->u0:Lb7/g;
+
+    if-nez p0, :cond_0
+
+    .line 2
+    new-instance p0, Lb7/g;
+
+    invoke-direct {p0}, Lb7/g;-><init>()V
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, v0}, Lb7/a;->M0(Z)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    invoke-virtual {p0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    sput-object p0, Lb7/g;->u0:Lb7/g;
+
+    .line 3
+    :cond_0
+    sget-object p0, Lb7/g;->u0:Lb7/g;
+
+    return-object p0
+
+    .line 4
+    :cond_1
+    sget-object p0, Lb7/g;->v0:Lb7/g;
+
+    if-nez p0, :cond_2
+
+    .line 5
+    new-instance p0, Lb7/g;
+
+    invoke-direct {p0}, Lb7/g;-><init>()V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0}, Lb7/a;->M0(Z)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    invoke-virtual {p0}, Lb7/a;->h()Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    sput-object p0, Lb7/g;->v0:Lb7/g;
+
+    .line 6
+    :cond_2
+    sget-object p0, Lb7/g;->v0:Lb7/g;
+
+    return-object p0
+.end method
+
+.method public static x1(I)Lb7/g;
+    .locals 1
+    .param p0    # I
+        .annotation build Landroidx/annotation/IntRange;
+            from = 0x0L
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/CheckResult;
+    .end annotation
+
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    new-instance v0, Lb7/g;
+
+    invoke-direct {v0}, Lb7/g;-><init>()V
+
+    invoke-virtual {v0, p0}, Lb7/a;->O0(I)Lb7/a;
+
+    move-result-object p0
+
+    check-cast p0, Lb7/g;
+
+    return-object p0
 .end method
 
 
 # virtual methods
-.method protected bridge synthetic a()Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;
+.method public equals(Ljava/lang/Object;)Z
     .locals 1
 
-    invoke-virtual {p0}, Lb7/g;->v()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
+    instance-of v0, p1, Lb7/g;
 
-    move-result-object v0
+    if-eqz v0, :cond_0
 
-    return-object v0
+    invoke-super {p0, p1}, Lb7/a;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    return p1
 .end method
 
-.method protected bridge synthetic g(Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;)V
-    .locals 0
-
-    check-cast p1, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    invoke-virtual {p0, p1}, Lb7/g;->u(Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;)V
-
-    return-void
-.end method
-
-.method protected bridge synthetic j()Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;
+.method public hashCode()I
     .locals 1
 
-    invoke-virtual {p0}, Lb7/g;->w()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method protected l()Z
-    .locals 1
-
-    iget-object v0, p0, Lb7/c;->c:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-super {p0}, Lb7/a;->hashCode()I
 
     move-result v0
 
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lb7/c;->d:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
     return v0
-.end method
-
-.method protected bridge synthetic m()Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;
-    .locals 1
-
-    invoke-virtual {p0}, Lb7/g;->x()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method protected p()Landroid/content/Intent;
-    .locals 3
-
-    new-instance v0, Landroid/content/Intent;
-
-    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
-
-    iget-object v1, p0, Lb7/c;->c:Ljava/lang/String;
-
-    const-string v2, "app_id"
-
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    iget-object v1, p0, Lb7/c;->d:Ljava/lang/String;
-
-    const-string v2, "app_key"
-
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    iget-object v1, p0, Lb7/c;->b:Landroid/content/Context;
-
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "strategy_package_name"
-
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {p0}, Lb7/g;->r()I
-
-    move-result v1
-
-    const-string v2, "strategy_type"
-
-    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
-
-    return-object v0
-.end method
-
-.method protected r()I
-    .locals 1
-
-    const/16 v0, 0x20
-
-    return v0
-.end method
-
-.method protected u(Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;)V
-    .locals 2
-
-    iget-object v0, p0, Lb7/c;->b:Landroid/content/Context;
-
-    iget-object v1, p0, Lb7/c;->e:Ljava/lang/String;
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    iget-object v1, p0, Lb7/c;->e:Ljava/lang/String;
-
-    goto :goto_0
-
-    :cond_0
-    iget-object v1, p0, Lb7/c;->b:Landroid/content/Context;
-
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    :goto_0
-    invoke-static {v0, v1, p1}, Lcom/meizu/cloud/pushsdk/platform/PlatformMessageSender;->a(Landroid/content/Context;Ljava/lang/String;Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;)V
-
-    return-void
-.end method
-
-.method protected v()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-    .locals 2
-
-    new-instance v0, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    invoke-direct {v0}, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;-><init>()V
-
-    const-string v1, "20001"
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setCode(Ljava/lang/String;)V
-
-    iget-object v1, p0, Lb7/c;->c:Ljava/lang/String;
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    const-string v1, "appId not empty"
-
-    :goto_0
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setMessage(Ljava/lang/String;)V
-
-    goto :goto_1
-
-    :cond_0
-    iget-object v1, p0, Lb7/c;->d:Ljava/lang/String;
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    const-string v1, "appKey not empty"
-
-    goto :goto_0
-
-    :cond_1
-    :goto_1
-    return-object v0
-.end method
-
-.method protected w()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return-object v0
-.end method
-
-.method protected x()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-    .locals 7
-
-    new-instance v0, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    invoke-direct {v0}, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;-><init>()V
-
-    iget-object v1, p0, Lb7/c;->b:Landroid/content/Context;
-
-    iget-object v2, p0, Lb7/c;->e:Ljava/lang/String;
-
-    invoke-static {v1, v2}, Lv7/b;->y(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    const-string v2, "200"
-
-    if-eqz v1, :cond_0
-
-    invoke-virtual {v0, v2}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setCode(Ljava/lang/String;)V
-
-    const-string v1, "already unRegister PushId,don\'t unRegister frequently"
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setMessage(Ljava/lang/String;)V
-
-    const/4 v1, 0x1
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;->setIsUnRegisterSuccess(Z)V
-
-    return-object v0
-
-    :cond_0
-    iget-object v1, p0, Lb7/c;->b:Landroid/content/Context;
-
-    invoke-static {v1}, Lu6/c;->b(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v1
-
-    iget-object v3, p0, Lb7/c;->b:Landroid/content/Context;
-
-    invoke-static {v3}, Lu6/c;->a(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_1
-
-    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_1
-
-    const-string v1, "20000"
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setCode(Ljava/lang/String;)V
-
-    const-string v1, "deviceId is empty"
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setMessage(Ljava/lang/String;)V
-
-    return-object v0
-
-    :cond_1
-    iget-object v4, p0, Lb7/c;->f:Lz6/a;
-
-    iget-object v5, p0, Lb7/c;->c:Ljava/lang/String;
-
-    iget-object v6, p0, Lb7/c;->d:Ljava/lang/String;
-
-    invoke-virtual {v4, v5, v6, v3, v1}, Lz6/a;->j(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lw7/c;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lw7/c;->f()Z
-
-    move-result v3
-
-    const-string v4, "Strategy"
-
-    if-nez v3, :cond_3
-
-    invoke-virtual {v1}, Lw7/c;->a()Lcom/meizu/s/a;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/meizu/s/a;->c()Lcom/meizu/t/k;
-
-    move-result-object v2
-
-    if-eqz v2, :cond_2
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "status code="
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Lcom/meizu/s/a;->b()I
-
-    move-result v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string v3, " data="
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Lcom/meizu/s/a;->c()Lcom/meizu/t/k;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v4, v2}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_2
-    invoke-virtual {v1}, Lcom/meizu/s/a;->b()I
-
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v2}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setCode(Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Lcom/meizu/s/a;->a()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->setMessage(Ljava/lang/String;)V
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "unRegisterStatus "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v4, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v0
-
-    :cond_3
-    new-instance v0, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
-
-    invoke-virtual {v1}, Lw7/c;->e()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/String;
-
-    invoke-direct {v0, v1}, Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;-><init>(Ljava/lang/String;)V
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "network unRegisterStatus "
-
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v4, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/platform/message/BasicPushStatus;->getCode()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_4
-
-    iget-object v1, p0, Lb7/c;->b:Landroid/content/Context;
-
-    iget-object v2, p0, Lb7/c;->e:Ljava/lang/String;
-
-    const-string v3, ""
-
-    invoke-static {v1, v3, v2}, Lv7/b;->z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_4
-    return-object v0
 .end method

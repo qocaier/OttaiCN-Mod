@@ -1,71 +1,40 @@
-.class public interface abstract Lc0/e;
+.class public final synthetic Lc0/e;
 .super Ljava/lang/Object;
-.source "ResourceDecoder.java"
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "Z:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
+
+.field public final synthetic b:Z
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lc0/e;->a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
+
+    iput-boolean p2, p0, Lc0/e;->b:Z
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/Object;Lc0/d;)Z
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lc0/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lc0/d;",
-            ")Z"
-        }
-    .end annotation
+.method public final run()V
+    .locals 2
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-.end method
+    iget-object v0, p0, Lc0/e;->a:Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;
 
-.method public abstract b(Ljava/lang/Object;IILc0/d;)Lcom/bumptech/glide/load/engine/s;
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p4    # Lc0/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
+    iget-boolean v1, p0, Lc0/e;->b:Z
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;II",
-            "Lc0/d;",
-            ")",
-            "Lcom/bumptech/glide/load/engine/s<",
-            "TZ;>;"
-        }
-    .end annotation
+    invoke-static {v0, v1}, Landroidx/camera/video/internal/audio/AudioSource;->f(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
+    return-void
 .end method

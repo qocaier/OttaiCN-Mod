@@ -1,47 +1,108 @@
-.class public interface abstract Lc7/b;
+.class public abstract Lc7/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lc7/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<Z:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lc7/p<",
+        "TZ;>;"
+    }
+.end annotation
+
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# instance fields
+.field public a:Lb7/d;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
 
 # virtual methods
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;)V
+.method public h(Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/platform/message/PushSwitchStatus;)V
+.method public i()Lb7/d;
+    .locals 1
+    .annotation build Landroidx/annotation/Nullable;
+    .end annotation
+
+    iget-object v0, p0, Lc7/b;->a:Lb7/d;
+
+    return-object v0
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/platform/message/RegisterStatus;)V
+.method public j(Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/platform/message/SubAliasStatus;)V
+.method public l(Landroid/graphics/drawable/Drawable;)V
+    .locals 0
+    .param p1    # Landroid/graphics/drawable/Drawable;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/platform/message/SubTagsStatus;)V
+.method public onDestroy()V
+    .locals 0
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;)V
+.method public onStart()V
+    .locals 0
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Ljava/lang/String;)V
+.method public onStop()V
+    .locals 0
+
+    return-void
 .end method
 
-.method public abstract a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-.end method
+.method public p(Lb7/d;)V
+    .locals 0
+    .param p1    # Lb7/d;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
 
-.method public abstract a(Landroid/content/Context;Z)V
-.end method
+    iput-object p1, p0, Lc7/b;->a:Lb7/d;
 
-.method public abstract a(Lcom/meizu/cloud/pushsdk/notification/PushNotificationBuilder;)V
-.end method
-
-.method public abstract b(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;)V
-.end method
-
-.method public abstract b(Landroid/content/Context;Ljava/lang/String;)V
-.end method
-
-.method public abstract c(Landroid/content/Context;Lcom/meizu/cloud/pushsdk/handler/MzPushMessage;)V
-.end method
-
-.method public abstract c(Landroid/content/Context;Ljava/lang/String;)V
+    return-void
 .end method

@@ -1,117 +1,101 @@
 .class public Ly7/b;
-.super Lcom/meizu/t/j;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# instance fields
-.field private final a:Lcom/meizu/t/j;
+# static fields
+.field public static final A:Ljava/lang/String; = "read_value"
 
-.field private b:Lcom/meizu/x/c;
+.field public static final B:I = 0x51
 
-.field private c:Ly7/d;
+.field public static final C:I = 0x52
+
+.field public static final D:Ljava/lang/String; = "rssi_status"
+
+.field public static final E:Ljava/lang/String; = "rssi_value"
+
+.field public static final F:I = 0x61
+
+.field public static final G:I = 0x62
+
+.field public static final H:Ljava/lang/String; = "mtu_status"
+
+.field public static final I:Ljava/lang/String; = "mtu_value"
+
+.field public static final J:I = 0x71
+
+.field public static final K:I = 0x72
+
+.field public static final L:Ljava/lang/String; = "phy_status"
+
+.field public static final M:Ljava/lang/String; = "phy_value"
+
+.field public static final N:I = 0x81
+
+.field public static final O:I = 0x82
+
+.field public static final P:Ljava/lang/String; = "phy_change_status"
+
+.field public static final Q:Ljava/lang/String; = "phy_change_value"
+
+.field public static final a:I = 0x0
+
+.field public static final b:I = 0x1
+
+.field public static final c:I = 0x2
+
+.field public static final d:I = 0x3
+
+.field public static final e:I = 0x4
+
+.field public static final f:I = 0x5
+
+.field public static final g:I = 0x6
+
+.field public static final h:I = 0x7
+
+.field public static final i:I = 0x11
+
+.field public static final j:I = 0x12
+
+.field public static final k:I = 0x13
+
+.field public static final l:Ljava/lang/String; = "notify_status"
+
+.field public static final m:Ljava/lang/String; = "notify_value"
+
+.field public static final n:I = 0x21
+
+.field public static final o:I = 0x22
+
+.field public static final p:I = 0x23
+
+.field public static final q:Ljava/lang/String; = "indicate_status"
+
+.field public static final r:Ljava/lang/String; = "indicate_value"
+
+.field public static final s:I = 0x31
+
+.field public static final t:I = 0x32
+
+.field public static final u:I = 0x33
+
+.field public static final v:Ljava/lang/String; = "write_status"
+
+.field public static final w:Ljava/lang/String; = "write_value"
+
+.field public static final x:I = 0x41
+
+.field public static final y:I = 0x42
+
+.field public static final z:Ljava/lang/String; = "read_status"
 
 
 # direct methods
-.method public constructor <init>(Lcom/meizu/t/j;Lx7/a;)V
+.method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/meizu/t/j;-><init>()V
-
-    iput-object p1, p0, Ly7/b;->a:Lcom/meizu/t/j;
-
-    if-eqz p2, :cond_0
-
-    new-instance p1, Ly7/d;
-
-    invoke-direct {p1, p2}, Ly7/d;-><init>(Lx7/a;)V
-
-    iput-object p1, p0, Ly7/b;->c:Ly7/d;
-
-    :cond_0
-    return-void
-.end method
-
-.method private h(Lcom/meizu/x/l;)Lcom/meizu/x/l;
-    .locals 1
-
-    new-instance v0, Ly7/b$a;
-
-    invoke-direct {v0, p0, p1}, Ly7/b$a;-><init>(Ly7/b;Lcom/meizu/x/l;)V
-
-    return-object v0
-.end method
-
-.method static synthetic i(Ly7/b;)Ly7/d;
-    .locals 0
-
-    iget-object p0, p0, Ly7/b;->c:Ly7/d;
-
-    return-object p0
-.end method
-
-
-# virtual methods
-.method public a()J
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    iget-object v0, p0, Ly7/b;->a:Lcom/meizu/t/j;
-
-    invoke-virtual {v0}, Lcom/meizu/t/j;->a()J
-
-    move-result-wide v0
-
-    return-wide v0
-.end method
-
-.method public f(Lcom/meizu/x/c;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    iget-object v0, p0, Ly7/b;->b:Lcom/meizu/x/c;
-
-    if-nez v0, :cond_0
-
-    invoke-direct {p0, p1}, Ly7/b;->h(Lcom/meizu/x/l;)Lcom/meizu/x/l;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/meizu/x/g;->a(Lcom/meizu/x/l;)Lcom/meizu/x/c;
-
-    move-result-object p1
-
-    iput-object p1, p0, Ly7/b;->b:Lcom/meizu/x/c;
-
-    :cond_0
-    iget-object p1, p0, Ly7/b;->a:Lcom/meizu/t/j;
-
-    iget-object v0, p0, Ly7/b;->b:Lcom/meizu/x/c;
-
-    invoke-virtual {p1, v0}, Lcom/meizu/t/j;->f(Lcom/meizu/x/c;)V
-
-    iget-object p1, p0, Ly7/b;->b:Lcom/meizu/x/c;
-
-    invoke-interface {p1}, Lcom/meizu/x/l;->flush()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
-.end method
-
-.method public g()Lcom/meizu/t/g;
-    .locals 1
-
-    iget-object v0, p0, Ly7/b;->a:Lcom/meizu/t/j;
-
-    invoke-virtual {v0}, Lcom/meizu/t/j;->g()Lcom/meizu/t/g;
-
-    move-result-object v0
-
-    return-object v0
 .end method

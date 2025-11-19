@@ -1,6 +1,6 @@
 .class public final Landroidx/activity/ComponentActivity$activityResultRegistry$1;
 .super Landroidx/activity/result/ActivityResultRegistry;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 
 # annotations
@@ -15,11 +15,11 @@
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/ComponentActivity$activityResultRegistry$1;->this$0:Landroidx/activity/ComponentActivity;
@@ -48,9 +48,9 @@
 .method private static final onLaunch$lambda$0(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroidx/activity/result/contract/ActivityResultContract$SynchronousResult;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p2}, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;->getValue()Ljava/lang/Object;
@@ -66,13 +66,13 @@
 .method private static final onLaunch$lambda$1(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroid/content/IntentSender$SendIntentException;)V
     .locals 2
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "$e"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroid/content/Intent;
@@ -104,6 +104,14 @@
 # virtual methods
 .method public onLaunch(ILandroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
     .locals 9
+    .param p2    # Landroidx/activity/result/contract/ActivityResultContract;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p4    # Landroidx/core/app/ActivityOptionsCompat;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<I:",
@@ -120,7 +128,7 @@
 
     const-string v0, "contract"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v1, p0, Landroidx/activity/ComponentActivity$activityResultRegistry$1;->this$0:Landroidx/activity/ComponentActivity;
@@ -141,9 +149,9 @@
 
     invoke-direct {p2, p3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance p3, Landroidx/activity/i;
+    new-instance p3, Ld/h;
 
-    invoke-direct {p3, p0, p1, v0}, Landroidx/activity/i;-><init>(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroidx/activity/result/contract/ActivityResultContract$SynchronousResult;)V
+    invoke-direct {p3, p0, p1, v0}, Ld/h;-><init>(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroidx/activity/result/contract/ActivityResultContract$SynchronousResult;)V
 
     invoke-virtual {p2, p3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -168,7 +176,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/os/Bundle;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -222,7 +230,7 @@
 
     const-string p4, "androidx.activity.result.contract.action.REQUEST_PERMISSIONS"
 
-    invoke-static {p4, p3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p4, p3}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -255,7 +263,7 @@
 
     const-string p4, "androidx.activity.result.contract.action.INTENT_SENDER_REQUEST"
 
-    invoke-static {p4, p3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p4, p3}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p3
 
@@ -272,7 +280,7 @@
 
     .line 16
     :try_start_0
-    invoke-static {p2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {p2}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {p2}, Landroidx/activity/result/IntentSenderRequest;->getIntentSender()Landroid/content/IntentSender;
 
@@ -315,9 +323,9 @@
 
     invoke-direct {p3, p4}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance p4, Landroidx/activity/h;
+    new-instance p4, Ld/g;
 
-    invoke-direct {p4, p0, p1, p2}, Landroidx/activity/h;-><init>(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroid/content/IntentSender$SendIntentException;)V
+    invoke-direct {p4, p0, p1, p2}, Ld/g;-><init>(Landroidx/activity/ComponentActivity$activityResultRegistry$1;ILandroid/content/IntentSender$SendIntentException;)V
 
     invoke-virtual {p3, p4}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

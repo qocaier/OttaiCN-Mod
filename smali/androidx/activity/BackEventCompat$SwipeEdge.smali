@@ -1,6 +1,6 @@
 .class public interface abstract annotation Landroidx/activity/BackEventCompat$SwipeEdge;
 .super Ljava/lang/Object;
-.source "BackEventCompat.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Ljava/lang/annotation/Annotation;
@@ -20,6 +20,16 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x2609
     name = "SwipeEdge"
+.end annotation
+
+.annotation runtime Lfn/c;
+    value = .enum Lkotlin/annotation/AnnotationRetention;->SOURCE:Lkotlin/annotation/AnnotationRetention;
+.end annotation
+
+.annotation runtime Lfn/d;
+    allowedTargets = {
+        .enum Lkotlin/annotation/AnnotationTarget;->TYPE:Lkotlin/annotation/AnnotationTarget;
+    }
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Retention;

@@ -1,9 +1,9 @@
 .class final Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;
 .super Lkotlin/jvm/internal/Lambda;
-.source "ComponentActivity.kt"
+.source "SourceFile"
 
 # interfaces
-.implements Lla/a;
+.implements Lco/a;
 
 
 # annotations
@@ -12,14 +12,14 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x18
+    accessFlags = 0x19
     name = null
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lla/a<",
+        "Lco/a<",
         "Landroidx/activity/OnBackPressedDispatcher;",
         ">;"
     }
@@ -27,11 +27,11 @@
 
 
 # instance fields
-.field final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     iput-object p1, p0, Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;->this$0:Landroidx/activity/ComponentActivity;
@@ -62,9 +62,9 @@
 .method private static final invoke$lambda$0(Landroidx/activity/ComponentActivity;)V
     .locals 2
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0
@@ -85,7 +85,7 @@
 
     const-string v1, "Attempt to invoke virtual method \'android.os.Handler android.app.FragmentHostCallback.getHandler()\' on a null object reference"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -107,7 +107,7 @@
 
     const-string v1, "Can not perform this action after onSaveInstanceState"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -124,13 +124,13 @@
 .method private static final invoke$lambda$2$lambda$1(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "$dispatcher"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {p0, p1}, Landroidx/activity/ComponentActivity;->access$addObserverForBackInvoker(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
 
@@ -141,6 +141,8 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/OnBackPressedDispatcher;
     .locals 4
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 2
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher;
@@ -148,9 +150,9 @@
     .line 3
     iget-object v1, p0, Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;->this$0:Landroidx/activity/ComponentActivity;
 
-    new-instance v2, Landroidx/activity/j;
+    new-instance v2, Landroidx/activity/b;
 
-    invoke-direct {v2, v1}, Landroidx/activity/j;-><init>(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v2, v1}, Landroidx/activity/b;-><init>(Landroidx/activity/ComponentActivity;)V
 
     .line 4
     invoke-direct {v0, v2}, Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;)V
@@ -174,7 +176,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Ldo/f0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -189,9 +191,9 @@
 
     invoke-direct {v2, v3}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v3, Landroidx/activity/k;
+    new-instance v3, Landroidx/activity/c;
 
-    invoke-direct {v3, v1, v0}, Landroidx/activity/k;-><init>(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
+    invoke-direct {v3, v1, v0}, Landroidx/activity/c;-><init>(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
 
     invoke-virtual {v2, v3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

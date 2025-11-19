@@ -1,390 +1,274 @@
-.class public Lg7/a;
+.class public final Lg7/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# instance fields
-.field private a:Landroid/content/Context;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lg7/a$e;,
+        Lg7/a$f;,
+        Lg7/a$g;,
+        Lg7/a$d;
+    }
+.end annotation
 
-.field private b:Lw6/a;
 
-.field private c:I
+# static fields
+.field public static final a:Ljava/lang/String; = "FactoryPools"
 
-.field private d:Landroid/app/Notification;
+.field public static final b:I = 0x14
+
+.field public static final c:Lg7/a$g;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lg7/a$g<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;)V
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lg7/a$a;
+
+    invoke-direct {v0}, Lg7/a$a;-><init>()V
+
+    sput-object v0, Lg7/a;->c:Lg7/a$g;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lg7/a;->a:Landroid/content/Context;
-
     return-void
 .end method
 
-.method private c(ILandroid/app/Notification;)V
-    .locals 0
-
-    iput p1, p0, Lg7/a;->c:I
-
-    iput-object p2, p0, Lg7/a;->d:Landroid/app/Notification;
-
-    return-void
-.end method
-
-.method private f()V
-    .locals 2
-
-    const/4 v0, 0x0
-
-    iput v0, p0, Lg7/a;->c:I
-
-    const/4 v0, 0x0
-
-    iput-object v0, p0, Lg7/a;->d:Landroid/app/Notification;
-
-    iget-object v1, p0, Lg7/a;->b:Lw6/a;
-
-    if-eqz v1, :cond_0
-
-    :try_start_0
-    invoke-virtual {v1}, Lw6/a;->b()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception v1
-
-    goto :goto_1
-
-    :catch_0
-    move-exception v1
-
-    :try_start_1
-    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    :goto_0
-    iput-object v0, p0, Lg7/a;->b:Lw6/a;
-
-    goto :goto_2
-
-    :goto_1
-    iput-object v0, p0, Lg7/a;->b:Lw6/a;
-
-    throw v1
-
-    :cond_0
-    :goto_2
-    return-void
-.end method
-
-.method private g(I)V
-    .locals 5
-
-    if-gtz p1, :cond_0
-
-    return-void
-
-    :cond_0
-    iget-object v0, p0, Lg7/a;->b:Lw6/a;
-
-    if-eqz v0, :cond_1
-
-    const/4 v1, 0x0
-
-    :try_start_0
-    invoke-virtual {v0}, Lw6/a;->b()V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_0
-
-    :catchall_0
-    move-exception p1
-
-    goto :goto_1
-
-    :catch_0
-    move-exception v0
-
-    :try_start_1
-    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    :goto_0
-    iput-object v1, p0, Lg7/a;->b:Lw6/a;
-
-    goto :goto_2
-
-    :goto_1
-    iput-object v1, p0, Lg7/a;->b:Lw6/a;
-
-    throw p1
-
-    :cond_1
-    :goto_2
-    new-instance v0, Lw6/a;
-
-    iget-object v1, p0, Lg7/a;->a:Landroid/content/Context;
-
-    new-instance v2, Lg7/a$a;
-
-    invoke-direct {v2, p0}, Lg7/a$a;-><init>(Lg7/a;)V
-
-    mul-int/lit8 p1, p1, 0x3c
-
-    mul-int/lit16 p1, p1, 0x3e8
-
-    int-to-long v3, p1
-
-    invoke-direct {v0, v1, v2, v3, v4}, Lw6/a;-><init>(Landroid/content/Context;Ljava/lang/Runnable;J)V
-
-    iput-object v0, p0, Lg7/a;->b:Lw6/a;
-
-    invoke-virtual {v0}, Lw6/a;->g()Z
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public a()V
-    .locals 4
-
-    const-string v0, "AdNotification"
-
-    iget v1, p0, Lg7/a;->c:I
-
-    if-lez v1, :cond_1
-
-    iget-object v1, p0, Lg7/a;->d:Landroid/app/Notification;
-
-    if-nez v1, :cond_0
-
-    goto :goto_1
-
-    :cond_0
-    :try_start_0
-    iget-object v1, p0, Lg7/a;->a:Landroid/content/Context;
-
-    const-string v2, "notification"
-
-    invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/app/NotificationManager;
-
-    iget v2, p0, Lg7/a;->c:I
-
-    iget-object v3, p0, Lg7/a;->d:Landroid/app/Notification;
-
-    invoke-virtual {v1, v2, v3}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "again show old ad notification, notifyId:"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget v2, p0, Lg7/a;->c:I
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    move-exception v1
-
-    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "again show old ad notification error:"
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    :goto_0
-    invoke-direct {p0}, Lg7/a;->f()V
-
-    :cond_1
-    :goto_1
-    return-void
-.end method
-
-.method public b(I)V
-    .locals 2
-
-    if-lez p1, :cond_1
-
-    iget v0, p0, Lg7/a;->c:I
-
-    if-lez v0, :cond_1
-
-    if-eq p1, v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-direct {p0}, Lg7/a;->f()V
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "clean ad notification, notifyId:"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "AdNotification"
-
-    invoke-static {v0, p1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
-.method public d(ILandroid/app/Notification;I)V
-    .locals 0
-
-    if-lez p1, :cond_1
-
-    if-nez p2, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-direct {p0, p1, p2}, Lg7/a;->c(ILandroid/app/Notification;)V
-
-    invoke-direct {p0, p3}, Lg7/a;->g(I)V
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p3, "save ad notification, notifyId:"
-
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "AdNotification"
-
-    invoke-static {p2, p1}, Lcom/meizu/cloud/pushinternal/DebugLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
-.method public e(Lcom/meizu/cloud/pushsdk/handler/MessageV3;)V
-    .locals 4
-
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAdvanceSetting()Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSetting;
+.method public static a(Landroidx/core/util/Pools$Pool;Lg7/a$d;)Landroidx/core/util/Pools$Pool;
+    .locals 1
+    .param p0    # Landroidx/core/util/Pools$Pool;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p1    # Lg7/a$d;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T::",
+            "Lg7/a$f;",
+            ">(",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;",
+            "Lg7/a$d<",
+            "TT;>;)",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;"
+        }
+    .end annotation
+
+    invoke-static {}, Lg7/a;->c()Lg7/a$g;
 
     move-result-object v0
 
-    const/4 v1, 0x0
+    invoke-static {p0, p1, v0}, Lg7/a;->b(Landroidx/core/util/Pools$Pool;Lg7/a$d;Lg7/a$g;)Landroidx/core/util/Pools$Pool;
 
-    if-eqz v0, :cond_0
+    move-result-object p0
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSetting;->getNotifyType()Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;
+    return-object p0
+.end method
 
-    move-result-object v2
+.method public static b(Landroidx/core/util/Pools$Pool;Lg7/a$d;Lg7/a$g;)Landroidx/core/util/Pools$Pool;
+    .locals 1
+    .param p0    # Landroidx/core/util/Pools$Pool;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p1    # Lg7/a$d;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lg7/a$g;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    invoke-virtual {v2, v1}, Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;->setSound(Z)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;",
+            "Lg7/a$d<",
+            "TT;>;",
+            "Lg7/a$g<",
+            "TT;>;)",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;"
+        }
+    .end annotation
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSetting;->getNotifyType()Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;
+    new-instance v0, Lg7/a$e;
 
-    move-result-object v2
+    invoke-direct {v0, p0, p1, p2}, Lg7/a$e;-><init>(Landroidx/core/util/Pools$Pool;Lg7/a$d;Lg7/a$g;)V
 
-    invoke-virtual {v2, v1}, Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;->setLights(Z)V
+    return-object v0
+.end method
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSetting;->getNotifyType()Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;
+.method public static c()Lg7/a$g;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    move-result-object v2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">()",
+            "Lg7/a$g<",
+            "TT;>;"
+        }
+    .end annotation
 
-    invoke-virtual {v2, v1}, Lcom/meizu/cloud/pushsdk/notification/model/NotifyType;->setVibrate(Z)V
+    sget-object v0, Lg7/a;->c:Lg7/a$g;
 
-    :cond_0
-    invoke-virtual {p1}, Lcom/meizu/cloud/pushsdk/handler/MessageV3;->getAdvanceSettingEx()Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSettingEx;
+    return-object v0
+.end method
 
-    move-result-object p1
+.method public static d(ILg7/a$d;)Landroidx/core/util/Pools$Pool;
+    .locals 1
+    .param p1    # Lg7/a$d;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    if-eqz p1, :cond_2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T::",
+            "Lg7/a$f;",
+            ">(I",
+            "Lg7/a$d<",
+            "TT;>;)",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;"
+        }
+    .end annotation
 
-    const/4 v2, 0x0
+    new-instance v0, Landroidx/core/util/Pools$SimplePool;
 
-    invoke-virtual {p1, v2}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSettingEx;->setSoundTitle(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/Pools$SimplePool;-><init>(I)V
 
-    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+    invoke-static {v0, p1}, Lg7/a;->a(Landroidx/core/util/Pools$Pool;Lg7/a$d;)Landroidx/core/util/Pools$Pool;
 
-    const/16 v3, 0x1d
+    move-result-object p0
 
-    if-lt v2, v3, :cond_1
+    return-object p0
+.end method
 
-    if-eqz v0, :cond_1
+.method public static e(ILg7/a$d;)Landroidx/core/util/Pools$Pool;
+    .locals 1
+    .param p1    # Lg7/a$d;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    invoke-virtual {v0}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSetting;->isHeadUpNotification()Z
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T::",
+            "Lg7/a$f;",
+            ">(I",
+            "Lg7/a$d<",
+            "TT;>;)",
+            "Landroidx/core/util/Pools$Pool<",
+            "TT;>;"
+        }
+    .end annotation
 
-    move-result v0
+    new-instance v0, Landroidx/core/util/Pools$SynchronizedPool;
 
-    if-eqz v0, :cond_1
+    invoke-direct {v0, p0}, Landroidx/core/util/Pools$SynchronizedPool;-><init>(I)V
 
-    const/4 v0, 0x1
+    invoke-static {v0, p1}, Lg7/a;->a(Landroidx/core/util/Pools$Pool;Lg7/a$d;)Landroidx/core/util/Pools$Pool;
 
-    invoke-virtual {p1, v0}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSettingEx;->setPriorityDisplay(I)V
+    move-result-object p0
 
-    goto :goto_0
+    return-object p0
+.end method
 
-    :cond_1
-    invoke-virtual {p1, v1}, Lcom/meizu/cloud/pushsdk/notification/model/AdvanceSettingEx;->setPriorityDisplay(I)V
+.method public static f()Landroidx/core/util/Pools$Pool;
+    .locals 1
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
 
-    :cond_2
-    :goto_0
-    return-void
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">()",
+            "Landroidx/core/util/Pools$Pool<",
+            "Ljava/util/List<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    const/16 v0, 0x14
+
+    invoke-static {v0}, Lg7/a;->g(I)Landroidx/core/util/Pools$Pool;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static g(I)Landroidx/core/util/Pools$Pool;
+    .locals 2
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(I)",
+            "Landroidx/core/util/Pools$Pool<",
+            "Ljava/util/List<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    new-instance v0, Landroidx/core/util/Pools$SynchronizedPool;
+
+    invoke-direct {v0, p0}, Landroidx/core/util/Pools$SynchronizedPool;-><init>(I)V
+
+    new-instance p0, Lg7/a$b;
+
+    invoke-direct {p0}, Lg7/a$b;-><init>()V
+
+    new-instance v1, Lg7/a$c;
+
+    invoke-direct {v1}, Lg7/a$c;-><init>()V
+
+    invoke-static {v0, p0, v1}, Lg7/a;->b(Landroidx/core/util/Pools$Pool;Lg7/a$d;Lg7/a$g;)Landroidx/core/util/Pools$Pool;
+
+    move-result-object p0
+
+    return-object p0
 .end method

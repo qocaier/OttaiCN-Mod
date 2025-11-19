@@ -1,6 +1,6 @@
 .class public Landroidx/activity/ComponentDialog;
 .super Landroid/app/Dialog;
-.source "ComponentDialog.kt"
+.source "SourceFile"
 
 # interfaces
 .implements Landroidx/lifecycle/LifecycleOwner;
@@ -10,19 +10,34 @@
 
 # instance fields
 .field private _lifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;
+    .annotation build Lzr/l;
+    .end annotation
+.end field
 
 .field private final onBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 .field private final savedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
+    .annotation build Lzr/k;
+    .end annotation
+.end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 3
+    .param p1    # Landroid/content/Context;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .annotation build Lbo/j;
+    .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -30,21 +45,27 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, p1, v0, v1, v2}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;IILkotlin/jvm/internal/o;)V
+    invoke-direct {p0, p1, v0, v1, v2}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;IILdo/u;)V
 
     return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 1
+    .param p1    # Landroid/content/Context;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
     .param p2    # I
         .annotation build Landroidx/annotation/StyleRes;
         .end annotation
     .end param
+    .annotation build Lbo/j;
+    .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1, p2}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
@@ -61,9 +82,9 @@
     .line 4
     new-instance p1, Landroidx/activity/OnBackPressedDispatcher;
 
-    new-instance p2, Landroidx/activity/l;
+    new-instance p2, Ld/i;
 
-    invoke-direct {p2, p0}, Landroidx/activity/l;-><init>(Landroidx/activity/ComponentDialog;)V
+    invoke-direct {p2, p0}, Ld/i;-><init>(Landroidx/activity/ComponentDialog;)V
 
     invoke-direct {p1, p2}, Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;)V
 
@@ -72,7 +93,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;IILkotlin/jvm/internal/o;)V
+.method public synthetic constructor <init>(Landroid/content/Context;IILdo/u;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -124,9 +145,9 @@
 .method private static final onBackPressedDispatcher$lambda$1(Landroidx/activity/ComponentDialog;)V
     .locals 1
 
-    const-string v0, "this$0"
+    const-string/jumbo v0, "this$0"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-super {p0}, Landroid/app/Dialog;->onBackPressed()V
 
@@ -137,10 +158,18 @@
 # virtual methods
 .method public addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroid/view/ViewGroup$LayoutParams;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroidx/activity/ComponentDialog;->initializeViewTreeOwners()V
@@ -153,6 +182,8 @@
 
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
     .locals 1
+    .annotation build Lzr/k;
+    .end annotation
 
     invoke-direct {p0}, Landroidx/activity/ComponentDialog;->getLifecycleRegistry()Landroidx/lifecycle/LifecycleRegistry;
 
@@ -163,6 +194,8 @@
 
 .method public final getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
     .locals 1
+    .annotation build Lzr/k;
+    .end annotation
 
     iget-object v0, p0, Landroidx/activity/ComponentDialog;->onBackPressedDispatcher:Landroidx/activity/OnBackPressedDispatcher;
 
@@ -171,6 +204,8 @@
 
 .method public getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
     .locals 1
+    .annotation build Lzr/k;
+    .end annotation
 
     iget-object v0, p0, Landroidx/activity/ComponentDialog;->savedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
 
@@ -191,7 +226,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
@@ -199,7 +234,7 @@
 
     const-string/jumbo v1, "window!!.decorView"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0, p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;->set(Landroid/view/View;Landroidx/lifecycle/LifecycleOwner;)V
 
@@ -208,13 +243,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0, p0}, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner;->set(Landroid/view/View;Landroidx/activity/OnBackPressedDispatcherOwner;)V
 
@@ -223,13 +258,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Ldo/f0;->m(Ljava/lang/Object;)V
 
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v0
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-static {v0, p0}, Landroidx/savedstate/ViewTreeSavedStateRegistryOwner;->set(Landroid/view/View;Landroidx/savedstate/SavedStateRegistryOwner;)V
 
@@ -248,8 +283,12 @@
     return-void
 .end method
 
-.method protected onCreate(Landroid/os/Bundle;)V
+.method public onCreate(Landroid/os/Bundle;)V
     .locals 3
+    .param p1    # Landroid/os/Bundle;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
@@ -272,7 +311,7 @@
 
     const-string v2, "onBackInvokedDispatcher"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedDispatcher;->setOnBackInvokedDispatcher(Landroid/window/OnBackInvokedDispatcher;)V
 
@@ -296,15 +335,17 @@
 
 .method public onSaveInstanceState()Landroid/os/Bundle;
     .locals 2
+    .annotation build Lzr/k;
+    .end annotation
 
     .line 1
     invoke-super {p0}, Landroid/app/Dialog;->onSaveInstanceState()Landroid/os/Bundle;
 
     move-result-object v0
 
-    const-string v1, "super.onSaveInstanceState()"
+    const-string/jumbo v1, "super.onSaveInstanceState()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v1, p0, Landroidx/activity/ComponentDialog;->savedStateRegistryController:Landroidx/savedstate/SavedStateRegistryController;
@@ -314,7 +355,7 @@
     return-object v0
 .end method
 
-.method protected onStart()V
+.method public onStart()V
     .locals 2
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
@@ -334,7 +375,7 @@
     return-void
 .end method
 
-.method protected onStop()V
+.method public onStop()V
     .locals 2
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
@@ -373,10 +414,14 @@
 
 .method public setContentView(Landroid/view/View;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p0}, Landroidx/activity/ComponentDialog;->initializeViewTreeOwners()V
@@ -389,10 +434,18 @@
 
 .method public setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
     .locals 1
+    .param p1    # Landroid/view/View;
+        .annotation build Lzr/k;
+        .end annotation
+    .end param
+    .param p2    # Landroid/view/ViewGroup$LayoutParams;
+        .annotation build Lzr/l;
+        .end annotation
+    .end param
 
     const-string/jumbo v0, "view"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-virtual {p0}, Landroidx/activity/ComponentDialog;->initializeViewTreeOwners()V
