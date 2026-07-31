@@ -18,15 +18,16 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
+    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ldo/u;)V
+.method public synthetic constructor <init>(Lkm/v;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Landroidx/activity/ImmLeaksCleaner$Cleaner;-><init>()V
 
     return-void
@@ -36,25 +37,25 @@
 # virtual methods
 .method public abstract clearNextServedView(Landroid/view/inputmethod/InputMethodManager;)Z
     .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
 .end method
 
 .method public abstract getLock(Landroid/view/inputmethod/InputMethodManager;)Ljava/lang/Object;
     .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
-    .annotation build Lzr/l;
+    .annotation build Lsq/l;
     .end annotation
 .end method
 
 .method public abstract getServedView(Landroid/view/inputmethod/InputMethodManager;)Landroid/view/View;
     .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
-    .annotation build Lzr/l;
+    .annotation build Lsq/l;
     .end annotation
 .end method

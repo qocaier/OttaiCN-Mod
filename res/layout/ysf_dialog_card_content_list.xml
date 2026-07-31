@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="#33000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="@color/ysf_white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120.0dip">
+        <LinearLayout
+            android:background="@drawable/ysf_evaluation_dialog_header"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip">
+            <TextView
+                android:textSize="@dimen/ysf_text_size_16sp"
+                android:textColor="@color/ysf_black_333333"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:id="@id/ysf_tv_dialog_card_content_title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:singleLine="true"
+                android:layout_weight="1.0" />
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/ysf_iv_dialog_card_content_close"
+                android:background="@drawable/ysf_ic_dialog_close"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginRight="16.0dip" />
+        </LinearLayout>
+        <include
+            layout="@layout/ysf_include_divider" />
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/ysf_ll_dialog_card_content_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:minHeight="140.0dip"
+                android:layout_marginHorizontal="16.0dip" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

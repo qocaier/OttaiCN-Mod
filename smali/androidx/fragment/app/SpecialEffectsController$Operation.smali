@@ -1,0 +1,1695 @@
+.class public Landroidx/fragment/app/SpecialEffectsController$Operation;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/fragment/app/SpecialEffectsController;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Operation"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;,
+        Landroidx/fragment/app/SpecialEffectsController$Operation$State;,
+        Landroidx/fragment/app/SpecialEffectsController$Operation$WhenMappings;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,882:1\n1855#2,2:883\n1855#2,2:885\n*S KotlinDebug\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n*L\n643#1:883,2\n743#1:885,2\n*E\n"
+.end annotation
+
+.annotation build Lkm/u0;
+    value = {
+        "SMAP\nSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,882:1\n1855#2,2:883\n1855#2,2:885\n*S KotlinDebug\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n*L\n643#1:883,2\n743#1:885,2\n*E\n"
+    }
+.end annotation
+
+
+# instance fields
+.field private final _effects:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Landroidx/fragment/app/SpecialEffectsController$Effect;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private final completionListeners:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/Runnable;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private final effects:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Landroidx/fragment/app/SpecialEffectsController$Effect;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private final fragment:Landroidx/fragment/app/Fragment;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private isAwaitingContainerChanges:Z
+
+.field private isCanceled:Z
+
+.field private isComplete:Z
+
+.field private isSeeking:Z
+
+.field private isStarted:Z
+
+.field private lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;Landroidx/fragment/app/Fragment;)V
+    .locals 1
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .param p3    # Landroidx/fragment/app/Fragment;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "finalState"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "lifecycleImpact"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    const-string v0, "fragment"
+
+    .line 12
+    .line 13
+    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 17
+    .line 18
+    .line 19
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 20
+    .line 21
+    iput-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 22
+    .line 23
+    iput-object p3, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 24
+    .line 25
+    new-instance p1, Ljava/util/ArrayList;
+
+    .line 26
+    .line 27
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    .line 28
+    .line 29
+    .line 30
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->completionListeners:Ljava/util/List;
+
+    .line 31
+    .line 32
+    const/4 p1, 0x1
+
+    .line 33
+    iput-boolean p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isAwaitingContainerChanges:Z
+
+    .line 34
+    .line 35
+    new-instance p1, Ljava/util/ArrayList;
+
+    .line 36
+    .line 37
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+
+    .line 38
+    .line 39
+    .line 40
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->_effects:Ljava/util/List;
+
+    .line 41
+    .line 42
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->effects:Ljava/util/List;
+
+    .line 43
+    .line 44
+    return-void
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+.end method
+
+
+# virtual methods
+.method public final addCompletionListener(Ljava/lang/Runnable;)V
+    .locals 1
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "listener"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->completionListeners:Ljava/util/List;
+
+    .line 7
+    .line 8
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public final addEffect(Landroidx/fragment/app/SpecialEffectsController$Effect;)V
+    .locals 1
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Effect;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "effect"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->_effects:Ljava/util/List;
+
+    .line 7
+    .line 8
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public final cancel(Landroid/view/ViewGroup;)V
+    .locals 2
+    .param p1    # Landroid/view/ViewGroup;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    const-string v0, "container"
+
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    .line 1
+    iput-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isStarted:Z
+
+    .line 2
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
+
+    if-eqz v0, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 3
+    iput-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
+
+    .line 4
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->_effects:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 5
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete$fragment_release()V
+
+    return-void
+
+    .line 6
+    :cond_1
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->effects:Ljava/util/List;
+
+    check-cast v0, Ljava/lang/Iterable;
+
+    invoke-static {v0}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Iterable;
+
+    .line 7
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/fragment/app/SpecialEffectsController$Effect;
+
+    .line 8
+    invoke-virtual {v1, p1}, Landroidx/fragment/app/SpecialEffectsController$Effect;->cancel(Landroid/view/ViewGroup;)V
+
+    goto :goto_0
+
+    :cond_2
+    :goto_1
+    return-void
+.end method
+
+.method public final cancel(Landroid/view/ViewGroup;Z)V
+    .locals 1
+    .param p1    # Landroid/view/ViewGroup;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    const-string v0, "container"
+
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    if-eqz p2, :cond_1
+
+    const/4 p2, 0x1
+
+    .line 10
+    iput-boolean p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isSeeking:Z
+
+    .line 11
+    :cond_1
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel(Landroid/view/ViewGroup;)V
+
+    return-void
+.end method
+
+.method public complete$fragment_release()V
+    .locals 2
+    .annotation build Landroidx/annotation/CallSuper;
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isStarted:Z
+
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isComplete:Z
+
+    .line 5
+    .line 6
+    if-eqz v0, :cond_0
+
+    .line 7
+    .line 8
+    goto :goto_1
+
+    .line 9
+    :cond_0
+    const/4 v0, 0x2
+
+    .line 10
+    invoke-static {v0}, Landroidx/fragment/app/FragmentManager;->isLoggingEnabled(I)Z
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v0
+
+    .line 14
+    if-eqz v0, :cond_1
+
+    .line 15
+    .line 16
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 19
+    .line 20
+    .line 21
+    const-string v1, "SpecialEffectsController: "
+
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 27
+    .line 28
+    .line 29
+    const-string v1, " has called complete."
+
+    .line 30
+    .line 31
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 32
+    .line 33
+    .line 34
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v0
+
+    .line 38
+    const-string v1, "FragmentManager"
+
+    .line 39
+    .line 40
+    invoke-static {v1, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 41
+    .line 42
+    .line 43
+    :cond_1
+    const/4 v0, 0x1
+
+    .line 44
+    iput-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isComplete:Z
+
+    .line 45
+    .line 46
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->completionListeners:Ljava/util/List;
+
+    .line 47
+    .line 48
+    check-cast v0, Ljava/lang/Iterable;
+
+    .line 49
+    .line 50
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object v0
+
+    .line 54
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 55
+    .line 56
+    .line 57
+    move-result v1
+
+    .line 58
+    if-eqz v1, :cond_2
+
+    .line 59
+    .line 60
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object v1
+
+    .line 64
+    check-cast v1, Ljava/lang/Runnable;
+
+    .line 65
+    .line 66
+    invoke-interface {v1}, Ljava/lang/Runnable;->run()V
+
+    .line 67
+    .line 68
+    .line 69
+    goto :goto_0
+
+    .line 70
+    :cond_2
+    :goto_1
+    return-void
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method
+
+.method public final completeEffect(Landroidx/fragment/app/SpecialEffectsController$Effect;)V
+    .locals 1
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Effect;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "effect"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->_effects:Ljava/util/List;
+
+    .line 7
+    .line 8
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p1
+
+    .line 12
+    if-eqz p1, :cond_0
+
+    .line 13
+    .line 14
+    iget-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->_effects:Ljava/util/List;
+
+    .line 15
+    .line 16
+    invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
+
+    .line 17
+    .line 18
+    .line 19
+    move-result p1
+
+    .line 20
+    if-eqz p1, :cond_0
+
+    .line 21
+    .line 22
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete$fragment_release()V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_0
+    return-void
+.end method
+
+.method public final getEffects$fragment_release()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Landroidx/fragment/app/SpecialEffectsController$Effect;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->effects:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    .locals 1
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final getFragment()Landroidx/fragment/app/Fragment;
+    .locals 1
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final getLifecycleImpact()Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+    .locals 1
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final isAwaitingContainerChanges()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isAwaitingContainerChanges:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final isCanceled()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final isComplete()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isComplete:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final isSeeking()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isSeeking:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final isStarted()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isStarted:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final mergeWith(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
+    .locals 5
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .param p2    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "finalState"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "lifecycleImpact"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sget-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$WhenMappings;->$EnumSwitchMapping$0:[I
+
+    .line 12
+    .line 13
+    invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result p2
+
+    .line 17
+    aget p2, v0, p2
+
+    .line 18
+    .line 19
+    const-string v0, "SpecialEffectsController: For fragment "
+
+    .line 20
+    .line 21
+    const-string v1, "FragmentManager"
+
+    .line 22
+    .line 23
+    const/4 v2, 0x1
+
+    .line 24
+    const/4 v3, 0x2
+
+    .line 25
+    if-eq p2, v2, :cond_4
+
+    .line 26
+    .line 27
+    const-string v4, " mFinalState = "
+
+    .line 28
+    .line 29
+    if-eq p2, v3, :cond_2
+
+    .line 30
+    .line 31
+    const/4 v2, 0x3
+
+    .line 32
+    if-eq p2, v2, :cond_0
+
+    .line 33
+    .line 34
+    goto/16 :goto_0
+
+    .line 35
+    .line 36
+    :cond_0
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 37
+    .line 38
+    sget-object v2, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->REMOVED:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 39
+    .line 40
+    if-eq p2, v2, :cond_6
+
+    .line 41
+    .line 42
+    invoke-static {v3}, Landroidx/fragment/app/FragmentManager;->isLoggingEnabled(I)Z
+
+    .line 43
+    .line 44
+    .line 45
+    move-result p2
+
+    .line 46
+    if-eqz p2, :cond_1
+
+    .line 47
+    .line 48
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    .line 49
+    .line 50
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 51
+    .line 52
+    .line 53
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 54
+    .line 55
+    .line 56
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 57
+    .line 58
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {p2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 62
+    .line 63
+    .line 64
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 65
+    .line 66
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 67
+    .line 68
+    .line 69
+    const-string v0, " -> "
+
+    .line 70
+    .line 71
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 75
+    .line 76
+    .line 77
+    const/16 v0, 0x2e
+
+    .line 78
+    .line 79
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 83
+    .line 84
+    .line 85
+    move-result-object p2
+
+    .line 86
+    invoke-static {v1, p2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 87
+    .line 88
+    .line 89
+    :cond_1
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 90
+    .line 91
+    return-void
+
+    .line 92
+    :cond_2
+    invoke-static {v3}, Landroidx/fragment/app/FragmentManager;->isLoggingEnabled(I)Z
+
+    .line 93
+    .line 94
+    .line 95
+    move-result p1
+
+    .line 96
+    if-eqz p1, :cond_3
+
+    .line 97
+    .line 98
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    .line 99
+    .line 100
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 101
+    .line 102
+    .line 103
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 104
+    .line 105
+    .line 106
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 107
+    .line 108
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 109
+    .line 110
+    .line 111
+    invoke-virtual {p1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 112
+    .line 113
+    .line 114
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 115
+    .line 116
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 117
+    .line 118
+    .line 119
+    const-string p2, " -> REMOVED. mLifecycleImpact  = "
+
+    .line 120
+    .line 121
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 122
+    .line 123
+    .line 124
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 125
+    .line 126
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 127
+    .line 128
+    .line 129
+    const-string p2, " to REMOVING."
+
+    .line 130
+    .line 131
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 132
+    .line 133
+    .line 134
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 135
+    .line 136
+    .line 137
+    move-result-object p1
+
+    .line 138
+    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 139
+    .line 140
+    .line 141
+    :cond_3
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->REMOVED:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 142
+    .line 143
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 144
+    .line 145
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;->REMOVING:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 146
+    .line 147
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 148
+    .line 149
+    iput-boolean v2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isAwaitingContainerChanges:Z
+
+    .line 150
+    .line 151
+    return-void
+
+    .line 152
+    :cond_4
+    iget-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 153
+    .line 154
+    sget-object p2, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->REMOVED:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 155
+    .line 156
+    if-ne p1, p2, :cond_6
+
+    .line 157
+    .line 158
+    invoke-static {v3}, Landroidx/fragment/app/FragmentManager;->isLoggingEnabled(I)Z
+
+    .line 159
+    .line 160
+    .line 161
+    move-result p1
+
+    .line 162
+    if-eqz p1, :cond_5
+
+    .line 163
+    .line 164
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    .line 165
+    .line 166
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 167
+    .line 168
+    .line 169
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 170
+    .line 171
+    .line 172
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 173
+    .line 174
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 175
+    .line 176
+    .line 177
+    const-string p2, " mFinalState = REMOVED -> VISIBLE. mLifecycleImpact = "
+
+    .line 178
+    .line 179
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 180
+    .line 181
+    .line 182
+    iget-object p2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 183
+    .line 184
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 185
+    .line 186
+    .line 187
+    const-string p2, " to ADDING."
+
+    .line 188
+    .line 189
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 190
+    .line 191
+    .line 192
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 193
+    .line 194
+    .line 195
+    move-result-object p1
+
+    .line 196
+    invoke-static {v1, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 197
+    .line 198
+    .line 199
+    :cond_5
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 200
+    .line 201
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 202
+    .line 203
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;->ADDING:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 204
+    .line 205
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 206
+    .line 207
+    iput-boolean v2, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isAwaitingContainerChanges:Z
+
+    .line 208
+    .line 209
+    :cond_6
+    :goto_0
+    return-void
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+.end method
+
+.method public onStart()V
+    .locals 1
+    .annotation build Landroidx/annotation/CallSuper;
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    iput-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isStarted:Z
+
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final setAwaitingContainerChanges(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isAwaitingContainerChanges:Z
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public final setFinalState(Landroidx/fragment/app/SpecialEffectsController$Operation$State;)V
+    .locals 1
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "<set-?>"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public final setLifecycleImpact(Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
+    .locals 1
+    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "<set-?>"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    invoke-static {v0}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 10
+    .line 11
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 12
+    .line 13
+    .line 14
+    const-string v2, "Operation {"
+
+    .line 15
+    .line 16
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 20
+    .line 21
+    .line 22
+    const-string v0, "} {finalState = "
+
+    .line 23
+    .line 24
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+
+    .line 28
+    .line 29
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 30
+    .line 31
+    .line 32
+    const-string v0, " lifecycleImpact = "
+
+    .line 33
+    .line 34
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 35
+    .line 36
+    .line 37
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
+
+    .line 38
+    .line 39
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 40
+    .line 41
+    .line 42
+    const-string v0, " fragment = "
+
+    .line 43
+    .line 44
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 45
+    .line 46
+    .line 47
+    iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
+
+    .line 48
+    .line 49
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 50
+    .line 51
+    .line 52
+    const/16 v0, 0x7d
+
+    .line 53
+    .line 54
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 55
+    .line 56
+    .line 57
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object v0
+
+    .line 61
+    return-object v0
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method

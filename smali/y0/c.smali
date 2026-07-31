@@ -4,86 +4,41 @@
 
 
 # direct methods
-.method public static a(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+.method public static synthetic a(Ljava/lang/Object;)Ljava/util/List;
     .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
 
-    const-string p0, "owner"
+    .line 1
+    filled-new-array {p0}, [Ljava/lang/Object;
 
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
 
-    return-void
-.end method
+    .line 5
+    invoke-static {p0}, Lj/e;->a([Ljava/lang/Object;)Ljava/util/List;
 
-.method public static b(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-    .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
 
-    const-string p0, "owner"
-
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static c(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-    .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
-
-    const-string p0, "owner"
-
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static d(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-    .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
-
-    const-string p0, "owner"
-
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static e(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-    .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
-
-    const-string p0, "owner"
-
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static f(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-    .locals 0
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lzr/k;
-        .end annotation
-    .end param
-
-    const-string p0, "owner"
-
-    invoke-static {p1, p0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+    .line 9
+    return-object p0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
 .end method

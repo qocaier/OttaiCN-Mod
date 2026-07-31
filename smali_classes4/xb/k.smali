@@ -1,36 +1,38 @@
-.class public final synthetic Lxb/k;
+.class public interface abstract annotation Lxb/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/b0;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/d$g;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/k;
+        modifier = {}
+        value = {}
+    .end subannotation
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/d$g;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/k;->a:Lcom/google/common/util/concurrent/d$g;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 1
+.method public abstract modifier()[Lcom/google/errorprone/annotations/Modifier;
+.end method
 
-    iget-object v0, p0, Lxb/k;->a:Lcom/google/common/util/concurrent/d$g;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/d$g;->B(Lcom/google/common/util/concurrent/d$g;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+.method public abstract value()[Ljavax/lang/model/element/Modifier;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 .end method

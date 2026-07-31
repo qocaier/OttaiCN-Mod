@@ -2,26 +2,29 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/util/function/Supplier;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/hls/HlsExtractorFactory;Z)Landroidx/media3/exoplayer/hls/HlsExtractorFactory;
+.method public synthetic constructor <init>()V
     .locals 0
-    .annotation build Lac/a;
-    .end annotation
 
-    return-object p0
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
 .end method
 
-.method public static b(Landroidx/media3/exoplayer/hls/HlsExtractorFactory;Landroidx/media3/common/Format;)Landroidx/media3/common/Format;
-    .locals 0
 
-    return-object p1
-.end method
+# virtual methods
+.method public final get()Ljava/lang/Object;
+    .locals 1
 
-.method public static c(Landroidx/media3/exoplayer/hls/HlsExtractorFactory;Landroidx/media3/extractor/text/SubtitleParser$Factory;)Landroidx/media3/exoplayer/hls/HlsExtractorFactory;
-    .locals 0
-    .annotation build Lac/a;
-    .end annotation
+    .line 1
+    invoke-static {}, Landroidx/emoji2/text/flatbuffer/Utf8Old;->a()Landroidx/emoji2/text/flatbuffer/Utf8Old$Cache;
 
-    return-object p0
+    move-result-object v0
+
+    return-object v0
 .end method

@@ -1,42 +1,32 @@
-.class public final synthetic Lmb/e0;
+.class public interface abstract annotation Lmb/e0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/BiConsumer;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Ljava/util/function/Function;
+# annotations
+.annotation build Lfb/b;
+.end annotation
 
-.field public final synthetic b:Ljava/util/function/Function;
+.annotation runtime Lgl/g;
+.end annotation
 
+.annotation runtime Lil/d;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Ljava/util/function/Function;Ljava/util/function/Function;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lmb/e0;->a:Ljava/util/function/Function;
-
-    iput-object p2, p0, Lmb/e0;->b:Ljava/util/function/Function;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
-    .locals 2
-
-    iget-object v0, p0, Lmb/e0;->a:Ljava/util/function/Function;
-
-    iget-object v1, p0, Lmb/e0;->b:Ljava/util/function/Function;
-
-    check-cast p1, Lcom/google/common/collect/ImmutableBiMap$a;
-
-    invoke-static {v0, v1, p1, p2}, Lcom/google/common/collect/f;->e(Ljava/util/function/Function;Ljava/util/function/Function;Lcom/google/common/collect/ImmutableBiMap$a;Ljava/lang/Object;)V
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

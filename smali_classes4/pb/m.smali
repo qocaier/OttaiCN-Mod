@@ -3,34 +3,26 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/b0;
-
-
-# instance fields
-.field public final synthetic a:Ljava/lang/Object;
+.implements Lpb/n$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/Object;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lpb/m;->a:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 1
+.method public final a(Ljava/io/Closeable;Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    .locals 0
 
-    iget-object v0, p0, Lpb/m;->a:Ljava/lang/Object;
+    .line 1
+    invoke-static {p1, p2, p3}, Lpb/n;->a(Ljava/io/Closeable;Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lpb/t;->N(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    return-void
 .end method

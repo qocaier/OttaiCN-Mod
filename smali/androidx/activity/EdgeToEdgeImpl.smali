@@ -6,26 +6,26 @@
 # virtual methods
 .method public abstract adjustLayoutInDisplayCutoutMode(Landroid/view/Window;)V
     .param p1    # Landroid/view/Window;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
 .end method
 
 .method public abstract setUp(Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;Landroid/view/Window;Landroid/view/View;ZZ)V
     .param p1    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
     .param p2    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
     .param p3    # Landroid/view/Window;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
     .param p4    # Landroid/view/View;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
 .end method

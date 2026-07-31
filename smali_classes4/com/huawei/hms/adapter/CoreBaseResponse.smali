@@ -1,0 +1,304 @@
+.class public Lcom/huawei/hms/adapter/CoreBaseResponse;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/huawei/hms/core/aidl/IMessageEntity;
+
+
+# instance fields
+.field public intent:Landroid/content/Intent;
+    .annotation runtime Lcom/huawei/hms/core/aidl/annotation/Packed;
+    .end annotation
+.end field
+
+.field private jsonBody:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/hms/core/aidl/annotation/Packed;
+    .end annotation
+.end field
+
+.field private jsonHeader:Ljava/lang/String;
+    .annotation runtime Lcom/huawei/hms/core/aidl/annotation/Packed;
+    .end annotation
+.end field
+
+.field public pendingIntent:Landroid/app/PendingIntent;
+    .annotation runtime Lcom/huawei/hms/core/aidl/annotation/Packed;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+
+# virtual methods
+.method public getIntent()Landroid/content/Intent;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->intent:Landroid/content/Intent;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public getJsonBody()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->jsonBody:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public getJsonHeader()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->jsonHeader:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public getPendingIntent()Landroid/app/PendingIntent;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->pendingIntent:Landroid/app/PendingIntent;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public setIntent(Landroid/content/Intent;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->intent:Landroid/content/Intent;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public setJsonBody(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->jsonBody:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public setJsonHeader(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->jsonHeader:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public setPendingIntent(Landroid/app/PendingIntent;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/hms/adapter/CoreBaseResponse;->pendingIntent:Landroid/app/PendingIntent;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

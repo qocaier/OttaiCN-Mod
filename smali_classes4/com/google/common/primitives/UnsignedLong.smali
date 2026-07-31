@@ -1,0 +1,1261 @@
+.class public final Lcom/google/common/primitives/UnsignedLong;
+.super Ljava/lang/Number;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Comparable;
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Number;",
+        "Ljava/lang/Comparable<",
+        "Lcom/google/common/primitives/UnsignedLong;",
+        ">;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
+
+.annotation build Lfb/b;
+    serializable = true
+.end annotation
+
+.annotation runtime Lsb/b;
+.end annotation
+
+
+# static fields
+.field public static final MAX_VALUE:Lcom/google/common/primitives/UnsignedLong;
+
+.field public static final ONE:Lcom/google/common/primitives/UnsignedLong;
+
+.field public static final ZERO:Lcom/google/common/primitives/UnsignedLong;
+
+.field public static final a:J = 0x7fffffffffffffffL
+
+
+# instance fields
+.field private final value:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 2
+    .line 3
+    const-wide/16 v1, 0x0
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1, v2}, Lcom/google/common/primitives/UnsignedLong;-><init>(J)V
+
+    .line 6
+    .line 7
+    .line 8
+    sput-object v0, Lcom/google/common/primitives/UnsignedLong;->ZERO:Lcom/google/common/primitives/UnsignedLong;
+
+    .line 9
+    .line 10
+    new-instance v0, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 11
+    .line 12
+    const-wide/16 v1, 0x1
+
+    .line 13
+    .line 14
+    invoke-direct {v0, v1, v2}, Lcom/google/common/primitives/UnsignedLong;-><init>(J)V
+
+    .line 15
+    .line 16
+    .line 17
+    sput-object v0, Lcom/google/common/primitives/UnsignedLong;->ONE:Lcom/google/common/primitives/UnsignedLong;
+
+    .line 18
+    .line 19
+    new-instance v0, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 20
+    .line 21
+    const-wide/16 v1, -0x1
+
+    .line 22
+    .line 23
+    invoke-direct {v0, v1, v2}, Lcom/google/common/primitives/UnsignedLong;-><init>(J)V
+
+    .line 24
+    .line 25
+    .line 26
+    sput-object v0, Lcom/google/common/primitives/UnsignedLong;->MAX_VALUE:Lcom/google/common/primitives/UnsignedLong;
+
+    .line 27
+    .line 28
+    return-void
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method
+
+.method public constructor <init>(J)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "value"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Number;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-wide p1, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public static fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "bits"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/google/common/primitives/UnsignedLong;-><init>(J)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public static valueOf(J)Lcom/google/common/primitives/UnsignedLong;
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "value"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+
+    const-wide/16 v0, 0x0
+
+    cmp-long v0, p0, v0
+
+    if-ltz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 1
+    :goto_0
+    const-string v1, "value (%s) is outside the range for an unsigned long value"
+
+    invoke-static {v0, v1, p0, p1}, Lgb/w;->p(ZLjava/lang/String;J)V
+
+    .line 2
+    invoke-static {p0, p1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "string"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+
+    const/16 v0, 0xa
+
+    .line 7
+    invoke-static {p0, v0}, Lcom/google/common/primitives/UnsignedLong;->valueOf(Ljava/lang/String;I)Lcom/google/common/primitives/UnsignedLong;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;I)Lcom/google/common/primitives/UnsignedLong;
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "string",
+            "radix"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+
+    .line 8
+    invoke-static {p0, p1}, Lcom/google/common/primitives/UnsignedLongs;->j(Ljava/lang/String;I)J
+
+    move-result-wide p0
+
+    invoke-static {p0, p1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/math/BigInteger;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "value"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+
+    .line 3
+    invoke-static {p0}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    invoke-virtual {p0}, Ljava/math/BigInteger;->signum()I
+
+    move-result v0
+
+    if-ltz v0, :cond_0
+
+    invoke-virtual {p0}, Ljava/math/BigInteger;->bitLength()I
+
+    move-result v0
+
+    const/16 v1, 0x40
+
+    if-gt v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    const-string v1, "value (%s) is outside the range for an unsigned long value"
+
+    .line 5
+    invoke-static {v0, v1, p0}, Lgb/w;->u(ZLjava/lang/String;Ljava/lang/Object;)V
+
+    .line 6
+    invoke-virtual {p0}, Ljava/math/BigInteger;->longValue()J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bigIntegerValue()Ljava/math/BigInteger;
+    .locals 5
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    const-wide v2, 0x7fffffffffffffffL
+
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    and-long/2addr v0, v2
+
+    .line 9
+    invoke-static {v0, v1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    iget-wide v1, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 14
+    .line 15
+    const-wide/16 v3, 0x0
+
+    .line 16
+    .line 17
+    cmp-long v1, v1, v3
+
+    .line 18
+    .line 19
+    if-gez v1, :cond_0
+
+    .line 20
+    .line 21
+    const/16 v1, 0x3f
+
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1}, Ljava/math/BigInteger;->setBit(I)Ljava/math/BigInteger;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    :cond_0
+    return-object v0
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method
+
+.method public compareTo(Lcom/google/common/primitives/UnsignedLong;)I
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "o"
+        }
+    .end annotation
+
+    .line 2
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 3
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    invoke-static {v0, v1, v2, v3}, Lcom/google/common/primitives/UnsignedLongs;->a(JJ)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic compareTo(Ljava/lang/Object;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x1000
+        }
+        names = {
+            "o"
+        }
+    .end annotation
+
+    .line 1
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    invoke-virtual {p0, p1}, Lcom/google/common/primitives/UnsignedLong;->compareTo(Lcom/google/common/primitives/UnsignedLong;)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public dividedBy(Lcom/google/common/primitives/UnsignedLong;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "val"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 8
+    .line 9
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 10
+    .line 11
+    invoke-static {v0, v1, v2, v3}, Lcom/google/common/primitives/UnsignedLongs;->c(JJ)J
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-wide v0
+
+    .line 15
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    return-object p1
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public doubleValue()D
+    .locals 6
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    const-wide/16 v2, 0x0
+
+    .line 4
+    .line 5
+    cmp-long v2, v0, v2
+
+    .line 6
+    .line 7
+    if-ltz v2, :cond_0
+
+    .line 8
+    .line 9
+    long-to-double v0, v0
+
+    .line 10
+    return-wide v0
+
+    .line 11
+    :cond_0
+    const/4 v2, 0x1
+
+    .line 12
+    ushr-long v2, v0, v2
+
+    .line 13
+    .line 14
+    const-wide/16 v4, 0x1
+
+    .line 15
+    .line 16
+    and-long/2addr v0, v4
+
+    .line 17
+    or-long/2addr v0, v2
+
+    .line 18
+    long-to-double v0, v0
+
+    .line 19
+    const-wide/high16 v2, 0x4000000000000000L    # 2.0
+
+    .line 20
+    .line 21
+    mul-double/2addr v0, v2
+
+    .line 22
+    return-wide v0
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 6
+    .param p1    # Ljava/lang/Object;
+        .annotation runtime Lgl/a;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "obj"
+        }
+    .end annotation
+
+    .line 1
+    instance-of v0, p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 7
+    .line 8
+    iget-wide v2, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 9
+    .line 10
+    iget-wide v4, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 11
+    .line 12
+    cmp-long p1, v2, v4
+
+    .line 13
+    .line 14
+    if-nez p1, :cond_0
+
+    .line 15
+    .line 16
+    const/4 p1, 0x1
+
+    .line 17
+    return p1
+
+    .line 18
+    :cond_0
+    return v1
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public floatValue()F
+    .locals 6
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    const-wide/16 v2, 0x0
+
+    .line 4
+    .line 5
+    cmp-long v2, v0, v2
+
+    .line 6
+    .line 7
+    if-ltz v2, :cond_0
+
+    .line 8
+    .line 9
+    long-to-float v0, v0
+
+    .line 10
+    return v0
+
+    .line 11
+    :cond_0
+    const/4 v2, 0x1
+
+    .line 12
+    ushr-long v2, v0, v2
+
+    .line 13
+    .line 14
+    const-wide/16 v4, 0x1
+
+    .line 15
+    .line 16
+    and-long/2addr v0, v4
+
+    .line 17
+    or-long/2addr v0, v2
+
+    .line 18
+    long-to-float v0, v0
+
+    .line 19
+    const/high16 v1, 0x40000000    # 2.0f
+
+    .line 20
+    .line 21
+    mul-float/2addr v0, v1
+
+    .line 22
+    return v0
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {v0, v1}, Lcom/google/common/primitives/Longs;->l(J)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public intValue()I
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    long-to-int v0, v0
+
+    .line 4
+    return v0
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public longValue()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    return-wide v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public minus(Lcom/google/common/primitives/UnsignedLong;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "val"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 8
+    .line 9
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 10
+    .line 11
+    sub-long/2addr v0, v2
+
+    .line 12
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    return-object p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public mod(Lcom/google/common/primitives/UnsignedLong;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "val"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 8
+    .line 9
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 10
+    .line 11
+    invoke-static {v0, v1, v2, v3}, Lcom/google/common/primitives/UnsignedLongs;->k(JJ)J
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-wide v0
+
+    .line 15
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    return-object p1
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public plus(Lcom/google/common/primitives/UnsignedLong;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "val"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 8
+    .line 9
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 10
+    .line 11
+    add-long/2addr v0, v2
+
+    .line 12
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    return-object p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public times(Lcom/google/common/primitives/UnsignedLong;)Lcom/google/common/primitives/UnsignedLong;
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "val"
+        }
+    .end annotation
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Lcom/google/common/primitives/UnsignedLong;
+
+    .line 8
+    .line 9
+    iget-wide v2, p1, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    .line 10
+    .line 11
+    mul-long/2addr v0, v2
+
+    .line 12
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLong;->fromLongBits(J)Lcom/google/common/primitives/UnsignedLong;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    return-object p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    invoke-static {v0, v1}, Lcom/google/common/primitives/UnsignedLongs;->p(J)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toString(I)Ljava/lang/String;
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "radix"
+        }
+    .end annotation
+
+    .line 2
+    iget-wide v0, p0, Lcom/google/common/primitives/UnsignedLong;->value:J
+
+    invoke-static {v0, v1, p1}, Lcom/google/common/primitives/UnsignedLongs;->q(JI)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method

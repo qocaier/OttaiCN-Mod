@@ -1,46 +1,202 @@
-.class public final synthetic Lmb/d1;
+.class public interface abstract Lmb/d1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/function/Function;
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        "E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-# static fields
-.field public static final synthetic a:Lmb/d1;
-
-
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/d1;
-
-    invoke-direct {v0}, Lmb/d1;-><init>()V
-
-    sput-object v0, Lmb/d1;->a:Lmb/d1;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.annotation runtime Lmb/e0;
+.end annotation
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public abstract a()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method
 
-    check-cast p1, Lmb/k4;
+.method public abstract b()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method
 
-    invoke-static {p1}, Lcom/google/common/collect/ImmutableListMultimap;->copyOf(Lmb/t4;)Lcom/google/common/collect/ImmutableListMultimap;
+.method public abstract c()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TN;>;"
+        }
+    .end annotation
+.end method
 
-    move-result-object p1
+.method public abstract d(Ljava/lang/Object;Z)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "edge",
+            "isSelfLoop"
+        }
+    .end annotation
 
-    return-object p1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;Z)TN;"
+        }
+    .end annotation
+
+    .annotation runtime Lgl/a;
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/Object;Ljava/lang/Object;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "edge",
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;TN;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract f(Ljava/lang/Object;Ljava/lang/Object;Z)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "edge",
+            "node",
+            "isSelfLoop"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;TN;Z)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract g()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TE;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract h(Ljava/lang/Object;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "edge"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;)TN;"
+        }
+    .end annotation
+.end method
+
+.method public abstract i()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TE;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract j(Ljava/lang/Object;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "edge"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;)TN;"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract k()Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TE;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract l(Ljava/lang/Object;)Ljava/util/Set;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/util/Set<",
+            "TE;>;"
+        }
+    .end annotation
 .end method

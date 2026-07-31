@@ -2,166 +2,43 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Ljava/util/concurrent/atomic/AtomicReference;
+
+.field public final synthetic b:Ljava/lang/String;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;)Z
+.method public synthetic constructor <init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    iput-object p1, p0, Ls/d0;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
-    invoke-interface {p0, p1}, Landroidx/camera/core/impl/Config;->containsOption(Landroidx/camera/core/impl/Config$Option;)Z
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static b(Landroidx/camera/core/impl/ReadableConfig;Ljava/lang/String;Landroidx/camera/core/impl/Config$OptionMatcher;)V
-    .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/Config$OptionMatcher;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0, p1, p2}, Landroidx/camera/core/impl/Config;->findOptions(Ljava/lang/String;Landroidx/camera/core/impl/Config$OptionMatcher;)V
+    iput-object p2, p0, Ls/d0;->b:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public static c(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;)Landroidx/camera/core/impl/Config$OptionPriority;
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
+# virtual methods
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 2
 
-    move-result-object p0
+    .line 1
+    iget-object v0, p0, Ls/d0;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
-    invoke-interface {p0, p1}, Landroidx/camera/core/impl/Config;->getOptionPriority(Landroidx/camera/core/impl/Config$Option;)Landroidx/camera/core/impl/Config$OptionPriority;
+    iget-object v1, p0, Ls/d0;->b:Ljava/lang/String;
 
-    move-result-object p0
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/SurfaceRequest;->h(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return-object p0
-.end method
+    move-result-object p1
 
-.method public static d(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;)Ljava/util/Set;
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0, p1}, Landroidx/camera/core/impl/Config;->getPriorities(Landroidx/camera/core/impl/Config$Option;)Ljava/util/Set;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static e(Landroidx/camera/core/impl/ReadableConfig;)Ljava/util/Set;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/Config;->listOptions()Ljava/util/Set;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static f(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;)Ljava/lang/Object;
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0, p1}, Landroidx/camera/core/impl/Config;->retrieveOption(Landroidx/camera/core/impl/Config$Option;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static g(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0, p1, p2}, Landroidx/camera/core/impl/Config;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static h(Landroidx/camera/core/impl/ReadableConfig;Landroidx/camera/core/impl/Config$Option;Landroidx/camera/core/impl/Config$OptionPriority;)Ljava/lang/Object;
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config$Option;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/Config$OptionPriority;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/ReadableConfig;->getConfig()Landroidx/camera/core/impl/Config;
-
-    move-result-object p0
-
-    invoke-interface {p0, p1, p2}, Landroidx/camera/core/impl/Config;->retrieveOptionWithPriority(Landroidx/camera/core/impl/Config$Option;Landroidx/camera/core/impl/Config$OptionPriority;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    return-object p0
+    return-object p1
 .end method

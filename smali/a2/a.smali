@@ -2,12 +2,39 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/window/extensions/core/util/function/Predicate;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/window/embedding/SplitPlaceholderRule;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/upstream/BandwidthMeter;)J
-    .locals 2
+.method public synthetic constructor <init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
+    .locals 0
 
-    const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-wide v0
+    iput-object p1, p0, La2/a;->a:Landroidx/window/embedding/SplitPlaceholderRule;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final test(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, La2/a;->a:Landroidx/window/embedding/SplitPlaceholderRule;
+
+    check-cast p1, Landroid/app/Activity;
+
+    invoke-static {v0, p1}, Landroidx/window/embedding/EmbeddingAdapter;->d(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/app/Activity;)Z
+
+    move-result p1
+
+    return p1
 .end method

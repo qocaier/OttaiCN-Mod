@@ -3,42 +3,38 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/media3/exoplayer/upstream/CmcdConfiguration$Factory;
+.implements Landroidx/window/extensions/core/util/function/Predicate;
 
 
-# static fields
-.field public static final synthetic a:La2/b;
+# instance fields
+.field public final synthetic a:Landroidx/window/embedding/SplitPlaceholderRule;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, La2/b;
-
-    invoke-direct {v0}, La2/b;-><init>()V
-
-    sput-object v0, La2/b;->a:La2/b;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, La2/b;->a:Landroidx/window/embedding/SplitPlaceholderRule;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final createCmcdConfiguration(Landroidx/media3/common/MediaItem;)Landroidx/media3/exoplayer/upstream/CmcdConfiguration;
-    .locals 0
+.method public final test(Ljava/lang/Object;)Z
+    .locals 1
 
-    invoke-static {p1}, Landroidx/media3/exoplayer/upstream/b;->a(Landroidx/media3/common/MediaItem;)Landroidx/media3/exoplayer/upstream/CmcdConfiguration;
+    .line 1
+    iget-object v0, p0, La2/b;->a:Landroidx/window/embedding/SplitPlaceholderRule;
 
-    move-result-object p1
+    check-cast p1, Landroid/content/Intent;
 
-    return-object p1
+    invoke-static {v0, p1}, Landroidx/window/embedding/EmbeddingAdapter;->i(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Intent;)Z
+
+    move-result p1
+
+    return p1
 .end method

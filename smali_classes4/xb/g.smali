@@ -1,34 +1,30 @@
-.class public final synthetic Lxb/g;
+.class public interface abstract annotation Lxb/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/c$b;
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/c$b;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/g;->a:Lcom/google/common/util/concurrent/c$b;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 1
-
-    iget-object v0, p0, Lxb/g;->a:Lcom/google/common/util/concurrent/c$b;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/c$b;->A(Lcom/google/common/util/concurrent/c$b;)V
-
-    return-void
-.end method
+.annotation build Lxb/k;
+    modifier = {
+        .enum Lcom/google/errorprone/annotations/Modifier;->PUBLIC:Lcom/google/errorprone/annotations/Modifier;,
+        .enum Lcom/google/errorprone/annotations/Modifier;->PRIVATE:Lcom/google/errorprone/annotations/Modifier;,
+        .enum Lcom/google/errorprone/annotations/Modifier;->STATIC:Lcom/google/errorprone/annotations/Modifier;,
+        .enum Lcom/google/errorprone/annotations/Modifier;->FINAL:Lcom/google/errorprone/annotations/Modifier;
+    }
+.end annotation

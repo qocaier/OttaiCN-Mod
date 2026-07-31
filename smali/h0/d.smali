@@ -2,74 +2,41 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
+
+.field public final synthetic b:J
+
 
 # direct methods
-.method public static constructor <clinit>()V
-    .locals 1
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
+    .locals 0
 
-    sget-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$MotionScene;->NAME:Ljava/lang/String;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lh0/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
+
+    iput-wide p2, p0, Lh0/d;->b:J
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;)I
-    .locals 1
 
-    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
+# virtual methods
+.method public final run()V
+    .locals 3
 
-    const-string v0, "defaultDuration"
+    .line 1
+    iget-object v0, p0, Lh0/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    iget-wide v1, p0, Lh0/d;->b:J
 
-    move-result v0
+    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl;->m(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
 
-    if-nez v0, :cond_1
-
-    const-string v0, "layoutDuringTransition"
-
-    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_0
-
-    const/4 p0, -0x1
-
-    return p0
-
-    :cond_0
-    const/16 p0, 0x259
-
-    return p0
-
-    :cond_1
-    const/16 p0, 0x258
-
-    return p0
-.end method
-
-.method public static b(I)I
-    .locals 1
-
-    const/16 v0, 0x258
-
-    if-eq p0, v0, :cond_1
-
-    const/16 v0, 0x259
-
-    if-eq p0, v0, :cond_0
-
-    const/4 p0, -0x1
-
-    return p0
-
-    :cond_0
-    const/4 p0, 0x1
-
-    return p0
-
-    :cond_1
-    const/4 p0, 0x2
-
-    return p0
+    return-void
 .end method

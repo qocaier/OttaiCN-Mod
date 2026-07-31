@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/foregroundLayout"
+    android:background="@android:color/transparent"
+    android:padding="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/icon"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip" />
+            <TextView
+                android:textSize="14.0dip"
+                android:textColor="#ffcdcfd1"
+                android:id="@id/appName"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:id="@id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginStart="28.0dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip">
+            <TextView
+                android:textSize="32.0dip"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:id="@id/glucose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4.0dip">
+                <ImageView
+                    android:id="@id/trend_up"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/dark_up" />
+                <ImageView
+                    android:id="@id/trend_up_little"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/dark_up_little" />
+                <ImageView
+                    android:id="@id/trend_normal"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/dark_normal" />
+                <ImageView
+                    android:id="@id/trend_down_little"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/dark_down_little" />
+                <ImageView
+                    android:id="@id/trend_down"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/dark_down" />
+                <ImageView
+                    android:id="@id/trend_up_large"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/up_large" />
+                <ImageView
+                    android:id="@id/trend_down_large"
+                    android:visibility="invisible"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/down_large" />
+                <TextView
+                    android:textSize="12.0dip"
+                    android:textColor="#ffffffff"
+                    android:id="@id/glucoseUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -2,82 +2,43 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/CameraX;
+
+.field public final synthetic b:Landroid/content/Context;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/CameraConfig;)Landroidx/camera/core/impl/SessionProcessor;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+.method public synthetic constructor <init>(Landroidx/camera/core/CameraX;Landroid/content/Context;)V
+    .locals 0
 
-    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_SESSION_PROCESSOR:Landroidx/camera/core/impl/Config$Option;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-interface {p0, v0}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;)Ljava/lang/Object;
+    iput-object p1, p0, Ls/b;->a:Landroidx/camera/core/CameraX;
 
-    move-result-object p0
+    iput-object p2, p0, Ls/b;->b:Landroid/content/Context;
 
-    check-cast p0, Landroidx/camera/core/impl/SessionProcessor;
-
-    return-object p0
+    return-void
 .end method
 
-.method public static b(Landroidx/camera/core/impl/CameraConfig;Landroidx/camera/core/impl/SessionProcessor;)Landroidx/camera/core/impl/SessionProcessor;
-    .locals 1
-    .param p1    # Landroidx/camera/core/impl/SessionProcessor;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
-    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_SESSION_PROCESSOR:Landroidx/camera/core/impl/Config$Option;
-
-    invoke-interface {p0, v0, p1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Landroidx/camera/core/impl/SessionProcessor;
-
-    return-object p0
-.end method
-
-.method public static c(Landroidx/camera/core/impl/CameraConfig;)I
+# virtual methods
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
     .locals 2
 
-    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_USE_CASE_COMBINATION_REQUIRED_RULE:Landroidx/camera/core/impl/Config$Option;
+    .line 1
+    iget-object v0, p0, Ls/b;->a:Landroidx/camera/core/CameraX;
 
-    const/4 v1, 0x0
+    iget-object v1, p0, Ls/b;->b:Landroid/content/Context;
 
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/CameraX;->c(Landroidx/camera/core/CameraX;Landroid/content/Context;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    move-result-object v1
+    move-result-object p1
 
-    invoke-interface {p0, v0, v1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Ljava/lang/Integer;
-
-    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
-
-    move-result p0
-
-    return p0
-.end method
-
-.method public static d(Landroidx/camera/core/impl/CameraConfig;)Landroidx/camera/core/impl/UseCaseConfigFactory;
-    .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    sget-object v0, Landroidx/camera/core/impl/CameraConfig;->OPTION_USECASE_CONFIG_FACTORY:Landroidx/camera/core/impl/Config$Option;
-
-    sget-object v1, Landroidx/camera/core/impl/UseCaseConfigFactory;->EMPTY_INSTANCE:Landroidx/camera/core/impl/UseCaseConfigFactory;
-
-    invoke-interface {p0, v0, v1}, Landroidx/camera/core/impl/ReadableConfig;->retrieveOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Landroidx/camera/core/impl/UseCaseConfigFactory;
-
-    return-object p0
+    return-object p1
 .end method

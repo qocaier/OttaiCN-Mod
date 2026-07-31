@@ -2,26 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/core/widget/ContentLoadingProgressBar;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/dash/DashChunkSource$Factory;Z)Landroidx/media3/exoplayer/dash/DashChunkSource$Factory;
+.method public synthetic constructor <init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
     .locals 0
-    .annotation build Lac/a;
-    .end annotation
 
-    return-object p0
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Li1/b;->a:Landroidx/core/widget/ContentLoadingProgressBar;
+
+    return-void
 .end method
 
-.method public static b(Landroidx/media3/exoplayer/dash/DashChunkSource$Factory;Landroidx/media3/common/Format;)Landroidx/media3/common/Format;
-    .locals 0
 
-    return-object p1
-.end method
+# virtual methods
+.method public final run()V
+    .locals 1
 
-.method public static c(Landroidx/media3/exoplayer/dash/DashChunkSource$Factory;Landroidx/media3/extractor/text/SubtitleParser$Factory;)Landroidx/media3/exoplayer/dash/DashChunkSource$Factory;
-    .locals 0
-    .annotation build Lac/a;
-    .end annotation
+    .line 1
+    iget-object v0, p0, Li1/b;->a:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    return-object p0
+    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;->c(Landroidx/core/widget/ContentLoadingProgressBar;)V
+
+    return-void
 .end method

@@ -3,44 +3,48 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/BiConsumer;
+.implements Lgb/b0;
 
 
-# static fields
-.field public static final synthetic a:Lmb/n;
+# instance fields
+.field public final synthetic a:Lmb/t;
+
+.field public final synthetic b:Ljava/lang/Object;
+
+.field public final synthetic c:Ljava/lang/Object;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/n;
-
-    invoke-direct {v0}, Lmb/n;-><init>()V
-
-    sput-object v0, Lmb/n;->a:Lmb/n;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lmb/t;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lmb/n;->a:Lmb/t;
+
+    iput-object p2, p0, Lmb/n;->b:Ljava/lang/Object;
+
+    iput-object p3, p0, Lmb/n;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
-    .locals 0
+.method public final get()Ljava/lang/Object;
+    .locals 3
 
-    check-cast p1, Lcom/google/common/collect/ImmutableRangeSet$a;
+    .line 1
+    iget-object v0, p0, Lmb/n;->a:Lmb/t;
 
-    check-cast p2, Lcom/google/common/collect/Range;
+    iget-object v1, p0, Lmb/n;->b:Ljava/lang/Object;
 
-    invoke-virtual {p1, p2}, Lcom/google/common/collect/ImmutableRangeSet$a;->a(Lcom/google/common/collect/Range;)Lcom/google/common/collect/ImmutableRangeSet$a;
+    iget-object v2, p0, Lmb/n;->c:Ljava/lang/Object;
 
-    return-void
+    invoke-static {v0, v1, v2}, Lmb/t;->S(Lmb/t;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
 .end method

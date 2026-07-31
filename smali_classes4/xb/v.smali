@@ -1,34 +1,26 @@
-.class public final synthetic Lxb/v;
+.class public interface abstract annotation Lxb/v;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Ljava/lang/AutoCloseable;
+# annotations
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->LOCAL_VARIABLE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Ljava/lang/AutoCloseable;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/v;->a:Ljava/lang/AutoCloseable;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 1
-
-    iget-object v0, p0, Lxb/v;->a:Ljava/lang/AutoCloseable;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/ClosingFuture;->a(Ljava/lang/AutoCloseable;)V
-
-    return-void
-.end method
+.annotation build Lxb/k;
+    modifier = {
+        .enum Lcom/google/errorprone/annotations/Modifier;->FINAL:Lcom/google/errorprone/annotations/Modifier;
+    }
+.end annotation

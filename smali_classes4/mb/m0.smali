@@ -3,20 +3,21 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Lgb/n;
 
 
 # instance fields
-.field public final synthetic a:Ljava/util/function/Function;
+.field public final synthetic a:Lcom/google/common/graph/Graphs$a$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/util/function/Function;)V
+.method public synthetic constructor <init>(Lcom/google/common/graph/Graphs$a$a;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lmb/m0;->a:Ljava/util/function/Function;
+    iput-object p1, p0, Lmb/m0;->a:Lcom/google/common/graph/Graphs$a$a;
 
     return-void
 .end method
@@ -26,9 +27,12 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    iget-object v0, p0, Lmb/m0;->a:Ljava/util/function/Function;
+    .line 1
+    iget-object v0, p0, Lmb/m0;->a:Lcom/google/common/graph/Graphs$a$a;
 
-    invoke-static {v0, p1}, Lcom/google/common/collect/f;->m(Ljava/util/function/Function;Ljava/lang/Object;)Ljava/lang/Object;
+    check-cast p1, Lmb/f0;
+
+    invoke-static {v0, p1}, Lcom/google/common/graph/Graphs$a$a;->a(Lcom/google/common/graph/Graphs$a$a;Lmb/f0;)Lmb/f0;
 
     move-result-object p1
 

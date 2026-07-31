@@ -1,34 +1,80 @@
-.class public final synthetic Lmf/b;
+.class public interface abstract Lmf/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lmf/b$a;
+    }
+.end annotation
 
 
-# instance fields
-.field public final synthetic a:Lmf/a$b;
+# static fields
+.field public static final a:Lmf/b$a;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
 
 
 # direct methods
-.method public synthetic constructor <init>(Lmf/a$b;)V
-    .locals 0
+.method static constructor <clinit>()V
+    .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    sget-object v0, Lmf/b$a;->a:Lmf/b$a;
 
-    iput-object p1, p0, Lmf/b;->a:Lmf/a$b;
+    .line 2
+    .line 3
+    sput-object v0, Lmf/b;->a:Lmf/b$a;
 
+    .line 4
+    .line 5
     return-void
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
+.method public abstract a(Lul/c;)Ljava/lang/Object;
+    .param p1    # Lul/c;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lul/c<",
+            "-[B>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
-    iget-object v0, p0, Lmf/b;->a:Lmf/a$b;
+    .annotation build Lsq/l;
+    .end annotation
+.end method
 
-    invoke-static {v0}, Lmf/a$b;->a(Lmf/a$b;)V
+.method public abstract b()Ljava/lang/String;
+    .annotation build Lsq/k;
+    .end annotation
+.end method
 
-    return-void
+.method public abstract getSource()Ljava/lang/Object;
+    .annotation build Lsq/k;
+    .end annotation
 .end method

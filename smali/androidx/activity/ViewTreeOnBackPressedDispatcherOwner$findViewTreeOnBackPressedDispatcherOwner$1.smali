@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/l;
+.implements Ljm/l;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/l<",
+        "Ljm/l<",
         "Landroid/view/View;",
         "Landroid/view/View;",
         ">;"
@@ -32,7 +32,7 @@
 
 
 # direct methods
-.method public static constructor <clinit>()V
+.method static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/ViewTreeOnBackPressedDispatcherOwner$findViewTreeOnBackPressedDispatcherOwner$1;
@@ -59,15 +59,15 @@
 .method public final invoke(Landroid/view/View;)Landroid/view/View;
     .locals 1
     .param p1    # Landroid/view/View;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
-    .annotation build Lzr/l;
+    .annotation build Lsq/l;
     .end annotation
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
@@ -80,12 +80,11 @@
 
     check-cast p1, Landroid/view/View;
 
-    goto :goto_0
+    return-object p1
 
     :cond_0
     const/4 p1, 0x0
 
-    :goto_0
     return-object p1
 .end method
 

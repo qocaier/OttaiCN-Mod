@@ -1,36 +1,45 @@
-.class public final synthetic Lmb/k1;
+.class public interface abstract Lmb/k1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/function/Supplier;
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-# instance fields
-.field public final synthetic a:Ljava/util/Comparator;
+.annotation build Lfb/a;
+.end annotation
 
+.annotation runtime Lmb/e0;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Ljava/util/Comparator;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lmb/k1;->a:Ljava/util/Comparator;
-
-    return-void
-.end method
+.annotation runtime Lxb/f;
+    value = "Implement with a lambda, or use GraphBuilder to build a Graph with the desired edges"
+.end annotation
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 1
+.method public abstract b(Ljava/lang/Object;)Ljava/lang/Iterable;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
 
-    iget-object v0, p0, Lmb/k1;->a:Ljava/util/Comparator;
-
-    invoke-static {v0}, Lcom/google/common/collect/f;->w(Ljava/util/Comparator;)Lcom/google/common/collect/ImmutableSortedSet$a;
-
-    move-result-object v0
-
-    return-object v0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/lang/Iterable<",
+            "+TN;>;"
+        }
+    .end annotation
 .end method

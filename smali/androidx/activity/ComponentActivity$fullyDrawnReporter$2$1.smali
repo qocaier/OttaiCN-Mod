@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
@@ -19,15 +19,15 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/a<",
-        "Len/y1;",
+        "Ljm/a<",
+        "Ljl/e2;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
@@ -51,7 +51,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity$fullyDrawnReporter$2$1;->invoke()V
 
-    sget-object v0, Len/y1;->a:Len/y1;
+    sget-object v0, Ljl/e2;->a:Ljl/e2;
 
     return-object v0
 .end method

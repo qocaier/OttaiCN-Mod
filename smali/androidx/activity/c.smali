@@ -16,6 +16,7 @@
 .method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Landroidx/activity/c;->a:Landroidx/activity/ComponentActivity;
@@ -30,6 +31,7 @@
 .method public final run()V
     .locals 2
 
+    .line 1
     iget-object v0, p0, Landroidx/activity/c;->a:Landroidx/activity/ComponentActivity;
 
     iget-object v1, p0, Landroidx/activity/c;->b:Landroidx/activity/OnBackPressedDispatcher;

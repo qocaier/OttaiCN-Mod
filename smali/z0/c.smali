@@ -4,18 +4,11 @@
 
 
 # direct methods
-.method public static constructor <clinit>()V
-    .locals 1
-
-    sget-object v0, Landroidx/media3/common/DebugViewProvider;->NONE:Landroidx/media3/common/DebugViewProvider;
-
-    return-void
-.end method
-
-.method public static synthetic a(II)Landroid/view/SurfaceView;
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/text/PrecomputedText;
     .locals 0
 
-    const/4 p0, 0x0
+    .line 1
+    check-cast p0, Landroid/text/PrecomputedText;
 
     return-object p0
 .end method

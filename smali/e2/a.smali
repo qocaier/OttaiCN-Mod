@@ -4,8 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/extractor/BinarySearchSeeker$TimestampSeeker;)V
+.method public static bridge synthetic a(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
     .locals 0
 
-    return-void
+    .line 1
+    invoke-interface {p0}, Landroid/view/WindowManager;->getCurrentWindowMetrics()Landroid/view/WindowMetrics;
+
+    move-result-object p0
+
+    return-object p0
 .end method

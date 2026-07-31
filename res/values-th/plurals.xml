@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">สามารถเลือกไฟล์ %1$d ได้เท่านั้น</item>
+        <item quantity="one">สามารถเลือกไฟล์ %1$d ได้เท่านั้น</item>
+        <item quantity="few">สามารถเลือกไฟล์ %1$d ได้เท่านั้น</item>
+        <item quantity="many">สามารถเลือกไฟล์ %1$d ได้เท่านั้น</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+</resources>

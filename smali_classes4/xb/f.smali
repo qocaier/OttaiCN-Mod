@@ -1,34 +1,36 @@
-.class public final synthetic Lxb/f;
+.class public interface abstract annotation Lxb/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/c$b;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/f;
+        value = "Create a real instance instead"
+    .end subannotation
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/c$b;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Inherited;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    iput-object p1, p0, Lxb/f;->a:Lcom/google/common/util/concurrent/c$b;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
-
-    iget-object v0, p0, Lxb/f;->a:Lcom/google/common/util/concurrent/c$b;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/c$b;->z(Lcom/google/common/util/concurrent/c$b;)V
-
-    return-void
+.method public abstract value()Ljava/lang/String;
 .end method

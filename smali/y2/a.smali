@@ -1,18 +1,20 @@
-.class public final synthetic Ly2/a;
+.class public interface abstract annotation Ly2/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
-# direct methods
-.method public static a(Landroidx/window/layout/adapter/WindowBackend;)Z
-    .locals 0
-    .annotation build Landroidx/annotation/RestrictTo;
-        value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
-        }
-    .end annotation
 
-    const/4 p0, 0x0
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-    return p0
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
+
+.annotation build Lw2/f;
+.end annotation

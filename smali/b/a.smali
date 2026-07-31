@@ -2,99 +2,118 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Cloneable;
-
-
-# instance fields
-.field public a:Ljava/lang/String;
-
-.field public b:Ljava/lang/String;
-
-.field public c:Ljava/lang/String;
-
-.field public d:Ljava/lang/String;
-
-.field public e:Ljava/lang/String;
-
-.field public f:Ljava/lang/String;
-
-.field public g:Ljava/lang/String;
-
-.field public h:Ljava/lang/String;
-
-.field public i:Ljava/lang/String;
-
-.field public j:I
-
-.field public k:Ljava/lang/String;
-
-.field public l:J
-
-.field public m:I
-
-.field public n:Z
-
-.field public o:Ljava/lang/String;
-
-.field public p:Ljava/lang/String;
-
-.field public q:Ljava/lang/String;
-
-.field public r:J
-
-.field public s:I
-
 
 # direct methods
 .method public constructor <init>()V
-    .locals 4
+    .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, ""
-
-    iput-object v0, p0, Lb/a;->a:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->b:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->c:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->d:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->e:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->f:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->g:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->h:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->i:Ljava/lang/String;
-
-    const/4 v1, 0x0
-
-    iput v1, p0, Lb/a;->j:I
-
-    iput-object v0, p0, Lb/a;->k:Ljava/lang/String;
-
-    const-wide/16 v2, 0x0
-
-    iput-wide v2, p0, Lb/a;->l:J
-
-    iput v1, p0, Lb/a;->m:I
-
-    iput-boolean v1, p0, Lb/a;->n:Z
-
-    iput-object v0, p0, Lb/a;->o:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->p:Ljava/lang/String;
-
-    iput-object v0, p0, Lb/a;->q:Ljava/lang/String;
-
-    iput-wide v2, p0, Lb/a;->r:J
-
-    iput v1, p0, Lb/a;->s:I
-
+    .line 2
+    .line 3
+    .line 4
     return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/StackTraceElement;
+    .locals 2
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/Exception;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const-class v1, Lb/c;
+
+    .line 7
+    .line 8
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v1
+
+    .line 12
+    invoke-static {v0, v1}, Lb/b;->a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    return-object v0
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public final b()Ljava/lang/StackTraceElement;
+    .locals 2
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/Exception;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const-class v1, Lb/d;
+
+    .line 7
+    .line 8
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v1
+
+    .line 12
+    invoke-static {v0, v1}, Lb/b;->a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    return-object v0
+    .line 17
+    .line 18
+    .line 19
+    .line 20
 .end method

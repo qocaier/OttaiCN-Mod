@@ -3,44 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/BinaryOperator;
+.implements Lgb/n;
 
 
-# static fields
-.field public static final synthetic a:Lmb/s;
+# instance fields
+.field public final synthetic a:Lmb/t$a$a;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/s;
-
-    invoke-direct {v0}, Lmb/s;-><init>()V
-
-    sput-object v0, Lmb/s;->a:Lmb/s;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lmb/t$a$a;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lmb/s;->a:Lmb/t$a$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
 
-    check-cast p1, Lcom/google/common/collect/ImmutableBiMap$a;
+    .line 1
+    iget-object v0, p0, Lmb/s;->a:Lmb/t$a$a;
 
-    check-cast p2, Lcom/google/common/collect/ImmutableBiMap$a;
-
-    invoke-virtual {p1, p2}, Lcom/google/common/collect/ImmutableBiMap$a;->q(Lcom/google/common/collect/ImmutableMap$b;)Lcom/google/common/collect/ImmutableBiMap$a;
+    invoke-static {v0, p1}, Lmb/t$a$a;->a(Lmb/t$a$a;Ljava/lang/Object;)Lmb/f0;
 
     move-result-object p1
 

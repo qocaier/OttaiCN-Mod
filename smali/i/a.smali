@@ -2,40 +2,27 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/util/concurrent/Executor;
+
 
 # direct methods
-.method public static a(Landroidx/browser/customtabs/EngagementSignalsCallback;ILandroid/os/Bundle;)V
+.method public synthetic constructor <init>()V
     .locals 0
-    .param p1    # I
-        .annotation build Landroidx/annotation/IntRange;
-            from = 0x1L
-            to = 0x64L
-        .end annotation
-    .end param
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method public static b(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
-    .locals 0
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
-    return-void
-.end method
-
-.method public static c(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
+# virtual methods
+.method public final execute(Ljava/lang/Runnable;)V
     .locals 0
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+
+    .line 1
+    invoke-static {p1}, Landroidx/arch/core/executor/ArchTaskExecutor;->a(Ljava/lang/Runnable;)V
 
     return-void
 .end method

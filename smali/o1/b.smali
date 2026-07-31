@@ -4,35 +4,13 @@
 
 
 # direct methods
-.method public static bridge synthetic a(Landroidx/media3/exoplayer/image/ImageDecoder;)Ljava/lang/Object;
-    .locals 0
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
+.method public static synthetic a(Ljava/io/FileDescriptor;I)Landroid/media/MediaMuxer;
+    .locals 1
 
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroidx/media3/decoder/DecoderException;
-        }
-    .end annotation
+    .line 1
+    new-instance v0, Landroid/media/MediaMuxer;
 
-    invoke-interface {p0}, Landroidx/media3/exoplayer/image/ImageDecoder;->dequeueOutputBuffer()Landroidx/media3/exoplayer/image/ImageOutputBuffer;
+    invoke-direct {v0, p0, p1}, Landroid/media/MediaMuxer;-><init>(Ljava/io/FileDescriptor;I)V
 
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static bridge synthetic b(Landroidx/media3/exoplayer/image/ImageDecoder;Ljava/lang/Object;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroidx/media3/decoder/DecoderException;
-        }
-    .end annotation
-
-    check-cast p1, Landroidx/media3/decoder/DecoderInputBuffer;
-
-    invoke-interface {p0, p1}, Landroidx/media3/exoplayer/image/ImageDecoder;->queueInputBuffer(Landroidx/media3/decoder/DecoderInputBuffer;)V
-
-    return-void
+    return-object v0
 .end method

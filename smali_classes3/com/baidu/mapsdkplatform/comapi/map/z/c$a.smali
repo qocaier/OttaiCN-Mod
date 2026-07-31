@@ -1,0 +1,165 @@
+.class Lcom/baidu/mapsdkplatform/comapi/map/z/c$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/baidu/mapsdkplatform/comapi/map/z/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/baidu/mapsdkplatform/comapi/map/z/c;->c()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/baidu/mapsdkplatform/comapi/map/z/c;
+
+
+# direct methods
+.method public constructor <init>(Lcom/baidu/mapsdkplatform/comapi/map/z/c;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/baidu/mapsdkplatform/comapi/map/z/c$a;->a:Lcom/baidu/mapsdkplatform/comapi/map/z/c;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+
+# virtual methods
+.method public a(Lcom/baidu/mapapi/map/track/TraceOverlay;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/baidu/mapsdkplatform/comapi/map/z/c$a;->a:Lcom/baidu/mapsdkplatform/comapi/map/z/c;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, Lcom/baidu/mapsdkplatform/comapi/map/z/c;->b(Lcom/baidu/mapsdkplatform/comapi/map/z/c;Lcom/baidu/mapapi/map/track/TraceOverlay;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public b(Lcom/baidu/mapapi/map/track/TraceOverlay;)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lcom/baidu/mapsdkplatform/comapi/map/z/c$a;->a:Lcom/baidu/mapsdkplatform/comapi/map/z/c;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Lcom/baidu/mapsdkplatform/comapi/map/z/c;->a()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+.method public c(Lcom/baidu/mapapi/map/track/TraceOverlay;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/baidu/mapsdkplatform/comapi/map/z/c$a;->a:Lcom/baidu/mapsdkplatform/comapi/map/z/c;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, Lcom/baidu/mapsdkplatform/comapi/map/z/c;->a(Lcom/baidu/mapsdkplatform/comapi/map/z/c;Lcom/baidu/mapapi/map/track/TraceOverlay;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

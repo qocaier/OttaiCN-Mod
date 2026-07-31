@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/l;
+.implements Ljm/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILco/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    value = Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILjm/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/l<",
+        "Ljm/l<",
         "Landroid/content/res/Resources;",
         "Ljava/lang/Boolean;",
         ">;"
@@ -32,7 +32,7 @@
 
 
 # direct methods
-.method public static constructor <clinit>()V
+.method static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/SystemBarStyle$Companion$auto$1;
@@ -59,15 +59,15 @@
 .method public final invoke(Landroid/content/res/Resources;)Ljava/lang/Boolean;
     .locals 1
     .param p1    # Landroid/content/res/Resources;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
-    .annotation build Lzr/k;
+    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "resources"
 
-    invoke-static {p1, v0}, Ldo/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;

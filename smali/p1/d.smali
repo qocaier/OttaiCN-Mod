@@ -2,22 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/lifecycle/LifecycleEventObserver;
+
+
+# instance fields
+.field public final synthetic a:Ljn/p;
+
 
 # direct methods
-.method public static constructor <clinit>()V
-    .locals 1
+.method public synthetic constructor <init>(Ljn/p;)V
+    .locals 0
 
-    sget-object v0, Landroidx/media3/exoplayer/mediacodec/MediaCodecAdapter$Factory;->DEFAULT:Landroidx/media3/exoplayer/mediacodec/MediaCodecAdapter$Factory;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lp1/d;->a:Ljn/p;
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;)Landroidx/media3/exoplayer/mediacodec/MediaCodecAdapter$Factory;
+
+# virtual methods
+.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
 
-    new-instance v0, Landroidx/media3/exoplayer/mediacodec/DefaultMediaCodecAdapterFactory;
+    .line 1
+    iget-object v0, p0, Lp1/d;->a:Ljn/p;
 
-    invoke-direct {v0, p0}, Landroidx/media3/exoplayer/mediacodec/DefaultMediaCodecAdapterFactory;-><init>(Landroid/content/Context;)V
+    invoke-static {v0, p1, p2}, Landroidx/lifecycle/Lifecycle;->a(Ljn/p;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
-    return-object v0
+    return-void
 .end method

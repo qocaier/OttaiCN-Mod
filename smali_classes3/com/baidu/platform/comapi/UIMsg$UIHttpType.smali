@@ -1,0 +1,65 @@
+.class public Lcom/baidu/platform/comapi/UIMsg$UIHttpType;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/baidu/platform/comapi/UIMsg;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "UIHttpType"
+.end annotation
+
+
+# static fields
+.field public static final APP_SEARCH_REQ:I = 0x0
+
+.field public static final HIDE_TO_FRI_REQ:I = 0x13
+
+.field public static final NET_HTTP_FLS:I = 0x7
+
+.field public static final NET_HTTP_NONE:I = -0x1
+
+.field public static final PERSONAL_CENTER_COMMON_PLACE_REQ:I = 0x5
+
+.field public static final SHOW_TO_FRI_REQ:I = 0x12
+
+.field public static final SYNC_REQ:I = 0x14
+
+.field public static final VERSION_UPDATE:I = 0x6
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method

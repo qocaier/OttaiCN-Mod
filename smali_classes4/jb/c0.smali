@@ -3,42 +3,42 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/b0;
+.implements Ljava/util/function/BiConsumer;
 
 
-# static fields
-.field public static final synthetic a:Ljb/c0;
+# instance fields
+.field public final synthetic a:Ljava/util/function/Function;
+
+.field public final synthetic b:Ljava/util/function/Function;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Ljb/c0;
-
-    invoke-direct {v0}, Ljb/c0;-><init>()V
-
-    sput-object v0, Ljb/c0;->a:Ljb/c0;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Ljava/util/function/Function;Ljava/util/function/Function;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ljb/c0;->a:Ljava/util/function/Function;
+
+    iput-object p2, p0, Ljb/c0;->b:Ljava/util/function/Function;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 1
+.method public final accept(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 2
 
-    invoke-static {}, Lcom/google/common/base/Suppliers$a;->a()Ljava/lang/Void;
+    .line 1
+    iget-object v0, p0, Ljb/c0;->a:Ljava/util/function/Function;
 
-    move-result-object v0
+    iget-object v1, p0, Ljb/c0;->b:Ljava/util/function/Function;
 
-    return-object v0
+    check-cast p1, Ljb/q4;
+
+    invoke-static {v0, v1, p1, p2}, Lcom/google/common/collect/f;->t(Ljava/util/function/Function;Ljava/util/function/Function;Ljb/q4;Ljava/lang/Object;)V
+
+    return-void
 .end method

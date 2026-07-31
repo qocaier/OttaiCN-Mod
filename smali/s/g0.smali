@@ -2,44 +2,43 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/SurfaceRequest;
+
+.field public final synthetic b:Ljava/util/concurrent/atomic/AtomicReference;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;JILjava/util/Map;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/SurfaceRequest;Ljava/util/concurrent/atomic/AtomicReference;)V
     .locals 0
-    .param p4    # Ljava/util/Map;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ls/g0;->a:Landroidx/camera/core/SurfaceRequest;
+
+    iput-object p2, p0, Ls/g0;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     return-void
 .end method
 
-.method public static b(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
-    .locals 0
 
-    return-void
-.end method
+# virtual methods
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 2
 
-.method public static c(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
-    .locals 0
+    .line 1
+    iget-object v0, p0, Ls/g0;->a:Landroidx/camera/core/SurfaceRequest;
 
-    return-void
-.end method
+    iget-object v1, p0, Ls/g0;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
-.method public static d(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
-    .locals 0
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/SurfaceRequest;->g(Landroidx/camera/core/SurfaceRequest;Ljava/util/concurrent/atomic/AtomicReference;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return-void
-.end method
+    move-result-object p1
 
-.method public static e(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static f(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;IJ)V
-    .locals 0
-
-    return-void
+    return-object p1
 .end method

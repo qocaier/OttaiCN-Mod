@@ -4,10 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/common/util/TimestampIterator;)J
-    .locals 2
+.method public static bridge synthetic a(Landroid/view/ContentInfo$Builder;I)Landroid/view/ContentInfo$Builder;
+    .locals 0
 
-    const-wide v0, -0x7fffffffffffffffL    # -4.9E-324
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setFlags(I)Landroid/view/ContentInfo$Builder;
 
-    return-wide v0
+    move-result-object p0
+
+    return-object p0
 .end method

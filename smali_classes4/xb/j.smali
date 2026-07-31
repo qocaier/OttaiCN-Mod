@@ -1,34 +1,35 @@
-.class public final synthetic Lxb/j;
+.class public interface abstract annotation Lxb/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/d$g;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/j;
+        containerOf = {}
+    .end subannotation
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/d$g;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Inherited;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    iput-object p1, p0, Lxb/j;->a:Lcom/google/common/util/concurrent/d$g;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
-
-    iget-object v0, p0, Lxb/j;->a:Lcom/google/common/util/concurrent/d$g;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/d$g;->A(Lcom/google/common/util/concurrent/d$g;)V
-
-    return-void
+.method public abstract containerOf()[Ljava/lang/String;
 .end method

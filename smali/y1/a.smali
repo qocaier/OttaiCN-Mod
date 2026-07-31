@@ -4,10 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/text/TextOutput;Ljava/util/List;)V
+.method public static bridge synthetic a(Landroid/webkit/WebView;)Landroid/webkit/WebChromeClient;
     .locals 0
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
 
-    return-void
+    .line 1
+    invoke-virtual {p0}, Landroid/webkit/WebView;->getWebChromeClient()Landroid/webkit/WebChromeClient;
+
+    move-result-object p0
+
+    return-object p0
 .end method

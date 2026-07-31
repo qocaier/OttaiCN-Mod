@@ -2,30 +2,45 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/window/extensions/core/util/function/Predicate;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/window/embedding/SplitPlaceholderRule;
+
+.field public final synthetic b:Landroid/content/Context;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/upstream/CmcdConfiguration$RequestConfig;)Lcom/google/common/collect/ImmutableListMultimap;
+.method public synthetic constructor <init>(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;)V
     .locals 0
 
-    invoke-static {}, Lcom/google/common/collect/ImmutableListMultimap;->of()Lcom/google/common/collect/ImmutableListMultimap;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    iput-object p1, p0, La2/c;->a:Landroidx/window/embedding/SplitPlaceholderRule;
 
-    return-object p0
+    iput-object p2, p0, La2/c;->b:Landroid/content/Context;
+
+    return-void
 .end method
 
-.method public static b(Landroidx/media3/exoplayer/upstream/CmcdConfiguration$RequestConfig;I)I
-    .locals 0
 
-    const p0, -0x7fffffff
+# virtual methods
+.method public final test(Ljava/lang/Object;)Z
+    .locals 2
 
-    return p0
-.end method
+    .line 1
+    iget-object v0, p0, La2/c;->a:Landroidx/window/embedding/SplitPlaceholderRule;
 
-.method public static c(Landroidx/media3/exoplayer/upstream/CmcdConfiguration$RequestConfig;Ljava/lang/String;)Z
-    .locals 0
+    iget-object v1, p0, La2/c;->b:Landroid/content/Context;
 
-    const/4 p0, 0x1
+    check-cast p1, Landroid/view/WindowMetrics;
 
-    return p0
+    invoke-static {v0, v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;->b(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;Landroid/view/WindowMetrics;)Z
+
+    move-result p1
+
+    return p1
 .end method

@@ -1,46 +1,45 @@
-.class public final synthetic Lmb/f1;
+.class public interface abstract Lmb/f1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/function/Function;
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-# static fields
-.field public static final synthetic a:Lmb/f1;
+.annotation build Lfb/a;
+.end annotation
 
+.annotation runtime Lmb/e0;
+.end annotation
 
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/f1;
-
-    invoke-direct {v0}, Lmb/f1;-><init>()V
-
-    sput-object v0, Lmb/f1;->a:Lmb/f1;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.annotation runtime Lxb/f;
+    value = "Implement with a lambda, or use GraphBuilder to build a Graph with the desired edges"
+.end annotation
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public abstract a(Ljava/lang/Object;)Ljava/lang/Iterable;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
 
-    check-cast p1, Lmb/h5;
-
-    invoke-static {p1}, Lcom/google/common/collect/ImmutableSetMultimap;->copyOf(Lmb/t4;)Lcom/google/common/collect/ImmutableSetMultimap;
-
-    move-result-object p1
-
-    return-object p1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)",
+            "Ljava/lang/Iterable<",
+            "+TN;>;"
+        }
+    .end annotation
 .end method

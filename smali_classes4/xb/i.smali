@@ -1,34 +1,21 @@
-.class public final synthetic Lxb/i;
+.class public interface abstract annotation Lxb/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/d$g;
+# annotations
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/d$g;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/i;->a:Lcom/google/common/util/concurrent/d$g;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 1
-
-    iget-object v0, p0, Lxb/i;->a:Lcom/google/common/util/concurrent/d$g;
-
-    invoke-static {v0}, Lcom/google/common/util/concurrent/d$g;->z(Lcom/google/common/util/concurrent/d$g;)V
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

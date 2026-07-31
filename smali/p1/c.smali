@@ -2,15 +2,41 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/lifecycle/DispatchQueue;
+
+.field public final synthetic b:Ljava/lang/Runnable;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/mediacodec/MediaCodecAdapter;Landroidx/media3/exoplayer/mediacodec/MediaCodecAdapter$OnBufferAvailableListener;)Z
+.method public synthetic constructor <init>(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
     .locals 0
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x15
-    .end annotation
 
-    const/4 p0, 0x0
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return p0
+    iput-object p1, p0, Lp1/c;->a:Landroidx/lifecycle/DispatchQueue;
+
+    iput-object p2, p0, Lp1/c;->b:Ljava/lang/Runnable;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lp1/c;->a:Landroidx/lifecycle/DispatchQueue;
+
+    iget-object v1, p0, Lp1/c;->b:Ljava/lang/Runnable;
+
+    invoke-static {v0, v1}, Landroidx/lifecycle/DispatchQueue;->a(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
+
+    return-void
 .end method

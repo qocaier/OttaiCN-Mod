@@ -1,0 +1,27 @@
+.class public interface abstract Lnb/r;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lnb/h;
+.end annotation
+
+
+# virtual methods
+.method public abstract add(J)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "x"
+        }
+    .end annotation
+.end method
+
+.method public abstract increment()V
+.end method
+
+.method public abstract sum()J
+.end method

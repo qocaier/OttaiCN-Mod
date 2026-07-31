@@ -1,36 +1,38 @@
-.class public final synthetic Lxb/r;
+.class public interface abstract annotation Lxb/r;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Callable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Ljava/lang/Object;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/r;
+        modifier = {}
+        value = {}
+    .end subannotation
+.end annotation
 
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Ljava/lang/Object;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/r;->a:Ljava/lang/Object;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final call()Ljava/lang/Object;
-    .locals 1
+.method public abstract modifier()[Lcom/google/errorprone/annotations/Modifier;
+.end method
 
-    iget-object v0, p0, Lxb/r;->a:Ljava/lang/Object;
-
-    invoke-static {v0}, Lxb/u;->c(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    return-object v0
+.method public abstract value()[Ljavax/lang/model/element/Modifier;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
 .end method

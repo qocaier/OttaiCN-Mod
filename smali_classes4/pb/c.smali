@@ -1,42 +1,183 @@
-.class public final synthetic Lpb/c;
+.class public interface abstract Lpb/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/b0;
+.implements Ljava/io/DataOutput;
 
 
-# instance fields
-.field public final synthetic a:Lpb/e;
+# annotations
+.annotation build Lfb/c;
+.end annotation
 
-.field public final synthetic b:Ljava/lang/Object;
+.annotation build Lfb/d;
+.end annotation
 
-
-# direct methods
-.method public synthetic constructor <init>(Lpb/e;Ljava/lang/Object;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lpb/c;->a:Lpb/e;
-
-    iput-object p2, p0, Lpb/c;->b:Ljava/lang/Object;
-
-    return-void
-.end method
+.annotation runtime Lpb/q;
+.end annotation
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 2
+.method public abstract toByteArray()[B
+.end method
 
-    iget-object v0, p0, Lpb/c;->a:Lpb/e;
+.method public abstract write(I)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "b"
+        }
+    .end annotation
+.end method
 
-    iget-object v1, p0, Lpb/c;->b:Ljava/lang/Object;
+.method public abstract write([B)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "b"
+        }
+    .end annotation
+.end method
 
-    invoke-static {v0, v1}, Lpb/e;->Q(Lpb/e;Ljava/lang/Object;)Ljava/lang/Boolean;
+.method public abstract write([BII)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "b",
+            "off",
+            "len"
+        }
+    .end annotation
+.end method
 
-    move-result-object v0
+.method public abstract writeBoolean(Z)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
 
-    return-object v0
+.method public abstract writeByte(I)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeBytes(Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "s"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+.end method
+
+.method public abstract writeChar(I)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeChars(Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "s"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeDouble(D)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeFloat(F)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeInt(I)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeLong(J)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeShort(I)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "v"
+        }
+    .end annotation
+.end method
+
+.method public abstract writeUTF(Ljava/lang/String;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "s"
+        }
+    .end annotation
 .end method

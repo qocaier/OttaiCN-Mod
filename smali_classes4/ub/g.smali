@@ -3,44 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/n;
+.implements Ljava/lang/Runnable;
 
 
-# static fields
-.field public static final synthetic a:Lub/g;
+# instance fields
+.field public final synthetic a:Lcom/google/common/util/concurrent/c$b;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lub/g;
-
-    invoke-direct {v0}, Lub/g;-><init>()V
-
-    sput-object v0, Lub/g;->a:Lub/g;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/c$b;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lub/g;->a:Lcom/google/common/util/concurrent/c$b;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final run()V
+    .locals 1
 
-    check-cast p1, Ljava/util/Collection;
+    .line 1
+    iget-object v0, p0, Lub/g;->a:Lcom/google/common/util/concurrent/c$b;
 
-    invoke-static {p1}, Lcom/google/common/collect/ImmutableMultiset;->copyOf(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMultiset;
+    invoke-static {v0}, Lcom/google/common/util/concurrent/c$b;->z(Lcom/google/common/util/concurrent/c$b;)V
 
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

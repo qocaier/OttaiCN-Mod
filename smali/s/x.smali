@@ -2,153 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/camera/core/ForwardingImageProxy$OnImageCloseListener;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/SafeCloseImageReaderProxy;
+
 
 # direct methods
-.method public static a(I)Ljava/lang/String;
+.method public synthetic constructor <init>(Landroidx/camera/core/SafeCloseImageReaderProxy;)V
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
-    packed-switch p0, :pswitch_data_0
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string p0, "audio/none"
+    iput-object p1, p0, Ls/x;->a:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-    return-object p0
-
-    :pswitch_0
-    const-string p0, "audio/opus"
-
-    return-object p0
-
-    :pswitch_1
-    const-string p0, "audio/vorbis"
-
-    return-object p0
-
-    :pswitch_2
-    const-string p0, "audio/mp4a-latm"
-
-    return-object p0
-
-    :pswitch_3
-    const-string p0, "audio/amr-wb"
-
-    return-object p0
-
-    :pswitch_4
-    const-string p0, "audio/3gpp"
-
-    return-object p0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x1
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_2
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
+    return-void
 .end method
 
-.method public static b(I)I
-    .locals 2
 
-    const/4 v0, 0x3
+# virtual methods
+.method public final onImageClose(Landroidx/camera/core/ImageProxy;)V
+    .locals 1
 
-    if-eq p0, v0, :cond_2
+    .line 1
+    iget-object v0, p0, Ls/x;->a:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-    const/4 v0, 0x4
+    invoke-static {v0, p1}, Landroidx/camera/core/SafeCloseImageReaderProxy;->b(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/ImageProxy;)V
 
-    const/4 v1, 0x5
-
-    if-eq p0, v0, :cond_1
-
-    if-eq p0, v1, :cond_0
-
-    const/4 p0, -0x1
-
-    return p0
-
-    :cond_0
-    const/16 p0, 0x27
-
-    return p0
-
-    :cond_1
-    return v1
-
-    :cond_2
-    const/4 p0, 0x2
-
-    return p0
-.end method
-
-.method public static c(I)Ljava/lang/String;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    packed-switch p0, :pswitch_data_0
-
-    const-string/jumbo p0, "video/none"
-
-    return-object p0
-
-    :pswitch_0
-    const-string/jumbo p0, "video/av01"
-
-    return-object p0
-
-    :pswitch_1
-    const-string/jumbo p0, "video/dolby-vision"
-
-    return-object p0
-
-    :pswitch_2
-    const-string/jumbo p0, "video/x-vnd.on2.vp9"
-
-    return-object p0
-
-    :pswitch_3
-    const-string/jumbo p0, "video/hevc"
-
-    return-object p0
-
-    :pswitch_4
-    const-string/jumbo p0, "video/x-vnd.on2.vp8"
-
-    return-object p0
-
-    :pswitch_5
-    const-string/jumbo p0, "video/mp4v-es"
-
-    return-object p0
-
-    :pswitch_6
-    const-string/jumbo p0, "video/avc"
-
-    return-object p0
-
-    :pswitch_7
-    const-string/jumbo p0, "video/3gpp"
-
-    return-object p0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x1
-        :pswitch_7
-        :pswitch_6
-        :pswitch_5
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
+    return-void
 .end method

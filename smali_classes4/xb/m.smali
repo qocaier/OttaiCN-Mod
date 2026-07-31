@@ -1,46 +1,20 @@
-.class public final synthetic Lxb/m;
+.class public interface abstract annotation Lxb/m;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/AggregateFuture;
-
-.field public final synthetic b:Lxb/u0;
-
-.field public final synthetic c:I
-
-
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/AggregateFuture;Lxb/u0;I)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/m;->a:Lcom/google/common/util/concurrent/AggregateFuture;
-
-    iput-object p2, p0, Lxb/m;->b:Lxb/u0;
-
-    iput p3, p0, Lxb/m;->c:I
-
-    return-void
-.end method
+# annotations
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->CONSTRUCTOR:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final run()V
-    .locals 3
-
-    iget-object v0, p0, Lxb/m;->a:Lcom/google/common/util/concurrent/AggregateFuture;
-
-    iget-object v1, p0, Lxb/m;->b:Lxb/u0;
-
-    iget v2, p0, Lxb/m;->c:I
-
-    invoke-static {v0, v1, v2}, Lcom/google/common/util/concurrent/AggregateFuture;->M(Lcom/google/common/util/concurrent/AggregateFuture;Lxb/u0;I)V
-
-    return-void
+.method public abstract value()Ljava/lang/String;
 .end method

@@ -1,13 +1,16 @@
-.class public final Lc/d;
+.class public final synthetic Lc/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 0
+.method public static synthetic a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroid/media/session/MediaSession;
+    .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    new-instance v0, Landroid/media/session/MediaSession;
 
-    return-void
+    invoke-direct {v0, p0, p1, p2}, Landroid/media/session/MediaSession;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)V
+
+    return-object v0
 .end method

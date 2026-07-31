@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ActivityViewModelLazyKt;->viewModels(Landroidx/activity/ComponentActivity;Lco/a;)Len/w;
+    value = Landroidx/activity/ActivityViewModelLazyKt;->viewModels(Landroidx/activity/ComponentActivity;Ljm/a;)Ljl/c0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/a<",
+        "Ljm/a<",
         "Landroidx/lifecycle/viewmodel/CreationExtras;",
         ">;"
     }
@@ -29,7 +29,7 @@
     value = "SMAP\nActivityViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt$viewModels$2\n*L\n1#1,90:1\n*E\n"
 .end annotation
 
-.annotation build Ldo/t0;
+.annotation build Lkm/u0;
     value = {
         "SMAP\nActivityViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt$viewModels$2\n*L\n1#1,90:1\n*E\n"
     }
@@ -37,7 +37,7 @@
 
 
 # instance fields
-.field public final synthetic $this_viewModels:Landroidx/activity/ComponentActivity;
+.field final synthetic $this_viewModels:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
@@ -57,7 +57,7 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
     .locals 1
-    .annotation build Lzr/k;
+    .annotation build Lsq/k;
     .end annotation
 
     .line 1

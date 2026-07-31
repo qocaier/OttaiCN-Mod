@@ -1,46 +1,155 @@
-.class public final synthetic Lmb/y0;
+.class public interface abstract Lmb/y0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Lmb/k0;
 
 
-# static fields
-.field public static final synthetic a:Lmb/y0;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lmb/k0<",
+        "TN;>;"
+    }
+.end annotation
 
+.annotation build Lfb/a;
+.end annotation
 
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/y0;
-
-    invoke-direct {v0}, Lmb/y0;-><init>()V
-
-    sput-object v0, Lmb/y0;->a:Lmb/y0;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.annotation runtime Lmb/e0;
+.end annotation
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public abstract F(Lmb/f0;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "endpoints"
+        }
+    .end annotation
 
-    check-cast p1, Lcom/google/common/collect/ImmutableSet$a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lmb/f0<",
+            "TN;>;)Z"
+        }
+    .end annotation
 
-    invoke-virtual {p1}, Lcom/google/common/collect/ImmutableSet$a;->o()Lcom/google/common/collect/ImmutableSet;
+    .annotation build Lxb/a;
+    .end annotation
+.end method
 
-    move-result-object p1
+.method public abstract H(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "nodeU",
+            "nodeV"
+        }
+    .end annotation
 
-    return-object p1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract o(Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract q(Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract r(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "nodeU",
+            "nodeV"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract t(Lmb/f0;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "endpoints"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lmb/f0<",
+            "TN;>;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
 .end method

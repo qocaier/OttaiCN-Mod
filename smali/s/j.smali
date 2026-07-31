@@ -2,104 +2,57 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/camera/core/impl/SessionConfig$ErrorListener;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/ImageCapture;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Landroidx/camera/core/impl/ImageCaptureConfig;
+
+.field public final synthetic d:Landroidx/camera/core/impl/StreamSpec;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/CameraInternal;)Landroidx/camera/core/CameraControl;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/CameraInternal;->getCameraControlInternal()Landroidx/camera/core/impl/CameraControlInternal;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static b(Landroidx/camera/core/impl/CameraInternal;)Landroidx/camera/core/CameraInfo;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    invoke-interface {p0}, Landroidx/camera/core/impl/CameraInternal;->getCameraInfoInternal()Landroidx/camera/core/impl/CameraInfoInternal;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static c(Landroidx/camera/core/impl/CameraInternal;)Ljava/util/LinkedHashSet;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    new-instance v0, Ljava/util/LinkedHashSet;
-
-    invoke-static {p0}, Ljava/util/Collections;->singleton(Ljava/lang/Object;)Ljava/util/Set;
-
-    move-result-object p0
-
-    invoke-direct {v0, p0}, Ljava/util/LinkedHashSet;-><init>(Ljava/util/Collection;)V
-
-    return-object v0
-.end method
-
-.method public static d(Landroidx/camera/core/impl/CameraInternal;)Landroidx/camera/core/impl/CameraConfig;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    invoke-static {}, Landroidx/camera/core/impl/CameraConfigs;->emptyConfig()Landroidx/camera/core/impl/CameraConfig;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static e(Landroidx/camera/core/impl/CameraInternal;)Z
+.method public synthetic constructor <init>(Landroidx/camera/core/ImageCapture;Ljava/lang/String;Landroidx/camera/core/impl/ImageCaptureConfig;Landroidx/camera/core/impl/StreamSpec;)V
     .locals 0
 
-    const/4 p0, 0x1
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return p0
-.end method
+    iput-object p1, p0, Ls/j;->a:Landroidx/camera/core/ImageCapture;
 
-.method public static f(Landroidx/camera/core/impl/CameraInternal;)Z
-    .locals 0
+    iput-object p2, p0, Ls/j;->b:Ljava/lang/String;
 
-    invoke-interface {p0}, Landroidx/camera/core/impl/CameraInternal;->getCameraInfo()Landroidx/camera/core/CameraInfo;
+    iput-object p3, p0, Ls/j;->c:Landroidx/camera/core/impl/ImageCaptureConfig;
 
-    move-result-object p0
-
-    invoke-interface {p0}, Landroidx/camera/core/CameraInfo;->getLensFacing()I
-
-    move-result p0
-
-    if-nez p0, :cond_0
-
-    const/4 p0, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 p0, 0x0
-
-    :goto_0
-    return p0
-.end method
-
-.method public static g(Landroidx/camera/core/impl/CameraInternal;Z)V
-    .locals 0
+    iput-object p4, p0, Ls/j;->d:Landroidx/camera/core/impl/StreamSpec;
 
     return-void
 .end method
 
-.method public static h(Landroidx/camera/core/impl/CameraInternal;Landroidx/camera/core/impl/CameraConfig;)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/CameraConfig;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
+
+# virtual methods
+.method public final onError(Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
+    .locals 6
+
+    .line 1
+    iget-object v0, p0, Ls/j;->a:Landroidx/camera/core/ImageCapture;
+
+    iget-object v1, p0, Ls/j;->b:Ljava/lang/String;
+
+    iget-object v2, p0, Ls/j;->c:Landroidx/camera/core/impl/ImageCaptureConfig;
+
+    iget-object v3, p0, Ls/j;->d:Landroidx/camera/core/impl/StreamSpec;
+
+    move-object v4, p1
+
+    move-object v5, p2
+
+    invoke-static/range {v0 .. v5}, Landroidx/camera/core/ImageCapture;->d(Landroidx/camera/core/ImageCapture;Ljava/lang/String;Landroidx/camera/core/impl/ImageCaptureConfig;Landroidx/camera/core/impl/StreamSpec;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
 
     return-void
 .end method

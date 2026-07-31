@@ -3,30 +3,21 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Lgb/n;
 
 
-# static fields
-.field public static final synthetic a:Lmb/q0;
+# instance fields
+.field public final synthetic a:Lmb/b1;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/q0;
-
-    invoke-direct {v0}, Lmb/q0;-><init>()V
-
-    sput-object v0, Lmb/q0;->a:Lmb/q0;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lmb/b1;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lmb/q0;->a:Lmb/b1;
 
     return-void
 .end method
@@ -34,11 +25,12 @@
 
 # virtual methods
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+    .locals 1
 
-    check-cast p1, Lcom/google/common/collect/f$b;
+    .line 1
+    iget-object v0, p0, Lmb/q0;->a:Lmb/b1;
 
-    invoke-virtual {p1}, Lcom/google/common/collect/f$b;->c()Lcom/google/common/collect/ImmutableMap;
+    invoke-static {v0, p1}, Lmb/r0;->e0(Lmb/b1;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    android:id="@id/app_widget_host_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="260.0dip"
+    android:minHeight="260.0dip"
+    android:updatePeriodMillis="@android:integer/config_longAnimTime"
+    android:initialLayout="@layout/fragment_max"
+    android:previewImage="@mipmap/max"
+    android:resizeMode="horizontal|vertical"
+    android:initialKeyguardLayout="@layout/fragment_max"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable"
+    android:previewLayout="@layout/fragment_max"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/a<",
+        "Ljm/a<",
         "Landroidx/activity/ImmLeaksCleaner$Cleaner;",
         ">;"
     }
@@ -31,7 +31,7 @@
 
 
 # direct methods
-.method public static constructor <clinit>()V
+.method static constructor <clinit>()V
     .locals 1
 
     new-instance v0, Landroidx/activity/ImmLeaksCleaner$Companion$cleaner$2;
@@ -57,16 +57,16 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/ImmLeaksCleaner$Cleaner;
     .locals 5
-    .annotation build Lzr/k;
+    .annotation build Lsq/k;
     .end annotation
 
     .line 2
     :try_start_0
     const-class v0, Landroid/view/inputmethod/InputMethodManager;
 
+    .line 3
     const-string v1, "mServedView"
 
-    .line 3
     invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -74,55 +74,54 @@
     const/4 v2, 0x1
 
     .line 4
-    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
-
-    const-string v3, "mNextServedView"
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 5
+    const-string v3, "mNextServedView"
+
     invoke-virtual {v0, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v3
 
     .line 6
-    invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
-
-    const-string v4, "mH"
+    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 7
+    const-string v4, "mH"
+
     invoke-virtual {v0, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 9
     new-instance v2, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;
 
     const-string v4, "hField"
 
-    invoke-static {v0, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "servedViewField"
 
-    invoke-static {v1, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "nextServedViewField"
 
-    invoke-static {v3, v4}, Ldo/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v0, v1, v3}, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_0
+    return-object v2
 
     .line 10
     :catch_0
-    sget-object v2, Landroidx/activity/ImmLeaksCleaner$FailedInitialization;->INSTANCE:Landroidx/activity/ImmLeaksCleaner$FailedInitialization;
+    sget-object v0, Landroidx/activity/ImmLeaksCleaner$FailedInitialization;->INSTANCE:Landroidx/activity/ImmLeaksCleaner$FailedInitialization;
 
-    :goto_0
-    return-object v2
+    return-object v0
 .end method
 
 .method public bridge synthetic invoke()Ljava/lang/Object;

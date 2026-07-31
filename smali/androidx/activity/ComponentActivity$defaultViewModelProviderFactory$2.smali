@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
@@ -19,7 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/a<",
+        "Ljm/a<",
         "Landroidx/lifecycle/SavedStateViewModelFactory;",
         ">;"
     }
@@ -27,7 +27,7 @@
 
 
 # instance fields
-.field public final synthetic this$0:Landroidx/activity/ComponentActivity;
+.field final synthetic this$0:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
@@ -47,7 +47,7 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/SavedStateViewModelFactory;
     .locals 4
-    .annotation build Lzr/k;
+    .annotation build Lsq/k;
     .end annotation
 
     .line 2

@@ -2,35 +2,15 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/io/FilenameFilter;
-
-
-# instance fields
-.field public final synthetic a:Ljava/lang/String;
-
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/String;)V
+.method public static bridge synthetic a(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-static {p0, p1}, Landroid/content/pm/PackageManager$ApplicationInfoFlags;->of(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
 
-    iput-object p1, p0, Lei/a;->a:Ljava/lang/String;
+    move-result-object p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final accept(Ljava/io/File;Ljava/lang/String;)Z
-    .locals 1
-
-    iget-object v0, p0, Lei/a;->a:Ljava/lang/String;
-
-    invoke-static {v0, p1, p2}, Lcom/qiyukf/module/zip4j/util/FileUtils;->a(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)Z
-
-    move-result p1
-
-    return p1
+    return-object p0
 .end method

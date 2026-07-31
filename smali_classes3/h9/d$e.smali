@@ -1,0 +1,24 @@
+.class public interface abstract Lh9/d$e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lb9/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lh9/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "e"
+.end annotation
+
+
+# virtual methods
+.method public abstract a()V
+    .annotation build Lb9/a;
+    .end annotation
+.end method

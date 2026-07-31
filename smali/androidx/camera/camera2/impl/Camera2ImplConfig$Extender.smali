@@ -1,0 +1,141 @@
+.class public final Landroidx/camera/camera2/impl/Camera2ImplConfig$Extender;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/camera/camera2/impl/Camera2ImplConfig;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Extender"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field mBaseBuilder:Landroidx/camera/core/ExtendableBuilder;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/camera/core/ExtendableBuilder<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroidx/camera/core/ExtendableBuilder;)V
+    .locals 0
+    .param p1    # Landroidx/camera/core/ExtendableBuilder;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/camera/core/ExtendableBuilder<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/camera/camera2/impl/Camera2ImplConfig$Extender;->mBaseBuilder:Landroidx/camera/core/ExtendableBuilder;
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+
+# virtual methods
+.method public setCameraEventCallback(Landroidx/camera/camera2/impl/CameraEventCallbacks;)Landroidx/camera/camera2/impl/Camera2ImplConfig$Extender;
+    .locals 2
+    .param p1    # Landroidx/camera/camera2/impl/CameraEventCallbacks;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/camera/camera2/impl/CameraEventCallbacks;",
+            ")",
+            "Landroidx/camera/camera2/impl/Camera2ImplConfig$Extender<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Landroidx/camera/camera2/impl/Camera2ImplConfig$Extender;->mBaseBuilder:Landroidx/camera/core/ExtendableBuilder;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Landroidx/camera/core/ExtendableBuilder;->getMutableConfig()Landroidx/camera/core/impl/MutableConfig;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    sget-object v1, Landroidx/camera/camera2/impl/Camera2ImplConfig;->CAMERA_EVENT_CALLBACK_OPTION:Landroidx/camera/core/impl/Config$Option;
+
+    .line 8
+    .line 9
+    invoke-interface {v0, v1, p1}, Landroidx/camera/core/impl/MutableConfig;->insertOption(Landroidx/camera/core/impl/Config$Option;Ljava/lang/Object;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object p0
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

@@ -1,0 +1,303 @@
+.class public Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+.super Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Lb9/a;
+.end annotation
+
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
+    creator = "RootTelemetryConfigurationCreator"
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .annotation build Lb9/a;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final a:I
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
+        getter = "getVersion"
+        id = 0x1
+    .end annotation
+.end field
+
+.field public final b:Z
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
+        getter = "getMethodInvocationTelemetryEnabled"
+        id = 0x2
+    .end annotation
+.end field
+
+.field public final c:Z
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
+        getter = "getMethodTimingTelemetryEnabled"
+        id = 0x3
+    .end annotation
+.end field
+
+.field public final d:I
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
+        getter = "getBatchPeriodMillis"
+        id = 0x4
+    .end annotation
+.end field
+
+.field public final e:I
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
+        getter = "getMaxMethodInvocationsInBatch"
+        id = 0x5
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lh9/n1;
+
+    invoke-direct {v0}, Lh9/n1;-><init>()V
+
+    sput-object v0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(IZZII)V
+    .locals 0
+    .param p1    # I
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
+            id = 0x1
+        .end annotation
+    .end param
+    .param p2    # Z
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
+            id = 0x2
+        .end annotation
+    .end param
+    .param p3    # Z
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
+            id = 0x3
+        .end annotation
+    .end param
+    .param p4    # I
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
+            id = 0x4
+        .end annotation
+    .end param
+    .param p5    # I
+        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
+            id = 0x5
+        .end annotation
+    .end param
+    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
+    .end annotation
+
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
+
+    iput p1, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->a:I
+
+    iput-boolean p2, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->b:Z
+
+    iput-boolean p3, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->c:Z
+
+    iput p4, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->d:I
+
+    iput p5, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->e:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getVersion()I
+    .locals 1
+    .annotation build Lb9/a;
+    .end annotation
+
+    iget v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->a:I
+
+    return v0
+.end method
+
+.method public s()I
+    .locals 1
+    .annotation build Lb9/a;
+    .end annotation
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->d:I
+
+    return v0
+.end method
+
+.method public t()I
+    .locals 1
+    .annotation build Lb9/a;
+    .end annotation
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->e:I
+
+    return v0
+.end method
+
+.method public u()Z
+    .locals 1
+    .annotation build Lb9/a;
+    .end annotation
+
+    .line 1
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->b:Z
+
+    return v0
+.end method
+
+.method public v()Z
+    .locals 1
+    .annotation build Lb9/a;
+    .end annotation
+
+    .line 1
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->c:Z
+
+    return v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+    .param p1    # Landroid/os/Parcel;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p2
+
+    .line 5
+    const/4 v0, 0x1
+
+    .line 6
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getVersion()I
+
+    .line 7
+    .line 8
+    .line 9
+    move-result v1
+
+    .line 10
+    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+
+    .line 11
+    .line 12
+    .line 13
+    const/4 v0, 0x2
+
+    .line 14
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->u()Z
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v1
+
+    .line 18
+    invoke-static {p1, v0, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+
+    .line 19
+    .line 20
+    .line 21
+    const/4 v0, 0x3
+
+    .line 22
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->v()Z
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v1
+
+    .line 26
+    invoke-static {p1, v0, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+
+    .line 27
+    .line 28
+    .line 29
+    const/4 v0, 0x4
+
+    .line 30
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->s()I
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v1
+
+    .line 34
+    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+
+    .line 35
+    .line 36
+    .line 37
+    const/4 v0, 0x5
+
+    .line 38
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->t()I
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v1
+
+    .line 42
+    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+
+    .line 43
+    .line 44
+    .line 45
+    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+
+    .line 46
+    .line 47
+    .line 48
+    return-void
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+.end method

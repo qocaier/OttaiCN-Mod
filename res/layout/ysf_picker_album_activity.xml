@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/ysf_pick_album_more"
+        android:background="@color/ysf_tips_background_fefcec"
+        android:padding="10.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="@color/ysf_tips_text_f76a24"
+            android:id="@id/ysf_pick_album_more_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ysf_permission_partial_authorization" />
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="@color/ysf_text_link_color_blue"
+            android:gravity="right"
+            android:id="@id/ysf_pick_album_more_add"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/ysf_permission_partial_add"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <FrameLayout
+            android:id="@id/picker_album_fragment"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@id/picker_photos_fragment"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@id/picker_bottombar"
+        android:background="#ffe6e6e6"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+        <TextView
+            android:enabled="false"
+            android:textSize="@dimen/ysf_text_size_14"
+            android:textColor="@color/ysf_button_color_state_list"
+            android:gravity="center"
+            android:id="@id/picker_bottombar_preview"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/ysf_picker_image_preview"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <com.qiyukf.unicorn.widget.StylableTextView
+            android:enabled="false"
+            android:textSize="@dimen/ysf_text_size_14"
+            android:gravity="center"
+            android:id="@id/picker_bottombar_select"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="@string/ysf_send"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

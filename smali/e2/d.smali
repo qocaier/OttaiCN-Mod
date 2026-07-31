@@ -4,20 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/extractor/Extractor;)Ljava/util/List;
+.method public static bridge synthetic a(Landroid/view/DisplayCutout;)I
     .locals 0
 
-    invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
+    .line 1
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetLeft()I
 
-    move-result-object p0
+    move-result p0
 
-    return-object p0
-.end method
-
-.method public static b(Landroidx/media3/extractor/Extractor;)Landroidx/media3/extractor/Extractor;
-    .locals 0
-    .annotation runtime Lrr/d;
-    .end annotation
-
-    return-object p0
+    return p0
 .end method

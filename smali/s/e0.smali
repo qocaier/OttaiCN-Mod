@@ -2,78 +2,43 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Ljava/util/concurrent/atomic/AtomicReference;
+
+.field public final synthetic b:Ljava/lang/String;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/RequestProcessor$Callback;Landroidx/camera/core/impl/RequestProcessor$Request;JI)V
+.method public synthetic constructor <init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Landroidx/camera/core/impl/RequestProcessor$Request;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ls/e0;->a:Ljava/util/concurrent/atomic/AtomicReference;
+
+    iput-object p2, p0, Ls/e0;->b:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public static b(Landroidx/camera/core/impl/RequestProcessor$Callback;Landroidx/camera/core/impl/RequestProcessor$Request;Landroidx/camera/core/impl/CameraCaptureResult;)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/RequestProcessor$Request;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/CameraCaptureResult;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
-    return-void
-.end method
+# virtual methods
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 2
 
-.method public static c(Landroidx/camera/core/impl/RequestProcessor$Callback;Landroidx/camera/core/impl/RequestProcessor$Request;Landroidx/camera/core/impl/CameraCaptureFailure;)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/RequestProcessor$Request;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/CameraCaptureFailure;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+    .line 1
+    iget-object v0, p0, Ls/e0;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
-    return-void
-.end method
+    iget-object v1, p0, Ls/e0;->b:Ljava/lang/String;
 
-.method public static d(Landroidx/camera/core/impl/RequestProcessor$Callback;Landroidx/camera/core/impl/RequestProcessor$Request;Landroidx/camera/core/impl/CameraCaptureResult;)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/RequestProcessor$Request;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/CameraCaptureResult;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/SurfaceRequest;->c(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return-void
-.end method
+    move-result-object p1
 
-.method public static e(Landroidx/camera/core/impl/RequestProcessor$Callback;I)V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static f(Landroidx/camera/core/impl/RequestProcessor$Callback;IJ)V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static g(Landroidx/camera/core/impl/RequestProcessor$Callback;Landroidx/camera/core/impl/RequestProcessor$Request;JJ)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/RequestProcessor$Request;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    return-void
+    return-object p1
 .end method

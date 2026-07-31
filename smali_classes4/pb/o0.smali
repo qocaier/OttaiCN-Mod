@@ -2,37 +2,15 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljb/n;
-
-
-# instance fields
-.field public final synthetic a:Lcom/google/common/graph/Graphs$a$a;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/common/graph/Graphs$a$a;)V
+.method public static bridge synthetic a(Ljava/nio/file/attribute/AclEntry$Builder;Ljava/nio/file/attribute/UserPrincipal;)Ljava/nio/file/attribute/AclEntry$Builder;
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-virtual {p0, p1}, Ljava/nio/file/attribute/AclEntry$Builder;->setPrincipal(Ljava/nio/file/attribute/UserPrincipal;)Ljava/nio/file/attribute/AclEntry$Builder;
 
-    iput-object p1, p0, Lpb/o0;->a:Lcom/google/common/graph/Graphs$a$a;
+    move-result-object p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
-
-    iget-object v0, p0, Lpb/o0;->a:Lcom/google/common/graph/Graphs$a$a;
-
-    check-cast p1, Lpb/g0;
-
-    invoke-static {v0, p1}, Lcom/google/common/graph/Graphs$a$a;->a(Lcom/google/common/graph/Graphs$a$a;Lpb/g0;)Lpb/g0;
-
-    move-result-object p1
-
-    return-object p1
+    return-object p0
 .end method

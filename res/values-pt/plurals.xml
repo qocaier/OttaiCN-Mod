@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">Você pode selecionar %1$d arquivos no máximo</item>
+        <item quantity="one">Você pode selecionar %1$d arquivos no máximo</item>
+        <item quantity="few">Você pode selecionar %1$d arquivos no máximo</item>
+        <item quantity="many">Você pode selecionar %1$d arquivos no máximo</item>
+    </plurals>
+</resources>

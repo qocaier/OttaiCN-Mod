@@ -4,12 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/rtsp/RtpDataChannel$Factory;)Landroidx/media3/exoplayer/rtsp/RtpDataChannel$Factory;
+.method public static bridge synthetic a(Landroid/app/ForegroundServiceStartNotAllowedException;)Ljava/lang/String;
     .locals 0
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
-    const/4 p0, 0x0
+    .line 1
+    invoke-virtual {p0}, Landroid/app/ForegroundServiceStartNotAllowedException;->getMessage()Ljava/lang/String;
+
+    move-result-object p0
 
     return-object p0
 .end method

@@ -4,8 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/common/audio/AudioProcessor;J)J
-    .locals 0
+.method public static bridge synthetic a()[Landroid/icu/text/DateFormat$HourCycle;
+    .locals 1
 
-    return-wide p1
+    .line 1
+    invoke-static {}, Landroid/icu/text/DateFormat$HourCycle;->values()[Landroid/icu/text/DateFormat$HourCycle;
+
+    move-result-object v0
+
+    return-object v0
 .end method

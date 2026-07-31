@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">최대한 %1$d 개 파일 선택이 가능합니다</item>
+        <item quantity="one">최대한 %1$d 개 파일 선택이 가능합니다</item>
+        <item quantity="few">최대한 %1$d 개 파일 선택이 가능합니다</item>
+        <item quantity="many">최대한 %1$d 개 파일 선택이 가능합니다</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+</resources>

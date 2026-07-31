@@ -4,10 +4,11 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/common/AdViewProvider;)Ljava/util/List;
+.method public static bridge synthetic a(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
     .locals 0
 
-    invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;
+    .line 1
+    invoke-static {p0, p1}, Landroid/text/PrecomputedText;->create(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
 
     move-result-object p0
 

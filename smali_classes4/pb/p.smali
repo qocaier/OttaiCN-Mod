@@ -1,42 +1,204 @@
-.class public final synthetic Lpb/p;
-.super Ljava/lang/Object;
+.class public final Lpb/p;
+.super Ljava/io/FilterOutputStream;
 .source "SourceFile"
 
-# interfaces
-.implements Ljb/b0;
+
+# annotations
+.annotation build Lfb/c;
+.end annotation
+
+.annotation build Lfb/d;
+.end annotation
+
+.annotation runtime Lpb/q;
+.end annotation
 
 
 # instance fields
-.field public final synthetic a:Lpb/t;
-
-.field public final synthetic b:Ljava/lang/Object;
+.field public a:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Lpb/t;Ljava/lang/Object;)V
+.method public constructor <init>(Ljava/io/OutputStream;)V
     .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "out"
+        }
+    .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
 
-    iput-object p1, p0, Lpb/p;->a:Lpb/t;
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
 
-    iput-object p2, p0, Lpb/p;->b:Ljava/lang/Object;
+    .line 5
+    check-cast p1, Ljava/io/OutputStream;
 
+    .line 6
+    .line 7
+    invoke-direct {p0, p1}, Ljava/io/FilterOutputStream;-><init>(Ljava/io/OutputStream;)V
+
+    .line 8
+    .line 9
+    .line 10
     return-void
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
 .end method
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
+.method public a()J
     .locals 2
 
-    iget-object v0, p0, Lpb/p;->a:Lpb/t;
+    .line 1
+    iget-wide v0, p0, Lpb/p;->a:J
 
-    iget-object v1, p0, Lpb/p;->b:Ljava/lang/Object;
+    .line 2
+    .line 3
+    return-wide v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
 
-    invoke-static {v0, v1}, Lpb/t;->O(Lpb/t;Ljava/lang/Object;)Ljava/lang/Boolean;
+.method public close()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    move-result-object v0
+    .line 1
+    iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
-    return-object v0
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+.end method
+
+.method public write(I)V
+    .locals 4
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "b"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 3
+    iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
+
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
+
+    .line 4
+    iget-wide v0, p0, Lpb/p;->a:J
+
+    const-wide/16 v2, 0x1
+
+    add-long/2addr v0, v2
+
+    iput-wide v0, p0, Lpb/p;->a:J
+
+    return-void
+.end method
+
+.method public write([BII)V
+    .locals 2
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "b",
+            "off",
+            "len"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
+
+    invoke-virtual {v0, p1, p2, p3}, Ljava/io/OutputStream;->write([BII)V
+
+    .line 2
+    iget-wide p1, p0, Lpb/p;->a:J
+
+    int-to-long v0, p3
+
+    add-long/2addr p1, v0
+
+    iput-wide p1, p0, Lpb/p;->a:J
+
+    return-void
 .end method

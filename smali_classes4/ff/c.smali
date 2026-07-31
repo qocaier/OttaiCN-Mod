@@ -2,33 +2,15 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/tencent/mm/opensdk/openapi/SendReqCallback;
-
-
-# instance fields
-.field public final synthetic a:Lio/flutter/plugin/common/MethodChannel$Result;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lio/flutter/plugin/common/MethodChannel$Result;)V
+.method public static bridge synthetic a(Landroid/webkit/WebViewClient;Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 1
+    invoke-virtual {p0, p1, p2}, Landroid/webkit/WebViewClient;->onRenderProcessGone(Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z
 
-    iput-object p1, p0, Lff/c;->a:Lio/flutter/plugin/common/MethodChannel$Result;
+    move-result p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onSendFinish(Z)V
-    .locals 1
-
-    iget-object v0, p0, Lff/c;->a:Lio/flutter/plugin/common/MethodChannel$Result;
-
-    invoke-static {v0, p1}, Lff/e;->a(Lio/flutter/plugin/common/MethodChannel$Result;Z)V
-
-    return-void
+    return p0
 .end method

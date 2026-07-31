@@ -1,0 +1,141 @@
+.class public Lcom/umeng/commonsdk/utils/JSONArraySortUtil;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator<",
+        "Lorg/json/JSONObject;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private mCompareKey:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+
+# virtual methods
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lorg/json/JSONObject;
+
+    check-cast p2, Lorg/json/JSONObject;
+
+    invoke-virtual {p0, p1, p2}, Lcom/umeng/commonsdk/utils/JSONArraySortUtil;->compare(Lorg/json/JSONObject;Lorg/json/JSONObject;)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public compare(Lorg/json/JSONObject;Lorg/json/JSONObject;)I
+    .locals 2
+
+    .line 2
+    :try_start_0
+    iget-object v0, p0, Lcom/umeng/commonsdk/utils/JSONArraySortUtil;->mCompareKey:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+
+    move-result-wide v0
+
+    .line 3
+    iget-object p1, p0, Lcom/umeng/commonsdk/utils/JSONArraySortUtil;->mCompareKey:Ljava/lang/String;
+
+    invoke-virtual {p2, p1}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+
+    move-result-wide p1
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    sub-long/2addr v0, p1
+
+    long-to-int p1, v0
+
+    return p1
+
+    :catch_0
+    move-exception p1
+
+    .line 4
+    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public setCompareKey(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/umeng/commonsdk/utils/JSONArraySortUtil;->mCompareKey:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
@@ -19,21 +19,21 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Lco/a<",
-        "Len/y1;",
+        "Ljm/a<",
+        "Ljl/e2;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field public final synthetic $attachStateChangeListener:Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
+.field final synthetic $attachStateChangeListener:Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
 
-.field public final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
+.field final synthetic $layoutChangeListener:Landroid/view/View$OnLayoutChangeListener;
 
-.field public final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
+.field final synthetic $scrollChangeListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
-.field public final synthetic $view:Landroid/view/View;
+.field final synthetic $view:Landroid/view/View;
 
 
 # direct methods
@@ -63,7 +63,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;->invoke()V
 
-    sget-object v0, Len/y1;->a:Len/y1;
+    sget-object v0, Ljl/e2;->a:Ljl/e2;
 
     return-object v0
 .end method

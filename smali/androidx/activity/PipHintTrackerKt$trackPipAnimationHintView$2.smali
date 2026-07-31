@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lap/f;
+.implements Ljn/f;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/PipHintTrackerKt;->trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lnn/a;)Ljava/lang/Object;
+    value = Landroidx/activity/PipHintTrackerKt;->trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lul/c;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,13 +22,13 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lap/f;"
+        "Ljn/f;"
     }
 .end annotation
 
 
 # instance fields
-.field public final synthetic $this_trackPipAnimationHintView:Landroid/app/Activity;
+.field final synthetic $this_trackPipAnimationHintView:Landroid/app/Activity;
 
 
 # direct methods
@@ -44,29 +44,29 @@
 
 
 # virtual methods
-.method public final emit(Landroid/graphics/Rect;Lnn/a;)Ljava/lang/Object;
+.method public final emit(Landroid/graphics/Rect;Lul/c;)Ljava/lang/Object;
     .locals 1
     .param p1    # Landroid/graphics/Rect;
-        .annotation build Lzr/k;
+        .annotation build Lsq/k;
         .end annotation
     .end param
-    .param p2    # Lnn/a;
-        .annotation build Lzr/k;
+    .param p2    # Lul/c;
+        .annotation build Lsq/k;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Rect;",
-            "Lnn/a<",
+            "Lul/c<",
             "-",
-            "Len/y1;",
+            "Ljl/e2;",
             ">;)",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lzr/l;
+    .annotation build Lsq/l;
     .end annotation
 
     .line 2
@@ -77,18 +77,18 @@
     invoke-virtual {p2, v0, p1}, Landroidx/activity/Api26Impl;->setPipParamsSourceRectHint(Landroid/app/Activity;Landroid/graphics/Rect;)V
 
     .line 3
-    sget-object p1, Len/y1;->a:Len/y1;
+    sget-object p1, Ljl/e2;->a:Ljl/e2;
 
     return-object p1
 .end method
 
-.method public bridge synthetic emit(Ljava/lang/Object;Lnn/a;)Ljava/lang/Object;
+.method public bridge synthetic emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
     .locals 0
 
     .line 1
     check-cast p1, Landroid/graphics/Rect;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$2;->emit(Landroid/graphics/Rect;Lnn/a;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$2;->emit(Landroid/graphics/Rect;Lul/c;)Ljava/lang/Object;
 
     move-result-object p1
 

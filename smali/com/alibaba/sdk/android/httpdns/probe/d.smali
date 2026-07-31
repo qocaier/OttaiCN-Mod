@@ -1,0 +1,61 @@
+.class public final Lcom/alibaba/sdk/android/httpdns/probe/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static a:Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static declared-synchronized a(Lcom/alibaba/sdk/android/httpdns/probe/b;)Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;
+    .locals 2
+
+    const-class v0, Lcom/alibaba/sdk/android/httpdns/probe/d;
+
+    monitor-enter v0
+
+    :try_start_0
+    sget-object v1, Lcom/alibaba/sdk/android/httpdns/probe/d;->a:Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;
+
+    if-nez v1, :cond_0
+
+    new-instance v1, Lcom/alibaba/sdk/android/httpdns/probe/e;
+
+    invoke-direct {v1}, Lcom/alibaba/sdk/android/httpdns/probe/e;-><init>()V
+
+    sput-object v1, Lcom/alibaba/sdk/android/httpdns/probe/d;->a:Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;
+
+    invoke-interface {v1, p0}, Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;->setIPListUpdateCallback(Lcom/alibaba/sdk/android/httpdns/probe/b;)V
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object p0, Lcom/alibaba/sdk/android/httpdns/probe/d;->a:Lcom/alibaba/sdk/android/httpdns/probe/IPProbeService;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    return-object p0
+
+    :goto_1
+    :try_start_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw p0
+.end method

@@ -1,0 +1,434 @@
+.class public final Lokio/TypedOptions;
+.super Lll/d;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/RandomAccess;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lokio/TypedOptions$Companion;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lll/d<",
+        "TT;>;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lokio/TypedOptions$Companion;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final list:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+.field private final options:Lokio/Options;
+    .annotation build Lsq/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lokio/TypedOptions$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lokio/TypedOptions$Companion;-><init>(Lkm/v;)V
+
+    sput-object v0, Lokio/TypedOptions;->Companion:Lokio/TypedOptions$Companion;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/List;Lokio/Options;)V
+    .locals 1
+    .param p1    # Ljava/util/List;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .param p2    # Lokio/Options;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "+TT;>;",
+            "Lokio/Options;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "list"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "options"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-direct {p0}, Lll/d;-><init>()V
+
+    .line 12
+    .line 13
+    .line 14
+    iput-object p2, p0, Lokio/TypedOptions;->options:Lokio/Options;
+
+    .line 15
+    .line 16
+    check-cast p1, Ljava/lang/Iterable;
+
+    .line 17
+    .line 18
+    invoke-static {p1}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object p1
+
+    .line 22
+    iput-object p1, p0, Lokio/TypedOptions;->list:Ljava/util/List;
+
+    .line 23
+    .line 24
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result p1
+
+    .line 28
+    invoke-virtual {p2}, Lll/b;->size()I
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p2
+
+    .line 32
+    if-ne p1, p2, :cond_0
+
+    .line 33
+    .line 34
+    return-void
+
+    .line 35
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    .line 36
+    .line 37
+    const-string p2, "Failed requirement."
+
+    .line 38
+    .line 39
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    throw p1
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+.end method
+
+.method public static final of(Ljava/lang/Iterable;Ljm/l;)Lokio/TypedOptions;
+    .locals 1
+    .param p0    # Ljava/lang/Iterable;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .param p1    # Ljm/l;
+        .annotation build Lsq/k;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Iterable<",
+            "+TT;>;",
+            "Ljm/l<",
+            "-TT;+",
+            "Lokio/ByteString;",
+            ">;)",
+            "Lokio/TypedOptions<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lim/o;
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lokio/TypedOptions;->Companion:Lokio/TypedOptions$Companion;
+
+    invoke-virtual {v0, p0, p1}, Lokio/TypedOptions$Companion;->of(Ljava/lang/Iterable;Ljm/l;)Lokio/TypedOptions;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public get(I)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)TT;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lokio/TypedOptions;->list:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public final getList$okio()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lokio/TypedOptions;->list:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public final getOptions$okio()Lokio/Options;
+    .locals 1
+    .annotation build Lsq/k;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lokio/TypedOptions;->options:Lokio/Options;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public getSize()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lokio/TypedOptions;->list:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method

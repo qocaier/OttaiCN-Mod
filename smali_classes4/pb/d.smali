@@ -1,48 +1,64 @@
-.class public final synthetic Lpb/d;
+.class public interface abstract Lpb/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljb/b0;
 
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
-# instance fields
-.field public final synthetic a:Lpb/e;
+.annotation build Lfb/c;
+.end annotation
 
-.field public final synthetic b:Ljava/lang/Object;
+.annotation build Lfb/d;
+.end annotation
 
-.field public final synthetic c:Ljava/lang/Object;
+.annotation runtime Lpb/q;
+.end annotation
 
-
-# direct methods
-.method public synthetic constructor <init>(Lpb/e;Ljava/lang/Object;Ljava/lang/Object;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lpb/d;->a:Lpb/e;
-
-    iput-object p2, p0, Lpb/d;->b:Ljava/lang/Object;
-
-    iput-object p3, p0, Lpb/d;->c:Ljava/lang/Object;
-
-    return-void
-.end method
+.annotation runtime Lxb/f;
+    value = "Implement it normally"
+.end annotation
 
 
 # virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 3
+.method public abstract a()Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
 
-    iget-object v0, p0, Lpb/d;->a:Lpb/e;
+    .annotation runtime Lpb/c0;
+    .end annotation
+.end method
 
-    iget-object v1, p0, Lpb/d;->b:Ljava/lang/Object;
+.method public abstract b([BII)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "buf",
+            "off",
+            "len"
+        }
+    .end annotation
 
-    iget-object v2, p0, Lpb/d;->c:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
 
-    invoke-static {v0, v1, v2}, Lpb/e;->N(Lpb/e;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    return-object v0
+    .annotation build Lxb/a;
+    .end annotation
 .end method

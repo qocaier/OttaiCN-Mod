@@ -1,42 +1,32 @@
-.class public final synthetic Lpb/q;
+.class public interface abstract annotation Lpb/q;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/b0;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lpb/t;
+# annotations
+.annotation build Lfb/b;
+.end annotation
 
-.field public final synthetic b:Ljava/lang/Object;
+.annotation runtime Lgl/g;
+.end annotation
 
+.annotation runtime Lil/d;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
-# direct methods
-.method public synthetic constructor <init>(Lpb/t;Ljava/lang/Object;)V
-    .locals 0
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lpb/q;->a:Lpb/t;
-
-    iput-object p2, p0, Lpb/q;->b:Ljava/lang/Object;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final get()Ljava/lang/Object;
-    .locals 2
-
-    iget-object v0, p0, Lpb/q;->a:Lpb/t;
-
-    iget-object v1, p0, Lpb/q;->b:Ljava/lang/Object;
-
-    invoke-static {v0, v1}, Lpb/t;->P(Lpb/t;Ljava/lang/Object;)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->TYPE:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

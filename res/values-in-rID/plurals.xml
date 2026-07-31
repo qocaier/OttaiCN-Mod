@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">Maksimal memilih %1$d file</item>
+        <item quantity="one">Maksimal memilih %1$d file</item>
+        <item quantity="few">Maksimal memilih %1$d file</item>
+        <item quantity="many">Maksimal memilih %1$d file</item>
+    </plurals>
+</resources>

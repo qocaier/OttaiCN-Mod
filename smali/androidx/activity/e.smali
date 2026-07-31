@@ -16,6 +16,7 @@
 .method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;Landroid/view/View;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
@@ -30,6 +31,7 @@
 .method public final onScrollChanged()V
     .locals 2
 
+    .line 1
     iget-object v0, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
 
     iget-object v1, p0, Landroidx/activity/e;->b:Landroid/view/View;

@@ -3,46 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/BinaryOperator;
+.implements Lgb/b0;
 
 
-# static fields
-.field public static final synthetic a:Lmb/q;
+# instance fields
+.field public final synthetic a:Ljava/lang/Object;
 
 
 # direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/q;
-
-    invoke-direct {v0}, Lmb/q;-><init>()V
-
-    sput-object v0, Lmb/q;->a:Lmb/q;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Ljava/lang/Object;)V
     .locals 0
 
+    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lmb/q;->a:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final get()Ljava/lang/Object;
+    .locals 1
 
-    check-cast p1, Lcom/google/common/collect/f$b;
+    .line 1
+    iget-object v0, p0, Lmb/q;->a:Ljava/lang/Object;
 
-    check-cast p2, Lcom/google/common/collect/f$b;
+    invoke-static {v0}, Lmb/t;->R(Ljava/lang/Object;)Ljava/lang/String;
 
-    invoke-virtual {p1, p2}, Lcom/google/common/collect/f$b;->a(Lcom/google/common/collect/f$b;)Lcom/google/common/collect/f$b;
+    move-result-object v0
 
-    move-result-object p1
-
-    return-object p1
+    return-object v0
 .end method

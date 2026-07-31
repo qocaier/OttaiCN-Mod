@@ -1,0 +1,68 @@
+.class Lcom/qiyukf/ok;
+.super Lcom/qiyukf/x50$a;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/qiyukf/x50$a;-><init>(I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+
+# virtual methods
+.method public a()[Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    const-string v0, "CREATE TABLE IF NOT EXISTS friend(account Varchar(32) PRIMARY KEY NOT NULL, flag Integer, beflag Integer, source Integer, alias Varchar(32), bits Long, ex Varchar(32), createtime Long, updatetime Long ,serverex Varchar(256))"
+
+    const-string v1, "CREATE INDEX IF NOT EXISTS friend_account_index on friend(account)"
+
+    filled-new-array {v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public a(Lcom/qiyukf/x50$a;)[Ljava/lang/String;
+    .locals 0
+
+    .line 2
+    const-string p1, "ALTER  TABLE friend ADD COLUMN serverex Varchar(256) "
+
+    filled-new-array {p1}, [Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method

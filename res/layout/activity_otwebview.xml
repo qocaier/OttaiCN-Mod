@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/main"
+    android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/otNavView"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="68.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:layout_marginTop="24.0dip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@id/navBack"
+                android:padding="8.0dip"
+                android:layout_width="44.0dip"
+                android:layout_height="44.0dip"
+                android:layout_marginLeft="8.0dip"
+                android:src="@drawable/back_arrow_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/navTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="44.0dip"
+                android:layout_marginRight="44.0dip"
+                android:text=""
+                android:maxLines="1"
+                android:textAlignment="center" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <WebView
+        android:id="@id/otwebview"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otNavView" />
+    <ProgressBar
+        android:id="@id/progress_bar"
+        android:background="@color/m_primary"
+        android:layout_width="0.0dip"
+        android:layout_height="3.0dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/custom_progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otNavView"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/load_error_view"
+        android:background="@color/white"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otNavView">
+        <ImageView
+            android:id="@id/load_error_img2"
+            android:layout_width="200.0dip"
+            android:layout_height="110.0dip"
+            android:src="@drawable/load_error_icon" />
+        <TextView
+            android:id="@id/error_des2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/load_error_des" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:textSize="16.0sp"
+            android:textColor="@color/m_primary"
+            android:gravity="center"
+            android:id="@id/error_btn"
+            android:background="@drawable/m_button_style"
+            android:layout_width="158.0dip"
+            android:layout_height="44.0dip"
+            android:layout_marginTop="24.0dip"
+            android:text="@string/load_error_retry"
+            android:textAlignment="center"
+            android:textFontWeight="500" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,45 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/SurfaceRequest;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/SessionProcessor;)Landroid/util/Pair;
+.method public synthetic constructor <init>(Landroidx/camera/core/SurfaceRequest;)V
     .locals 0
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
-    const/4 p0, 0x0
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    return-object p0
+    iput-object p1, p0, Ls/f0;->a:Landroidx/camera/core/SurfaceRequest;
+
+    return-void
 .end method
 
-.method public static b(Landroidx/camera/core/impl/SessionProcessor;)Ljava/util/Set;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
-    .annotation build Landroidx/camera/core/impl/RestrictedCameraControl$CameraOperation;
-    .end annotation
+# virtual methods
+.method public final run()V
+    .locals 1
 
-    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
+    .line 1
+    iget-object v0, p0, Ls/f0;->a:Landroidx/camera/core/SurfaceRequest;
 
-    move-result-object p0
+    invoke-static {v0}, Landroidx/camera/core/SurfaceRequest;->d(Landroidx/camera/core/SurfaceRequest;)V
 
-    return-object p0
-.end method
-
-.method public static c(Landroidx/camera/core/impl/SessionProcessor;Landroidx/camera/core/impl/Config;Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;)I
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/Config;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    const/4 p0, -0x1
-
-    return p0
+    return-void
 .end method

@@ -1,40 +1,36 @@
-.class public final synthetic Lxb/l;
+.class public interface abstract annotation Lxb/l;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Lcom/google/common/util/concurrent/AggregateFuture;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/l;
+        imports = {}
+        staticImports = {}
+    .end subannotation
+.end annotation
 
-.field public final synthetic b:Lcom/google/common/collect/ImmutableCollection;
+.annotation runtime Ljava/lang/annotation/Documented;
+.end annotation
 
-
-# direct methods
-.method public synthetic constructor <init>(Lcom/google/common/util/concurrent/AggregateFuture;Lcom/google/common/collect/ImmutableCollection;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/l;->a:Lcom/google/common/util/concurrent/AggregateFuture;
-
-    iput-object p2, p0, Lxb/l;->b:Lcom/google/common/collect/ImmutableCollection;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->CONSTRUCTOR:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public abstract imports()[Ljava/lang/String;
+.end method
 
-    iget-object v0, p0, Lxb/l;->a:Lcom/google/common/util/concurrent/AggregateFuture;
+.method public abstract replacement()Ljava/lang/String;
+.end method
 
-    iget-object v1, p0, Lxb/l;->b:Lcom/google/common/collect/ImmutableCollection;
-
-    invoke-static {v0, v1}, Lcom/google/common/util/concurrent/AggregateFuture;->N(Lcom/google/common/util/concurrent/AggregateFuture;Lcom/google/common/collect/ImmutableCollection;)V
-
-    return-void
+.method public abstract staticImports()[Ljava/lang/String;
 .end method

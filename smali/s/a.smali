@@ -2,36 +2,41 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/CameraX;
+
+.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
 
 # direct methods
-.method public static a(Landroidx/camera/core/impl/CameraCaptureResult;)Landroid/hardware/camera2/CaptureResult;
+.method public synthetic constructor <init>(Landroidx/camera/core/CameraX;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
-    invoke-static {}, Landroidx/camera/core/impl/CameraCaptureResult$EmptyCameraCaptureResult;->create()Landroidx/camera/core/impl/CameraCaptureResult;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    iput-object p1, p0, Ls/a;->a:Landroidx/camera/core/CameraX;
 
-    invoke-interface {p0}, Landroidx/camera/core/impl/CameraCaptureResult;->getCaptureResult()Landroid/hardware/camera2/CaptureResult;
+    iput-object p2, p0, Ls/a;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    move-result-object p0
-
-    return-object p0
+    return-void
 .end method
 
-.method public static b(Landroidx/camera/core/impl/CameraCaptureResult;Landroidx/camera/core/impl/utils/ExifData$Builder;)V
-    .locals 0
-    .param p1    # Landroidx/camera/core/impl/utils/ExifData$Builder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
-    invoke-interface {p0}, Landroidx/camera/core/impl/CameraCaptureResult;->getFlashState()Landroidx/camera/core/impl/CameraCaptureMetaData$FlashState;
+# virtual methods
+.method public final run()V
+    .locals 2
 
-    move-result-object p0
+    .line 1
+    iget-object v0, p0, Ls/a;->a:Landroidx/camera/core/CameraX;
 
-    invoke-virtual {p1, p0}, Landroidx/camera/core/impl/utils/ExifData$Builder;->setFlashState(Landroidx/camera/core/impl/CameraCaptureMetaData$FlashState;)Landroidx/camera/core/impl/utils/ExifData$Builder;
+    iget-object v1, p0, Ls/a;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
+    invoke-static {v0, v1}, Landroidx/camera/core/CameraX;->a(Landroidx/camera/core/CameraX;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     return-void
 .end method

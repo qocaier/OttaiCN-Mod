@@ -4,14 +4,11 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/datasource/DataSource;)Ljava/util/Map;
+.method public static bridge synthetic a(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
     .locals 0
-    .annotation build Landroidx/media3/common/util/UnstableApi;
-    .end annotation
 
-    invoke-static {}, Ljava/util/Collections;->emptyMap()Ljava/util/Map;
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setHeading(Z)V
 
-    move-result-object p0
-
-    return-object p0
+    return-void
 .end method

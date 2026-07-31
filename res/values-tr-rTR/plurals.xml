@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">En fazla %1$d tane dosya seçilebilir</item>
+        <item quantity="one">En fazla %1$d tane dosya seçilebilir</item>
+        <item quantity="few">En fazla %1$d tane dosya seçilebilir</item>
+        <item quantity="many">En fazla %1$d tane dosya seçilebilir</item>
+    </plurals>
+</resources>

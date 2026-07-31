@@ -1,46 +1,30 @@
-.class public final synthetic Lmb/e1;
+.class public interface abstract annotation Lmb/e1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# static fields
-.field public static final synthetic a:Lmb/e1;
+# annotations
+.annotation build Lfb/b;
+.end annotation
 
+.annotation runtime Lgl/g;
+    when = .enum Ljavax/annotation/meta/When;->UNKNOWN:Ljavax/annotation/meta/When;
+.end annotation
 
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
+.annotation build Lil/e;
+.end annotation
 
-    new-instance v0, Lmb/e1;
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {v0}, Lmb/e1;-><init>()V
-
-    sput-object v0, Lmb/e1;->a:Lmb/e1;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
-
-    check-cast p1, Lcom/google/common/collect/u;
-
-    invoke-static {p1}, Lcom/google/common/collect/f;->p(Lcom/google/common/collect/u;)Lcom/google/common/collect/ImmutableMultiset;
-
-    move-result-object p1
-
-    return-object p1
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation

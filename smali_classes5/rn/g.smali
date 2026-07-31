@@ -1,0 +1,44 @@
+.class public final synthetic Lrn/g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljm/q;
+
+
+# instance fields
+.field public final synthetic a:Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lrn/g;->a:Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lrn/g;->a:Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;
+
+    check-cast p1, Ljava/lang/Throwable;
+
+    check-cast p2, Ljl/e2;
+
+    check-cast p3, Lkotlin/coroutines/d;
+
+    invoke-static {v0, p1, p2, p3}, Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;->j(Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;Ljava/lang/Throwable;Ljl/e2;Lkotlin/coroutines/d;)Ljl/e2;
+
+    move-result-object p1
+
+    return-object p1
+.end method

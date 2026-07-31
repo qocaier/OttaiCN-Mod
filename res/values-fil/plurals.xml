@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="error_over_count">
+        <item quantity="other">Makakapili ka ng %1$d mga file sa karamihan</item>
+        <item quantity="one">Makakapili ka ng %1$d mga file sa karamihan</item>
+        <item quantity="few">Makakapili ka ng %1$d mga file sa karamihan</item>
+        <item quantity="many">Makakapili ka ng %1$d mga file sa karamihan</item>
+    </plurals>
+</resources>

@@ -4,8 +4,13 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/common/Effect;J)J
+.method public static bridge synthetic a(Landroid/text/PrecomputedText;IILjava/lang/Class;)[Ljava/lang/Object;
     .locals 0
 
-    return-wide p1
+    .line 1
+    invoke-virtual {p0, p1, p2, p3}, Landroid/text/PrecomputedText;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
 .end method

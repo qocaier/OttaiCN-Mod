@@ -1,46 +1,137 @@
-.class public final synthetic Lmb/z0;
+.class public interface abstract Lmb/z0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/function/Function;
+.implements Lmb/b1;
 
 
-# static fields
-.field public static final synthetic a:Lmb/z0;
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        "E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lmb/b1<",
+        "TN;TE;>;"
+    }
+.end annotation
 
+.annotation build Lfb/a;
+.end annotation
 
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lmb/z0;
-
-    invoke-direct {v0}, Lmb/z0;-><init>()V
-
-    sput-object v0, Lmb/z0;->a:Lmb/z0;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.annotation runtime Lmb/e0;
+.end annotation
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public abstract A(Lmb/f0;Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "endpoints",
+            "edge"
+        }
+    .end annotation
 
-    check-cast p1, Lcom/google/common/collect/ImmutableSetMultimap$a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lmb/f0<",
+            "TN;>;TE;)Z"
+        }
+    .end annotation
 
-    invoke-virtual {p1}, Lcom/google/common/collect/ImmutableSetMultimap$a;->l()Lcom/google/common/collect/ImmutableSetMultimap;
+    .annotation build Lxb/a;
+    .end annotation
+.end method
 
-    move-result-object p1
+.method public abstract J(Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "edge"
+        }
+    .end annotation
 
-    return-object p1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract M(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "nodeU",
+            "nodeV",
+            "edge"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;TN;TE;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract o(Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
+.end method
+
+.method public abstract q(Ljava/lang/Object;)Z
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "node"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TN;)Z"
+        }
+    .end annotation
+
+    .annotation build Lxb/a;
+    .end annotation
 .end method

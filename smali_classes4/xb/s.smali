@@ -1,42 +1,59 @@
-.class public final synthetic Lxb/s;
+.class public interface abstract annotation Lxb/s;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Callable;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# instance fields
-.field public final synthetic a:Ljb/b0;
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lxb/s;
+        allowedOnPath = ""
+        allowlistAnnotations = {}
+        allowlistWithWarningAnnotations = {}
+        link = ""
+    .end subannotation
+.end annotation
 
-.field public final synthetic b:Ljava/util/concurrent/Callable;
-
-
-# direct methods
-.method public synthetic constructor <init>(Ljb/b0;Ljava/util/concurrent/Callable;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lxb/s;->a:Ljb/b0;
-
-    iput-object p2, p0, Lxb/s;->b:Ljava/util/concurrent/Callable;
-
-    return-void
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->CONSTRUCTOR:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final call()Ljava/lang/Object;
-    .locals 2
+.method public abstract allowedOnPath()Ljava/lang/String;
+.end method
 
-    iget-object v0, p0, Lxb/s;->a:Ljb/b0;
+.method public abstract allowlistAnnotations()[Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()[",
+            "Ljava/lang/Class<",
+            "+",
+            "Ljava/lang/annotation/Annotation;",
+            ">;"
+        }
+    .end annotation
+.end method
 
-    iget-object v1, p0, Lxb/s;->b:Ljava/util/concurrent/Callable;
+.method public abstract allowlistWithWarningAnnotations()[Ljava/lang/Class;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()[",
+            "Ljava/lang/Class<",
+            "+",
+            "Ljava/lang/annotation/Annotation;",
+            ">;"
+        }
+    .end annotation
+.end method
 
-    invoke-static {v0, v1}, Lxb/u;->a(Ljb/b0;Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+.method public abstract explanation()Ljava/lang/String;
+.end method
 
-    move-result-object v0
-
-    return-object v0
+.method public abstract link()Ljava/lang/String;
 .end method

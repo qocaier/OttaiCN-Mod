@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lco/a;
+.implements Ljm/a;
 
 
 # annotations
@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Lco/a<",
-        "Len/y1;",
+        "Ljm/a<",
+        "Ljl/e2;",
         ">;"
     }
 .end annotation
@@ -30,15 +30,15 @@
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 7
 
-    const-class v3, Landroidx/activity/OnBackPressedDispatcher;
+    const-string v5, "updateEnabledCallbacks()V"
+
+    const/4 v6, 0x0
 
     const/4 v1, 0x0
 
-    const-string/jumbo v4, "updateEnabledCallbacks"
+    const-class v3, Landroidx/activity/OnBackPressedDispatcher;
 
-    const-string/jumbo v5, "updateEnabledCallbacks()V"
-
-    const/4 v6, 0x0
+    const-string v4, "updateEnabledCallbacks"
 
     move-object v0, p0
 
@@ -57,7 +57,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/activity/OnBackPressedDispatcher$addCallback$1;->invoke()V
 
-    sget-object v0, Len/y1;->a:Len/y1;
+    sget-object v0, Ljl/e2;->a:Ljl/e2;
 
     return-object v0
 .end method

@@ -2,28 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/lifecycle/LifecycleEventObserver;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/savedstate/SavedStateRegistry;
+
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/source/ads/AdsLoader$EventListener;)V
+.method public synthetic constructor <init>(Landroidx/savedstate/SavedStateRegistry;)V
     .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lv1/a;->a:Landroidx/savedstate/SavedStateRegistry;
 
     return-void
 .end method
 
-.method public static b(Landroidx/media3/exoplayer/source/ads/AdsLoader$EventListener;Landroidx/media3/exoplayer/source/ads/AdsMediaSource$AdLoadException;Landroidx/media3/datasource/DataSpec;)V
-    .locals 0
 
-    return-void
-.end method
+# virtual methods
+.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    .locals 1
 
-.method public static c(Landroidx/media3/exoplayer/source/ads/AdsLoader$EventListener;Landroidx/media3/common/AdPlaybackState;)V
-    .locals 0
+    .line 1
+    iget-object v0, p0, Lv1/a;->a:Landroidx/savedstate/SavedStateRegistry;
 
-    return-void
-.end method
-
-.method public static d(Landroidx/media3/exoplayer/source/ads/AdsLoader$EventListener;)V
-    .locals 0
+    invoke-static {v0, p1, p2}, Landroidx/savedstate/SavedStateRegistry;->a(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     return-void
 .end method

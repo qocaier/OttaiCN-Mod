@@ -4,14 +4,11 @@
 
 
 # direct methods
-.method public static a(Landroidx/media3/exoplayer/rtsp/RtspMessageChannel$MessageListener;Ljava/lang/Exception;)V
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/app/ForegroundServiceStartNotAllowedException;
     .locals 0
 
-    return-void
-.end method
+    .line 1
+    check-cast p0, Landroid/app/ForegroundServiceStartNotAllowedException;
 
-.method public static b(Landroidx/media3/exoplayer/rtsp/RtspMessageChannel$MessageListener;Ljava/util/List;Ljava/lang/Exception;)V
-    .locals 0
-
-    return-void
+    return-object p0
 .end method

@@ -1,46 +1,30 @@
-.class public final synthetic Lwb/b;
+.class public interface abstract annotation Lwb/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljb/x;
+.implements Ljava/lang/annotation/Annotation;
 
 
-# static fields
-.field public static final synthetic a:Lwb/b;
+# annotations
+.annotation build Lfb/b;
+.end annotation
 
+.annotation runtime Lgl/g;
+    when = .enum Ljavax/annotation/meta/When;->UNKNOWN:Ljavax/annotation/meta/When;
+.end annotation
 
-# direct methods
-.method public static synthetic constructor <clinit>()V
-    .locals 1
+.annotation build Lil/e;
+.end annotation
 
-    new-instance v0, Lwb/b;
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    invoke-direct {v0}, Lwb/b;-><init>()V
-
-    sput-object v0, Lwb/b;->a:Lwb/b;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final apply(Ljava/lang/Object;)Z
-    .locals 0
-
-    check-cast p1, Lwb/c$a;
-
-    invoke-virtual {p1}, Lwb/c$a;->j()Z
-
-    move-result p1
-
-    return p1
-.end method
+.annotation runtime Ljava/lang/annotation/Target;
+    value = {
+        .enum Ljava/lang/annotation/ElementType;->FIELD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->METHOD:Ljava/lang/annotation/ElementType;,
+        .enum Ljava/lang/annotation/ElementType;->PARAMETER:Ljava/lang/annotation/ElementType;
+    }
+.end annotation
